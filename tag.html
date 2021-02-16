@@ -1,0 +1,61 @@
+---
+layout: document
+title: Tag
+permalink: /tag/
+public: true
+---
+
+{% assign tagCount = site.data.tagCount %}
+<div>
+    <ul class="tag-list">
+{% for tag in tagCount %}
+        <li>
+            <a href="#{{tag.name}}" onclick="showTag('{{tag.name}}')">
+                {{tag.name}}<sup>{{ tag.size }}</sup>
+            </a>
+        </li>
+{% endfor %}
+    </ul>
+</div>
+
+<div id="tag-collection"></div>
+
+<script src="/js/axios.min.js"></script>
+<script>
+    function showTag(selector) {
+        axios.get(`/data/tag/${selector}.json`, {})
+            .then((resp) => createLinks(resp, selector));
+    }
+
+    function createLinks(resp, selector) {
+        if (resp.data == null) {
+            return;
+        }
+
+        let template = `<h3>${selector}</h3><ul class="post-list">`;
+        for (var item in resp.data.collection) {
+            var d = resp.data.collection[item];
+
+            var summary = (d.summary == null || /^\s*$/.test(d.summary)) ? '' : `<div class="post-excerpt">- ${d.summary}</div>`;
+            var updated = d.updated != null ? `<div class="post-meta" style="float: right;">${d.updated}</div>` : '';
+            var title = d.title != null ? `<span>${d.title}</span>` : '';
+
+            var link = `<li><a class="post-link" href="${d.url}"> ${title} ${updated} ${summary} </a></li>`;
+
+            template += link;
+        }
+        template += `</ul>`
+
+        document.getElementById('tag-collection').innerHTML = template;
+    }
+
+    ;(function showInitTag() {
+        const url = window.location.href;
+        const req = /#([^\s]+)$/.exec(url);
+        if(Array.isArray(req)) {
+            var selector = decodeURI(req.pop());
+            showTag(selector);
+        }
+    })();
+</script>
+

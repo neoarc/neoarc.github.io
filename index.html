@@ -1,33 +1,68 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <title>Hello, world!</title>
-    </head>
-    <body>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <!-- Content -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
-                </div>
-            </div>
-        </nav>
-        <h1>Hello, world!</h1>
-    </body>
-</html>
+---
+layout: home
+adsense: false
+regenerate: true
+---
 
+<div class="blog-face">
+    <div>
+        <H3>
+            <a href="https://github.com/vimwiki/vimwiki">Vimwiki</a>
+            +
+            <a href="https://jekyllrb.com/">Jekyll</a>
+            +
+            <a href="https://pages.github.com/">Github.io</a>
+        </H3>
+    </div>
+        기억 보조용 위키
+    <div>
+    </div>
+    <div>
+        <a href="/blog/">블로그</a>
+        /
+        <a href="/tag/">태그</a>
+    </div>
+    <div class="contact">
+{% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+{% endif %}
+{% if site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+{% endif %}
+{% if site.email %}
+        <a href="mailto:{{ site.email }}">Email</a>
+{% endif %}
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+    </div>
+</div>
+<div>
+    <H3 class="indent">최근 변경된 문서</H3>
+    <ul class="post-list">
+{% assign documents = site.wiki | sort: 'updated' | reverse %}
+{% for doc in documents limit: 30 %}
+    {% if doc.public == true and doc.title != 'wiki'%}
+        <li>
+            <div>
+                <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">
+                    <div class="post-meta">
+                        {{ doc.updated | date: "%Y.%m.%d" }}
+                        -
+                        {{ doc.title }}
+                    </div>
+                    <div class="post-excerpt">{{ doc.summary }}</div>
+                    <ul class="tag-list">
+                        <li class="post-tag">
+                            {{ doc. tag }}
+                        </li>
+                    </ul>
+                </a>
+            </div>
+        </li>
+    {% endif %}
+{% endfor %}
+    </ul>
+    <h4>
+        <a href="/recent/">전체 문서 리스트 보기 ({{ site.wiki | size | minus: 1 }} 항목)</a>
+    </h4>
+</div>
+{% include createLink.html %}
