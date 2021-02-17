@@ -9,6 +9,8 @@ regenerate: true
 
 ## wiki items
 
+[[first]]
+
 ---
 
 ## blog posts
