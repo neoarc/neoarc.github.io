@@ -1,4 +1,4 @@
----
+ï»¿---
 layout  : wiki
 title   : first
 updated : 2021-02-17 12:24:49 +0900
@@ -8,10 +8,10 @@ comment : false
 regenerate: true
 ---
 
-## gVim + vimwiki ¼³Ä¡±â
-- gVim Æ÷ÅÍºí ¹öÀü°ú ÀÎ½ºÅç·¯ ¹öÀüÀÌ ÀÖ´Âµ¥, ÀÎ½ºÅç·¯ ¹öÀüÀ¸·Î ¼³Ä¡
-- [vim-plug](https://github.com/junegunn/vim-plug) ¿¡¼­ plug.vim ÆÄÀÏÀ» gVim ¼³Ä¡ Æú´õÀÇ autoload Æú´õ¿¡ ´Ù¿î·Îµå
-- ¼³Ä¡ Æú´õ¿¡¼­ _vimrc ÆÄÀÏÀ» Ã£¾Æ ¸Ç ¾Æ·¡¿¡ ´ÙÀ½°ú °°Àº ÄÚµå »ğÀÔ
+## gVim + vimwiki ì„¤ì¹˜ê¸°
+- gVim í¬í„°ë¸” ë²„ì „ê³¼ ì¸ìŠ¤í†¨ëŸ¬ ë²„ì „ì´ ìˆëŠ”ë°, ì¸ìŠ¤í†¨ëŸ¬ ë²„ì „ìœ¼ë¡œ ì„¤ì¹˜
+- [vim-plug](https://github.com/junegunn/vim-plug) ì—ì„œ plug.vim íŒŒì¼ì„ gVim ì„¤ì¹˜ í´ë”ì˜ autoload í´ë”ì— ë‹¤ìš´ë¡œë“œ
+- ì„¤ì¹˜ í´ë”ì—ì„œ _vimrc íŒŒì¼ì„ ì°¾ì•„ ë§¨ ì•„ë˜ì— ë‹¤ìŒê³¼ ê°™ì€ ì½”ë“œ ì‚½ì…
 ```
 call plug#begin()
 Plug 'VundleVim/Vundle.vim'
@@ -20,7 +20,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'vimwiki/vimwiki'
 call plug#end()
 ```
-- vim ½ÇÇà ÈÄ :PlugInstall ·Î ÇÃ·¯±×ÀÎÀÌ ¼³Ä¡µÈ´Ù.
-- ¸Ş´ºÀÇ Vimwiki¸¦ ´­·¯º¸¸é, È¨ Æú´õ¸¦ »ı¼ºÇÏ°í, À§Å° ÀÛ¼ºÀÌ ½ÃÀÛµÊ
-- [vimwiki È°¿ë](https://johngrib.github.io/wiki/my-wiki)
+- vim ì‹¤í–‰ í›„ :PlugInstall ë¡œ í”ŒëŸ¬ê·¸ì¸ì´ ì„¤ì¹˜ëœë‹¤.
+- ë©”ë‰´ì˜ Vimwikië¥¼ ëˆŒëŸ¬ë³´ë©´, í™ˆ í´ë”ë¥¼ ìƒì„±í•˜ê³ , ìœ„í‚¤ ì‘ì„±ì´ ì‹œì‘ë¨
+- [vimwiki í™œìš©](https://johngrib.github.io/wiki/my-wiki)
 - 
