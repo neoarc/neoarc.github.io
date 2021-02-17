@@ -23,4 +23,10 @@ call plug#end()
 - vim 실행 후 :PlugInstall 로 플러그인이 설치된다.
 - 메뉴의 Vimwiki를 눌러보면, 홈 폴더를 생성하고, 위키 작성이 시작됨
 - [vimwiki 활용](https://johngrib.github.io/wiki/my-wiki)
-- 
+- 위 링크에서 설명했듯 .git/hooks 에 pre-commit 을 통해 generateData.js 를 실행해야함
+
+# Jekyll 로컬 서버로 테스트
+
+- Ruby 설치 https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.2-1/rubyinstaller-devkit-2.7.2-1-x64.exe
+- Bundler 설치 : gem install bundler
+- Jekyll 설치 : gem install jekyll bundler
