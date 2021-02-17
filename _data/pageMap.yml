@@ -2,9 +2,9 @@ first:
     type: wiki
     title: first
     summary: null
-    parent: null
+    parent: blog
     url: /wiki/first
-    updated: '2021-02-17 12:24:49 +0900'
+    updated: '2021-02-17 16:31:47 +0900'
     children: []
 index:
     type: wiki

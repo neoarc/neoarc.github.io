@@ -1,11 +1,12 @@
 ﻿---
 layout  : wiki
 title   : first
-updated : 2021-02-17 12:24:49 +0900
+updated : 2021-02-17 16:31:47 +0900
 toc     : true
 public  : true
 comment : false
 regenerate: true
+parent	: [[blog]]
 ---
 
 ## gVim + vimwiki 설치기
