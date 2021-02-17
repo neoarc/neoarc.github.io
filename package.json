@@ -1,5 +1,5 @@
 {
-  "name": "johngrib.github.io",
+  "name": "neoarc.github.io",
   "version": "1.0.0",
   "description": "data generator",
   "main": "generateData.js",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johngrib/johngrib.github.io.git"
+    "url": "git+https://github.com/neoarc/neoarc.github.io.git"
   },
   "author": "John Grib",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/johngrib/johngrib.github.io/issues"
+    "url": "https://github.com/neoarc/neoarc.github.io/issues"
   },
-  "homepage": "https://github.com/johngrib/johngrib.github.io#readme"
+  "homepage": "https://github.com/neoarc/neoarc.github.io#readme"
 }
