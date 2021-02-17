@@ -38,10 +38,10 @@ collections:
 
 # Comment Service
 disqus:
-  id: johngrib
-  shortname: johngrib
+  id: neoarc
+  shortname: neoarc
 utterances:
-  repo: johngrib/johngrib.github.io
+  repo: neoarc/neoarc.github.io
   issue-term: pathname
   label: Comment
   branch: master
