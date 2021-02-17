@@ -1,4 +1,14 @@
-== gVim + vimwiki 설치기 ==
+---
+layout  : wiki
+title   : first
+updated : 2021-02-17 12:24:49 +0900
+toc     : true
+public  : true
+comment : false
+regenerate: true
+---
+
+## gVim + vimwiki 설치기
 - gVim 포터블 버전과 인스톨러 버전이 있는데, 인스톨러 버전으로 설치
 - [vim-plug](https://github.com/junegunn/vim-plug) 에서 plug.vim 파일을 gVim 설치 폴더의 autoload 폴더에 다운로드
 - 설치 폴더에서 _vimrc 파일을 찾아 맨 아래에 다음과 같은 코드 삽입
