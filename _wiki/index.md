@@ -16,6 +16,10 @@ regenerate: true
 * NaMacroJS
 * [[sfmb]]
 
+## 기타
+
+* [블로그 Deploy 상태]( https://github.com/neoarc/neoarc.github.io/deployments/activity_log?environment=github-pages )
+
 ---
 
 ## blog posts
