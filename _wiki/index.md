@@ -9,12 +9,12 @@ regenerate: true
 
 ## 이 싸이트
 
-* [[first_draft]]
+* [[first_draft]]{ First Draft }
 
 ## Projects
 
 * NaMacroJS
-* [[sfmb]]
+* [[sfmb]]{ SFMB }
 
 ## 기타
 
