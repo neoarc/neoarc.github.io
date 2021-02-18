@@ -12,7 +12,7 @@ first_draft:
     summary: ""
     parent: ""
     url: /wiki/first_draft
-    updated: '2021-02-18 13:54:11 +0900'
+    updated: '2021-02-18 15:43:19 +0900'
     children: []
 index:
     type: wiki
@@ -21,28 +21,4 @@ index:
     parent: null
     url: /wiki/index
     updated: null
-    children: []
-test-2021-02-18:
-    type: wiki
-    title: 'what the fuck is happening'
-    summary: ""
-    parent: index
-    url: /wiki/test-2021-02-18
-    updated: '2021-02-18 12:17:43 +0900'
-    children: []
-test2:
-    type: wiki
-    title: null
-    summary: null
-    parent: null
-    url: /wiki/test2
-    updated: null
-    children: []
-test4:
-    type: wiki
-    title: ""
-    summary: ""
-    parent: ""
-    url: /wiki/test4
-    updated: '2021-02-18 13:35:14 +0900'
     children: []

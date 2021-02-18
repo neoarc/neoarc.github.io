@@ -7,19 +7,14 @@ comment : false
 regenerate: true
 ---
 
-## test
-
-* [[test-2021-02-18]]
-    * aa
-    * bb
-    * cc
-* [[test2]]
-* [[test3]]
-* [[test4]]
-
 ## 이 싸이트
 
 * [[first_draft]]
+
+## Projects
+
+* NaMacroJS
+* SFMB
 
 ---
 
