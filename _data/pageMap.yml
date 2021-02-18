@@ -4046,6 +4046,14 @@ ternary-operator-and-null-pointer-exception:
     url: /wiki/ternary-operator-and-null-pointer-exception
     updated: '2020-03-08 18:40:21 +0900'
     children: []
+test-2021-02-18:
+    type: wiki
+    title: 'what the fuck is happening'
+    summary: ""
+    parent: index
+    url: /wiki/test-2021-02-18
+    updated: '2021-02-18 09:52:46 +0900'
+    children: []
 test-terms:
     type: wiki
     title: 'Test 관련 용어 정리'

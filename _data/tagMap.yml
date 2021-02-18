@@ -395,6 +395,7 @@ book:
     - {fileName: Mythical-Man-Month}
     - {fileName: PROFESSIONAL-SOFTWARE-DEVELOPMENT}
     - {fileName: SCIENTIFIC-AMERICAN-The-Secrets-Of-Consciousness}
+    - {fileName: test-2021-02-18}
     - {fileName: The-Jargon-File}
 algirithm:
     - {fileName: Algorithms-to-Live-By}
