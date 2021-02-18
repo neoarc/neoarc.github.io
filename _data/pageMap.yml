@@ -22,3 +22,11 @@ index:
     url: /wiki/index
     updated: null
     children: []
+sfmb:
+    type: wiki
+    title: 'Super fanmade Mario Bros.'
+    summary: SFMB
+    parent: index
+    url: /wiki/sfmb
+    updated: '2021-02-18 19:22:57 +0900'
+    children: []

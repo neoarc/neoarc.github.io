@@ -14,7 +14,7 @@ regenerate: true
 ## Projects
 
 * NaMacroJS
-* SFMB
+* [[sfmb]]
 
 ---
 
