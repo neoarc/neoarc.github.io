@@ -15,12 +15,12 @@ regenerate: true
 
 ## My projects
 
-* NaMacroJS
+* [[NaMacroJS]]
 * [[sfmb]]{ SFMB }
 
-## 기타
+## 기타 링크
 
-* [블로그 Deploy 상태]( https://github.com/neoarc/neoarc.github.io/deployments/activity_log?environment=github-pages )
+* [사이트 Deploy 상태]( https://github.com/neoarc/neoarc.github.io/deployments/activity_log?environment=github-pages )
 
 ---
 
