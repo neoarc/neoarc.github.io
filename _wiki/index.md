@@ -10,8 +10,10 @@ regenerate: true
 ## 이 싸이트
 
 * [[first_draft]]{ First Draft }
+* [[wiki_i_have_tried]]{ 내가 시도해본 위키들 }
+* [[wiki_on_github_io]]{ github.io 에 위키 구성하기 }
 
-## Projects
+## My projects
 
 * NaMacroJS
 * [[sfmb]]{ SFMB }
