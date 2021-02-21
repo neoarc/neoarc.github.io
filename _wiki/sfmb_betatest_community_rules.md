@@ -3,7 +3,7 @@ layout  : wiki
 title   : Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-02-22 01:15:47 +0900
+updated : 2021-02-22 01:20:33 +0900
 tags    : sfmb_betatest
 toc     : true
 public  : false
@@ -139,7 +139,7 @@ A moderator may also be able to react with one of these if the bug report is fau
 4. In #bug, follow the bug reporting template, describing everything you did before crash
 5. Post the link of dump file there.
 
-### Things you should have in mind:
+### Things you should have in mind
 - Full dump is much better than small dump
 	- it's more detailed and contains more information. Whenever possible, choose full dump.
 
@@ -154,7 +154,7 @@ The developer (neoarc) has his own reactions for requests. Do NOT use these:
 - <img src="https://discord.com/assets/8becd37ab9d13cdfe37c08c496a9def3.svg" width="16"> = The request was denied.
 - <img src="https://discord.com/assets/039d43e53c13e4adfc1ea88b7b563b9d.svg" width="16"> = It's already in the roadmap, do NOT request.
 - <img src="https://cdn.discordapp.com/emojis/303734892875743233.png?v=1" width="16"> = Can't understand the request, make it clearer.
-- <img src="https://discord.com/assets/263a7f4eeb6f69e46d969fa479188592.svg" width=16"> = Request under development
+- <img src="https://discord.com/assets/263a7f4eeb6f69e46d969fa479188592.svg" width="16"> = Request under development
 - <img src="https://discord.com/assets/212e30e47232be03033a87dc58edaa95.svg" width="16"> = The request is complete.
 
 ## Contribute
