@@ -1,14 +1,14 @@
 ---
 layout  : wiki
-title   : 
+title   : Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-02-22 00:31:02 +0900
-tags    : 
+updated : 2021-02-22 01:15:47 +0900
+tags    : sfmb_betatest
 toc     : true
 public  : false
 comment : false
-parent  : 
+parent  : [[sfmb_betatest]]
 latex   : false
 ---
 * TOC
@@ -36,7 +36,7 @@ Please respect people in server for effective development & conversation.
 - Use common sense
 - Respect channel descriptions
 
-## Recommended things:
+## Recommended things
 - Set your Discord profile picture to recognize you easily
 - Stay online in the server as often as possible
  
