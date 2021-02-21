@@ -12,6 +12,7 @@
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
+	<!--
     <url>
         <loc>{{ site.url }}/blog/</loc>
         <changefreq>weekly</changefreq>
@@ -38,6 +39,7 @@
     {% endif %}
     </url>
 {% endfor %}
+	-->
 {% assign documents = site.wiki %}
 {% for doc in documents %}
     {% if doc.public == true and doc.title != 'wiki index'%}
