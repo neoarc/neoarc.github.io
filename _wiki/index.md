@@ -18,12 +18,14 @@ regenerate: true
 * [[NaMacroJS]]
 * [[sfmb]]{ SFMB }
 
+
 ## 기타 링크
 
 * [사이트 Deploy 상태]( https://github.com/neoarc/neoarc.github.io/deployments/activity_log?environment=github-pages )
 
 ---
 
+<!--
 ## blog posts
 <div>
     <ul>
@@ -38,4 +40,4 @@ regenerate: true
 {% endfor %}
     </ul>
 </div>
-
+-->

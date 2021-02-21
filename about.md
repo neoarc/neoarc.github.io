@@ -21,21 +21,26 @@ latex: true
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
 </div>
 
-## About Me
+## 대략
 
 * 아들과 아내와 셋이 살고 있는 남자
 * 13년 정도의 경력을 가진 개발자
 * 무교
 
-## Hobby
+## 취미
 
 * 게임
 * 만화 - 보는 것과 그리는 것 모두
 * 프로그래밍 - 주로 유틸리티 혹은 게임
 * 운동 - 걷기, 웨이트 트레이닝, 수영 등
 
-## Programming
+## 프로그래밍
 
 * C/C++
 * Javascript (Web, node.js)
+
+## 개인 프로젝트
+
+* NaMacroJS
+* SFMB
 
