@@ -3,7 +3,7 @@ layout  : wiki
 title   : Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-02-22 11:25:04 +0900
+updated : 2021-02-22 11:31:30 +0900
 tags    : sfmb_betatest 
 toc     : true
 public  : false
@@ -100,7 +100,7 @@ latex   : false
 ### 5.8 - New power ups
 - Ice/Cloud flower
 - Penguin suit, ...
-- 
+ 
 ### 5.9 - Security improvement (NaPP)
 ### 5.10 - New pause menu
 ### 5.11 - New stage filters
