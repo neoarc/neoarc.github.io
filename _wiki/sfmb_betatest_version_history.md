@@ -16,24 +16,44 @@ latex   : false
 
 # Under construction 
   
+## Version 1
+
+### 1.0 - Clone of smb1
+
+## Version 2
+
+### 2.0 - Custom Game Theme system
+
+## Version 3
+
+### 3.0 - Stage World : Stage sharing system
+### 3.2 - Far-background
+### 3.2.0.610 - Show death marks
+### 3.3 - In game Updater
+### 3.4 - Login & Auth functions
+### 3.5 - Search in StageWorld
+### 3.6 - New power ups
+- Raccoon 
+- Weird 
+- Propeller
+
+### 3.7 - Helmet
+
 ## Version 4
 
 ### 4.1 - UI Button for StageWorld
 
 ### 4.2
-
 - New Physics engine
 - Moderator's rating
 - Bob-omb sliding
 
 ### 4.6
-
 - Direct Play without relaunch
 - Draw enemies at once by drag
 - UI engine (loader, editor)
 
 ### 4.7
-
 - Gamepad with DirectInput
 - Tooltips on UI
 - Random lopading indicator
@@ -43,12 +63,10 @@ latex   : false
 
 ### 4.8 - ThemeSetting manager
 ### 4.9
-
 - AbilityFlag icon (Stage Intro)
 - Object shadow in config
 
 ### 4.10
-
 - UI Improvements - StageClear, GameOver
 - Pink coin HUD (>6)
 - PSwitch timer in MapEditor
@@ -57,12 +75,11 @@ latex   : false
 
 ### 4.11 - CharacterSelection
 - Luigi & Toad & CostumeCharacter
-- 
+
 ### 4.12 - Caching StageWorld
 ### 4.13 - Click to toggle property
 
 ### 4.15
-
 - New: PSWitchDoor, FireClownCar, Vine Head
 - PaintBucket function in MapEditor
 - Undo/Redo
