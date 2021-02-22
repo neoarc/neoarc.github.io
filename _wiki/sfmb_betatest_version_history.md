@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : 
+title   : Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-02-22 10:49:35 +0900
-tags    : 
+updated : 2021-02-22 11:25:04 +0900
+tags    : sfmb_betatest 
 toc     : true
 public  : false
 comment : false
@@ -13,8 +13,6 @@ latex   : false
 ---
 * TOC
 {:toc}
-
-# Under construction 
   
 ## Version 1
 

@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : 
+title   : SFMB Beta Test Wiki 
 summary : 
 date    : 2021-02-21 03:09:59 +0900
-updated : 2021-02-22 00:31:39 +0900
-tags    : 
+updated : 2021-02-22 11:26:05 +0900
+tags    : sfmb_betatest 
 toc     : true
 public  : false
 comment : false

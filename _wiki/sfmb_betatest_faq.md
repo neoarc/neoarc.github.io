@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : 
+title   : Frequently Asked Questions 
 summary : 
 date    : 2021-02-22 00:24:37 +0900
-updated : 2021-02-22 00:32:40 +0900
-tags    : 
+updated : 2021-02-22 11:25:32 +0900
+tags    : sfmb_betatest 
 toc     : true
 public  : false
 comment : false
