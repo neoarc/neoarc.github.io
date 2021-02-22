@@ -49,8 +49,8 @@ utterances:
 # google_analytics:
 #  ua: UA-110224147-1
 
-# google_adsense:
-#  client: ca-pub-3675948545737694
+google_adsense:
+  client: ca-pub-3901831903106648
 
 blame: "https://github.com/neoarc/neoarc.github.io/blame/master/_wiki"
 edit: "https://github.com/neoarc/neoarc.github.io/edit/master/_wiki"
