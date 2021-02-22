@@ -3,7 +3,7 @@ layout  : wiki
 title   : Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-02-22 11:31:30 +0900
+updated : 2021-02-22 11:39:44 +0900
 tags    : sfmb_betatest 
 toc     : true
 public  : false
@@ -116,7 +116,7 @@ latex   : false
 - Flip block
 - Big coins
 - NSMB-Wii
-- 
+ 
 ### 5.21 - Updater improvement
 ### 5.22 - Avatar painter
 ### 5.23 - Extended enemy sprite
