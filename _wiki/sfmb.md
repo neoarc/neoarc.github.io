@@ -4,7 +4,7 @@ title   : Super fanmade Mario Bros.
 summary : 
 date    : 2021-02-18 19:15:52 +0900
 updated : 2021-02-19 18:33:14 +0900
-tags    : [[sfmb]]
+tag     : my_project sfmb
 toc     : true
 public  : true
 parent  : [[index]]

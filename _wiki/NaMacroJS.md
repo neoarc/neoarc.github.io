@@ -4,7 +4,7 @@ title   : NaMacroJS
 summary : 
 date    : 2021-02-19 18:15:26 +0900
 updated : 2021-02-19 18:27:16 +0900
-tags    : NaMacro 
+tag     : my_project macro 
 toc     : true
 public  : true
 parent  : [[index]]

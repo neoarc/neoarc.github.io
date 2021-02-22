@@ -4,7 +4,7 @@ title   : 내가 시도해본 위키
 summary : 
 date    : 2021-02-19 14:15:31 +0900
 updated : 2021-02-19 15:19:50 +0900
-tags    : [[wiki]] 
+tag     : wiki
 toc     : true
 public  : true
 parent  : [[index]] 

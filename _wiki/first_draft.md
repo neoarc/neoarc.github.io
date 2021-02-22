@@ -4,7 +4,7 @@ title   : First Draft
 summary : 
 date    : 2021-02-18 13:50:01 +0900
 updated : 2021-02-22 02:08:30 +0900
-tags    : 
+tag     : 
 toc     : true
 public  : true
 parent  : [[index]]

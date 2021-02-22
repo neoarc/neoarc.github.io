@@ -5,6 +5,7 @@ toc     : true
 public  : true
 comment : false
 regenerate: true
+adsense : true
 ---
 
 ## 이 싸이트
@@ -12,6 +13,7 @@ regenerate: true
 * [[first_draft]]{ First Draft }
 * [[wiki_i_have_tried]]{ 내가 시도해본 위키들 }
 * [[wiki_on_github_io]]{ github.io 에 위키 구성하기 }
+	* [[my_wiki_google_translator]]{ 구글 번역기 달았다 }
 
 ## My projects
 

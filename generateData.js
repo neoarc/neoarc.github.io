@@ -6,7 +6,7 @@ const path = './_wiki'
 const list = [];
 
 getFiles('./_wiki', 'wiki', list);
-getFiles('./_posts', 'blog', list);
+//getFiles('./_posts', 'blog', list);
 
 const dataList = list.map(function collectData(file) {
 
@@ -31,12 +31,14 @@ const tagMap = {};
 
 dataList.forEach(function collectTagMap(data) {
     if (!data.tag) {
+        console.log(`${data.fileName} have no tags`);
         return;
     }
     data.tag.forEach(function(tag) {
         if (!tagMap[tag]) {
             tagMap[tag] = [];
         }
+        console.log(`${data.fileName} have tags: ${tag}`);
         tagMap[tag].push({
             fileName: data.fileName,
             // updated: data.updated || data.date,

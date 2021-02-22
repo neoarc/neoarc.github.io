@@ -4,7 +4,7 @@ title   : Windows 환경에서 Vimwiki + Jekyll + github.io 위키 구축하기
 summary : 
 date    : 2021-02-19 14:15:46 +0900
 updated : 2021-02-19 15:20:10 +0900
-tags    : [[wiki]] 
+tag     : wiki github.io vimwiki jekyll
 toc     : true
 public  : true
 parent  : [[index]] 

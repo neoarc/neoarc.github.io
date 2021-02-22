@@ -56,7 +56,7 @@
     </script>
 {% endif %}
 {% if site.google_adsense.client and page.adsense == true %}
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({
         google_ad_client: "{{ site.google_adsense.client }}",
@@ -72,20 +72,28 @@
     <div>
         <a class="site-title-right" href="/about/">me</a>
     </div>
+    <!--
     <div>
         <a id="random-button" class="site-title-right" href="/wiki/index/#random" onClick="if(typeof random === 'function')random()">random</a>
     </div>
+    -->
     <div>
         <a class="site-title-right" href="/wiki/index/">wiki</a>
     </div>
-	<!-- 구글 번역 - 적절한 위치에 넣어야 한다.
-	<div id="google_translate_element">
-	</div>
-	<script type="text/javascript">  
-		function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'ko'}, 'google_translate_element'); }  
-	</script>  
-	<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"/> 
-	<!-- -->
+    <!-- 구글 번역기 가젯 -->
+    <div>
+        <div class="site-title-right google_translate" id="google_translate_element"></div>
+        <script type="text/javascript">  
+            function googleTranslateElementInit() { new google.translate.TranslateElement({
+                pageLanguage: 'ko',
+                includedLanguages: 'ko,en,pt,es,ja', 
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE, 
+                autoDisplay: true
+            }, 'google_translate_element'); }  
+        </script>  
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> 
+        </script>
+    </div>
 </header>
 <script>
 ;(function(){
