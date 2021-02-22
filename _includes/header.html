@@ -13,7 +13,9 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.summary }}">
-    <meta property="og:image" content="{{ site.url }}/resource/johngrib.png">
+    <!--
+	<meta property="og:image" content="{{ site.url }}/resource/johngrib.png">
+	-->
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
     <meta name="twitter:card" content="summary" />
@@ -62,7 +64,6 @@
       });
     </script>
 {% endif %}
-
 </head>
 <header class="header">
     <div>
@@ -77,6 +78,14 @@
     <div>
         <a class="site-title-right" href="/wiki/index/">wiki</a>
     </div>
+	<!-- 구글 번역 - 적절한 위치에 넣어야 한다.
+	<div id="google_translate_element">
+	</div>
+	<script type="text/javascript">  
+		function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'ko'}, 'google_translate_element'); }  
+	</script>  
+	<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"/> 
+	<!-- -->
 </header>
 <script>
 ;(function(){
