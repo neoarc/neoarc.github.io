@@ -1,1 +1,1 @@
-{"fileName":"vimwiki","collection":{"my-wiki":{"type":"wiki","title":"Vimwiki + Jekyll + Github.io로 나만의 위키를 만들자","summary":"마음에 드는 무료 위키가 없어서 만들어보았다","parent":"blog","url":"/wiki/my-wiki","updated":"2020-05-27 23:41:39 +0900","children":[]}}}
+{"fileName":"vimwiki","collection":{"wiki_on_github_io":{"type":"wiki","title":"Windows 환경에서 Vimwiki + Jekyll + github.io 위키 구축하기","summary":"","parent":"index","url":"/wiki/wiki_on_github_io","updated":"2021-02-19 15:20:10 +0900","children":[]}}}

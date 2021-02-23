@@ -1,3 +1,27 @@
 -
-    name: NaMacro
+    name: gadget
     size: 1
+-
+    name: github.io
+    size: 1
+-
+    name: google_translator
+    size: 1
+-
+    name: jekyll
+    size: 1
+-
+    name: macro
+    size: 1
+-
+    name: my_project
+    size: 2
+-
+    name: sfmb
+    size: 1
+-
+    name: vimwiki
+    size: 1
+-
+    name: wiki
+    size: 2

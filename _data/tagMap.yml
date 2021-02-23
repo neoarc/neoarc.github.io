@@ -1,2 +1,20 @@
-NaMacro:
+google_translator:
+    - {fileName: my_wiki_google_translator}
+gadget:
+    - {fileName: my_wiki_google_translator}
+my_project:
     - {fileName: NaMacroJS}
+    - {fileName: sfmb}
+macro:
+    - {fileName: NaMacroJS}
+sfmb:
+    - {fileName: sfmb}
+wiki:
+    - {fileName: wiki_i_have_tried}
+    - {fileName: wiki_on_github_io}
+github.io:
+    - {fileName: wiki_on_github_io}
+vimwiki:
+    - {fileName: wiki_on_github_io}
+jekyll:
+    - {fileName: wiki_on_github_io}
