@@ -3,7 +3,7 @@ layout  : wiki
 title   : Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-02-22 01:20:33 +0900
+updated : 2021-02-24 00:16:40 +0900
 tags    : sfmb_betatest
 toc     : true
 public  : false
@@ -19,17 +19,22 @@ latex   : false
 Please respect people in server for effective development & conversation.
 
 ## Unallowed
-- Pinging someone (including me) without a reason (by typing @username)
+- Pinging someone without a reason (by typing @username)
 - Continue pinging when someone says they don't want to be pinged
 - Sending single unnecessary messages.
-- Spam and flood (Keep your thoughts together in the least amount of lines possible)
+- Spam and flood 
+	- Keep your thoughts together in the least amount of lines possible
 - Insulting & rude behaviors (This includes being racist, homophobic and xenophobic.)
 - Changing your Discord name way too frequently
 - Posting an URL (either it being sketchy or not) without any comment
 - Sending gore, NSFW images, nazist or fascist jokes, political or religion fights (polemic)
 - Do some uncomfortable behavior using server member's creation (pfp, drawing, sprite)
-- Impersonating another member (for example changing profile picture and nickname to the same as other member)
-- Not listening to the staff, they are there before you, they know the rules and have power over you. Respect them and listen to them because they help making the server friendly and effective for everybody. If they tell you to stop, you stop.
+- Impersonating another member 
+	- For example, changing profile picture and nickname to the same as other member
+- Not listening to the staff
+	- They are there before you, they know the rules and have power over you. 
+	- Respect them and listen to them because they help making the server friendly and effective for everybody. 
+	- If they tell you to stop, you stop.
 - Using/stealing SFMB's material (such as sprites and music) without permission.
 
 ## You must
@@ -47,7 +52,6 @@ Please respect people in server for effective development & conversation.
 - Some things may guarantee an instant kick from the game. Be careful.
 
 # For newbies
-
 - You need to do some more steps to become Beta Tester
 - If you break a rule, you will be forced out of the beta test.
 - If you exit from this server, you will lose your game account.
@@ -64,7 +68,7 @@ Please respect people in server for effective development & conversation.
 1. Extract the archive to a folder that ONLY contains English characters.
 2. Run MarioDownloader.exe
 3. Enter your informations correctly. (only one chance, so careful)
-4. You will see "Your account is pending state".
+4. You will see `Your account is pending state`.
 5. Wait until 'accepted notification', you will receive mention in #notification 
 6. After 'accepted notification', run MarioDownloader.exe again.
 7. Downloader will download game, if finished, game will be launched automatically.
@@ -74,48 +78,25 @@ Please respect people in server for effective development & conversation.
 # For beta testers
 
 ## Playing the Game
+- You are free to play, assuming you enjoy the game fairly.
 - Do not try to hack the game's memory by using external tools (such as Cheat Engine)
 	- Game will detect it and then you'll lose your account.
 - Do not upload test stages (or bug stages) to the Stage World.
 
-## Templates
-- When reporting a bug, writing a request, or contributing (as sending a sprite file or a sound) you need to follow a template.
-- Why? Because they make the server organized and clean, and help the developer to find what it is about easily.
-
-### Bug reporting form
-1. The bug explanation/what is happening
-- In order to report the bug, we need to know what the bug is about, or what it is.
-2. A screenshot or a gif of the bug, or what it looks like. You can record a GIF easily with a free tool known as [ShareX](https://getsharex.com/)
-- Any screenshots or footage of the bug being reproduced will really help.
-3. How to reproduce the bug, or its reproduction steps. Try it several times to make sure it works.
-- We need it in order to perform the bug and find the solution to it.
-4. The map file, where you're able to perform the bug. *optional*
-- It's much easier than having to recreate the bug. But then again, it's optional.
-5. What should be happening and what shouldn't be happening.
-- Of course you need to know what must be happening instead of what shouldn't be.
-6. Describe bug happens everytime/or sometimes
-7. What version of game do you have
-
-### Request form
-1. The element you want to be added into the game
-- Self explanatory, the name of the element you want to be added in the game. 
-2. An explanation about the element
-- You will explain how the element works in the games, and how it looks like. (might contain footage/image)
-3. Its origin
-- Where the element debuted or appeared in the series. If non-existent, you can put it as "none" though.
-4. The reason you want it to be in SFMB
-- Why do you think it should be in the game? Must be convincing.
-5. How it will work in SFMB
-- How it works in-game or in the editor. Such as if it has an option, or if it IS an option, etc.
-
-### Resource form
-Contributions to resources (sprites, sounds) for this game must use the ResourceCommitter program. 
-- You can find it in #resource-sprite channel's pinned post.
+### Record video & Streaming
+- You can make or stream a video of this game.
+  	- You are responsible for any risks caused by the video (e.g. your account is warned, etc.)
+- When you upload or stream a video, you must share the link on the #video channel.
+- The title of the game must be clearly stated.
+	- For example, the title should not be called Mario Maker.
 
 ## Bug-reporting
 I found a bug, what should I do?
-- Use the [[sfmb_betatest_community_rules/#bug-reporting-form]]{ Bug report form } to describe the bugs you have experienced in the #bug channel. 
-- Record a video or gif of the bug, go to #bug and on the top right of the screen, find the pinned messages button, scroll down until you see the Bug Reporting Template, now, write a message like if you were answering questions (write everything in one message) and post the gif or video after you sent the bug report.
+- Use the [bug report template](#bug-reporting-form) to describe the bugs you have experienced in the #bug channel. 
+	- Record a video or gif of the bug
+	- Go to #bug 
+	- Write a message like if you were answering questions (write everything in one message) 
+	- Post the gif or video after you sent the bug report.
 
 ### Recommended things
 - Use shift+enter to make everything readable.
@@ -124,19 +105,19 @@ I found a bug, what should I do?
 - Explain everything in an understandable way and show only what is needed in the gif.
 
 The developer has his own reactions for bug submissions. Do NOT use these:
-- <img src="https://discord.com/assets/0cfc29f75efcc78c7c38580fffe314ba.svg" width="16"> = It is a bug.
-- <img src="https://discord.com/assets/8becd37ab9d13cdfe37c08c496a9def3.svg" width="16"> = It is not a bug.
-- <img src="https://discord.com/assets/212e30e47232be03033a87dc58edaa95.svg" width="16"> = The bug was already fixed.
+- <img src="https://discord.com/assets/0cfc29f75efcc78c7c38580fffe314ba.svg" width="16"> = It is a bug.                        
+- <img src="https://discord.com/assets/8becd37ab9d13cdfe37c08c496a9def3.svg" width="16"> = It is not a bug.                    
+- <img src="https://discord.com/assets/212e30e47232be03033a87dc58edaa95.svg" width="16"> = The bug was already fixed.          
 - <img src="https://cdn.discordapp.com/emojis/452493235114213390.png?v=1" width="16"> = The bug is half-way at being fixed.
-- <img src="https://cdn.discordapp.com/emojis/303734892875743233.png?v=1" width="16"> = Can't understand this report.
-- 
+- <img src="https://cdn.discordapp.com/emojis/303734892875743233.png?v=1" width="16"> = Can't understand this report.      
+ 
 A moderator may also be able to react with one of these if the bug report is faulty or plain bad.
 
 ### My game crashed. What should I do?
 1. Game(or editor) will display a dialog to select a full dump or mini dump.
 2. Whichever you chose, it will create a dump file in the game folder.
 3. Go to your game folder and upload the dump to a site (Mediafire, Google Drive or Mega for example)
-4. In #bug, follow the bug reporting template, describing everything you did before crash
+4. In #bug, follow the [bug report template](#bug-reporting-form), describing everything you did before crash
 5. Post the link of dump file there.
 
 ### Things you should have in mind
@@ -144,7 +125,7 @@ A moderator may also be able to react with one of these if the bug report is fau
 	- it's more detailed and contains more information. Whenever possible, choose full dump.
 
 ## Request & Idea
-- You can request anything with peace of mind, but you must follow the submission form.
+- You can request anything with peace of mind, but you must follow [template](#request-form).
 - Please try to avoid requesting things that were already requested.
 - You can request already requested things, but do not spam it.
 - A moderator can deny your request if it's plain bad.
@@ -180,4 +161,40 @@ Here is how you contribute to this game and the community.
 - Do NOT stream any NSFW content in the voice channels, such as gore or pornography.
 - All of the server's rules still apply here!
 
+## Templates
+- When reporting a bug, writing a request, or contributing (as sending a sprite file or a sound) you need to follow a template.
+- Why? Because they make the server organized and clean, and help the developer to find what it is about easily.
 
+### Bug reporting form
+1. The bug explanation/what is happening
+- In order to report the bug, we need to know what the bug is about, or what it is.
+2. A screenshot or a gif of the bug, or what it looks like. You can record a GIF easily with a free tool known as [ShareX](https://getsharex.com/)
+- Any screenshots or footage of the bug being reproduced will really help.
+3. How to reproduce the bug, or its reproduction steps. Try it several times to make sure it works.
+- We need it in order to perform the bug and find the solution to it.
+4. The map file, where you're able to perform the bug. *optional*
+- It's much easier than having to recreate the bug. But then again, it's optional.
+5. What should be happening and what shouldn't be happening.
+- Of course you need to know what must be happening instead of what shouldn't be.
+6. Describe bug happens everytime/or sometimes
+7. What version of game do you have
+
+### Request form
+1. The element you want to be added into the game
+- Self explanatory, the name of the element you want to be added in the game. 
+2. An explanation about the element
+- You will explain how the element works in the games, and how it looks like. (might contain footage/image)
+3. Its origin
+- Where the element debuted or appeared in the series. If non-existent, you can put it as "none" though.
+4. The reason you want it to be in SFMB
+- Why do you think it should be in the game? Must be convincing.
+5. How it will work in SFMB
+- How it works in-game or in the editor. Such as if it has an option, or if it IS an option, etc.
+
+### Resource form
+Contributions to resources (sprites, sounds) for this game must use the ResourceCommitter program. 
+- You can find it in #resource-sprite channel's pinned post.
+- When uploading resources through ResourceCommitter, all messages are automatically created, so there is no form.
+
+# EOF
+Congraturations! You read all rules.
