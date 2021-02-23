@@ -3,8 +3,8 @@ layout  : wiki
 title   : Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-02-23 16:37:45 +0900
-tags    : sfmb_betatest 
+updated : 2021-02-23 16:42:58 +0900
+tag     : sfmb_betatest 
 toc     : true
 public  : false
 comment : false
@@ -147,14 +147,14 @@ latex   : false
 - Scale limit changed to 1~4 (from 2~4)
 - You can choose 'do nothing' behavior option
 
-#### [[sfmb_r5510]]{r5510 CandyArcage big update}
+#### [[sfmb_r5510]]{r5510 CandyArcade theme big update}
 
 ### 7.2 - Liquid : Drawable & LavaSink
 - and improved Podoboo's movement
 
 ### 7.3 - Shop & Inventory system
 
-#### [[sfmb_r5876]]{r5876 SMB2 theme update}
+#### [[sfmb_r5876]]{r5876 SMB2 theme big update}
 
 ### 7.4 - Avatar Extended (more slots, animation)
 
@@ -169,4 +169,4 @@ latex   : false
 - Liquid Layers
 - SubStage Door
 
-#### [[sfmb_r6211]]{r6211 MarioArcade theme update}
+#### [[sfmb_r6211]]{r6211 MarioArcade theme big update}
