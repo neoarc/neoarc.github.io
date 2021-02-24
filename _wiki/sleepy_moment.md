@@ -4,7 +4,7 @@ title   : 일해야하는데 졸릴 때
 summary : 
 date    : 2021-02-24 14:44:16 +0900
 updated : 2021-02-24 14:56:08 +0900
-tag     : 
+tag     : 잡담
 toc     : true
 public  : true
 parent  : [[index]]
