@@ -6,3 +6,5 @@
 
 - 스켈레톤: https://github.com/johngrib/johngrib-jekyll-skeleton
 - Vimwiki + Jekyll + github.io: https://johngrib.github.io/wiki/my-wiki/
+
+## 자세한 내용은 생략한다.
