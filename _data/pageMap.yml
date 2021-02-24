@@ -28,7 +28,7 @@ NaMacroJS:
     summary: ""
     parent: index
     url: /wiki/NaMacroJS
-    updated: '2021-02-19 18:27:16 +0900'
+    updated: '2021-02-24 15:08:20 +0900'
     children: []
 sfmb:
     type: wiki
@@ -37,6 +37,14 @@ sfmb:
     parent: index
     url: /wiki/sfmb
     updated: '2021-02-19 18:33:14 +0900'
+    children: []
+sleepy_moment:
+    type: wiki
+    title: '일해야하는데 졸릴 때'
+    summary: ""
+    parent: index
+    url: /wiki/sleepy_moment
+    updated: '2021-02-24 14:56:08 +0900'
     children: []
 wiki_i_have_tried:
     type: wiki

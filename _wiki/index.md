@@ -8,20 +8,23 @@ regenerate: true
 adsense : true
 ---
 
-## 이 싸이트
+# 이 싸이트
 
 * [[first_draft]]{ First Draft }
 * [[wiki_i_have_tried]]{ 내가 시도해본 위키들 }
 * [[wiki_on_github_io]]{ github.io 에 위키 구성하기 }
 	* [[my_wiki_google_translator]]{ 구글 번역기 달았다 }
 
-## My projects
+# 잡담
+
+* [[sleepy_moment]]{ 일 해야하는데 졸릴 때 }
+
+# My projects
 
 * [[NaMacroJS]]
 * [[sfmb]]{ SFMB }
 
-
-## 기타 링크
+# 기타 링크
 
 * [사이트 Deploy 상태]( https://github.com/neoarc/neoarc.github.io/deployments/activity_log?environment=github-pages )
 
