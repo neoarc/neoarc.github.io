@@ -46,9 +46,9 @@ latex   : false
 - ![8](https://user-images.githubusercontent.com/963958/109678517-0c949980-7bbe-11eb-8269-8ab5fd57b2f6.png)
 13. Press the **Edit ThemeDefinitions**.
 - You can only rewrite if you have permission for the theme or it’s a custom theme.
-- ![9](https://user-images.githubusercontent.com/963958/109678506-0acad600-7bbe-11eb-9336-ffb279060458.png)
 12. Press **Background Layer**. 
 13. You must enter here the names you entered for the animation names.
+- ![9](https://user-images.githubusercontent.com/963958/109678506-0acad600-7bbe-11eb-9336-ffb279060458.png)
 - Just a few tips:
 	1. If you are making a parallax background, I recommend setting the layers to `bottom`, since the `top and bottom` work pretty weird at the moment. If you are doing it well, it will look the most natural. but since it is set to `bottom`, try to make the cloud png as high as possible. (like SMAS clouds - maybe higher)
 		- ![tipp1](https://user-images.githubusercontent.com/963958/109678513-0c949980-7bbe-11eb-996d-b70dc6786e50.png)
