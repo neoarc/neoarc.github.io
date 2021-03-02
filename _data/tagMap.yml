@@ -9,6 +9,10 @@ macro:
     - {fileName: NaMacroJS}
 sfmb:
     - {fileName: sfmb}
+잡담:
+    - {fileName: sleepy_moment}
+idle_talk:
+    - {fileName: sleepy_moment}
 wiki:
     - {fileName: wiki_i_have_tried}
     - {fileName: wiki_on_github_io}
