@@ -54,7 +54,7 @@ latex   : false
 		- ![tipp1](https://user-images.githubusercontent.com/963958/109678513-0c949980-7bbe-11eb-996d-b70dc6786e50.png)
 	3. I also recommend that you have a separate sky layer that is just as high as the game window and set to `top and bottom`, or clear the sky color from the picture and set a custom sky color in the editor because the color of the sky will change with wind and rain
 		- ![tipp2](https://user-images.githubusercontent.com/963958/109678503-0a323f80-7bbe-11eb-874a-4fb85e6f0e29.png)
-	5. But this is just my opinion, surely it can be solved differently to look nice, this must be experienced.
+	5. But this is just my(author, not wiki owner) opinion, surely it can be solved differently to look nice, this must be experienced.
 14. Adjust the scroll ratio around as it is in the original game, or as you like.
 - ![10](https://user-images.githubusercontent.com/963958/109678512-0bfc0300-7bbe-11eb-8a9d-03736c36f45d.png)
 16. Now you have to enter the same names for the layers in order (the first one is at the back) separated with commas without spaces.
@@ -64,6 +64,6 @@ latex   : false
 16. If you make a parallax background, then farbackground is basically just a preview. You have to includes all layers in one png, and if you want to save space, have an image size of 512x127.
 13. But these are also just the basics, there are still plenty of options in `Theme Version 2`.
 
-# Fin
-If something is not understandable, DM to me(Marci599#6148), and if I available I will try to help.
+# Fin.
+If something is not understandable, DM to author(Marci599#6148), and if I available I will try to help.
 
