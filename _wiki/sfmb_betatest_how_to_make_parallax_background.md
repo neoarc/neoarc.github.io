@@ -27,11 +27,11 @@ latex   : false
 5. If everything right, you need to see the picture in the SpriteEditor. 
 - ![3](https://user-images.githubusercontent.com/963958/109678525-0e5e5d00-7bbe-11eb-9aa6-08c3ec84c983.png)
 6. Click the first sprite frame.
-- ![4 1](https://user-images.githubusercontent.com/963958/109678524-0e5e5d00-7bbe-11eb-90b8-45606f601478.png)
 8. Double click on the image.
 - Make sure the entire image is selected.
 - ![4 2](https://user-images.githubusercontent.com/963958/109678507-0b636c80-7bbe-11eb-9ee9-6157f94d8f75.png)
 7. Rewrite the offset to `0`.
+- ![4 1](https://user-images.githubusercontent.com/963958/109678524-0e5e5d00-7bbe-11eb-90b8-45606f601478.png)
 8. Delete the animation
 9. Add a new one with a name to refer to later. like overworld1 i recommend putting a number on each end because sometimes it doesn't work without it.
 - ![5](https://user-images.githubusercontent.com/963958/109678521-0dc5c680-7bbe-11eb-89e5-641f80611c49.png)
