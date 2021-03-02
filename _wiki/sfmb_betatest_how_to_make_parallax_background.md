@@ -3,7 +3,7 @@ layout  : wiki
 title   : How to make parallex background in SFMB
 summary : 
 date    : 2021-03-02 23:44:35 +0900
-updated : 2021-03-03 00:43:23 +0900
+updated : 2021-03-03 01:27:26 +0900
 tag     : sfmb_betatest
 toc     : true
 public  : false
@@ -23,28 +23,42 @@ latex   : false
 - Each layer png must have a `.sprite` file with the same name as png.
 
 # 2. Sprite editor
-3. Open the one you want to start with. *eg.* `LayerOverworld.sprite`
-4. If everything right, you need to see the picture in the SpriteEditor. 
-5. Click the first sprite frame.
-6. Double click on the image.
+3. Open the one you want to start with. *eg.* `LayerOverworld1.sprite`
+5. If everything right, you need to see the picture in the SpriteEditor. 
+- ![3](https://user-images.githubusercontent.com/963958/109678525-0e5e5d00-7bbe-11eb-9aa6-08c3ec84c983.png)
+6. Click the first sprite frame.
+- ![4 1](https://user-images.githubusercontent.com/963958/109678524-0e5e5d00-7bbe-11eb-90b8-45606f601478.png)
+8. Double click on the image.
 - Make sure the entire image is selected.
+- ![4 2](https://user-images.githubusercontent.com/963958/109678507-0b636c80-7bbe-11eb-9ee9-6157f94d8f75.png)
 7. Rewrite the offset to `0`.
-8. Do the same with the others. 
+8. Delete the animation
+9. Add a new one with a name to refer to later. like overworld1 i recommend putting a number on each end because sometimes it doesn't work without it.
+- ![5](https://user-images.githubusercontent.com/963958/109678521-0dc5c680-7bbe-11eb-89e5-641f80611c49.png)
+10. Do the same with the others. 
 - However, the clouds on the png. should also be as high as in the game *eg.* `NSMBWii`.
+- ![6](https://user-images.githubusercontent.com/963958/109678519-0dc5c680-7bbe-11eb-84d0-381bb8c356a2.png)
 
 # 3. Map editor
 9. Press the **Manage GameThemes** button in the mapeditor.
-10. You need to set the `Theme Version` to **2** 
-11. Press the **Edit ThemeDefinitions**.
-- You can only rewrite if you have permission fot the theme or it’s a custom theme.
+- ![7](https://user-images.githubusercontent.com/963958/109678518-0d2d3000-7bbe-11eb-8af8-74484d40bd37.png)
+11. You need to set the `Theme Version` to **2**
+- ![8](https://user-images.githubusercontent.com/963958/109678517-0c949980-7bbe-11eb-8269-8ab5fd57b2f6.png)
+13. Press the **Edit ThemeDefinitions**.
+- You can only rewrite if you have permission for the theme or it’s a custom theme.
+- ![9](https://user-images.githubusercontent.com/963958/109678506-0acad600-7bbe-11eb-9336-ffb279060458.png)
 12. Press **Background Layer**. 
 13. You must enter here the names you entered for the animation names.
 - Just a few tips:
 	1. If you are making a parallax background, I recommend setting the layers to `bottom`, since the `top and bottom` work pretty weird at the moment. If you are doing it well, it will look the most natural. but since it is set to `bottom`, try to make the cloud png as high as possible. (like SMAS clouds - maybe higher)
-	2. I also recommend that you have a separate sky layer that is just as high as the game window and set to `top and bottom`, or clear the sky color from the picture and set a custom sky color in the editor because the color of the sky will change with wind and rain
-	3. But this is just my opinion, surely it can be solved differently to look nice, this must be experienced.
+		- ![tipp1](https://user-images.githubusercontent.com/963958/109678513-0c949980-7bbe-11eb-996d-b70dc6786e50.png)
+	3. I also recommend that you have a separate sky layer that is just as high as the game window and set to `top and bottom`, or clear the sky color from the picture and set a custom sky color in the editor because the color of the sky will change with wind and rain
+		- ![tipp2](https://user-images.githubusercontent.com/963958/109678503-0a323f80-7bbe-11eb-874a-4fb85e6f0e29.png)
+	5. But this is just my opinion, surely it can be solved differently to look nice, this must be experienced.
 14. Adjust the scroll ratio around as it is in the original game, or as you like.
-15. Now you have to enter the same names for the layers in order (the first one is at the back) separated with commas without spaces.
+- ![10](https://user-images.githubusercontent.com/963958/109678512-0bfc0300-7bbe-11eb-8a9d-03736c36f45d.png)
+16. Now you have to enter the same names for the layers in order (the first one is at the back) separated with commas without spaces.
+- ![11](https://user-images.githubusercontent.com/963958/109678510-0bfc0300-7bbe-11eb-950b-fca590cb76a7.png)
 
 # FarBackground
 16. If you make a parallax background, then farbackground is basically just a preview. You have to includes all layers in one png, and if you want to save space, have an image size of 512x127.
