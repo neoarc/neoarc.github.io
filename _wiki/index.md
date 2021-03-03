@@ -24,6 +24,10 @@ adsense : true
 * [[NaMacroJS]]
 * [[sfmb]]{ SFMB }
 
+# Utility
+
+* [[power_automate_desktop]]{Power Automate Desktop}
+
 # 기타 링크
 
 * [사이트 Deploy 상태]( https://github.com/neoarc/neoarc.github.io/deployments/activity_log?environment=github-pages )

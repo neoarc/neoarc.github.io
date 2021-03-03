@@ -7,6 +7,10 @@ my_project:
     - {fileName: sfmb}
 macro:
     - {fileName: NaMacroJS}
+utility:
+    - {fileName: power_automate_desktop}
+automation:
+    - {fileName: power_automate_desktop}
 sfmb:
     - {fileName: sfmb}
 잡담:
