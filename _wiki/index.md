@@ -6,6 +6,7 @@ public  : true
 comment : false
 regenerate: true
 adsense : true
+updated : 2021-03-04 11:05:19 +0900
 ---
 
 # 이 싸이트
@@ -26,6 +27,20 @@ adsense : true
 
 # Utility
 
+* Everything
+* Notepad++
+* Double Commander
+* Total Commander
+* mRemoteNG
+* ShareX
+* Commit Monitor
+* PowerToys
+* Hotkeyz
+* Send Anywhere
+* X-Mouse Button Control
+* iMazing HEIC Converter
+
+## 자동화 
 * [[power_automate_desktop]]{Power Automate Desktop}
 
 # 기타 링크
