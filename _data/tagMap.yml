@@ -2,6 +2,8 @@ google_translator:
     - {fileName: my_wiki_google_translator}
 gadget:
     - {fileName: my_wiki_google_translator}
+johngrib_wiki:
+    - {fileName: my_wiki_todolist}
 my_project:
     - {fileName: NaMacroJS}
     - {fileName: sfmb}

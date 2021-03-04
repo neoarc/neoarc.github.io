@@ -12,7 +12,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-03-04 11:05:19 +0900'
+    updated: '2021-03-04 23:57:31 +0900'
     children: []
 my_wiki_google_translator:
     type: wiki
@@ -21,6 +21,14 @@ my_wiki_google_translator:
     parent: ""
     url: /wiki/my_wiki_google_translator
     updated: '2021-02-23 01:22:08 +0900'
+    children: []
+my_wiki_todolist:
+    type: wiki
+    title: '아직 남은 할일들'
+    summary: '종립님 위키에서는 동작하지만 내 위키에서 동작하지 않는 것들'
+    parent: index
+    url: /wiki/my_wiki_todolist
+    updated: '2021-03-05 00:18:27 +0900'
     children: []
 NaMacroJS:
     type: wiki

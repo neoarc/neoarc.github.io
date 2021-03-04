@@ -1,7 +1,4 @@
 -
-    name: 잡담
-    size: 1
--
     name: automation
     size: 1
 -
@@ -18,6 +15,9 @@
     size: 1
 -
     name: jekyll
+    size: 1
+-
+    name: johngrib_wiki
     size: 1
 -
     name: macro
@@ -37,3 +37,6 @@
 -
     name: wiki
     size: 2
+-
+    name: 잡담
+    size: 1

@@ -6,7 +6,7 @@ public  : true
 comment : false
 regenerate: true
 adsense : true
-updated : 2021-03-04 11:05:19 +0900
+updated : 2021-03-04 23:57:31 +0900
 ---
 
 # 이 싸이트
@@ -14,6 +14,7 @@ updated : 2021-03-04 11:05:19 +0900
 * [[first_draft]]{ First Draft }
 * [[wiki_i_have_tried]]{ 내가 시도해본 위키들 }
 * [[wiki_on_github_io]]{ github.io 에 위키 구성하기 }
+	* [[my_wiki_todolist]]{아직 남은 할 일들}
 	* [[my_wiki_google_translator]]{ 구글 번역기 달았다 }
 
 # 잡담
@@ -24,6 +25,11 @@ updated : 2021-03-04 11:05:19 +0900
 
 * [[NaMacroJS]]
 * [[sfmb]]{ SFMB }
+
+# Programming
+
+## C++
+## Node.js
 
 # Utility
 
