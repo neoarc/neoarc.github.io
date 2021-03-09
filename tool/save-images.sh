@@ -4,7 +4,8 @@
 
 NUM=1855714
 
-CHANGE_LIST=`git diff --exit-code --cached --name-only --diff-filter=ACM -- '*.md'`
+#CHANGE_LIST=`git diff --exit-code --cached --name-only --diff-filter=ACM -- "*.md"`
+CHANGE_LIST=`git diff --exit-code`
 
 SUCCESS_COUNT=0
 FAIL_COUNT=0

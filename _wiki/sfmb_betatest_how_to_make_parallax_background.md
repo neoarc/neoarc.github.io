@@ -3,7 +3,7 @@ layout  : wiki
 title   : How to make parallax background in SFMB
 summary : 
 date    : 2021-03-02 23:44:35 +0900
-updated : 2021-03-03 01:53:32 +0900
+updated : 2021-03-09 13:31:52 +0900
 tag     : sfmb_betatest
 toc     : true
 public  : false
@@ -15,7 +15,7 @@ latex   : false
 {:toc}
 
 # Summary
-- TODO
+- This wiki explains how to make parallax backgrounds using Theme version 2, since many of you haven't heard of it, there are plenty of options in theme version 2, such as: auto scroll background, custom scroll ratio, infinite custom sky color and background object, animated background, etc.... This wiki doesn't include all of these, but you can easily figure it out for yourself. I hope it helps!  
 
 # 1. Preparing files
 1. File names must begin with a Layer and end with a number. *eg.* `LayerOverworld1`

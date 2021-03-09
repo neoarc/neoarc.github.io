@@ -1,4 +1,7 @@
 -
+    name: 잡담
+    size: 1
+-
     name: automation
     size: 1
 -
@@ -37,6 +40,3 @@
 -
     name: wiki
     size: 2
--
-    name: 잡담
-    size: 1

@@ -4,6 +4,7 @@
   "description": "data generator",
   "main": "generateData.js",
   "dependencies": {
+    "shelljs": "^0.8.4",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {},
