@@ -13,9 +13,16 @@ my_project:
     - {fileName: sfmb}
 macro:
     - {fileName: NaMacroJS}
+자동화:
+    - {fileName: NaMacroJS}
+    - {fileName: power_automate_desktop}
+매크로:
+    - {fileName: NaMacroJS}
 utility:
     - {fileName: power_automate_desktop}
 automation:
+    - {fileName: power_automate_desktop}
+유틸리티:
     - {fileName: power_automate_desktop}
 sfmb:
     - {fileName: sfmb}

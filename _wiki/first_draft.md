@@ -3,7 +3,7 @@ layout  : wiki
 title   : First Draft
 summary : 
 date    : 2021-02-18 13:50:01 +0900
-updated : 2021-02-22 02:08:30 +0900
+updated : 2021-03-10 23:39:37 +0900
 tag     : 
 toc     : true
 public  : true
@@ -15,7 +15,7 @@ latex   : false
 
 # 우선
 
-이 웹페이지는 [종립 John Grib](https://johngrib.github.io/)님의 위키를 기반으로 만들어졌으며, 아직 많은 부분을 다듬는 중이다.
+이 웹페이지는 [종립(John Grib)](https://johngrib.github.io/)님의 위키를 기반으로 만들어졌으며, 아직 많은 부분을 다듬는 중이다.
 
 # 휴!
 
@@ -43,3 +43,4 @@ latex   : false
 하지만 Github이나 Slack, Discord등의 유명세와 함께 Markdown 포맷은 우리에게 이미 친숙한 것이 되었고, 
 나도 빠르게 내용을 작성할 수 있는 md 포맷을 좋아하는 편이다.
 
+* 자세한 내용은 [[wiki_i_have_tried]]{내가 시도해본 위키} 에...

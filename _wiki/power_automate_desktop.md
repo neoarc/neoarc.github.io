@@ -3,8 +3,8 @@ layout  : wiki
 title   : Power Automate Desktop
 summary : 
 date    : 2021-03-03 17:25:22 +0900
-updated : 2021-03-03 17:45:03 +0900
-tag     : utility automation
+updated : 2021-03-11 00:22:31 +0900
+tag     : utility automation 유틸리티 자동화
 toc     : true
 public  : true
 parent  : index 

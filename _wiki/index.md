@@ -6,32 +6,32 @@ public  : true
 comment : false
 regenerate: true
 adsense : true
-updated : 2021-03-04 23:57:31 +0900
+updated : 2021-03-11 00:22:43 +0900
 ---
 
 # 이 싸이트
 
-* [[first_draft]]{ First Draft }
-* [[wiki_i_have_tried]]{ 내가 시도해본 위키들 }
-* [[wiki_on_github_io]]{ github.io 에 위키 구성하기 }
+* [[first_draft]]{First Draft}
+* [[wiki_i_have_tried]]{내가 시도해본 위키들}
+* [[wiki_on_github_io]]{github.io 에 위키 구성하기}
 	* [[my_wiki_todolist]]{아직 남은 할 일들}
-	* [[my_wiki_google_translator]]{ 구글 번역기 달았다 }
+	* [[my_wiki_google_translator]]{구글 번역기를 달았다}
 
 # 잡담
 
-* [[sleepy_moment]]{ 일 해야하는데 졸릴 때 }
+* [[sleepy_moment]]{일 해야하는데 졸릴 때}
 
-# My projects
+# 프로젝트
 
 * [[NaMacroJS]]
-* [[sfmb]]{ SFMB }
+* [[sfmb]]{SFMB}
 
-# Programming
+# 프로그래밍
 
 ## C++
 ## Node.js
 
-# Utility
+# 즐겨쓰는 유틸리티
 
 * Everything
 * Notepad++
@@ -51,7 +51,7 @@ updated : 2021-03-04 23:57:31 +0900
 
 # 기타 링크
 
-* [사이트 Deploy 상태]( https://github.com/neoarc/neoarc.github.io/deployments/activity_log?environment=github-pages )
+* [사이트 Deploy 상태](https://github.com/neoarc/neoarc.github.io/deployments/activity_log?environment=github-pages)
 
 ---
 

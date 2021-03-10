@@ -3,8 +3,8 @@ layout  : wiki
 title   : NaMacroJS 
 summary : 
 date    : 2021-02-19 18:15:26 +0900
-updated : 2021-02-24 15:08:20 +0900
-tag     : my_project macro 
+updated : 2021-03-11 00:44:24 +0900
+tag     : my_project macro 자동화 매크로 
 toc     : true
 public  : true
 parent  : [[index]]
@@ -15,9 +15,8 @@ latex   : false
 
 # What is it?
 
-NaMacro는 Google V8 엔진을 사용하는 Windows 용 매크로 플랫폼(...이 목표였던 응용프로그램) 이다.
-
-이해가 안된다면 AutoIt이나 AutoHotkey를 떠올리면 되겠다.
+- NaMacro는 Google V8 엔진을 사용하는 Windows 용 매크로 플랫폼(...이 목표였던 응용프로그램) 이다.
+- 이해가 안된다면 AutoIt이나 AutoHotkey를 떠올리면 되겠다.
 
 # 개발 동기
 
