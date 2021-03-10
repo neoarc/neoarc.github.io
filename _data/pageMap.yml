@@ -28,7 +28,7 @@ my_wiki_todolist:
     summary: '종립님 위키에서는 동작하지만 내 위키에서 동작하지 않는 것들'
     parent: index
     url: /wiki/my_wiki_todolist
-    updated: '2021-03-10 13:45:30 +0900'
+    updated: '2021-03-10 14:55:21 +0900'
     children: []
 NaMacroJS:
     type: wiki
