@@ -3,7 +3,7 @@ layout  : wiki
 title   : 아직 남은 할일들
 summary : 종립님 위키에서는 동작하지만 내 위키에서 동작하지 않는 것들
 date    : 2021-03-04 23:57:32 +0900
-updated : 2021-03-05 00:18:27 +0900
+updated : 2021-03-10 11:47:55 +0900
 tag     : johngrib_wiki
 toc     : true
 public  : true
@@ -24,6 +24,8 @@ latex   : false
 * [ ] 새 글 생성시 parent 속성값이 비어있음
 * [ ] parent를 채워줘도 상위문서가 표시되지 않음
 * [ ] Github Issue 이미지 다운로드 스크립트가 안됨
+	* [X] 쉘 스크립트를 node.js 스크립트로
+	* [ ] _site 폴더에 post-img 폴더가 없는 문제
 * [ ] 검색 기능 안됨
 
 # 그냥 내가 하려는 것들
