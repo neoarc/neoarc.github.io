@@ -20,10 +20,12 @@ CHANGE_LIST.forEach((CHANGED_FILE) => {
     if (!CHANGED_FILE || CHANGED_FILE.length == 0) return;
 
 	console.log(`CHANGED_FILE = ${CHANGED_FILE}`);
-	var ex = /(.*).md$/
+	var ex = /_(.*).md$/
 
+    // 주의: _wiki 경로로 그대로 복사하면 Jekyll 이 복사하지 않는다.
+    //       _ 로 시작하는 폴더는 자동으로 제외되는 듯 하다.
     // _wiki/sfmb_betatest_how_to_make_parallax_background.md
-    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    //  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     let dirMatchResult = CHANGED_FILE.match(ex);
     //console.debug(`dirMatchResult = ${dirMatchResult}`);
 
