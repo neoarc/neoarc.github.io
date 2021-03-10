@@ -3,7 +3,7 @@ layout  : wiki
 title   : Windows 환경에서 Vimwiki + Jekyll + github.io 위키 구축하기
 summary : 
 date    : 2021-02-19 14:15:46 +0900
-updated : 2021-02-19 15:20:10 +0900
+updated : 2021-03-10 13:46:41 +0900
 tag     : wiki github.io vimwiki jekyll
 toc     : true
 public  : true
@@ -119,6 +119,10 @@ call plug#end()
 		- 아마 Ruby 파일 파서의 동작 같다.
 	- euc-kr로 작성된 파일을 Github Page에 커밋하면 404 오류가 발생한다.
 	
-	(이후 내용은 추후 작성)
+(이후 내용은 추후 작성)
+
+# 참고
+
+* [[my_wiki_todolist]]{아직 남은 할 일들}
 
 

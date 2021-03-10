@@ -3,8 +3,8 @@ layout  : wiki
 title   : 아직 남은 할일들
 summary : 종립님 위키에서는 동작하지만 내 위키에서 동작하지 않는 것들
 date    : 2021-03-04 23:57:32 +0900
-updated : 2021-03-10 11:47:55 +0900
-tag     : johngrib_wiki
+updated : 2021-03-10 13:45:30 +0900
+tag     : wiki johngrib_wiki
 toc     : true
 public  : true
 comment : true
