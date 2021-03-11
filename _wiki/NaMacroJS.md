@@ -3,7 +3,7 @@ layout  : wiki
 title   : NaMacroJS 
 summary : 
 date    : 2021-02-19 18:15:26 +0900
-updated : 2021-03-11 12:10:39 +0900
+updated : 2021-03-11 12:13:41 +0900
 tag     : my_project macro 자동화 매크로 
 toc     : true
 public  : true
@@ -38,6 +38,7 @@ latex   : false
 ## 마우스 제어
 
 - 마우스 커서의 위치를 얻거나 변경한다.
+
 ```javascript
 // 마우스 커서의 현재 좌표를 출력한다.
 alert(system.mouse.x + ',' + system.mouse.y)
@@ -50,13 +51,15 @@ system.mouse.y = 100
 ## 키보드 제어
 
 - 키보드를 입력한다.
+
 ```javascript
 // a키를 눌렀다 뗀 것처럼 이벤트를 발생시킨다.
 // VK.a 는 애드온인 VirtualKey.js에 정의된 상수값
 system.keyboard.down(VK.a);
 system.keyboard.up(VK.a);
 ```
-```
+
+```javascript
 // 문자열 "[space]"를 타이핑 한다.
 system.keyboard.typeString("[space]");
 ```javascript
@@ -71,13 +74,16 @@ system.keyboard.on(VK.space, function() {
 ## 스크린 제어
 
 - 스크린 내 특정 영역을 캡쳐한다.
+
 ```javascript
 // 화면의 0, 0, 500, 500 을 캡쳐
 var image = system.screen.capture(0, 0, 500, 500);
 // 캡쳐한 이미지를 파일로 저장 (bmp, jpg, png)
 image.save("./SavedImage.png");
 ```
+
 - 이미지를 다른 이미지와 비교하거나 포함 관계를 파악한다.
+
 ```javascript
 // image1 내에 image2 가 포함되었는지 찾아서 좌표를 반환한다.
 var coord = image1.findImage(image2);
@@ -87,6 +93,7 @@ console.log(coord.x + ", " + coord.y);
 ## 프로세스 제어
 
 - 특정 이름의 프로세스를 찾는다.
+
 ```javascript
 // 실행중인 MSBuild.exe를 모두 찾는다.
 var array = findProcesses("MSBuild.exe");
@@ -98,6 +105,7 @@ if (array.length > 0)
 ## 윈도우 제어
 
 - 특정 윈도우의 정보(좌표, 크기, 상태, ClassName 등)를 얻거나 변경한다.
+
 ```javascript
 var windows = findWindows("메모장");
 if (windows.length > 0) {
