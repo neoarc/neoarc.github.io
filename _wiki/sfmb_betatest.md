@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB Beta Test Wiki 
 summary : 
 date    : 2021-02-21 03:09:59 +0900
-updated : 2021-03-02 23:41:56 +0900
+updated : 2021-03-11 09:16:31 +0900
 tags    : sfmb_betatest 
 toc     : true
 public  : false
@@ -20,5 +20,6 @@ latex   : false
 * [[sfmb_betatest_community_rules]]
 * [[sfmb_betatest_roadmap]]
 * [[sfmb_betatest_version_history]]
+* [[sfmb_betatest_trouble_shooting]]
 * [[sfmb_betatest_faq]]
 * [[sfmb_betatest_tutorial]]
