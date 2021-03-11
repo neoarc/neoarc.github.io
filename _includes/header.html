@@ -66,20 +66,27 @@
 {% endif %}
 </head>
 <header class="header">
+{% if page.tags contains "sfmb_betatest" %}
+    <div>
+        <a class="site-title" href="/wiki/sfmb_betatest/">SFMB wiki</a>
+    </div>
+    <div>
+        <a class="site-title-right" href="/about/">me</a>
+    </div>
+{% else %}
     <div>
         <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
     <div>
         <a class="site-title-right" href="/about/">me</a>
     </div>
-    <!--
     <div>
         <a id="random-button" class="site-title-right" href="/wiki/index/#random" onClick="if(typeof random === 'function')random()">random</a>
     </div>
-    -->
     <div>
         <a class="site-title-right" href="/wiki/index/">wiki</a>
     </div>
+{% endif %}
     <!-- 구글 번역기 가젯 -->
     <div>
         <div class="site-title-right google_translate" id="google_translate_element"></div>
