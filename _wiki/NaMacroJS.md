@@ -3,7 +3,7 @@ layout  : wiki
 title   : NaMacroJS 
 summary : 
 date    : 2021-02-19 18:15:26 +0900
-updated : 2021-03-11 12:13:41 +0900
+updated : 2021-03-11 12:15:50 +0900
 tag     : my_project macro 자동화 매크로 
 toc     : true
 public  : true
@@ -62,8 +62,10 @@ system.keyboard.up(VK.a);
 ```javascript
 // 문자열 "[space]"를 타이핑 한다.
 system.keyboard.typeString("[space]");
-```javascript
+```
+
 - 핫키를 등록한다.
+
 ```javascript
 // spacebar를 누르면 [space]가 입력되도록 한다.
 system.keyboard.on(VK.space, function() {
