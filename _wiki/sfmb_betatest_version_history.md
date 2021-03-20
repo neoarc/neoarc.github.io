@@ -3,7 +3,7 @@ layout  : wiki
 title   : Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-02-23 16:42:58 +0900
+updated : 2021-03-21 02:52:36 +0900
 tag     : sfmb_betatest 
 toc     : true
 public  : false
@@ -168,5 +168,14 @@ latex   : false
 - Boomerang Mario
 - Liquid Layers
 - SubStage Door
+
+### 7.6 - New features part2 (WIP)
+- BGM Area
+- Poison Mushroom
+- Rotten Mushroom
+- Rotten Mushroom + Wing
+- Magic Ball
+- Angry Sun
+- ...
 
 #### [[sfmb_r6211]]{r6211 MarioArcade theme big update}
