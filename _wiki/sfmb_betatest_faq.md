@@ -3,7 +3,7 @@ layout  : wiki
 title   : Frequently Asked Questions 
 summary : 
 date    : 2021-02-22 00:24:37 +0900
-updated : 2021-03-18 13:37:20 +0900
+updated : 2021-03-21 02:58:45 +0900
 tags    : sfmb_betatest 
 toc     : true
 public  : false
@@ -37,6 +37,24 @@ latex   : false
 1. If you deleted core file such as `Mario.exe`, then force-update won't work.
 	- Then run `MarioDownloader` the bot sent you. 
 	- It will re-download missing files that you (or windows defender) deleted.
+
+#### Q. What should I do if I lose my login credentials? ( Password )
+
+- Game does not use password for login process.
+- If you lose your Discord account, you must contact me to link your new Discord account with your game account.
+
+#### Q. How do I change the keys to move / other?
+
+- Run `MarioConfig.exe`
+
+#### Q. Why is the game still in closed beta?
+
+- Complex issue (WIP)
+
+#### Q. Why do I need to have Discord open to log in?
+
+- Because game uses Discord Rich Presence to check your Discord ID.
+- It's best way to check user is REAL beta tester in server or not.
 
 # Please write comment to add contents!
 
