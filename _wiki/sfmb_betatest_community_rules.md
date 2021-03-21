@@ -138,6 +138,10 @@ The developer (neoarc) has his own reactions for requests. Do NOT use these:
 - <img src="https://discord.com/assets/263a7f4eeb6f69e46d969fa479188592.svg" width="16"> = Request under development
 - <img src="https://discord.com/assets/212e30e47232be03033a87dc58edaa95.svg" width="16"> = The request is complete.
 
+- If you're a new member and you don't follow the Bug/Request format you'll get a higher warning.
+	- Once: Warning (03)
+        - Twice: Kick
+
 ## Contribute
 
 Here is how you contribute to this game and the community. 
