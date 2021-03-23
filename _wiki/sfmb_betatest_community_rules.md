@@ -42,6 +42,7 @@ Please respect people in server for effective development & conversation.
 - Respect channel descriptions
 
 ## Recommended things
+- If you use Hamachi or VPN, make sure to close it before you open the game
 - Set your Discord profile picture to recognize you easily
 - Use a mentionable name
 - Stay online in the server as often as possible
