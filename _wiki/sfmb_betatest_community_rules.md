@@ -43,6 +43,7 @@ Please respect people in server for effective development & conversation.
 
 ## Recommended things
 - Set your Discord profile picture to recognize you easily
+- Use a mentionable name
 - Stay online in the server as often as possible
  
 ## Warning system
@@ -58,11 +59,11 @@ Please respect people in server for effective development & conversation.
 
 ## How do I finally become beta tester?
 1. Read all of rules(this page) carefully.
-2. After read all, Ask developer or moderator to promote.
-    - Don't ask twice or more, if there is no responce, just wait.
-    - This process is silent. From the userlist on the right side of the Discord server, make sure that you're in the BETA TESTER section.
+2. After read all, ask a developer or moderator to promote.
+    - Don't ask twice or more, if there is no response, just wait.
+    - This process is silent. You'll be notified by bot when you got promoted.
 3. Now you can download the game, go to #release channel and see the pinned post. 
-4. You can find the guide: `New download method - GUIDE`.
+4. You can find the new guide: `New download method - GUIDE`.
 
 ## After downloading The Downloader
 1. Extract the archive to a folder that ONLY contains English characters.
@@ -109,7 +110,7 @@ The developer has his own reactions for bug submissions. Do NOT use these:
 - <img src="https://discord.com/assets/8becd37ab9d13cdfe37c08c496a9def3.svg" width="16"> = It is not a bug.                    
 - <img src="https://discord.com/assets/212e30e47232be03033a87dc58edaa95.svg" width="16"> = The bug was already fixed.          
 - <img src="https://cdn.discordapp.com/emojis/452493235114213390.png?v=1" width="16"> = The bug is half-way at being fixed.
-- <img src="https://cdn.discordapp.com/emojis/303734892875743233.png?v=1" width="16"> = Can't understand this report.      
+- <img src="https://discord.com/assets/3e531d8e171629e9433db0bb431b2e12.svg" width="16"> = Can't understand this report.      
  
 A moderator may also be able to react with one of these if the bug report is faulty or plain bad.
 
@@ -123,24 +124,24 @@ A moderator may also be able to react with one of these if the bug report is fau
 ### Things you should have in mind
 - Full dump is much better than small dump
 	- it's more detailed and contains more information. Whenever possible, choose full dump.
+- If you're a new member and you don't follow the Bug/Request format you'll get a higher warning.
+- Once: Warning
+- Twice: Kick
 
 ## Request & Idea
 - You can request anything with peace of mind, but you must follow [template](#request-form).
 - Please try to avoid requesting things that were already requested.
 - You can request already requested things, but do not spam it.
-- A moderator can deny your request if it's plain bad.
 
-The developer (neoarc) has his own reactions for requests. Do NOT use these:
+The developer (neoarc) has his own reactions for requests. Do NOT use these (Mods can also reject a request if this doesn't follow the format / is plain badly):
 - <img src="https://discord.com/assets/0cfc29f75efcc78c7c38580fffe314ba.svg" width="16"> = The request was accepted.
 - <img src="https://discord.com/assets/8becd37ab9d13cdfe37c08c496a9def3.svg" width="16"> = The request was denied.
 - <img src="https://discord.com/assets/039d43e53c13e4adfc1ea88b7b563b9d.svg" width="16"> = It's already in the roadmap, do NOT request.
-- <img src="https://cdn.discordapp.com/emojis/303734892875743233.png?v=1" width="16"> = Can't understand the request, make it clearer.
+- <img src="https://discord.com/assets/3e531d8e171629e9433db0bb431b2e12.svg" width="16"> = Can't understand the request, make it clearer.
 - <img src="https://discord.com/assets/263a7f4eeb6f69e46d969fa479188592.svg" width="16"> = Request under development
 - <img src="https://discord.com/assets/212e30e47232be03033a87dc58edaa95.svg" width="16"> = The request is complete.
 
-- If you're a new member and you don't follow the Bug/Request format you'll get a higher warning.
-	- Once: Warning (03)
-        - Twice: Kick
+A moderator can deny your request if it's plain bad.
 
 ## Contribute
 
