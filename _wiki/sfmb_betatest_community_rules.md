@@ -3,7 +3,7 @@ layout  : wiki
 title   : Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-02-24 00:16:40 +0900
+updated : 2021-03-24 22:53:33 +0900
 tags    : sfmb_betatest
 toc     : true
 public  : false
@@ -83,6 +83,18 @@ Please respect people in server for effective development & conversation.
 - Do not try to hack the game's memory by using external tools (such as Cheat Engine)
 	- Game will detect it and then you'll lose your account.
 - Do not upload test stages (or bug stages) to the Stage World.
+
+## Stage creating
+
+### Stage uploading
+- Do not upload:
+	- Bug/Test Stages
+	- Has something that degrade/blame specific people
+	- That can, with creator's intenton, crash the game or make it cause lag
+	- Abusing something that makes stage impossible to be beaten.
+	- In these cases, stage moderators will ask you to edit the stage first.
+		- If nothing changes, the stages will be rated 0 
+		- Or deleted from stage world.
 
 ### Record video & Streaming
 - You can make or stream a video of this game.
