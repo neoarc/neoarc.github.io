@@ -6,13 +6,21 @@ first_draft:
     url: /wiki/first_draft
     updated: '2021-03-10 23:39:37 +0900'
     children: []
+i_found_unknown_malware:
+    type: wiki
+    title: '정체불명의 악성코드를 발견했다.'
+    summary: ""
+    parent: index
+    url: /wiki/i_found_unknown_malware
+    updated: '2021-03-30 16:48:03 +0900'
+    children: []
 index:
     type: wiki
     title: wiki
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-03-11 00:22:43 +0900'
+    updated: '2021-03-30 16:48:19 +0900'
     children: []
 my_wiki_google_translator:
     type: wiki
