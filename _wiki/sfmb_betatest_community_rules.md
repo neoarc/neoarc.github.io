@@ -3,8 +3,8 @@ layout  : wiki
 title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-03-31 00:44:15 +0900
-tags    : sfmb_betatest
+updated : 2021-03-31 00:54:05 +0900
+tags    : sfmb betatest
 toc     : true
 public  : true
 comment : true

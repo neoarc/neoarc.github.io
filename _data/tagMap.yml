@@ -10,7 +10,11 @@ macro:
     - {fileName: about_neoarc_macro_js}
 sfmb:
     - {fileName: about_super_fanmade_mario_bros}
+    - {fileName: sfmb_betatest}
     - {fileName: sfmb_exp_and_coin_table}
+    - {fileName: sfmb_frequently_asked_question}
+    - {fileName: sfmb_how_to_make_parallax_background}
+    - {fileName: sfmb_roadmap}
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}
     - {fileName: sfmb_version_history}
@@ -32,8 +36,6 @@ automation:
     - {fileName: power_automate_desktop}
 유틸리티:
     - {fileName: power_automate_desktop}
-sfmb_betatest:
-    - {fileName: sfmb_how_to_make_parallax_background}
 잡담:
     - {fileName: sleepy_moment}
 idle_talk:

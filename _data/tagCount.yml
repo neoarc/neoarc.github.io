@@ -27,10 +27,7 @@
     size: 2
 -
     name: sfmb
-    size: 5
--
-    name: sfmb_betatest
-    size: 1
+    size: 9
 -
     name: utility
     size: 1

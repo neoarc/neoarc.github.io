@@ -68,7 +68,7 @@ sfmb_betatest:
     summary: ""
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2021-03-31 00:44:03 +0900'
+    updated: '2021-03-31 00:54:33 +0900'
     children: [sfmb_betatest_community, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_roadmap, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
@@ -76,7 +76,7 @@ sfmb_betatest_community:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_betatest_community
-    updated: '2021-03-31 00:43:54 +0900'
+    updated: '2021-03-31 00:54:12 +0900'
     children: []
 sfmb_betatest_community_rules:
     type: wiki
@@ -84,7 +84,7 @@ sfmb_betatest_community_rules:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_betatest_community_rules
-    updated: '2021-03-31 00:44:15 +0900'
+    updated: '2021-03-31 00:54:05 +0900'
     children: []
 sfmb_exp_and_coin_table:
     type: wiki
@@ -100,7 +100,7 @@ sfmb_frequently_asked_question:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_frequently_asked_question
-    updated: '2021-03-31 00:45:04 +0900'
+    updated: '2021-03-31 00:54:51 +0900'
     children: [sfmb_exp_and_coin_table]
 sfmb_how_to_make_parallax_background:
     type: wiki
@@ -108,7 +108,7 @@ sfmb_how_to_make_parallax_background:
     summary: ""
     parent: sfmb_tutorial
     url: /wiki/sfmb_how_to_make_parallax_background
-    updated: '2021-03-31 00:45:23 +0900'
+    updated: '2021-03-31 00:53:23 +0900'
     children: []
 sfmb_roadmap:
     type: wiki
@@ -116,7 +116,7 @@ sfmb_roadmap:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_roadmap
-    updated: '2021-03-31 00:44:26 +0900'
+    updated: '2021-03-31 00:54:24 +0900'
     children: []
 sfmb_trouble_shooting:
     type: wiki
