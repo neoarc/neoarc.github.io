@@ -10,6 +10,7 @@ macro:
     - {fileName: about_neoarc_macro_js}
 sfmb:
     - {fileName: about_super_fanmade_mario_bros}
+    - {fileName: sfmb_exp_and_coin_table}
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}
     - {fileName: sfmb_version_history}

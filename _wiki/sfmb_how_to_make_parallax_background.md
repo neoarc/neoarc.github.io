@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : [SFMB] How to make parallax background
+title   : SFMB - How to make parallax background
 summary : 
 date    : 2021-03-02 23:44:35 +0900
-updated : 2021-03-31 00:34:39 +0900
+updated : 2021-03-31 00:45:23 +0900
 tag     : sfmb_betatest
 toc     : true
 public  : true

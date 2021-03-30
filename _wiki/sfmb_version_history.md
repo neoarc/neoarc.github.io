@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : [SFMB] Version History 
+title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-03-31 00:28:20 +0900
+updated : 2021-03-31 00:44:41 +0900
 tag     : sfmb 
 toc     : true
 public  : true

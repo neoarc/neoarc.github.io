@@ -64,83 +64,83 @@ power_automate_desktop:
     children: []
 sfmb_betatest:
     type: wiki
-    title: 'SFMB Wiki'
+    title: 'SFMB - Wiki'
     summary: ""
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2021-03-31 00:35:38 +0900'
+    updated: '2021-03-31 00:44:03 +0900'
     children: [sfmb_betatest_community, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_roadmap, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
-    title: '[SFMB] About Community'
+    title: 'SFMB - About Community'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_betatest_community
-    updated: '2021-03-31 00:25:35 +0900'
+    updated: '2021-03-31 00:43:54 +0900'
     children: []
 sfmb_betatest_community_rules:
     type: wiki
-    title: 'Community Rules'
+    title: 'SFMB - Community Rules'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_betatest_community_rules
-    updated: '2021-03-31 00:26:56 +0900'
+    updated: '2021-03-31 00:44:15 +0900'
     children: []
 sfmb_exp_and_coin_table:
     type: wiki
-    title: '[SFMB] Exp & Coin table'
+    title: 'SFMB - Exp & Coin table'
     summary: ""
-    parent: ""
+    parent: sfmb_frequently_asked_question
     url: /wiki/sfmb_exp_and_coin_table
-    updated: '2021-03-31 00:24:20 +0900'
+    updated: '2021-03-31 00:46:02 +0900'
     children: []
 sfmb_frequently_asked_question:
     type: wiki
-    title: '[SFMB] Frequently Asked Questions'
+    title: 'SFMB - Frequently Asked Questions'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_frequently_asked_question
-    updated: '2021-03-31 00:24:59 +0900'
-    children: []
+    updated: '2021-03-31 00:45:04 +0900'
+    children: [sfmb_exp_and_coin_table]
 sfmb_how_to_make_parallax_background:
     type: wiki
-    title: '[SFMB] How to make parallax background'
+    title: 'SFMB - How to make parallax background'
     summary: ""
     parent: sfmb_tutorial
     url: /wiki/sfmb_how_to_make_parallax_background
-    updated: '2021-03-31 00:34:39 +0900'
+    updated: '2021-03-31 00:45:23 +0900'
     children: []
 sfmb_roadmap:
     type: wiki
-    title: '[SFMB] Roadmap'
+    title: 'SFMB - Roadmap'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_roadmap
-    updated: '2021-03-31 00:27:53 +0900'
+    updated: '2021-03-31 00:44:26 +0900'
     children: []
 sfmb_trouble_shooting:
     type: wiki
-    title: '[SFMB] Trouble shooting'
+    title: 'SFMB - Trouble shooting'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_trouble_shooting
-    updated: '2021-03-31 00:35:02 +0900'
+    updated: '2021-03-31 00:44:55 +0900'
     children: []
 sfmb_tutorial:
     type: wiki
-    title: '[SFMB] Tutorials'
+    title: 'SFMB - Tutorials'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_tutorial
-    updated: '2021-03-31 00:35:13 +0900'
+    updated: '2021-03-31 00:45:14 +0900'
     children: [sfmb_how_to_make_parallax_background]
 sfmb_version_history:
     type: wiki
-    title: '[SFMB] Version History'
+    title: 'SFMB - Version History'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_version_history
-    updated: '2021-03-31 00:28:20 +0900'
+    updated: '2021-03-31 00:44:41 +0900'
     children: []
 sleepy_moment:
     type: wiki

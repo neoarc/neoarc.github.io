@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : [SFMB] Trouble shooting
+title   : SFMB - Trouble shooting
 summary : 
 date    : 2021-03-11 09:16:32 +0900
-updated : 2021-03-31 00:35:02 +0900
+updated : 2021-03-31 00:44:55 +0900
 tag     : sfmb
 toc     : true
 public  : true

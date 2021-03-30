@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : [SFMB] Frequently Asked Questions 
+title   : SFMB - Frequently Asked Questions 
 summary : 
 date    : 2021-02-22 00:24:37 +0900
-updated : 2021-03-31 00:24:59 +0900
+updated : 2021-03-31 00:45:04 +0900
 tags    : sfmb 
 toc     : true
 public  : true

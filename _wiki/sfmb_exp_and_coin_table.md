@@ -1,14 +1,14 @@
 ---
 layout  : wiki
-title   : [SFMB] Exp & Coin table 
+title   : SFMB - Exp & Coin table 
 summary : 
 date    : 2021-03-31 00:21:45 +0900
-updated : 2021-03-31 00:24:20 +0900
-tag     : 
+updated : 2021-03-31 00:46:02 +0900
+tag     : sfmb
 toc     : true
 public  : true
 comment : true
-parent  : 
+parent  : [[sfmb_frequently_asked_question]]
 latex   : false
 ---
 * TOC
