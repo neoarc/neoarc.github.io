@@ -24,8 +24,8 @@ updated : 2021-03-30 16:48:19 +0900
 
 # 프로젝트
 
-* [[NaMacroJS]]
-* [[sfmb]]{SFMB}
+* [[about_neoarc_macro_js]]
+* [[about_super_fanmade_mario_bros]]{SFMB}
 
 # 프로그래밍
 

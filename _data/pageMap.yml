@@ -1,3 +1,19 @@
+about_neoarc_macro_js:
+    type: wiki
+    title: NaMacroJS
+    summary: ""
+    parent: index
+    url: /wiki/about_neoarc_macro_js
+    updated: '2021-03-31 00:01:48 +0900'
+    children: []
+about_super_fanmade_mario_bros:
+    type: wiki
+    title: 'SFMB = Super fanmade Mario Bros.'
+    summary: ""
+    parent: index
+    url: /wiki/about_super_fanmade_mario_bros
+    updated: '2021-03-11 00:43:38 +0900'
+    children: []
 first_draft:
     type: wiki
     title: 'First Draft'
@@ -38,14 +54,6 @@ my_wiki_todolist:
     url: /wiki/my_wiki_todolist
     updated: '2021-03-10 14:55:21 +0900'
     children: []
-NaMacroJS:
-    type: wiki
-    title: NaMacroJS
-    summary: ""
-    parent: index
-    url: /wiki/NaMacroJS
-    updated: '2021-03-11 12:15:50 +0900'
-    children: []
 power_automate_desktop:
     type: wiki
     title: 'Power Automate Desktop'
@@ -53,14 +61,6 @@ power_automate_desktop:
     parent: index
     url: /wiki/power_automate_desktop
     updated: '2021-03-11 00:22:31 +0900'
-    children: []
-sfmb:
-    type: wiki
-    title: 'SFMB = Super fanmade Mario Bros.'
-    summary: ""
-    parent: index
-    url: /wiki/sfmb
-    updated: '2021-03-11 00:43:38 +0900'
     children: []
 sleepy_moment:
     type: wiki

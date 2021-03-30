@@ -3,11 +3,11 @@ layout  : wiki
 title   : SFMB Beta Test Wiki 
 summary : 
 date    : 2021-02-21 03:09:59 +0900
-updated : 2021-03-11 09:16:31 +0900
+updated : 2021-03-30 23:27:52 +0900
 tags    : sfmb_betatest 
 toc     : true
 public  : false
-comment : false
+comment : true
 parent  : 
 latex   : false
 ---
