@@ -3,11 +3,11 @@ layout  : wiki
 title   : Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-03-24 22:53:33 +0900
+updated : 2021-03-31 00:26:56 +0900
 tags    : sfmb_betatest
 toc     : true
-public  : false
-comment : false
+public  : true
+comment : true
 parent  : [[sfmb_betatest]]
 latex   : false
 ---

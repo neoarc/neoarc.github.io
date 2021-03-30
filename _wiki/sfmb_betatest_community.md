@@ -1,13 +1,13 @@
 ---
 layout  : wiki
-title   : About Community 
+title   : [SFMB] About Community 
 summary : 
 date    : 2021-02-21 23:38:26 +0900
-updated : 2021-02-22 11:25:59 +0900
+updated : 2021-03-31 00:25:35 +0900
 tags    : sfmb_betatest 
 toc     : true
-public  : false
-comment : false
+public  : true
+comment : true
 parent  : [[sfmb_betatest]] 
 latex   : false
 ---

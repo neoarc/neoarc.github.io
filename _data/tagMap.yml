@@ -10,6 +10,9 @@ macro:
     - {fileName: about_neoarc_macro_js}
 sfmb:
     - {fileName: about_super_fanmade_mario_bros}
+    - {fileName: sfmb_trouble_shooting}
+    - {fileName: sfmb_tutorial}
+    - {fileName: sfmb_version_history}
 악성코드:
     - {fileName: i_found_unknown_malware}
 google_translator:
@@ -28,6 +31,8 @@ automation:
     - {fileName: power_automate_desktop}
 유틸리티:
     - {fileName: power_automate_desktop}
+sfmb_betatest:
+    - {fileName: sfmb_how_to_make_parallax_background}
 잡담:
     - {fileName: sleepy_moment}
 idle_talk:

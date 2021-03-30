@@ -8,7 +8,7 @@ tag     : sfmb_betatest
 toc     : true
 public  : false
 comment : false
-parent  : [[sfmb_betatest_version_history]]
+parent  : [[sfmb_version_history]]
 latex   : false
 ---
 * TOC
