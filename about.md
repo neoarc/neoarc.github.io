@@ -63,7 +63,13 @@ latex: true
 * NaMacroJS
 * SFMB
 
-# Buy me a coffee
+# 기부하기
+
+## Paypal
+
+https://paypal.me/neoarc?locale.x=ko_KR
+
+## Buy me a coffee
 
 {% raw %}
 <p>
