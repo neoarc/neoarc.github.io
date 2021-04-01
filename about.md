@@ -65,15 +65,28 @@ latex: true
 
 # 기부하기
 
-## Paypal
-
-https://paypal.me/neoarc?locale.x=ko_KR
-
-## Buy me a coffee
-
+- Buy me a coffee
 {% raw %}
 <p>
 	<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="neoarc" data-color="#FFDD00" data-emoji=""  data-font="Comic" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 </p>
+{% endraw %}
+
+- Buy me a coffee via PayPal
+{% raw %}
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<table>
+<tr><td><input type="hidden" name="on0" value="Buy me a coffee via PayPal">Buy me a coffee via PayPal</td></tr><tr><td><select name="os0">
+	<option value="1 Cup">1 Cup $3.00 USD</option>
+	<option value="3 Cup">3 Cup $9.00 USD</option>
+	<option value="5 Cup">5 Cup $15.00 USD</option>
+	<option value="10 Cup">10 Cup $30.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/ko_KR/i/scr/pixel.gif" width="1" height="1">
+</form>
 {% endraw %}
 
