@@ -63,4 +63,12 @@ latex: true
 * NaMacroJS
 * SFMB
 
+# Buy me a coffee
+
+{% raw }
+<p>
+    <img class="coffee-icon" style="max-width: 11px" src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
+    <a href="https://www.buymeacoffee.com/neoarc" target="_blank">이 사람에게 커피한잔 선물하기</a>
+</p>
+{% endraw }
 
