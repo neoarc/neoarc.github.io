@@ -36,7 +36,15 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-03-30 16:48:19 +0900'
+    updated: '2021-04-02 12:45:10 +0900'
+    children: []
+my_wiki_donation:
+    type: wiki
+    title: '기부하기 버튼을 달았다'
+    summary: ""
+    parent: index
+    url: /wiki/my_wiki_donation
+    updated: '2021-04-02 14:58:00 +0900'
     children: []
 my_wiki_google_translator:
     type: wiki

@@ -1,4 +1,7 @@
 -
+    name: 기부하기
+    size: 1
+-
     name: 매크로
     size: 1
 -
@@ -15,6 +18,9 @@
     size: 1
 -
     name: automation
+    size: 1
+-
+    name: donation
     size: 1
 -
     name: gadget
