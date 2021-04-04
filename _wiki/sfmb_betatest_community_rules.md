@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-03-31 00:54:05 +0900
+updated : 2021-04-04 23:58:29 +0900
 tags    : sfmb betatest
 toc     : true
 public  : true
@@ -212,6 +212,8 @@ Here is how you contribute to this game and the community.
 Contributions to resources (sprites, sounds) for this game must use the ResourceCommitter program. 
 - You can find it in #resource-sprite channel's pinned post.
 - When uploading resources through ResourceCommitter, all messages are automatically created, so there is no form.
+- But due to limit of discord embed, please keep 'changed' and 'reason' short
+	- If you must describe longly, write it in txt file and upload it manually.
 
 # EOF
 Congraturations! You read all rules.
