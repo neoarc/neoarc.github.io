@@ -6,7 +6,7 @@ public  : true
 comment : false
 regenerate: true
 adsense : true
-updated : 2021-04-02 12:45:10 +0900
+updated : 2021-04-14 12:28:25 +0900
 ---
 
 # 이 싸이트
@@ -32,6 +32,10 @@ updated : 2021-04-02 12:45:10 +0900
 
 ## C++
 ## Node.js
+
+# 게임
+
+* [[games_i_have_enjoyed]]{내가 즐겨했던 게임들}
 
 # 즐겨쓰는 유틸리티
 

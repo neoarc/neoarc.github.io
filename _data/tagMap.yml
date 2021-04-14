@@ -18,6 +18,8 @@ sfmb:
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}
     - {fileName: sfmb_version_history}
+게임:
+    - {fileName: games_i_have_enjoyed}
 악성코드:
     - {fileName: i_found_unknown_malware}
 기부하기:

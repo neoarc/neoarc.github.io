@@ -22,6 +22,14 @@ first_draft:
     url: /wiki/first_draft
     updated: '2021-03-10 23:39:37 +0900'
     children: []
+games_i_have_enjoyed:
+    type: wiki
+    title: '내가 즐겨했던 게임들'
+    summary: ""
+    parent: index
+    url: /wiki/games_i_have_enjoyed
+    updated: '2021-04-14 13:47:45 +0900'
+    children: []
 i_found_unknown_malware:
     type: wiki
     title: '정체불명의 악성코드를 발견했다.'
@@ -36,7 +44,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-04-02 12:45:10 +0900'
+    updated: '2021-04-14 12:28:25 +0900'
     children: []
 my_wiki_donation:
     type: wiki
