@@ -1,25 +1,4 @@
 -
-    name: 게임
-    size: 1
--
-    name: 기부하기
-    size: 1
--
-    name: 매크로
-    size: 1
--
-    name: 악성코드
-    size: 1
--
-    name: 유틸리티
-    size: 1
--
-    name: 자동화
-    size: 2
--
-    name: 잡담
-    size: 1
--
     name: automation
     size: 1
 -
@@ -61,3 +40,24 @@
 -
     name: wiki
     size: 3
+-
+    name: 게임
+    size: 1
+-
+    name: 기부하기
+    size: 1
+-
+    name: 매크로
+    size: 1
+-
+    name: 악성코드
+    size: 1
+-
+    name: 유틸리티
+    size: 1
+-
+    name: 자동화
+    size: 2
+-
+    name: 잡담
+    size: 1

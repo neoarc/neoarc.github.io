@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-03-31 00:44:41 +0900
+updated : 2021-04-30 23:50:16 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -174,8 +174,14 @@ latex   : false
 - Poison Mushroom
 - Rotten Mushroom
 - Rotten Mushroom + Wing
-- Magic Ball
-- Angry Sun
+- ~~Magic Ball~~ (Pending)
+- ~~Angry Sun~~ (Pending)
 - ...
 
 #### [[sfmb_r6211]]{r6211 MarioArcade theme big update}
+
+#### r6235 MarioInKA, CandyArcade theme big update
+
+#### r6431 SMO theme big update
+
+### 7.7 - Endless Challenge
