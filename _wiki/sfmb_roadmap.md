@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Roadmap
 summary : 
 date    : 2021-02-22 00:23:38 +0900
-updated : 2021-03-31 00:54:24 +0900
+updated : 2021-05-02 02:04:56 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -41,7 +41,7 @@ Rewritten after leak v5.8 and SMMD issue.
 - [ ] Underwater action improvement
 - [ ] Effect objects 
 - [X] New PiranhaPlant directions: Up to Down, Horizontal
-- [ ] BossFight with BGM (imagine room of BoomBoom)
+- [X] BossFight with BGM (imagine room of BoomBoom) -> BGM Area
 - [ ] Track
 - [ ] Online StagePack (StagePackWorld?)
 - [ ] Merge E(xtended) themes with original.
