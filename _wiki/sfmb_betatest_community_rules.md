@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-04-05 00:32:28 +0900
+updated : 2021-05-11 09:29:53 +0900
 tags    : sfmb betatest
 toc     : true
 public  : true
@@ -96,12 +96,13 @@ Please respect people in server for effective development & conversation.
 		- If nothing changes, the stages will be rated 0 
 		- Or deleted from stage world.
 
-### Record video & Streaming
+## Record/Upload video & Streaming
 - You can make or stream a video of this game.
   	- You are responsible for any risks caused by the video (e.g. your account is warned, etc.)
 - When you upload or stream a video, you must share the link on the #video channel.
 - The title of the game must be clearly stated.
 	- For example, the title should not be called Mario Maker.
+- Don't refer to this game as [Mario Maker for PC] for the purpose of increasing views or any other purpose.
 
 ## Bug-reporting
 I found a bug, what should I do?
