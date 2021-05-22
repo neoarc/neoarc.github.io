@@ -36,8 +36,9 @@ latex   : false
 7. Add a new one with a name to refer to later. like overworld1 i recommend putting a number on each end because sometimes it doesn't work without it.
 	- ![5](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678521-0dc5c680-7bbe-11eb-89e5-641f80611c49.png)
 8. Do the same with the others. 
-	- However, the clouds on the png. should also be as high as in the game *eg.* `NSMBWii`.
+	- However, the clouds on the png. should also be as high as in the game *eg.* `NSMBWii`. **Or** push it up with the .sprite offset.
 	- ![6](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678519-0dc5c680-7bbe-11eb-84d0-381bb8c356a2.png)
+	- ![cloud offset](https://user-images.githubusercontent.com/40640441/118363332-25450680-b594-11eb-93f1-a62958c315f4.png)
 
 # 3. Map editor
 1. Press the **Manage GameThemes** button in the mapeditor.
