@@ -14,6 +14,9 @@
     name: 유틸리티
     size: 1
 -
+    name: 일기
+    size: 1
+-
     name: 자동화
     size: 2
 -

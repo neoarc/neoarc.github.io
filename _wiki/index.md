@@ -6,7 +6,7 @@ public  : true
 comment : false
 regenerate: true
 adsense : true
-updated : 2021-04-14 12:28:25 +0900
+updated : 2021-05-25 18:25:55 +0900
 ---
 
 # 이 싸이트
@@ -17,6 +17,10 @@ updated : 2021-04-14 12:28:25 +0900
 	* [[my_wiki_todolist]]{아직 남은 할 일들}
 	* [[my_wiki_google_translator]]{구글 번역기를 달았다}
 	* [[my_wiki_donation]]{기부하기 버튼을 달았다}
+
+# 일기
+
+* [[20210525]]{2021.05.25}
 
 # 잡담
 

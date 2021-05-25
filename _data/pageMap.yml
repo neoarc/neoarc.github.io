@@ -1,3 +1,11 @@
+'20210525':
+    type: wiki
+    title: '점심을 당분간 굶어보기로 했다.'
+    summary: ""
+    parent: wiki
+    url: /wiki/20210525
+    updated: '2021-05-25 18:25:42 +0900'
+    children: []
 about_neoarc_macro_js:
     type: wiki
     title: NaMacroJS
@@ -44,7 +52,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-04-14 12:28:25 +0900'
+    updated: '2021-05-25 18:25:55 +0900'
     children: []
 my_wiki_donation:
     type: wiki
