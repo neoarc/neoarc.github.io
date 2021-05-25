@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-04-30 23:50:16 +0900
+updated : 2021-05-25 18:07:51 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -169,7 +169,7 @@ latex   : false
 - Liquid Layers
 - SubStage Door
 
-### 7.6 - New features part2 (WIP)
+### 7.6 - New features part2
 - BGM Area
 - Poison Mushroom
 - Rotten Mushroom
@@ -184,4 +184,4 @@ latex   : false
 
 #### r6431 SMO theme big update
 
-### 7.7 - Endless Challenge
+### 7.7 - Challenge Mode
