@@ -32,10 +32,9 @@ latex   : false
 	- ![4 2](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678507-0b636c80-7bbe-11eb-9ee9-6157f94d8f75.png)
 5. Rewrite the offset to `0`.
 	- ![4 1](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678524-0e5e5d00-7bbe-11eb-90b8-45606f601478.png)
-6. Delete the animation
-7. Add a new one with a name to refer to later. like overworld1 i recommend putting a number on each end because sometimes it doesn't work without it.
+6. Delete the animation if it exists. (you only need it if you want to animate)
 	- ![5](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678521-0dc5c680-7bbe-11eb-89e5-641f80611c49.png)
-8. Do the same with the others. 
+8. Do the same with the others.
 	- However, the clouds on the png. should also be as high as in the game *eg.* `NSMBWii`. **Or** push it up with the .sprite offset.
 	- ![6](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678519-0dc5c680-7bbe-11eb-84d0-381bb8c356a2.png)
 	- ![cloud offset](https://user-images.githubusercontent.com/40640441/118363332-25450680-b594-11eb-93f1-a62958c315f4.png)
@@ -44,11 +43,11 @@ latex   : false
 1. Press the **Manage GameThemes** button in the mapeditor.
 	- ![7](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678518-0d2d3000-7bbe-11eb-8af8-74484d40bd37.png)
 2. You need to set the `Theme Version` to **2**
+	- You can only rewrite if you have permission for the theme or it’s a custom theme.
 	- ![8](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678517-0c949980-7bbe-11eb-8269-8ab5fd57b2f6.png)
 3. Press the **Edit ThemeDefinitions**.
-	- You can only rewrite if you have permission for the theme or it’s a custom theme.
 4. Press **Background Layer**. 
-5. You must enter here the names you entered for the animation names.
+5. You need to enter the file names here without the word: layer. *eg:* `overworld1`.
 	- ![9](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678506-0acad600-7bbe-11eb-9336-ffb279060458.png)
 	- Just a few tips:
 		1.  If you are making a parallax background, I recommend setting most layers to `bottom` and if possible, set the clouds and underground parts to `bottom & repeat`. If you are doing it well, it will look the most natural.		
