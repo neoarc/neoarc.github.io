@@ -20,7 +20,7 @@ about_super_fanmade_mario_bros:
     summary: ""
     parent: index
     url: /wiki/about_super_fanmade_mario_bros
-    updated: '2021-03-11 00:43:38 +0900'
+    updated: '2021-06-17 10:20:03 +0900'
     children: []
 first_draft:
     type: wiki
@@ -76,7 +76,7 @@ my_wiki_todolist:
     summary: '종립님 위키에서는 동작하지만 내 위키에서 동작하지 않는 것들'
     parent: index
     url: /wiki/my_wiki_todolist
-    updated: '2021-03-10 14:55:21 +0900'
+    updated: '2021-06-17 10:14:28 +0900'
     children: []
 power_automate_desktop:
     type: wiki
@@ -140,7 +140,7 @@ sfmb_roadmap:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_roadmap
-    updated: '2021-05-02 02:04:56 +0900'
+    updated: '2021-06-17 10:08:51 +0900'
     children: []
 sfmb_trouble_shooting:
     type: wiki
@@ -164,7 +164,7 @@ sfmb_version_history:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_version_history
-    updated: '2021-05-25 18:07:51 +0900'
+    updated: '2021-06-17 10:09:55 +0900'
     children: []
 sleepy_moment:
     type: wiki

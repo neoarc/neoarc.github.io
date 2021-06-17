@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-05-25 18:07:51 +0900
+updated : 2021-06-17 10:09:55 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -185,3 +185,9 @@ latex   : false
 #### r6431 SMO theme big update
 
 ### 7.7 - Challenge Mode
+
+### 7.8 - More display options
+- Aspect ratio
+- Better fullscreen
+- Borderless window
+- Sprite lode mode

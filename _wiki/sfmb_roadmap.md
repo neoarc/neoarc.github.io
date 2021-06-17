@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Roadmap
 summary : 
 date    : 2021-02-22 00:23:38 +0900
-updated : 2021-05-02 02:04:56 +0900
+updated : 2021-06-17 10:08:51 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -51,6 +51,10 @@ Rewritten after leak v5.8 and SMMD issue.
 - [ ] Add New high-performance render engine
 - [ ] Improve Background objects (movable, custom, ..)
 - [ ] Separate sfx channels
+- [X] Display improvements
+	- [X] Aspect Ratio
+	- [X] Better Fullscreen
+	- [X] Borderless Window
 
 # v3
 

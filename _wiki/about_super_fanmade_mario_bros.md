@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB = Super fanmade Mario Bros.
 summary : 
 date    : 2021-02-18 19:15:52 +0900
-updated : 2021-03-11 00:43:38 +0900
+updated : 2021-06-17 10:20:03 +0900
 tag     : my_project sfmb
 toc     : true
 public  : true
@@ -71,7 +71,8 @@ comment : true
 
 ## 6.0
 
-- 6.4에 누군가에 의해 서버가 해킹되었다.
+- 6.3 또는 6.4에 누군가에 의해 서버가 해킹되었다.
+	- 여담으로 이 '누군가'는 1달정도 후에 나와 접촉하여 사과했고, 지금은 친구가 되었다.
 - Firebase의 주요 데이터가 모두 삭제되었다.
 
 ## 7.0
