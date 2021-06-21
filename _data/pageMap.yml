@@ -134,6 +134,14 @@ sfmb_how_to_make_parallax_background:
     url: /wiki/sfmb_how_to_make_parallax_background
     updated: '2021-03-31 00:53:23 +0900'
     children: []
+sfmb_how_to_use_sprite_editor:
+    type: wiki
+    title: 'SFMB - How to use sprite editor'
+    summary: ""
+    parent: sfmb_tutorial
+    url: /wiki/sfmb_how_to_use_sprite_editor
+    updated: '2021-06-22 01:37:00 +0900'
+    children: []
 sfmb_roadmap:
     type: wiki
     title: 'SFMB - Roadmap'
@@ -156,8 +164,8 @@ sfmb_tutorial:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_tutorial
-    updated: '2021-03-31 00:45:14 +0900'
-    children: [sfmb_how_to_make_parallax_background]
+    updated: '2021-06-22 01:27:13 +0900'
+    children: [sfmb_how_to_make_parallax_background, sfmb_how_to_use_sprite_editor]
 sfmb_version_history:
     type: wiki
     title: 'SFMB - Version History'
