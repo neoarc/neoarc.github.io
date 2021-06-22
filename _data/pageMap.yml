@@ -6,6 +6,14 @@
     url: /wiki/20210525
     updated: '2021-05-25 18:25:42 +0900'
     children: []
+'20210622':
+    type: wiki
+    title: '내 노트북이 죽어가고 있다.'
+    summary: ""
+    parent: wiki
+    url: /wiki/20210622
+    updated: '2021-06-22 15:45:47 +0900'
+    children: []
 about_neoarc_macro_js:
     type: wiki
     title: NaMacroJS
@@ -52,7 +60,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-05-25 18:25:55 +0900'
+    updated: '2021-06-22 15:27:37 +0900'
     children: []
 my_wiki_donation:
     type: wiki
