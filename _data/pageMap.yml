@@ -100,7 +100,7 @@ sfmb_betatest:
     summary: ""
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2021-03-31 00:54:33 +0900'
+    updated: '2021-06-24 00:03:04 +0900'
     children: [sfmb_betatest_community, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_roadmap, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
@@ -180,7 +180,7 @@ sfmb_version_history:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_version_history
-    updated: '2021-06-17 10:09:55 +0900'
+    updated: '2021-06-24 00:04:55 +0900'
     children: []
 sleepy_moment:
     type: wiki
