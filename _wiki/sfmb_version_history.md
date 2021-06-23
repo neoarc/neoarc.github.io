@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-06-17 10:09:55 +0900
+updated : 2021-06-24 00:04:55 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -191,3 +191,6 @@ latex   : false
 - Better fullscreen
 - Borderless window
 - Sprite lode mode
+
+#### r6600 SMB3 theme big update
+- And SMB3E have removed
