@@ -3,7 +3,7 @@ layout  : wiki
 title   : NaMacroJS 
 summary : 
 date    : 2021-02-19 18:15:26 +0900
-updated : 2021-03-31 00:01:48 +0900
+updated : 2021-06-25 09:32:50 +0900
 tag     : my_project macro 자동화 매크로 
 toc     : true
 public  : true
@@ -16,8 +16,9 @@ latex   : false
 
 # What is it?
 
-- NaMacro는 Google V8 엔진을 사용하는 Windows 용 매크로 플랫폼(...이 목표였던 응용프로그램) 이다.
-- 이해가 안된다면 AutoIt이나 AutoHotkey를 떠올리면 되겠다.
+- NaMacro는 Javascript로 작성한 스크립트를 구동하는 매크로 플랫폼(...이 목표였던 응용프로그램)이다.
+- 유사한 프로그램으로는 AutoIt이나 AutoHotkey가 있다.
+- Windows 전용이다.
 
 # 개발 동기
 
@@ -118,6 +119,13 @@ if (windows.length > 0) {
     console.log("state = " + windows[0].state);
 }
 ```
+
+- 윈도우를 생성하여 UI로 사용할 수 있다.
+
+## 그 외의 유틸리티
+
+- Text to speech를 지원한다. (Windows에 기본 탑재된 엔진 사용)
+- GMacro로 작성된 매크로 데이터를 NaMacroJS 스크립트로 변환할 수 있다.
 
 ## JavaScript를 통한 스크립팅
 

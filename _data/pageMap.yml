@@ -1,10 +1,10 @@
 '20210525':
     type: wiki
-    title: '점심을 당분간 굶어보기로 했다.'
+    title: '당분간 점심을 굶어보기로 했다.'
     summary: ""
     parent: wiki
     url: /wiki/20210525
-    updated: '2021-05-25 18:25:42 +0900'
+    updated: '2021-06-25 09:41:14 +0900'
     children: []
 '20210622':
     type: wiki
@@ -20,7 +20,7 @@ about_neoarc_macro_js:
     summary: ""
     parent: index
     url: /wiki/about_neoarc_macro_js
-    updated: '2021-03-31 00:01:48 +0900'
+    updated: '2021-06-25 09:32:50 +0900'
     children: []
 about_super_fanmade_mario_bros:
     type: wiki
@@ -60,7 +60,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-06-22 15:27:37 +0900'
+    updated: '2021-06-25 09:34:08 +0900'
     children: []
 my_wiki_donation:
     type: wiki

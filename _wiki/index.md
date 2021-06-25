@@ -6,7 +6,7 @@ public  : true
 comment : false
 regenerate: true
 adsense : true
-updated : 2021-06-22 15:27:37 +0900
+updated : 2021-06-25 09:34:08 +0900
 ---
 
 # 이 싸이트
@@ -20,8 +20,8 @@ updated : 2021-06-22 15:27:37 +0900
 
 # 일기
 
-* [[20210525]]{2021.05.25}
-* [[20210622]]{2021.06.22}
+* [[20210525]]{2021.05.25 - 당분간 점심을 굶어보기로 했다.}
+* [[20210622]]{2021.06.22 - 내 노트북이 죽어가고 있다.}
 
 # 잡담
 
@@ -30,7 +30,7 @@ updated : 2021-06-22 15:27:37 +0900
 
 # 프로젝트
 
-* [[about_neoarc_macro_js]]
+* [[about_neoarc_macro_js]]{NaMacroJS}
 * [[about_super_fanmade_mario_bros]]{SFMB}
 
 # 프로그래밍
