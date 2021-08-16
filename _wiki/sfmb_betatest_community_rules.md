@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-05-11 09:29:53 +0900
+updated : 2021-08-17 00:12:55 +0900
 tags    : sfmb betatest
 toc     : true
 public  : true
@@ -59,9 +59,11 @@ Please respect people in server for effective development & conversation.
 
 ## How do I finally become beta tester?
 1. Read all of rules(this page) carefully.
-2. After read all, ask a developer or moderator to promote.
-    - Don't ask twice or more, if there is no response, just wait.
-    - This process is silent. You'll be notified by bot when you got promoted.
+2. After read all, mention or send direct message to one of online moderator in #general channel.
+	- IMPORTANT: Reading the rules is very important.
+        	- The rules are written for community order, and violating them may result in you being kicked from the server. 
+	- Don't ask twice or more, if there is no response, just wait.
+	- This process is silent. You'll be notified by bot when you got promoted.
 3. Now you can download the game, go to #release channel and see the pinned post. 
 4. You can find the new guide: `New download method - GUIDE`.
 
