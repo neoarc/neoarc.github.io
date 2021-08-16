@@ -124,7 +124,7 @@ sfmb_betatest_community_rules:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_betatest_community_rules
-    updated: '2021-08-17 00:12:55 +0900'
+    updated: '2021-08-17 01:30:34 +0900'
     children: []
 sfmb_exp_and_coin_table:
     type: wiki
