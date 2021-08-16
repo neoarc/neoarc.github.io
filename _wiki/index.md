@@ -6,7 +6,7 @@ public  : true
 comment : false
 regenerate: true
 adsense : true
-updated : 2021-06-25 09:34:08 +0900
+updated : 2021-08-17 00:28:04 +0900
 ---
 
 # 이 싸이트
@@ -27,6 +27,8 @@ updated : 2021-06-25 09:34:08 +0900
 
 * [[sleepy_moment]]{일 해야하는데 졸릴 때}
 * [[i_found_unknown_malware]]{정체불명의 악성코드를 발견했다}
+* [[useless_memory_i_forget_again_and_again]]{계속해서 잊는 중요하지 않은 기억}
+* [[bodychanges_due_to_aging]]{나이듦에서 오는 신체변화}
 
 # 프로젝트
 
