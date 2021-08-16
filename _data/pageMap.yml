@@ -32,11 +32,11 @@ about_super_fanmade_mario_bros:
     children: []
 bodychanges_due_to_aging:
     type: wiki
-    title: ""
+    title: '나이듦에서 오는 신체 변화'
     summary: ""
     parent: ""
     url: /wiki/bodychanges_due_to_aging
-    updated: '2021-08-17 01:29:31 +0900'
+    updated: '2021-08-17 01:46:28 +0900'
     children: []
 first_draft:
     type: wiki
@@ -68,7 +68,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-08-17 00:28:04 +0900'
+    updated: '2021-08-17 01:46:12 +0900'
     children: []
 my_wiki_donation:
     type: wiki
@@ -200,11 +200,11 @@ sleepy_moment:
     children: []
 useless_memory_i_forget_again_and_again:
     type: wiki
-    title: ""
+    title: '계속해서 잊혀지는 그닥 중요하지 않은 기억'
     summary: ""
     parent: ""
     url: /wiki/useless_memory_i_forget_again_and_again
-    updated: '2021-08-17 01:16:32 +0900'
+    updated: '2021-08-17 01:46:01 +0900'
     children: []
 wiki_i_have_tried:
     type: wiki

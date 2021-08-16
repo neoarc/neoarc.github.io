@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 
+title   : 계속해서 잊혀지는 그닥 중요하지 않은 기억
 summary : 
 date    : 2021-08-17 00:28:07 +0900
-updated : 2021-08-17 01:16:32 +0900
+updated : 2021-08-17 01:46:01 +0900
 tag     : 
 toc     : true
 public  : true
