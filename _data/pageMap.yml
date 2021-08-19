@@ -28,7 +28,7 @@ about_super_fanmade_mario_bros:
     summary: ""
     parent: index
     url: /wiki/about_super_fanmade_mario_bros
-    updated: '2021-06-17 10:20:03 +0900'
+    updated: '2021-08-19 12:44:36 +0900'
     children: []
 bodychanges_due_to_aging:
     type: wiki
@@ -36,7 +36,7 @@ bodychanges_due_to_aging:
     summary: ""
     parent: ""
     url: /wiki/bodychanges_due_to_aging
-    updated: '2021-08-17 01:46:28 +0900'
+    updated: '2021-08-19 12:47:38 +0900'
     children: []
 first_draft:
     type: wiki
@@ -204,7 +204,7 @@ useless_memory_i_forget_again_and_again:
     summary: ""
     parent: ""
     url: /wiki/useless_memory_i_forget_again_and_again
-    updated: '2021-08-17 01:46:01 +0900'
+    updated: '2021-08-19 12:28:02 +0900'
     children: []
 wiki_i_have_tried:
     type: wiki
@@ -220,5 +220,5 @@ wiki_on_github_io:
     summary: ""
     parent: index
     url: /wiki/wiki_on_github_io
-    updated: '2021-03-11 00:17:58 +0900'
+    updated: '2021-08-19 12:19:34 +0900'
     children: []

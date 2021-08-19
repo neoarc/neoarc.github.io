@@ -50,6 +50,10 @@ automation:
     - {fileName: sleepy_moment}
 idle_talk:
     - {fileName: sleepy_moment}
+노래:
+    - {fileName: useless_memory_i_forget_again_and_again}
+음악:
+    - {fileName: useless_memory_i_forget_again_and_again}
 github.io:
     - {fileName: wiki_on_github_io}
 vimwiki:

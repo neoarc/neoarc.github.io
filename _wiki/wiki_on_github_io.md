@@ -3,7 +3,7 @@ layout  : wiki
 title   : Windows 환경에서 Vimwiki + Jekyll + github.io 위키 구축하기
 summary : 
 date    : 2021-02-19 14:15:46 +0900
-updated : 2021-03-11 00:17:58 +0900
+updated : 2021-08-19 12:19:34 +0900
 tag     : wiki github.io vimwiki jekyll
 toc     : true
 public  : true
@@ -76,6 +76,16 @@ latex   : false
 - md 포맷으로 문서를 작성하여 커밋하면, 자동으로 페이지가 생성된다. 
 - 따라서 Vimwiki 편집환경이 완성되면, 문서를 쓰고 커밋만 하면 된다.
 	- 또는 github에서 직접 파일을 수정하고 커밋해도 상관없긴 하다.
+
+## 매번 커밋해야 하나?
+
+- 그렇지 않다.
+- 루트 폴더에서 다음 명령으로 로컬에서도 빌드하고 웹페이지를 띄워볼 수 있다.
+```
+bundle exec jekyll server --incremental --trace
+```
+- 한번 띄워놓은 상태에서는 실시간으로 수정한 파일도 바로바로 반영되므로 좀 복잡한 문서를 작성할때는 이쪽이 용이하다.
+- github에 커밋할 경우 발생하는 빌드까지 약 2~3분을 기다려야 한다.
 
 # 편집환경을 구축하자.
 
