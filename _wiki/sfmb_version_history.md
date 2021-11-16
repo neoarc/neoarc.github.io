@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-06-24 00:04:55 +0900
+updated : 2021-11-16 10:00:28 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -194,3 +194,21 @@ latex   : false
 
 #### r6600 SMB3 theme big update
 - And SMB3E have removed
+
+### 7.9 - New environments
+- Thunderstorm
+- Silhouette
+
+### 7.10 - Camera improvement
+- Camera boundary object
+- Scrolling method changed (from smb1)
+
+### 7.11 - PixelArt NPC
+- Customizable NPC
+
+### 7.12 - Quick Resize (MapEditor)
+- Anchor for resize support
+- SemiSolids, ConveyorBelt, Lifts, Wind, Rain, BGM Area, BillBlaster, Vine, CastleWall
+
+### 7.13 - Mini game for challenge bonus
+- Line-up mini game

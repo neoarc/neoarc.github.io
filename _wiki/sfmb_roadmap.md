@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Roadmap
 summary : 
 date    : 2021-02-22 00:23:38 +0900
-updated : 2021-06-17 10:08:51 +0900
+updated : 2021-11-16 10:35:41 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -18,10 +18,14 @@ latex   : false
 
 Rewritten after leak v5.8 and SMMD issue.
 - [X] Release SpriteEditor V2 
-- [X] Improve PixelArt object
+- [O] Improve PixelArt object
     - [X] 1x scale
 	- [X] Expand limits
 	- [X] Animation
+    - [ ] CustomObject using PixelArt
+    - [ ] CustomEnemy using PixelArt
+    - [ ] CustomCostume using PixelArt
+    - [ ] CustomItem using PixelArt ???
 - [O] Inventory & Shop 
     - [X] Colors for AvatarPaint
     - [X] Animation avatar
@@ -32,18 +36,20 @@ Rewritten after leak v5.8 and SMMD issue.
     - [ ] Aggressive(?) PiranhaPlant
     - [ ] New POW blocks
     - [ ] Parachute, More? (We need poll for this)
+    - [ ] Frozen objects (eg. Frozen coin)
+    - [ ] Track
 - [ ] Speedrun + Ghostrun mode 
 	- [X] Improve transaction for enjoy speedrun more
 	- [ ] Implement Ghostrun mode
 - [ ] StagePack improvement
 	- [ ] Exclusive title image
-	- [ ] Simple-WorldMap, ...
+	- [ ] Simple-WorldMap
+		- [ ] Bonus game
+	- [ ] Online StagePack
 - [ ] Underwater action improvement
 - [ ] Effect objects 
 - [X] New PiranhaPlant directions: Up to Down, Horizontal
 - [X] BossFight with BGM (imagine room of BoomBoom) -> BGM Area
-- [ ] Track
-- [ ] Online StagePack (StagePackWorld?)
 - [ ] Merge E(xtended) themes with original.
 - [ ] Implement MarioGiant sprite instead of scaled MarioBig
 	- [X] Test
@@ -51,10 +57,13 @@ Rewritten after leak v5.8 and SMMD issue.
 - [ ] Add New high-performance render engine
 - [ ] Improve Background objects (movable, custom, ..)
 - [ ] Separate sfx channels
-- [X] Display improvements
+- [O] Display improvements
 	- [X] Aspect Ratio
 	- [X] Better Fullscreen
 	- [X] Borderless Window
+- [o] Mini games
+	- [X] Line-up (Spinning spade)
+	- [ ] More
 
 # v3
 
