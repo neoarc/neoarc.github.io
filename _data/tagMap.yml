@@ -28,6 +28,8 @@ sfmb:
     - {fileName: games_i_have_enjoyed}
 악성코드:
     - {fileName: i_found_unknown_malware}
+nodejs:
+    - {fileName: make_nodejs_server_on_oracle_cloud}
 기부하기:
     - {fileName: my_wiki_donation}
 donation:

@@ -6,7 +6,7 @@ public  : true
 comment : false
 regenerate: true
 adsense : true
-updated : 2021-11-15 16:59:40 +0900
+updated : 2021-12-21 23:03:21 +0900
 ---
 
 # 이 싸이트
@@ -41,6 +41,7 @@ updated : 2021-11-15 16:59:40 +0900
 
 ## C++
 ## Node.js
+* [[make_nodejs_server_on_oracle_cloud]]{Oracle Cloud Free tier에 node.js 서버 구축하기}
 
 # 게임
 

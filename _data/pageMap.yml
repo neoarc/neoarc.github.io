@@ -84,7 +84,15 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-11-15 16:59:40 +0900'
+    updated: '2021-12-21 23:03:21 +0900'
+    children: []
+make_nodejs_server_on_oracle_cloud:
+    type: wiki
+    title: 'Oracle Cloud Free tier에 Node.js 서버 구축하기'
+    summary: ""
+    parent: ""
+    url: /wiki/make_nodejs_server_on_oracle_cloud
+    updated: '2021-12-22 01:42:43 +0900'
     children: []
 my_wiki_donation:
     type: wiki
