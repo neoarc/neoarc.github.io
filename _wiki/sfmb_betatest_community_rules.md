@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2021-08-17 01:30:34 +0900
+updated : 2022-01-09 01:50:47 +0900
 tags    : sfmb betatest
 toc     : true
 public  : true
@@ -59,11 +59,15 @@ Please respect people in server for effective development & conversation.
 
 ## How do I finally become beta tester?
 1. Read all of rules(this page) carefully.
-2. After read all, mention or send direct message to one of online moderator in #general channel.
-	- IMPORTANT: Reading the rules is very important. The rules are written for community order, and violating them may result in you being kicked from the server. 
-	- Don't ask twice or more, if there is no response, just wait.
-	- This process is silent. You'll be notified by bot when you got promoted.
-3. Now you can download the game, go to #release channel and see the pinned post. 
+2. After read all, you can try quiz.
+	- Go #play_with_bot channel and type `!quiz` and then quiz starts immediately.
+       	- SFMB-Bot will ask you at least 7 questions via DM. You just have to choose the answer to the quiz.
+	- Each quiz is given 60 seconds, and any more than 60 seconds is considered a failure.
+	- You will be promoted to beta tester only if you get all the given questions correct.
+	- Your quiz test results (scores) are shared on #beta-tester channel.
+	- If you fail the quiz, you will not be kicked from the server, and you can try again. But if you keep failing in a row, the manager can kick you out. 
+	- If you are unable to proceed smoothly due to an error in the quiz system, please contact neoarc. 
+3. After you passed quiz, now you can download the game, go to #release channel and see the pinned post. 
 4. You can find the new guide: `New download method - GUIDE`.
 
 ## After downloading The Downloader
