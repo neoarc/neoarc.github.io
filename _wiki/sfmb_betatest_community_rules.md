@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2022-01-09 01:50:47 +0900
+updated : 2022-01-09 01:53:46 +0900
 tags    : sfmb betatest
 toc     : true
 public  : true
@@ -62,7 +62,8 @@ Please respect people in server for effective development & conversation.
 2. After read all, you can try quiz.
 	- Go #play_with_bot channel and type `!quiz` and then quiz starts immediately.
        	- SFMB-Bot will ask you at least 7 questions via DM. You just have to choose the answer to the quiz.
-	- Each quiz is given 60 seconds, and any more than 60 seconds is considered a failure.
+		- Each quiz is given 60 seconds, and any more than 60 seconds is considered a failure.
+		- Every questions are written by English. (Sorry, other languages are not prepared.)
 	- You will be promoted to beta tester only if you get all the given questions correct.
 	- Your quiz test results (scores) are shared on #beta-tester channel.
 	- If you fail the quiz, you will not be kicked from the server, and you can try again. But if you keep failing in a row, the manager can kick you out. 
