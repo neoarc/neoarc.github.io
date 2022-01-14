@@ -21,16 +21,21 @@ latex   : false
 - JoyToKey, ScpToolKit 등 컨트롤러 호환을 위한 다른 프로그램이 설치되어 있다면, 해당 프로그램을 완전히 종료한 뒤 설정을 진행해주세요.
 - 먼저, USB 또는 Bluetooth를 사용해 PC와 컨트롤러를 연결합니다.
 - `Steam > 설정 > 컨트롤러 > 일반 컨트롤러 구성` 메뉴로 진입합니다.
+  ![컨트롤러 설정 화면](https://user-images.githubusercontent.com/55905774/149447681-6d555c75-e76e-4585-b2b6-e3074ed1a5ed.png)
 - 발견된 컨트롤러에 Nintendo Switch Pro 컨트롤러가 감지되는지 확인해주세요.
 - `Switch Pro 설정 지원`, `Nintendo 버튼 레이아웃 사용` 옵션을 체크한 뒤 창을 닫습니다.
+  ![컨트롤러 구성 화면](https://user-images.githubusercontent.com/55905774/149447766-8c73347a-ee5e-464b-9efa-abd6d4c7f277.png)
 - 아래 링크를 브라우저에 복사 & 붙여넣기한 뒤 접속해주세요:
 ```
 steam://controllerconfig/413080/2717023654
 ```
 - 바인딩 구성 미리보기 화면이 뜨면, `바인딩 설정 적용` 버튼을 눌러줍니다.
+  ![바인딩 구성 미리보기 화면](https://user-images.githubusercontent.com/55905774/149447879-224433c8-1e7b-4003-8e81-20eb47a7cd73.png)
 - `완료` 버튼을 클릭해 창을 닫습니다.
+  ![바인딩 구성 적용 화면](https://user-images.githubusercontent.com/55905774/149448029-7c28a1f3-dddf-410e-9949-fb98c145520a.png)
 - SFMB 설치 폴더 내의 `MarioConfig.exe` 파일을 실행해줍니다.
 - Controller 속성의 `Key for Spin-Jump`, `Key for Mid-air spin` 항목을 `0 (Use SpinJump key)`로 변경해줍니다.
+  ![SFMB 설정 화면](https://user-images.githubusercontent.com/55905774/149448115-80cdd0fd-4659-457e-a387-e327e4947b2c.png)
 - `Save` 버튼을 눌러 설정을 저장해줍니다.
 - 설정이 끝났습니다!
 
@@ -53,5 +58,6 @@ steam://controllerconfig/413080/2717023654
 
 1. `Steam > 설정 > 컨트롤러 > 일반 컨트롤러 구성` 메뉴로 진입합니다.
 2. 발견된 컨트롤러 항목에서 Pro 컨트롤러를 선택하면, 우측에 상세 정보가 나타납니다. 여기서 `보정하기` 버튼을 클릭해주세요.
+  ![컨트롤러 구성 화면 - 상세](https://user-images.githubusercontent.com/55905774/149448233-f4ed46cb-9315-48e0-82b8-f7f83730b167.png)
 3. `전체 자동 보정 시작` 버튼을 클릭한 뒤, 화면의 지시에 따릅니다.
 4. 보정 완료 메시지가 뜨면 `확인` 버튼을 눌러 창을 닫습니다.
