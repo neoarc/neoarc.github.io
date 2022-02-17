@@ -148,7 +148,7 @@ sfmb_betatest_community_rules:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_betatest_community_rules
-    updated: '2022-01-09 01:53:46 +0900'
+    updated: '2022-02-17 10:42:43 +0900'
     children: []
 sfmb_exp_and_coin_table:
     type: wiki
@@ -173,6 +173,14 @@ sfmb_how_to_make_parallax_background:
     parent: sfmb_tutorial
     url: /wiki/sfmb_how_to_make_parallax_background
     updated: '2021-03-31 00:53:23 +0900'
+    children: []
+sfmb_how_to_setup_pro_controller:
+    type: wiki
+    title: 'SFMB - Nintendo Switch Pro 컨트롤러 설정 가이드'
+    summary: null
+    parent: sfmb_tutorial
+    url: /wiki/sfmb_how_to_setup_pro_controller
+    updated: null
     children: []
 sfmb_how_to_use_sprite_editor:
     type: wiki
@@ -205,7 +213,7 @@ sfmb_tutorial:
     parent: sfmb_betatest
     url: /wiki/sfmb_tutorial
     updated: '2021-06-22 01:27:13 +0900'
-    children: [sfmb_how_to_make_parallax_background, sfmb_how_to_use_sprite_editor]
+    children: [sfmb_how_to_make_parallax_background, sfmb_how_to_setup_pro_controller, sfmb_how_to_use_sprite_editor]
 sfmb_version_history:
     type: wiki
     title: 'SFMB - Version History'

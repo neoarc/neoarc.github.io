@@ -19,6 +19,7 @@ sfmb:
     - {fileName: sfmb_exp_and_coin_table}
     - {fileName: sfmb_frequently_asked_question}
     - {fileName: sfmb_how_to_make_parallax_background}
+    - {fileName: sfmb_how_to_setup_pro_controller}
     - {fileName: sfmb_how_to_use_sprite_editor}
     - {fileName: sfmb_roadmap}
     - {fileName: sfmb_trouble_shooting}

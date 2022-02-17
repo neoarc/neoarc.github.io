@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2022-01-09 01:53:46 +0900
+updated : 2022-02-17 10:42:43 +0900
 tags    : sfmb betatest
 toc     : true
 public  : true
@@ -130,7 +130,8 @@ The developer has his own reactions for bug submissions. Do NOT use these:
 - <img src="https://discord.com/assets/212e30e47232be03033a87dc58edaa95.svg" width="16"> = The bug was already fixed.          
 - <img src="https://cdn.discordapp.com/emojis/452493235114213390.png?v=1" width="16"> = The bug is half-way at being fixed.
 - <img src="https://discord.com/assets/3e531d8e171629e9433db0bb431b2e12.svg" width="16"> = Can't understand this report.      
- 
+* NOTE: Sorry, link of images are broken now. I will fix it later.
+
 A moderator may also be able to react with one of these if the bug report is faulty or plain bad.
 
 ### My game crashed. What should I do?
@@ -139,6 +140,13 @@ A moderator may also be able to react with one of these if the bug report is fau
 3. Go to your game folder and upload the dump to a site (Mediafire, Google Drive or Mega for example)
 4. In #bug, follow the [bug report template](#bug-reporting-form), describing everything you did before crash
 5. Post the link of dump file there.
+
+- Please include the following in your crash bug report.
+	- version of the game
+	- The situation at the moment of the crash (as detailed as I remember)
+		- If you tried to play a specific level, information such as level title, ID, etc.
+		- Whether you also encountered this issue when playing other levels
+	- Does it crash again on similar retries, i.e. every time? 
 
 ### Things you should have in mind
 - Full dump is much better than small dump
