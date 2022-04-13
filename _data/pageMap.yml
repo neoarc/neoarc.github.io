@@ -30,6 +30,14 @@
     url: /wiki/20211115
     updated: '2021-11-15 17:45:52 +0900'
     children: []
+'20220413':
+    type: wiki
+    title: '통풍 환자가 되었다.'
+    summary: ""
+    parent: ""
+    url: /wiki/20220413
+    updated: '2022-04-13 11:08:31 +0900'
+    children: []
 about_neoarc_macro_js:
     type: wiki
     title: NaMacroJS
@@ -84,7 +92,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-12-21 23:03:21 +0900'
+    updated: '2022-04-13 10:17:22 +0900'
     children: []
 make_nodejs_server_on_oracle_cloud:
     type: wiki
