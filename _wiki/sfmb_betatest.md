@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Wiki 
 summary : 
 date    : 2021-02-21 03:09:59 +0900
-updated : 2021-06-24 00:03:04 +0900
+updated : 2022-04-13 09:54:38 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -34,3 +34,4 @@ latex   : false
 * [[sfmb_trouble_shooting]]{Trouble shooting}
 * [[sfmb_frequently_asked_question]]{Frequently asked questions}
 * [[sfmb_tutorial]]{Tutorials}
+* [[sfmb_level_difficulty]]{Level difficulty calculation}
