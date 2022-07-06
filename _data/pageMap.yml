@@ -140,7 +140,7 @@ sfmb_betatest:
     summary: ""
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2022-07-07 00:52:53 +0900'
+    updated: '2022-07-07 01:25:08 +0900'
     children: [sfmb_betatest_community, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_rating, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
@@ -253,6 +253,14 @@ sfmb_version_history:
     parent: sfmb_betatest
     url: /wiki/sfmb_version_history
     updated: '2021-11-16 10:00:28 +0900'
+    children: []
+sfmb_why_do_you_like_this_game:
+    type: wiki
+    title: 'SFMB - Why do you like this game?'
+    summary: ""
+    parent: ""
+    url: /wiki/sfmb_why_do_you_like_this_game
+    updated: '2022-07-07 01:45:17 +0900'
     children: []
 sleepy_moment:
     type: wiki

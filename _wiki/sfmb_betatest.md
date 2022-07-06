@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Wiki 
 summary : 
 date    : 2021-02-21 03:09:59 +0900
-updated : 2022-07-07 00:52:53 +0900
+updated : 2022-07-07 01:25:08 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -18,6 +18,7 @@ latex   : false
 
 * Shorten name of Super Fanmade Mario Bros.
 * Currently it's known as `Mario Multiverse`
+* [[sfmb_why_do_you_like_this_game]]{Why do you like this game?}
 
 # Beta test community
 

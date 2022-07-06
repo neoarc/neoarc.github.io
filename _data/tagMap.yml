@@ -28,6 +28,7 @@ sfmb:
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}
     - {fileName: sfmb_version_history}
+    - {fileName: sfmb_why_do_you_like_this_game}
 게임:
     - {fileName: games_i_have_enjoyed}
 악성코드:
