@@ -23,6 +23,7 @@ sfmb:
     - {fileName: sfmb_how_to_setup_pro_controller}
     - {fileName: sfmb_how_to_use_sprite_editor}
     - {fileName: sfmb_level_difficulty}
+    - {fileName: sfmb_mapeditor_guide}
     - {fileName: sfmb_roadmap}
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}

@@ -140,8 +140,8 @@ sfmb_betatest:
     summary: ""
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2022-05-25 13:46:26 +0900'
-    children: [sfmb_betatest_community, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_roadmap, sfmb_stage_rating, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
+    updated: '2022-07-07 00:52:53 +0900'
+    children: [sfmb_betatest_community, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_rating, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
     title: 'SFMB - About Community'
@@ -205,6 +205,14 @@ sfmb_level_difficulty:
     parent: sfmb_betatest
     url: /wiki/sfmb_level_difficulty
     updated: '2022-04-13 09:55:10 +0900'
+    children: []
+sfmb_mapeditor_guide:
+    type: wiki
+    title: 'SFMB - Map Editor guide'
+    summary: ""
+    parent: sfmb_betatest
+    url: /wiki/sfmb_mapeditor_guide
+    updated: '2022-07-07 01:22:54 +0900'
     children: []
 sfmb_roadmap:
     type: wiki
