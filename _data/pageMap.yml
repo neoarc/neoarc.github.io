@@ -38,6 +38,22 @@
     url: /wiki/20220413
     updated: '2022-04-13 11:08:31 +0900'
     children: []
+'20220917':
+    type: wiki
+    title: '죽어가는 유튜브 채널을 살리기 위한 몸부림'
+    summary: ""
+    parent: ""
+    url: /wiki/20220917
+    updated: '2022-09-26 11:59:20 +0900'
+    children: []
+'20220922':
+    type: wiki
+    title: '갑작스레 차를 바꾸게 되었다.'
+    summary: ""
+    parent: ""
+    url: /wiki/20220922
+    updated: '2022-09-27 16:35:08 +0900'
+    children: []
 about_neoarc_macro_js:
     type: wiki
     title: NaMacroJS
@@ -92,7 +108,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2022-04-13 10:17:22 +0900'
+    updated: '2022-09-26 11:46:47 +0900'
     children: []
 make_nodejs_server_on_oracle_cloud:
     type: wiki
@@ -176,11 +192,11 @@ sfmb_frequently_asked_question:
     children: [sfmb_exp_and_coin_table]
 sfmb_how_to_make_parallax_background:
     type: wiki
-    title: 'SFMB - How to make parallax background'
+    title: 'SFMB - How to make parallax or simple backgrounds'
     summary: ""
     parent: sfmb_tutorial
     url: /wiki/sfmb_how_to_make_parallax_background
-    updated: '2021-03-31 00:53:23 +0900'
+    updated: '2022-08-23 08:23:23 +0900'
     children: []
 sfmb_how_to_setup_pro_controller:
     type: wiki
