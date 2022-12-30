@@ -47,18 +47,18 @@ latex   : false
 5. You need to enter the file names here without the word "layer". *e.g:* `overworld1`.
 	- ![9](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678506-0acad600-7bbe-11eb-9336-ffb279060458.png)
 	- Just a few tips:
-		1.  I recommend setting most layers to `bottom` and if possible, set the clouds and underground parts to `bottom & repeat`. If you do it right, it will look the most natural.		
+		1. I recommend setting most layers to `bottom` and if possible, set the clouds and underground parts to `bottom & repeat`. If you do it right, it will look the most natural.		
 		2. I also recommend that if you're working with parallax, create a separate sky layer that is just as high as the game window and set it to `top and bottom`, **OR** clear the sky color from the background and set a custom sky color in the editor because then the color of the sky will change with wind, rain and lightnings.
 			- ![tipp2](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678503-0a323f80-7bbe-11eb-874a-4fb85e6f0e29.png)
 		4. But this is just my (author, not wiki owner) opinion, surely it can be solved differently to make it look nice, this must be experienced.
 6. Adjust the scroll ratio around as it is in the original game, or as you like.
-	- There is an option to make the scroll ratio x and y different, but this can cause an unnatural look and should only be used in very specific cases.
+	- There is an option to make the scroll ratio x and y different, but this can cause a very unnatural look and should only be used in very specific cases.
 	- ![10](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678512-0bfc0300-7bbe-11eb-8a9d-03736c36f45d.png)
 7. Now you have to enter the same names for the layers in order (the first one is at the back) separated by commas without spaces.
 	- ![11](/post-img/wiki/sfmb_betatest_how_to_make_parallax_background/109678510-0bfc0300-7bbe-11eb-950b-fca590cb76a7.png)
 
 # FarBackground
-- FarBackground is an obslote way of creating backgrounds, please try to avoid them.
+- FarBackground is an obsolete way of creating backgrounds, please try to avoid them.
 - If you're replacing farbackgrounds, be sure to include a file called `FarBackground{the name of the theme}.png.removed`
 
 # Fin.
