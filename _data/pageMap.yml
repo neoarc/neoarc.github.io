@@ -54,6 +54,14 @@
     url: /wiki/20220922
     updated: '2022-09-27 16:35:08 +0900'
     children: []
+'20230509':
+    type: wiki
+    title: ISTJ-T
+    summary: ""
+    parent: ""
+    url: /wiki/20230509
+    updated: '2023-05-09 19:29:40 +0900'
+    children: []
 about_neoarc_macro_js:
     type: wiki
     title: NaMacroJS
@@ -108,7 +116,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2022-09-26 11:46:47 +0900'
+    updated: '2023-05-09 19:07:35 +0900'
     children: []
 make_nodejs_server_on_oracle_cloud:
     type: wiki
