@@ -17,6 +17,7 @@ macro:
 sfmb:
     - {fileName: about_super_fanmade_mario_bros}
     - {fileName: sfmb_betatest}
+    - {fileName: sfmb_contribute_sprite}
     - {fileName: sfmb_exp_and_coin_table}
     - {fileName: sfmb_frequently_asked_question}
     - {fileName: sfmb_how_to_make_parallax_background}
@@ -25,6 +26,7 @@ sfmb:
     - {fileName: sfmb_level_difficulty}
     - {fileName: sfmb_mapeditor_guide}
     - {fileName: sfmb_roadmap}
+    - {fileName: sfmb_sprite_index}
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}
     - {fileName: sfmb_version_history}
@@ -55,6 +57,8 @@ automation:
     - {fileName: power_automate_desktop}
 유틸리티:
     - {fileName: power_automate_desktop}
+sfmb-sprite:
+    - {fileName: sfmb_sprite_index}
 잡담:
     - {fileName: sleepy_moment}
 idle_talk:

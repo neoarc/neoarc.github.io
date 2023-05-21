@@ -63,7 +63,10 @@
     size: 1
 -
     name: sfmb
-    size: 14
+    size: 16
+-
+    name: sfmb-sprite
+    size: 1
 -
     name: utility
     size: 1

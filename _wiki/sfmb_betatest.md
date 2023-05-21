@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Wiki 
 summary : 
 date    : 2021-02-21 03:09:59 +0900
-updated : 2022-07-07 01:25:08 +0900
+updated : 2023-05-22 01:42:44 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -38,3 +38,9 @@ latex   : false
 * [[sfmb_tutorial]]{Tutorials}
 * [[sfmb_level_difficulty]]{Level difficulty calculation}
 * [[sfmb_stage_rating]]{Stage rating}
+
+# Contribution
+
+* [[sfmb_contribute_sprite]]{Sprite}
+
+

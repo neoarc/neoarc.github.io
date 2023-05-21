@@ -184,11 +184,11 @@ sfmb_betatest_community_rules:
     children: []
 sfmb_contribute_sprite:
     type: wiki
-    title: 'Contribution sprite'
+    title: 'Contribution - sprite part'
     summary: ""
     parent: ""
     url: /wiki/sfmb_contribute_sprite
-    updated: '2023-05-22 01:53:48 +0900'
+    updated: '2023-05-22 03:24:13 +0900'
     children: []
 sfmb_exp_and_coin_table:
     type: wiki
@@ -253,6 +253,14 @@ sfmb_roadmap:
     parent: sfmb_betatest
     url: /wiki/sfmb_roadmap
     updated: '2021-11-16 10:35:41 +0900'
+    children: []
+sfmb_sprite_index:
+    type: wiki
+    title: 'Sprite index definition'
+    summary: ""
+    parent: ""
+    url: /wiki/sfmb_sprite_index
+    updated: '2023-05-22 03:40:14 +0900'
     children: []
 sfmb_stage_rating:
     type: wiki
