@@ -164,7 +164,7 @@ sfmb_betatest:
     summary: ""
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2022-07-07 01:25:08 +0900'
+    updated: '2023-05-22 01:42:44 +0900'
     children: [sfmb_betatest_community, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_rating, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
@@ -181,6 +181,14 @@ sfmb_betatest_community_rules:
     parent: sfmb_betatest
     url: /wiki/sfmb_betatest_community_rules
     updated: '2022-02-17 10:42:43 +0900'
+    children: []
+sfmb_contribute_sprite:
+    type: wiki
+    title: 'Contribution sprite'
+    summary: ""
+    parent: ""
+    url: /wiki/sfmb_contribute_sprite
+    updated: '2023-05-22 01:53:48 +0900'
     children: []
 sfmb_exp_and_coin_table:
     type: wiki
@@ -316,5 +324,5 @@ wiki_on_github_io:
     summary: ""
     parent: index
     url: /wiki/wiki_on_github_io
-    updated: '2021-08-19 12:19:34 +0900'
+    updated: '2023-05-22 02:41:23 +0900'
     children: []

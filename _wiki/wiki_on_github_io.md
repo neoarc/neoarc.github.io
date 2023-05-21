@@ -3,7 +3,7 @@ layout  : wiki
 title   : Windows 환경에서 Vimwiki + Jekyll + github.io 위키 구축하기
 summary : 
 date    : 2021-02-19 14:15:46 +0900
-updated : 2021-08-19 12:19:34 +0900
+updated : 2023-05-22 02:41:23 +0900
 tag     : wiki github.io vimwiki jekyll
 toc     : true
 public  : true
@@ -39,7 +39,7 @@ latex   : false
 - 종립님의 블로그 파일들을 열어보면 html 파일들이 일반 html이 아닌, React 스크립트나 jsp 처럼, 다른 언어가 섞여있는 것을 볼 수 있었다.
 	- 이 파일들은 Jekyll을 통해 빌드하면 최종의 정적 웹페이지가 된다.
 - 따라서 간단한 스크립트 언어로, 쉽게(?) 웹페이지를 띄울수 있다고 생각하면 되겠다.
-- github.io도 Jekyll을 지원하고 있다.
+- (위에 적었지만) github.io도 Jekyll을 지원하고 있다.
 
 # 시작해보자.
 
@@ -84,6 +84,15 @@ latex   : false
 ```
 bundle exec jekyll server --incremental --trace
 ```
+	- 추가: 이를 위해 Ruby와 Jekyll을 먼저 설치해야 한다.
+		- Ruby 다운로드 사이트에서 Ruby + Devkit 2.7.8 버전을 설치했다.
+		- Ruby를 모두 설치한 후에는 Jekyll을 설치했다.
+		```
+		gem install jekyll bundler
+		```
+		```
+		bundle install
+		```
 - 한번 띄워놓은 상태에서는 실시간으로 수정한 파일도 바로바로 반영되므로 좀 복잡한 문서를 작성할때는 이쪽이 용이하다.
 - github에 커밋할 경우 발생하는 빌드까지 약 2~3분을 기다려야 한다.
 
