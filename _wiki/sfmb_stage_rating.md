@@ -4,7 +4,7 @@ title   : Stage rating
 summary : 
 date    : 2022-05-25 13:46:27 +0900
 updated : 2022-05-25 14:05:53 +0900
-tag     : 
+tag     : sfmb
 toc     : true
 public  : true
 parent  : sfmb_betatest 
