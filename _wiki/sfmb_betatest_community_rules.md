@@ -4,7 +4,7 @@ title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
 updated : 2022-02-17 10:42:43 +0900
-tags    : sfmb betatest
+tags    : sfmb
 toc     : true
 public  : true
 comment : true
