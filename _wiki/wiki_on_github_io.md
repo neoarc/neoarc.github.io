@@ -3,7 +3,7 @@ layout  : wiki
 title   : Windows 환경에서 Vimwiki + Jekyll + github.io 위키 구축하기
 summary : 
 date    : 2021-02-19 14:15:46 +0900
-updated : 2023-05-22 02:41:23 +0900
+updated : 2023-05-25 16:46:59 +0900
 tag     : wiki github.io vimwiki jekyll
 toc     : true
 public  : true
@@ -85,7 +85,7 @@ latex   : false
 bundle exec jekyll server --incremental --trace
 ```
 	- 추가: 이를 위해 Ruby와 Jekyll을 먼저 설치해야 한다.
-		- Ruby 다운로드 사이트에서 Ruby + Devkit 2.7.8 버전을 설치했다.
+		- [Ruby 다운로드 사이트](https://rubyinstaller.org/downloads/)에서 Ruby + Devkit 2.7.8 버전을 설치했다.
 		- Ruby를 모두 설치한 후에는 Jekyll을 설치했다.
 		```
 		gem install jekyll bundler
