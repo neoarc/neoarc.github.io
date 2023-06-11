@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Roadmap
 summary : 
 date    : 2021-02-22 00:23:38 +0900
-updated : 2021-11-16 10:35:41 +0900
+updated : 2023-06-12 02:13:05 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -15,15 +15,15 @@ latex   : false
 {:toc}
 
 # Latest version
+Those in *bold* have a higher priority.
 
-Rewritten after leak v5.8 and SMMD issue.
 - [X] Release SpriteEditor V2 
 - [O] Improve PixelArt object
     - [X] 1x scale
 	- [X] Expand limits
 	- [X] Animation
     - [ ] CustomObject using PixelArt
-    - [ ] CustomEnemy using PixelArt
+    - [ ] *CustomEnemy using PixelArt*
     - [ ] CustomCostume using PixelArt
     - [ ] CustomItem using PixelArt ???
 - [O] Inventory & Shop 
@@ -31,22 +31,22 @@ Rewritten after leak v5.8 and SMMD issue.
     - [X] Animation avatar
     - [ ] 'Expose stage to top' ticket (Pending)
     - [X] Change in-game-name
-- [ ] Some new enemies/objects/power ups
+- [O] Some new enemies/objects/power ups
     - [ ] SpikeTop
-    - [ ] Aggressive(?) PiranhaPlant
-    - [ ] New POW blocks
+    - [X] Aggressive(?) PiranhaPlant
+    - [X] New POW blocks
     - [ ] Parachute, More? (We need poll for this)
     - [ ] Frozen objects (eg. Frozen coin)
     - [ ] Track
 - [ ] Speedrun + Ghostrun mode 
 	- [X] Improve transaction for enjoy speedrun more
 	- [ ] Implement Ghostrun mode
-- [ ] StagePack improvement
+- [ ] *StagePack improvement*
 	- [ ] Exclusive title image
 	- [ ] Simple-WorldMap
 		- [ ] Bonus game
 	- [ ] Online StagePack
-- [ ] Underwater action improvement
+- [X] Underwater action improvement
 - [ ] Effect objects 
 - [X] New PiranhaPlant directions: Up to Down, Horizontal
 - [X] BossFight with BGM (imagine room of BoomBoom) -> BGM Area
@@ -64,6 +64,8 @@ Rewritten after leak v5.8 and SMMD issue.
 - [o] Mini games
 	- [X] Line-up (Spinning spade)
 	- [ ] More
+- [ ] Quality of life
+	- [ ] *Joypad plug & play*
 
 # v3
 
