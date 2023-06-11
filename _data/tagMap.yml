@@ -27,6 +27,7 @@ sfmb:
     - {fileName: sfmb_mapeditor_guide}
     - {fileName: sfmb_roadmap}
     - {fileName: sfmb_sprite_index}
+    - {fileName: sfmb_stage_rating}
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}
     - {fileName: sfmb_version_history}

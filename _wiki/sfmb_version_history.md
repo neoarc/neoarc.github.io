@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2021-11-16 10:00:28 +0900
+updated : 2023-06-12 02:06:28 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -212,3 +212,36 @@ latex   : false
 
 ### 7.13 - Mini game for challenge bonus
 - Line-up mini game
+
+### 7.14 - Memory handling improvement
+- To prevent challenge crash
+
+### 7.15 - Alternative menu BGMs
+
+### 7.16 - Joypad improvement
+
+### 7.17 - Banzai Bill & Blaster
+
+### 7.18 - Super Jump (ability flag)
+
+### 7.19 - Bill Blaster / Bullet Bill improvements (+Cannon)
+
+### 7.20 - Colored variants
+- Pipe
+- Blue/Red/Yellow Yoshi
+- Blue lift
+- YellowPOW (from Mario Bros)
+- RedPOW
+
+### 7.21 - Text property editor (Live Text Editor)
+
+### 7.22 - Input improvements
+- Multiple key binding
+- Multiple joypad button binding
+- Added playTest button for joypad
+
+### 7.23 - Death block
+- Just added instant death block for hardcore level.
+
+### 7.24 - Chargin'Chuck
+
