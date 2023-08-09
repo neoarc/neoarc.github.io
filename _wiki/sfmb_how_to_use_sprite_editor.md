@@ -62,5 +62,5 @@ There are several docking-panes(windows) in SpriteEditor.
 
 ## Fin.
 - That’s not all, but other things might be easier to figure out if you try things you don’t know, because that’s one of the best way to learn.
-- If something is still not clear, DM to author (Marci599#6969) on discord and I will try to help.
+- If something is still not clear, DM to author (marci599) on discord and I will try to help.
 
