@@ -63,4 +63,4 @@ latex   : false
 
 # Fin.
 1. These are just the basics, there are still plenty of options in `Theme Version 2`.
-2. If something is not understandable, DM to author (Marci599#7342), and if I'm available I will try to help.
+2. If something is not understandable, DM to author (marci599), and if I'm available I will try to help.
