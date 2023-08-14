@@ -62,6 +62,14 @@
     url: /wiki/20230509
     updated: '2023-05-09 19:29:40 +0900'
     children: []
+'20230814':
+    type: wiki
+    title: '새 데스크탑으로 바꾸었다.'
+    summary: ""
+    parent: ""
+    url: /wiki/20230814
+    updated: '2023-08-15 01:14:22 +0900'
+    children: []
 about_neoarc_macro_js:
     type: wiki
     title: NaMacroJS
@@ -116,7 +124,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2023-05-09 19:07:35 +0900'
+    updated: '2023-08-15 00:53:02 +0900'
     children: []
 make_nodejs_server_on_oracle_cloud:
     type: wiki
