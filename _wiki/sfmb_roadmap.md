@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Roadmap
 summary : 
 date    : 2021-02-22 00:23:38 +0900
-updated : 2023-06-12 02:13:05 +0900
+updated : 2023-08-21 11:09:17 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -14,118 +14,71 @@ latex   : false
 * TOC
 {:toc}
 
-# Latest version
-Those in *bold* have a higher priority.
+# First
 
-- [X] Release SpriteEditor V2 
-- [O] Improve PixelArt object
-    - [X] 1x scale
-	- [X] Expand limits
-	- [X] Animation
-    - [ ] CustomObject using PixelArt
-    - [ ] *CustomEnemy using PixelArt*
-    - [ ] CustomCostume using PixelArt
-    - [ ] CustomItem using PixelArt ???
-- [O] Inventory & Shop 
-    - [X] Colors for AvatarPaint
-    - [X] Animation avatar
-    - [ ] 'Expose stage to top' ticket (Pending)
-    - [X] Change in-game-name
-- [O] Some new enemies/objects/power ups
+SFMB's roadmap lists all the features that could be added, and then picks 3-5 high-priority tasks to work on first.
+However, as a hobbyist project, the roadmap is not always followed and interests can change on the fly.
+
+# Latest version
+
+Those in **bold** have a higher priority.
+
+## Quality of life
+
+- [ ] **Joypad plug & play**
+- [ ] **Clone entire theme & settings**
+
+## Improvement
+
+- [ ] Improve Background objects (movable, custom, ..)
+- [X] Improve transaction for enjoy speedrun more
+- [ ] **StagePack improvement**
+	- [ ] Exclusive title image
+	- [ ] Simple-WorldMap
+		- [ ] Bonus game
+	- [ ] Online StagePack
+- [X] Underwater action improvement
+- [X] New PiranhaPlant directions: Up to Down, Horizontal
+- [ ] Implement MarioGiant sprite instead of scaled MarioBig
+	- [X] Test
+	- [ ] Apply
+- [ ] Add New high-performance render engine
+- [X] Display improvements
+	- [X] Aspect Ratio
+	- [X] Better Fullscreen
+	- [X] Borderless Window
+
+## New content
+
+- [ ] Some new enemies/objects/power ups
     - [ ] SpikeTop
     - [X] Aggressive(?) PiranhaPlant
     - [X] New POW blocks
     - [ ] Parachute, More? (We need poll for this)
     - [ ] Frozen objects (eg. Frozen coin)
     - [ ] Track
-- [ ] Speedrun + Ghostrun mode 
-	- [X] Improve transaction for enjoy speedrun more
-	- [ ] Implement Ghostrun mode
-- [ ] *StagePack improvement*
-	- [ ] Exclusive title image
-	- [ ] Simple-WorldMap
-		- [ ] Bonus game
-	- [ ] Online StagePack
-- [X] Underwater action improvement
-- [ ] Effect objects 
-- [X] New PiranhaPlant directions: Up to Down, Horizontal
-- [X] BossFight with BGM (imagine room of BoomBoom) -> BGM Area
-- [ ] Merge E(xtended) themes with original.
-- [ ] Implement MarioGiant sprite instead of scaled MarioBig
-	- [X] Test
-	- [ ] Apply
-- [ ] Add New high-performance render engine
-- [ ] Improve Background objects (movable, custom, ..)
-- [ ] Separate sfx channels
-- [O] Display improvements
-	- [X] Aspect Ratio
-	- [X] Better Fullscreen
-	- [X] Borderless Window
-- [o] Mini games
+- [ ] Inventory & Shop 
+    - [X] Colors for AvatarPaint
+    - [X] Animation avatar
+    - [ ] 'Expose stage to top' ticket (Pending)
+    - [X] Change in-game-name
+- [ ] Mini games
 	- [X] Line-up (Spinning spade)
 	- [ ] More
-- [ ] Quality of life
-	- [ ] *Joypad plug & play*
+- [ ] Implement Ghostrun mode
+- [ ] Improve PixelArt object
+    - [X] 1x scale
+	- [X] Expand limits
+	- [X] Animation
+    - [ ] CustomObject using PixelArt
+    - [ ] **CustomEnemy using PixelArt**
+    - [ ] CustomCostume using PixelArt
+    - [ ] CustomItem using PixelArt ???
+- [ ] Effect objects 
+- [X] BossFight with BGM (imagine room of BoomBoom) -> BGM Area
 
-# v3
+## Etc
 
-- [X] Fix critical bugs
-    - [X] Weird WorldRecord calculating
-    - [X] Item duplication by CheckPoint
-- [X] Improve [Pause Menu]
-- [X] Improve search filter menu in StageWorld
-- [X] Improve slippery-walking-physics 
-- [X] Fix rendering performance issue related SemiSolid 
-- [o] Implement MarioGiant sprite instead of scaled MarioBig
-	- [X] Test
-	- [ ] Apply
-- [X] Support custom BGM for custom themes.
-- [X] Light engine
-- [ ] Improve Background objects (movable, custom, ..)
-- [X] Add Pixel-art object (for prevent mess text object)
-- [X] Tag
-- [X] Solve Traffic issue
-- [X] Improve MapEditor (multi-selection, RibbonUI, ...)
-- [ ] Improve ThemeSettings (include improve background settings)
-- [ ] Track
-- [ ] New PiranhaPlant directions: Up to Down, Horizontal
-- [ ] Boss fight with BGM
+- [ ] Merge E(xtended) themes with original.
+- [ ] Separate sfx channels
 
-# v2
-
-- [ ] Bug fix is always first
-- [X] Separate layer for fix Semi-solid rendering issue
-- [X] Add way to skip some scenes (Death, GameOver, ...) 
-- [X] Tag
-- [X] Add way to search stages
-- [X] Custom Avatar
-- [ ] New Physics Engine part 2
-- [ ] Track
-- [ ] Some new character part 2 (Peach or ... ?)
-- [ ] Improve user's online profile (records, avatars, rewards, ...) 
-- [ ] Map Editor improvements part 2
-- [X] Physics mode per Theme
-- [ ] Effect object (similar to Effects in SMM)
-- [ ] Sound block (Red jump block)
-- [ ] Sound effect object
-- [ ] Some more object for story telling
-- [X] Finish NSMB Mario
-- [X] Add some weather objects (wind, rain, ...)
-- [ ] New item: Power moon
-- [ ] New mode: Boo race? or ghost race
-- [ ] World map?
-
-# v1
-
-This is first roadmap that already completed.
-- [X] Making clone of smb1
-- [X] Custom game theme system
-- [X] Stage sharing system
-- [X] Far-background system
-- [X] Show death marks
-- [X] In game Smart Updater
-- [X] Login & more Auth functions
-- [X] Search in StageWorld
-- [X] Sprite v2 (Game-engine internal update)
-- [X] New power ups - Raccoon, Weird, Propeller
-- [X] Helmet system

@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Wiki 
 summary : 
 date    : 2021-02-21 03:09:59 +0900
-updated : 2023-05-22 01:42:44 +0900
+updated : 2023-08-21 11:10:03 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -24,6 +24,7 @@ latex   : false
 
 * [[sfmb_betatest_community]]{About community}
 * [[sfmb_betatest_community_rules]]{Rules}
+* [[sfmb_betatest_community_moderator]]{Moderator}
 
 # Development
 
