@@ -15,10 +15,22 @@
             if (!results[2]) return '';
             return decodeURIComponent(results[2].replace(/\+/g, ' '));
         }
-
+		function openAndCloseWindow(url) {
+            var newWindow = window.open(url , '_blank');
+            if (newWindow) {
+                setTimeout(() => { newWindow.close(); }, 2000);
+            }
+        }
+		function closeWindow()
+		{
+			window.open('','_parent','');
+			window.close();
+		}
         var paramValue = getParameterByName('target_url');
         if (paramValue) {
-            window.location.href = paramValue;
+            //window.location.href = paramValue;
+			openAndCloseWindow(paramValue);
+			closeWindow();
         } else {
             var defaultURL = 'https://www.google.com';
             window.location.href = defaultURL;
