@@ -18,6 +18,7 @@ macro:
 sfmb:
     - {fileName: about_super_fanmade_mario_bros}
     - {fileName: sfmb_betatest}
+    - {fileName: sfmb_betatest_community_moderator}
     - {fileName: sfmb_contribute_sprite}
     - {fileName: sfmb_exp_and_coin_table}
     - {fileName: sfmb_frequently_asked_question}
