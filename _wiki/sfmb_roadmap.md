@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Roadmap
 summary : 
 date    : 2021-02-22 00:23:38 +0900
-updated : 2023-08-21 11:09:17 +0900
+updated : 2024-02-04 03:29:01 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -26,7 +26,7 @@ Those in **bold** have a higher priority.
 ## Quality of life
 
 - [ ] **Joypad plug & play**
-- [ ] **Clone entire theme & settings**
+- [X] **Clone entire theme & settings**
 
 ## Improvement
 
@@ -36,12 +36,13 @@ Those in **bold** have a higher priority.
 	- [ ] Exclusive title image
 	- [ ] Simple-WorldMap
 		- [ ] Bonus game
+		- [ ] WorldMap Editor
 	- [ ] Online StagePack
 - [X] Underwater action improvement
 - [X] New PiranhaPlant directions: Up to Down, Horizontal
-- [ ] Implement MarioGiant sprite instead of scaled MarioBig
+- [X] Implement MarioGiant sprite instead of scaled MarioBig
 	- [X] Test
-	- [ ] Apply
+	- [X] Apply
 - [ ] Add New high-performance render engine
 - [X] Display improvements
 	- [X] Aspect Ratio
@@ -76,9 +77,11 @@ Those in **bold** have a higher priority.
     - [ ] CustomItem using PixelArt ???
 - [ ] Effect objects 
 - [X] BossFight with BGM (imagine room of BoomBoom) -> BGM Area
+- [ ] Playable Character
+    - [ ] Princess Peach
 
 ## Etc
 
-- [ ] Merge E(xtended) themes with original.
+- [X] Merge E(xtended) themes with original.
 - [ ] Separate sfx channels
 
