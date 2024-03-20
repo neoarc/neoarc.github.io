@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2023-06-12 02:06:28 +0900
+updated : 2024-03-21 00:22:43 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -13,10 +13,46 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+## Version 0 
+
+### 0.xx  
   
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/EcYf0L8YfRQ?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/u79MCXK7wAw?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/2tTIoB2U4Bg?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/lsO2CUnHZOg?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/ubVRBTZuIS8?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/bD9FFPeidbc?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/GyL8GyC3spw?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/uMr4X9LY6qE?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
 ## Version 1
 
 ### 1.0 - Clone of smb1
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/3GzsVJ4sT7Q?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/B7ZxR-KdDeM?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/oC5dMVfNElo?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/c-6ngpfJVrk?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+
+
+### 1.6
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/Gct5LOxi4bw?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/4usTWND5UuU?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
 
 ## Version 2
 
@@ -25,6 +61,12 @@ latex   : false
 ## Version 3
 
 ### 3.0 - Stage World : Stage sharing system
+
+{% raw %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-XJeqMvyZnk?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% endraw %}
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/-XJeqMvyZnk?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
 ### 3.2 - Far-background
 ### 3.2.0.610 - Show death marks
 ### 3.3 - In game Updater
@@ -37,7 +79,21 @@ latex   : false
 
 ### 3.7 - Helmet
 
+### 3.12
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/gBJ-TRrvaBY?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/CnfO7vME3WI?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/MlBCjzWQoGw?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+### 3.13
+
 ## Version 4
+
+### 4.0 - ???
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/A5opka1SaOQ?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
 
 ### 4.1 - UI Button for StageWorld
 
@@ -90,6 +146,8 @@ latex   : false
 ### 5.0 - Named Animation
 - New: GroundPound, AirSpin 
 
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/XYGFy2ZG_qE?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
 ### 5.1 - PNG Support
 ### 5.2 - Discord rich-presense
 ### 5.3 - Profile menu (country, ...)
@@ -138,6 +196,8 @@ latex   : false
 - RPC
 - Statistics
 - Server
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/1dHJNPYCOoA?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
 
 #### [[sfmb_r5294]]{r5294 SMB theme big update}
 
@@ -206,12 +266,16 @@ latex   : false
 ### 7.11 - PixelArt NPC
 - Customizable NPC
 
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/IF5pfdU6EQs?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
 ### 7.12 - Quick Resize (MapEditor)
 - Anchor for resize support
 - SemiSolids, ConveyorBelt, Lifts, Wind, Rain, BGM Area, BillBlaster, Vine, CastleWall
 
 ### 7.13 - Mini game for challenge bonus
 - Line-up mini game
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/A5V_M-Rkv1Q?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
 
 ### 7.14 - Memory handling improvement
 - To prevent challenge crash
@@ -240,8 +304,39 @@ latex   : false
 - Multiple joypad button binding
 - Added playTest button for joypad
 
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/KFX8FZx12iU?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
 ### 7.23 - Death block
 - Just added instant death block for hardcore level.
 
 ### 7.24 - Chargin'Chuck
 
+### 7.25 - Boundary Warp
+
+{% raw %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pF0VoK_Om9A?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% endraw %}
+
+### 7.26 - Stage Intro V4
+
+### 7.27 - Mega Mario Improvement
+
+#### r???? WarioLand big update
+
+#### r8629 - New theme : Mario Bros
+
+### 7.28 - Engine internal update (removing raw-pointers)
+
+### 7.29 - MarimbaBlocks, Pokey, HeavyBros
+
+### 7.30 - Protected StagePack & Sonic theme
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/zIBk5yrtv1w?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+#### r???? SMW big update
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/8VTwXkmr7SE?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
+
+### 7.31 - MusicBlock & NPC Voice
+
+### 7.32 - Magnet
