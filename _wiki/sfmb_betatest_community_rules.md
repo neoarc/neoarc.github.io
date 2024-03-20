@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2022-02-17 10:42:43 +0900
+updated : 2024-03-21 00:03:35 +0900
 tags    : sfmb
 toc     : true
 public  : true
@@ -60,27 +60,39 @@ Please respect people in server for effective development & conversation.
 ## How do I finally become beta tester?
 1. Read all of rules(this page) carefully.
 2. After read all, you can try quiz.
-	- Go #play_with_bot channel and type `!quiz` and then quiz starts immediately.
+	- Go **`#play_with_bot`** channel and type `!quiz` and then quiz starts immediately.
        	- SFMB-Bot will ask you at least 7 questions via DM. You just have to choose the answer to the quiz.
 		- Each quiz is given 60 seconds, and any more than 60 seconds is considered a failure.
-		- Every questions are written by English. (Sorry, other languages are not prepared.)
+		- All questions are currently available in seven languages. If your language is not supported, sorry, select English.
 	- You will be promoted to beta tester only if you get all the given questions correct.
-	- Your quiz test results (scores) are shared on #beta-tester channel.
+	- Your quiz test results (scores) are shared on **`#beta-tester`** channel.
 	- If you fail the quiz, you will not be kicked from the server, and you can try again. But if you keep failing in a row, the manager can kick you out. 
 	- If you are unable to proceed smoothly due to an error in the quiz system, please contact neoarc. 
-3. After you passed quiz, now you can download the game, go to #release channel and see the pinned post. 
-4. You can find the new guide: `New download method - GUIDE`.
+3. After you passed quiz, now you can download the game. 
+4. Go to the **`#play_with_bot`** channel and enter the `!downloader` command.
+5. You will receive 2 things by DM.
+	- Downloader file
+	- DropBox link
 
 ## After downloading The Downloader
 1. Extract the archive to a folder that ONLY contains English characters.
 2. Run MarioDownloader.exe
 3. Enter your informations correctly. (only one chance, so careful)
 4. You will see `Your account is pending state`.
-5. Wait until 'accepted notification', you will receive mention in #notification 
-6. After 'accepted notification', run MarioDownloader.exe again.
-7. Downloader will download game, if finished, game will be launched automatically.
-8. From now, you don't need MarioDownloader.exe (you can delete it)
-9. Game will download more files and be updated automatically.
+5. Wait until `accepted notification`, you will receive mention in `#notification`
+6. After `accepted notification`, run MarioDownloader.exe again.
+	- If you have been running the leaked version and have not confessed/reported to the moderators about it, you will not be able to proceed further at this stage and will see a message like this: `You don't have permission to login.`
+	- See the **`[[sfmb_betatest_community_rules/#unban-guide]]{Unban guide}`** in this article.
+8. Downloader will download game, if finished, game will be launched automatically.
+9. From now, you don't need MarioDownloader.exe (you can delete it)
+10. Game will download more files and be updated automatically.
+
+## Unban guide
+- If you have run a leaked version in the past, you will not be able to log into the game until you are unbanned, as the game server will not allow you to log in.
+- You must send a report to developer(Neo) that includes the following information
+	- The source of the leak you ran (e.g. a specific youtube link)
+	- The version of the leak you ran (e.g. 7.25.12345)
+	- The executability of the leak you ran (e.g., unable to run the game, able to run Map Editor)
 
 # For beta testers
 
