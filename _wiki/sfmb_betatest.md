@@ -25,6 +25,7 @@ latex   : false
 * [[sfmb_betatest_community]]{About community}
 * [[sfmb_betatest_community_rules]]{Rules}
 * [[sfmb_betatest_community_moderator]]{Moderator}
+* [[sfmb_privacy_policy]]{Privacy Policy}
 
 # Development
 
@@ -42,6 +43,7 @@ latex   : false
 
 # Contribution
 
+* [[sfmb_contribution_agreement]]{Sprite} !! **READ BEFORE CONTRIBUTING** !!
 * [[sfmb_contribute_sprite]]{Sprite}
 
 
