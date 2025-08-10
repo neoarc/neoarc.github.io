@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Roadmap
 summary : 
 date    : 2021-02-22 00:23:38 +0900
-updated : 2024-02-04 03:29:01 +0900
+updated : 2025-08-11 00:29:46 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -43,25 +43,36 @@ Those in **bold** have a higher priority.
 - [X] Implement MarioGiant sprite instead of scaled MarioBig
 	- [X] Test
 	- [X] Apply
-- [ ] Add New high-performance render engine
+- [ ] ~~Add New high-performance render engine~~
 - [X] Display improvements
 	- [X] Aspect Ratio
 	- [X] Better Fullscreen
 	- [X] Borderless Window
+- [ ] Native font rendering
+	- [X] DirectX
+	- [ ] OpenGL
 
 ## New content
 
+- [ ] Gallery
+    - [ ] Game Theme gallery
+        - [X] Summary view
+	- [X] Download/Delete GameTheme
+	- [ ] Detail view
+    - [ ] User gallery
+    - [ ] Enemy gallery
+    - [ ] Etc.
 - [ ] Some new enemies/objects/power ups
-    - [ ] SpikeTop
+    - [ ] ~~SpikeTop~~
     - [X] Aggressive(?) PiranhaPlant
     - [X] New POW blocks
     - [ ] Parachute, More? (We need poll for this)
     - [ ] Frozen objects (eg. Frozen coin)
     - [ ] Track
-- [ ] Inventory & Shop 
+- [X] Inventory & Shop 
     - [X] Colors for AvatarPaint
     - [X] Animation avatar
-    - [ ] 'Expose stage to top' ticket (Pending)
+    - [X] 'Expose stage to top' ticket
     - [X] Change in-game-name
 - [ ] Mini games
 	- [X] Line-up (Spinning spade)
@@ -72,16 +83,15 @@ Those in **bold** have a higher priority.
 	- [X] Expand limits
 	- [X] Animation
     - [ ] CustomObject using PixelArt
-    - [ ] **CustomEnemy using PixelArt**
+    - [X] CustomEnemy using PixelArt
     - [ ] CustomCostume using PixelArt
     - [ ] CustomItem using PixelArt ???
 - [ ] Effect objects 
 - [X] BossFight with BGM (imagine room of BoomBoom) -> BGM Area
-- [ ] Playable Character
-    - [ ] Princess Peach
+- [X] Playable Character
+    - [X] Princess Peach
 
 ## Etc
 
-- [X] Merge E(xtended) themes with original.
 - [ ] Separate sfx channels
 
