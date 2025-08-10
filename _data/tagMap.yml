@@ -20,6 +20,7 @@ sfmb:
     - {fileName: sfmb_betatest}
     - {fileName: sfmb_betatest_community_moderator}
     - {fileName: sfmb_contribute_sprite}
+    - {fileName: sfmb_contribution_agreement}
     - {fileName: sfmb_exp_and_coin_table}
     - {fileName: sfmb_frequently_asked_question}
     - {fileName: sfmb_how_to_make_parallax_background}
@@ -27,6 +28,8 @@ sfmb:
     - {fileName: sfmb_how_to_use_sprite_editor}
     - {fileName: sfmb_level_difficulty}
     - {fileName: sfmb_mapeditor_guide}
+    - {fileName: sfmb_privacy_and_security}
+    - {fileName: sfmb_privacy_policy}
     - {fileName: sfmb_roadmap}
     - {fileName: sfmb_sprite_index}
     - {fileName: sfmb_stage_rating}

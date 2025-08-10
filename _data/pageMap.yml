@@ -172,7 +172,7 @@ sfmb_betatest:
     summary: ""
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2024-03-20 23:12:41 +0900'
+    updated: '2025-08-11 00:00:10 +0900'
     children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_rating, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
@@ -205,6 +205,14 @@ sfmb_contribute_sprite:
     parent: ""
     url: /wiki/sfmb_contribute_sprite
     updated: '2023-05-22 03:24:13 +0900'
+    children: []
+sfmb_contribution_agreement:
+    type: wiki
+    title: 'SFMB - Contribution Agreement'
+    summary: ""
+    parent: ""
+    url: /wiki/sfmb_contribution_agreement
+    updated: '2025-07-14 00:00:00 +0400'
     children: []
 sfmb_exp_and_coin_table:
     type: wiki
@@ -262,6 +270,22 @@ sfmb_mapeditor_guide:
     url: /wiki/sfmb_mapeditor_guide
     updated: '2022-07-07 01:22:54 +0900'
     children: []
+sfmb_privacy_and_security:
+    type: wiki
+    title: 'Privacy & Security'
+    summary: ""
+    parent: ""
+    url: /wiki/sfmb_privacy_and_security
+    updated: '2025-08-11 00:00:40 +0900'
+    children: []
+sfmb_privacy_policy:
+    type: wiki
+    title: 'SFMB - Privacy Policy'
+    summary: ""
+    parent: ""
+    url: /wiki/sfmb_privacy_policy
+    updated: '2025-08-10 23:52:17 +0900'
+    children: []
 sfmb_roadmap:
     type: wiki
     title: 'SFMB - Roadmap'
@@ -308,7 +332,7 @@ sfmb_version_history:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_version_history
-    updated: '2024-03-21 00:22:43 +0900'
+    updated: '2025-08-11 00:19:10 +0900'
     children: []
 sfmb_why_do_you_like_this_game:
     type: wiki
