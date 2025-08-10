@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2024-03-21 00:22:43 +0900
+updated : 2025-08-11 00:19:10 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -340,3 +340,38 @@ latex   : false
 ### 7.31 - MusicBlock & NPC Voice
 
 ### 7.32 - Magnet
+
+## Version 8
+
+### 8.0 - CustomEnemy, PixelArt token system, Suctom scroll
+
+#### r9318 - New theme : GOOBERTOWN (by Pixelcraftian)
+
+### 8.1 - Physics improvements
+
+### 8.2 - New features
+- Eerie
+- JumpingPiranhaPlant
+- FlagPole barrier
+- Crate(s) (Breakable)
+- Bubble PowerUp
+- Peach
+- Toad buff
+
+### 8.3 - Performance improvement
+- Technical improvements to the physics engine, which significantly improves game performance in levels with many objects.
+- Also significantly improved performance in levels where CustomEnemies are generating via Pipe in large quantities
+
+{% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/bvm8rzR7onE?si=-VTHWtzOB2SkFIxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>{% endraw %}
+
+## Version 9
+
+### 9.0 - GameTheme Separation
+- Since March, several events have occurred — debates around MarioArcade, controversies over AI, the departure of key spriters, and the removal of their works.
+- As a first step to prevent further disruptions caused by the removal of spriter-contributed assets, the game and its themes have been separated. This resulted in significant changes to the codebase.
+[1] From now on, only the core game and the default theme (SMB1) will be updated with game updates. All other GameThemes will be updated separately.
+[2] The game theme update screen has been implemented. It's a parody of the Wii Shop  interface.
+[3] Users can now choose which GameThemes they want to use. For example, if you don’t want to see or use the SMB2 theme, you can remove it via the GameTheme Gallery.
+[4] Previously removed themes such as NSMBWii, NSMBU, SMEW, and NSMBR can be downloaded again if desired. MegaSMM is also available for re-download.
+- If you attempt to play a level that uses a removed theme, an error message will notify you that the level cannot be played.
+- `CandyArcade`, `YoshiIsland` have been deleted from game.
