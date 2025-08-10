@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Wiki 
 summary : 
 date    : 2021-02-21 03:09:59 +0900
-updated : 2024-03-20 23:12:41 +0900
+updated : 2025-08-11 00:00:10 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -26,6 +26,7 @@ latex   : false
 * [[sfmb_betatest_community_rules]]{Rules}
 * [[sfmb_betatest_community_moderator]]{Moderator}
 * [[sfmb_privacy_policy]]{Privacy Policy}
+* [[sfmb_privacy_and_security]]{Privacy & Security}
 
 # Development
 
@@ -43,7 +44,7 @@ latex   : false
 
 # Contribution
 
-* [[sfmb_contribution_agreement]]{Sprite} !! **READ BEFORE CONTRIBUTING** !!
+* [[sfmb_contribution_agreement]]{Contribution Agreement} !! **READ BEFORE CONTRIBUTING** !!
 * [[sfmb_contribute_sprite]]{Sprite}
 
 
