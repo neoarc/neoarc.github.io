@@ -2,6 +2,8 @@
 layout  : wiki
 title   : SFMB - Nintendo Switch Pro 컨트롤러 설정 가이드
 summary :
+date    : 2022-01-14 00:00:00 +0900
+updated : 2022-01-14 00:00:00 +0900
 tag     : sfmb
 toc     : true
 public  : true
