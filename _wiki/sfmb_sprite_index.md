@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : Sprite index definition
+title   : SFMB - Sprite index definition
 summary : 
 date    : 2023-05-22 03:24:15 +0900
 updated : 2023-05-24 10:49:12 +0900
