@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : Privacy & Security 
+title   : SFMB - Privacy & Security 
 summary : 
 date    : 2025-08-10 23:48:33 +0900
 updated : 2025-08-11 00:00:40 +0900
