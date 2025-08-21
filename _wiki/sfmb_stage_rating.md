@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : Stage rating
+title   : SFMB - Stage rating
 summary : 
 date    : 2022-05-25 13:46:27 +0900
 updated : 2023-08-29 10:13:46 +0900
