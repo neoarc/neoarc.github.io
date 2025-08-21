@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : Contribution - sprite part
+title   : SFMB - Contribution - sprite part
 summary : 
 date    : 2023-05-22 01:42:47 +0900
 updated : 2023-05-22 03:24:13 +0900
