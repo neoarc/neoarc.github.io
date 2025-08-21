@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : Difficulty calculation
+title   : SFMB - Difficulty calculation
 summary : 
 date    : 2022-04-13 09:49:10 +0900
 updated : 2022-04-13 09:55:10 +0900
