@@ -161,7 +161,7 @@ There are several docking panes (sub-windows) in SpriteEditor.
 - If you make changes to the `.png` files, make sure to press `Reload Image` on the `Home` tab in the SpriteEditor, so it displays the latest version of the spritesheet image.
 - If you are working with HD sprites (@2x)
 	- Check the `Load HD Texture` checkbox on the `Options etc.` tab.
-	- If you are ripping sprites, use this tool to automate some of the steps: [Sprite rips to MM sprite resources](https://github.com/Marci599/sprite-rips-to-mm-sprite-resources/releases)
+	- If you are ripping sprites, use this tool to automate some of the steps: [Sprite rips to MM sprite resources](https://github.com/Marci599/sprite-rips-to-mm-sprite-resources)
 - Regularly check for updates by pressing the `Check update` button on the `Options etc.` tab.
 - Don’t forget to save regularly!
 
