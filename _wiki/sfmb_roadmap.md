@@ -26,7 +26,7 @@ Those in **bold** have a higher priority.
 ## Quality of life
 
 - [ ] **Joypad plug & play**
-- [X] **Clone entire theme & settings**
+- [X] Clone entire theme & settings
 
 ## Improvement
 
@@ -84,8 +84,11 @@ Those in **bold** have a higher priority.
 	- [X] Animation
     - [ ] CustomObject using PixelArt
     - [X] CustomEnemy using PixelArt
+    	- [ ] CustomEnemy gallery
+    - [ ] CustomBlock using PixelArt
     - [ ] CustomCostume using PixelArt
     - [ ] CustomItem using PixelArt ???
+    - [ ] PixelArt gallery
 - [ ] Effect objects 
 - [X] BossFight with BGM (imagine room of BoomBoom) -> BGM Area
 - [X] Playable Character
