@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Privacy Policy
 summary : 
 date    : 2019-05-25 00:00:00 +0400
-updated : 2025-08-10 23:52:17 +0900
+updated : 2025-10-14 01:50:47 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -24,10 +24,10 @@ If it is determined that you are under this age without consent, beta access wil
 ## 2. Information Collected
 
 - Email Address  
-- IP Address  
-- MAC Address  
-- PC Name  
-- Discord ID, username, and tag (e.g., "neoarc")  
+- ~~IP Address~~ (2025.10.14 removed)
+- ~~MAC Address~~ (2025.10.14 removed)
+- ~~PC Name~~ (2025.10.14 removed)
+- Discord ID, UserName (e.g., "neoarc")  
 
 **Purpose:** This information is collected solely for moderation, identification, and beta access management purposes.  
 The information is not stored permanently, except where necessary for security logs or enforcement actions.
