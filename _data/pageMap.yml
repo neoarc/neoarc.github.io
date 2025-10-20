@@ -296,11 +296,11 @@ sfmb_sprite_index:
     children: []
 sfmb_sprite_named_animation:
     type: wiki
-    title: 'Named animation definition'
+    title: 'SFMB - Named animation definition'
     summary: ""
     parent: sfmb_contribute_sprite
     url: /wiki/sfmb_sprite_named_animation
-    updated: '2025-10-20 18:04:15 +0900'
+    updated: '2025-10-20 18:17:17 +0900'
     children: []
 sfmb_stage_rating:
     type: wiki
