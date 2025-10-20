@@ -3,7 +3,7 @@ layout  : wiki
 title   : Named animation definition
 summary : 
 date    : 2025-10-20 15:24:24 +0900
-updated : 2025-10-20 17:37:57 +0900
+updated : 2025-10-20 18:04:15 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -91,7 +91,7 @@ Walk
 
 Walk
 
-BoomerangBro
+# BoomerangBro
 
 Die
 
@@ -173,7 +173,7 @@ ShellSpin
 
 ShellIdle
 
-CannonBall
+# CannonBall
 
 CannonBallRed
 
@@ -267,7 +267,7 @@ Stomped
 
 Idle
 
-CheepCheep
+# CheepCheep
 
 Die
 
@@ -309,7 +309,7 @@ Stomped
 
 Walk
 
-Eerie
+# Eerie
 
 Idle
 
@@ -557,7 +557,7 @@ Body
 
 BodyBottom
 
-RedCheepCheep
+# RedCheepCheep
 
 Die
 
@@ -651,7 +651,7 @@ SwimDash
 
 Walk
 
-Spiny
+# Spiny
 
 ShellAwake
 
