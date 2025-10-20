@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Named animation definition
 summary : 
 date    : 2025-10-20 15:24:24 +0900
-updated : 2025-10-20 18:17:17 +0900
+updated : 2025-10-20 18:19:53 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -12,6 +12,11 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+# Note
+
+- The notes below have been mechanically extracted from the game source code and there are a lot of duplicates.
+- ~~I can't be bothered to remove them, so I've uploaded the documentation as is, so please help me out~~.
 
 # BallNChain
 
@@ -837,7 +842,7 @@ Idle
 
 Idle
 
-Cloud
+# Cloud
 
 Cloud
  

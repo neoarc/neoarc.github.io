@@ -300,7 +300,7 @@ sfmb_sprite_named_animation:
     summary: ""
     parent: sfmb_contribute_sprite
     url: /wiki/sfmb_sprite_named_animation
-    updated: '2025-10-20 18:17:17 +0900'
+    updated: '2025-10-20 18:19:53 +0900'
     children: []
 sfmb_stage_rating:
     type: wiki
