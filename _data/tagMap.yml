@@ -31,6 +31,7 @@ sfmb:
     - {fileName: sfmb_privacy_policy}
     - {fileName: sfmb_roadmap}
     - {fileName: sfmb_sprite_index}
+    - {fileName: sfmb_sprite_named_animation}
     - {fileName: sfmb_stage_rating}
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}

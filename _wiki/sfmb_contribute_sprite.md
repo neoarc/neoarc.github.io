@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Contribution - sprite part
 summary : 
 date    : 2023-05-22 01:42:47 +0900
-updated : 2023-05-22 03:24:13 +0900
+updated : 2025-10-20 15:24:21 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -56,11 +56,13 @@ latex   : false
 * This is a new way of doing things, but it is only used in some sprites.
 	- Player characters (Mario, Luigi, Toad, ...)
 	- Enemy characters
+	- Items
 	- Background layers on stages
 	- Helmets
 	- Yoshi
 	- NPCs
-	- Not yet supported: MapObject, Item, Bullet, Effect
+	- Not yet supported: MapObject, Bullet, Effect
+* For a definition of named-animations, see the [[sfmb_sprite_named_animation]]{link}
 
 # Editing Sprites
 

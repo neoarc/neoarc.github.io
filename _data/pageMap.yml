@@ -204,8 +204,8 @@ sfmb_contribute_sprite:
     summary: ""
     parent: ""
     url: /wiki/sfmb_contribute_sprite
-    updated: '2023-05-22 03:24:13 +0900'
-    children: []
+    updated: '2025-10-20 15:24:21 +0900'
+    children: [sfmb_sprite_named_animation]
 sfmb_contribution_agreement:
     type: wiki
     title: 'SFMB - Contribution Agreement'
@@ -293,6 +293,14 @@ sfmb_sprite_index:
     parent: ""
     url: /wiki/sfmb_sprite_index
     updated: '2023-05-24 10:49:12 +0900'
+    children: []
+sfmb_sprite_named_animation:
+    type: wiki
+    title: 'Named animation definition'
+    summary: ""
+    parent: sfmb_contribute_sprite
+    url: /wiki/sfmb_sprite_named_animation
+    updated: '2025-10-20 17:37:57 +0900'
     children: []
 sfmb_stage_rating:
     type: wiki
