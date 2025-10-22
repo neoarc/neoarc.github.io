@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Named animation definition
 summary : 
 date    : 2025-10-20 15:24:24 +0900
-updated : 2025-10-20 18:19:53 +0900
+updated : 2025-10-21 22:30:00 +0100
 tag     : sfmb 
 toc     : true
 public  : true
@@ -13,836 +13,427 @@ latex   : false
 * TOC
 {:toc}
 
-# Note
-
-- The notes below have been mechanically extracted from the game source code and there are a lot of duplicates.
-- ~~I can't be bothered to remove them, so I've uploaded the documentation as is, so please help me out~~.
-
 # BallNChain
 
-Ball
-
-Chain
+* Ball
+* Chain
 
 # BanzaiBill
 
-Idle
+* Idle
 
 # Blooper
 
-Die
-
-Idle
-
-Swim
-
-Idle
-
-Idle
-
-Stacked
-
-Idle
-
-Idle
+* Die
+* Idle
+* Stacked
+* Swim
 
 # Bobomb
 
-JumpIgnite1
-
-WalkIgnite1
-
-Damaged
-
-DamagedIgnite1
-
-DamagedIgnite2
-
-Walk
-
-WalkIgnite1
-
-WalkIgnite2
-
-Jump
-
-JumpIgnite1
-
-JumpIgnite2
+* Damaged
+* DamagedIgnite1
+* DamagedIgnite2
+* Jump
+* JumpIgnite1
+* JumpIgnite2
+* Walk
+* WalkIgnite1
+* WalkIgnite2
 
 # Boo
 
-Idle
-
-Shy
-
-Idle
+* Idle
+* Shy
 
 # BoomBoom
 
-Crouch
-
-Crouch
-
-Crouch
-
-Crouch
-
-Walk
-
-Stomped
-
-Walk
-
-Walk
+* Crouch
+* Stomped
+* Walk
 
 # BoomerangBro
 
-Die
-
-AimWeapon
-
-AimWeapon
-
-Idle
-
-Idle
+* AimWeapon
+* Die
+* Idle
 
 # Bowser
 
-DieGoomba
-
-DieKoopa
-
-DieBuzzyBeetle
-
-DieSpiny
-
-DieLakitu
-
-DieBlooper
-
-DieHammerBros
-
-Idle
-
-AimFire
-
-Idle
-
-AimFire
-
-Idle
+* AimFire
+* DieBlooper
+* DieBuzzyBeetle
+* DieGoomba
+* DieHammerBros
+* DieKoopa
+* DieLakitu
+* DieSpiny
+* Idle
 
 # BowserJunior
 
-ShellSpin
-
-ShellSpin
-
-Idle
-
-AimFire
-
-Idle
+* AimFire
+* Idle
+* ShellSpin
 
 # BulletBill
 
-IdleRed
-
-Idle
+* Idle
+* IdleRed
 
 # BuzzyBeetle
 
-EmptyShellSpin
-
-ShellSpin
-
-ShellIdle
-
-EmptyShellSpin
-
-ShellSpin
-
-ShellIdle
-
-Die
-
-Walk
-
-Walk
-
-EmptyShellSpin
-
-ShellSpin
-
-ShellIdle
+* Die
+* EmptyShellSpin
+* ShellIdle
+* ShellSpin
+* Walk
 
 # CannonBall
 
-CannonBallRed
-
-CannonBall
+* CannonBall
+* CannonBallRed
 
 # ChainChomp
 
-Die
-
-Idle
-
-Idle
-
-Idle
-
-Idle
-
-Chain
-
-Stake
+* Chain
+* Die
+* Idle
+* Stake
 
 # ChainChompStake
 
-Stake
+* Stake
 
 # CharginChuck
 
-Stomped
-
-SwimIdle
-
-SwimDash
-
-Idle
-
-SplittinIdle
-
-SplittinJumpSetup
-
-SplittinJumpSetup
-
-LookoutRun
-
-LookoutTurn
-
-DigginIdle
-
-DigginDigSetup
-
-DigginDig
-
-DigginIdle
-
-PassinIdle
-
-PassinIdle
-
-PassinKick
-
-BouncinIdle
-
-BouncinJumpSetup
-
-BouncinJump
-
-ConfusedIdle
-
-ConfusedIdleBall
-
-ClappinIdle
-
-ClappinIdleJump
-
-ClappinJump
-
-ClappinJumpClap
-
-ConfusedThrow
-
-ConfusedThrowJump
-
-LookoutJump
-
-LookoutRun
-
-SplittinJumpSetup
-
-SplittinJump
-
-Stomped
-
-Idle
+* BouncinIdle
+* BouncinJump
+* BouncinJumpSetup
+* ClappinIdle
+* ClappinIdleJump
+* ClappinJump
+* ClappinJumpClap
+* ConfusedIdle
+* ConfusedIdleBall
+* ConfusedThrow
+* ConfusedThrowJump
+* DigginDig
+* DigginDigSetup
+* DigginIdle
+* Idle
+* LookoutJump
+* LookoutRun
+* LookoutTurn
+* PassinIdle
+* PassinKick
+* SplittinIdle
+* SplittinJump
+* SplittinJumpSetup
+* Stomped
+* SwimDash
+* SwimIdle
 
 # CheepCheep
 
-Die
-
-Idle
+* Die
+* Idle
 
 # DryBone
 
-Stomped
-
-Falter
-
-Stomped
-
-Stomped
-
-Falter
-
-Falter
-
-Walk
-
-Falter
-
-Falter
-
-Stomped
-
-Walk
-
-Falter
-
-Falter
-
-Stomped
-
-Walk
-
-Stomped
-
-Walk
+* Falter
+* Stomped
+* Walk
 
 # Eerie
 
-Idle
-
-Idle
+* Idle
 
 # FireBro
 
-Die
-
-ThrowFire
-
-ThrowFire
-
-Idle
-
-Idle
+* Die
+* Idle
+* ThrowFire
 
 # FishBone
 
-SwimDash
-
-Idle
+* Idle
+* SwimDash
 
 # Galoomba
 
-SwimDash
-
-Walk
-
-Die
-
-SwimIdle
-
-SwimDash
-
-SwimDash
-
-Walk
+* Die
+* SwimDash
+* SwimIdle
+* Walk
 
 # Goomba
 
-Stomped
-
-Die
-
-SwimIdle
-
-SwimDash
-
-Walk
-
-Stomped
-
-Die
-
-SwimIdle
-
-SwimDash
-
-Walk
+* Die
+* Stomped
+* SwimDash
+* SwimIdle
+* Walk
 
 # Grinder
 
-Idle
+* Idle
 
 # HammerBro
 
-Die
+* AimWeapon
+* Die
+* Idle
+* ThrowWeapon
 
-AimWeapon
+# HeavyBoomerangBro
 
-AimWeapon
-
-Idle
-
-Idle
-
-HeavyBoomerangBro
-
-Die
-
-AimWeapon
-
-ThrowWeapon
-
-Idle
-
-Idle
+* AimWeapon
+* Die
+* Idle
+* ThrowWeapon
 
 # HeavyFireBro
 
-Die
-
-ThrowFire
-
-ThrowFire
-
-Idle
-
-Idle
+* Die
+* Idle
+* ThrowFire
 
 # HeavyIceBro
 
-Die
-
-AimWeapon
-
-ThrowWeapon
-
-Idle
-
-Idle
+* AimWeapon
+* Die
+* Idle
+* ThrowWeapon
 
 # IceBro
 
-Die
-
-AimWeapon
-
-AimWeapon
-
-Idle
-
-Idle
+* AimWeapon
+* Die
+* Idle
 
 # JumpingPiranhaPlant
 
-Die
-
-MouthOpen
-
-Chomp
-
-MouthOpenFall
-
-Chomp
-
-Idle
+* Chomp
+* Die
+* Idle
+* MouthOpen
+* MouthOpenFall
 
 # Koopa
 
-ShellAwake
-
-ShellSpin
-
-EmptyShellSpin
-
-ShellSpin
-
-ShellSpin
-
-ShellSpin
-
-Die
-
-ShellSpin
-
-EmptyShellSpin
-
-ShellSpin
-
-Walk
+* Die
+* EmptyShellSpin
+* ShellAwake
+* ShellSpin
+* Walk
 
 # Lakitu
 
-Idle
-
-Die
-
-Hide
-
-Idle
-
-Cloud
+* Cloud
+* Die
+* Hide
+* Idle
 
 # MagiKoopa
 
-Idle
-
-FindTarget
-
-Aim
-
-Idle
-
-Aim
-
-Laugh
-
-Teleport
-
-Fall
-
-Idle
-
-Aim
-
-ThrowMagicBlast
-
-Laugh
+* Aim
+* Fall
+* FindTarget
+* Idle
+* Laugh
+* Teleport
+* ThrowMagicBlast
 
 # MontyMole
 
-Die
-
-Idle
-
-Idle
+* Die
+* Idle
 
 # PiranhaPlant
 
-Die
-
-Idle
-
-LookDown
-
-LookUp
-
-LookDown
-
-LookUp
-
-LookDown
-
-LookUp
+* Die
+* Idle
+* LookDown
+* LookUp
 
 # Podoboo
 
-Fly1
-
-Fly2
-
-Idle
+* Fly1
+* Fly2
+* Idle
 
 # Pokey
 
-Head
-
-Body
-
-BodyBottom
-
-Body
-
-BodyBottom
+* Body
+* BodyBottom
+* Head
 
 # RedCheepCheep
 
-Die
-
-Idle
+* Die
+* Idle
 
 # RedCheepCheepFly
 
-Die
-
-Idle
+* Die
+* Idle
 
 # RedKoopa
 
-ShellAwake
-
-ShellSpin
-
-EmptyShellSpin
-
-ShellSpin
-
-ShellSpin
-
-ShellSpin
-
-Die
-
-ShellSpin
-
-EmptyShellSpin
-
-ShellSpin
-
-Walk
+* Die
+* EmptyShellSpin
+* ShellAwake
+* ShellSpin
+* Walk
 
 # Rex
 
-Stomped
-
-SquishedWalk
-
-SquishedWalk
-
-Walk
-
-SquishedWalk
-
-Walk
+* SquishedWalk
+* Stomped
+* Walk
 
 # RockyWrench
 
-Fall
-
-Idle
-
-AimWeapon
-
-Idle
-
-Die
-
-Idle
+* AimWeapon
+* Die
+* Fall
+* Idle
 
 # RotoDisc
 
-Idle
+* Idle
 
 # SledgeBro
 
-Die
-
-AimWeapon
-
-Idle
-
-AimWeapon
-
-ThrowWeapon
-
-Idle
+* AimWeapon
+* Die
+* Idle
+* ThrowWeapon
 
 # SpikeTop
 
-Stomped
-
-Die
-
-SwimIdle
-
-SwimDash
-
-Walk
+* Die
+* Stomped
+* SwimDash
+* SwimIdle
+* Walk
 
 # Spiny
 
-ShellAwake
-
-ShellSpin
-
-Walk
-
-EmptyShellSpin
-
-ShellSpin
-
-Egg
-
-EmptyShellSpin
-
-ShellSpin
-
-ShellSpin
-
-Egg
-
-Fly
-
-Walk
-
-EmptyShellSpin
-
-ShellSpin
-
-Stretch
-
-Hiding
-
-Hiding
-
-Die
-
-Walk
+* Die
+* Egg
+* EmptyShellSpin
+* Fly
+* Hiding
+* ShellAwake
+* ShellSpin
+* Stretch
+* Walk
 
 # Thwomp
 
-HorzNear
-
-UpNear
-
-Near
-
-HorzAnger
-
-UpAnger
-
-Anger
-
-Idle
-
-HorzAnger
-
-UpAnger
-
-Anger
+* Anger
+* HorzAnger
+* HorzNear
+* Idle
+* Near
+* UpAnger
+* UpNear
 
 # Wiggler
 
-AngerHead
-
-Head
-
-AngerBody
-
-Body
+* AngerBody
+* AngerHead
+* Body
+* Head
 
 # Cannon
 
-BodyRed
-
-Body
-
-HeadRed
-
-Head
+* Body
+* BodyRed
+* Head
+* HeadRed
 
 # BigCoin
 
-Idle
-
-Idle
+* Idle
 
 # Clock
 
-Idle
-
-Idle
+* Idle
 
 # DoorKey
 
-Idle
-
-Idle
+* Idle
 
 # DoorKeyCoin
 
-Idle
-
-Idle
-
-Idle
+* Idle
 
 # Flowers
 
-Idle
-
-Idle
-
-Idle
-
-Idle
+* Idle
 
 # GiantMushroom
 
-ItemPop
-
-Idle
+* Idle
+* ItemPop
 
 # Heart
 
-Idle
+* Idle
 
 # HeartContainer
 
-Idle
+* Idle
 
 # MagicOrb
 
-Idle
-
-Idle
+* Idle
 
 # Moon3UP
 
-Idle
+* Idle
 
 # Mushroom
 
-Idle
+* Idle
 
 # PoisonMushroom
 
-Idle
+* Idle
 
 # PropellerMushroom
 
-Idle
-
-Propeller
+* Idle
+* Propeller
 
 # RottenMushroom
 
-Idle
+* Idle
 
 # StaticCoin
 
-Idle
-
-Idle
-
-Idle
+* Idle
 
 # Suits
 
-Idle
+* Idle
 
 # SuperLeaf
 
-InItemBox
-
-Idle
+* Idle
+* InItemBox
 
 # SuperStar
 
-Idle
+* Idle
 
 # TurtleShell
 
-Idle
+* Idle
 
 # Cloud
 
-Cloud
- 
+* Cloud

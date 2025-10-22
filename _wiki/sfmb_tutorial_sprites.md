@@ -9,29 +9,30 @@ comment : true
 parent  : [[sfmb_tutorial]]
 latex   : false
 date    : 2021-06-22 01:37:00 +0900 
-updated : 2025-09-15 20:00:00 +0100
+updated : 2025-10-21 22:30:00 +0100
 ---
 * TOC
 {:toc}
 
 # Summary
 
-This wiki explains how to download and use the MM SpriteEditor program, and how to work with sprite resources (`.png` & `.sprite` files)
+This wiki explains how to download and use the SFMB SpriteEditor program, and how to work with sprite resources (`.png` & `.sprite` files)
 
-# MM SpriteEditor
+# SFMB SpriteEditor
 
 ## What is it?
 
-Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., `Item.png`) and sprites (e.g., `LayerOverworld.png`). These configurations are saved into a `.sprite` file with the same name as the spritesheet (e.g., `Item.png` -> `Item.sprite`). But what does “configure” actually mean, you may ask.
+Some people think that the SFMB SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the SFMB SpriteEditor is to configure compatible spritesheets (e.g., `Item.png`) and sprites (e.g., `LayerOverworld.png`). These configurations are saved into a `.sprite` file with the same name as the spritesheet (e.g., `Item.png` -> `Item.sprite`). But what does “configure” actually mean, you may ask.
 
-A spritesheet consists of multiple sprites. These sprites can appear in different positions on the sheet, with different sizes. The main goal of the sprite editor is to set these up.
+A spritesheet consists of multiple sprites. These sprites can appear in different positions on the sheet, with different sizes. The main goal of this sprite editor is to set these up.
 - ![img](https://github.com/user-attachments/assets/328752f2-dab0-4576-9c4a-fa539688960d)
 - ![img](https://github.com/user-attachments/assets/0ca6aaef-a367-4a72-8ac8-dadc3c12e691)
 
 In addition, here you can also configure things like:
 - How much the subject should be offset on the X and Y axis compared to its original origin.
 - Where the helmets (`Buzzy`, `Spiny`, `Pumpkin` and `Santa`) of the player should be placed for each sprite frame, and in what direction and angle they should face.
-- Where their propellers should be positioned and whether they appear in front of the player, behind, or not at all.
+  - All helmet types share the same values (position, direction, angle)
+- Where the propellers should be positioned and whether they appear in front of the player, behind, or not at all.
 - Where the wing(s) of enemies should be placed.
 - Speed, frame count, and loop type of custom-made or predefined animations.
 
@@ -97,7 +98,7 @@ There are several docking panes (sub-windows) in SpriteEditor.
 
 ### Sprite frames pane
 
-- If you click on one, it will appear in the `Preview` window with the set offset and area, and its properties will appear in the `Properties` window.
+- If you click on one, it will appear in the `Preview` window with the set properties, and its properties will appear in the `Properties` window.
 - Here you can set the area where the sprite is, but this happens automatically when you `double-click` on it.
   - ![gif2](https://user-images.githubusercontent.com/40640441/122875522-aaaa9c00-d334-11eb-9995-283d946766fb.gif)
 - You can also set the offset here, but this is easier with the small arrow icons in the `Home` tab. With the offset you can shift the sprite from the center of the origin on the X and Y axes.
@@ -136,13 +137,18 @@ There are several docking panes (sub-windows) in SpriteEditor.
   - and its properties will appear in the `Properties` pane.
     - `FirstFrame` -> Set which frame to start from.
     - `FrameCount` -> How many of the following sprite frames it should use.
-    - `Delay     ` -> Delay between frames (`-1` means to use the default).
+    - `Delay     ` -> Delay between frames.
+      - `-1` means to use the default.
+      - `1` means next sprite every frame (for 60fps animation)
+      - `2` means next sprite every 2nd frame (for 30fps animation)
+      - ...
     - `LoopType  ` -> Whether it should loop or play once.
 - You can also create your own animations, but the names of animations are defined in the game.
   - Some by the ThemeSettings
     - e.g. Background Objects, Background Layers
   - And some by internal game code
     - e.g. Players, Enemies
+    - You can read the list on this page: [[sfmb_sprite_named_animation]]{Named animation definition}
 - Sometimes you only create an "animation" to reference a sprite (from a spritesheet) in the ThemeSettings editor. That means you don't create a real animation with frames, you just name a sprite to reference it later.
   - e.g. Background Objects.
 - Some spritesheets don't support animations at all. Those use predefined sprite frame indexes for specific sprites.
@@ -159,13 +165,24 @@ There are several docking panes (sub-windows) in SpriteEditor.
 # Workflows
 
 - If you make changes to the `.png` files, make sure to press `Reload Image` on the `Home` tab in the SpriteEditor, so it displays the latest version of the spritesheet image.
-- If you are working with HD sprites (@2x)
-	- Check the `Load HD Texture` checkbox on the `Options etc.` tab.
-	- If you are ripping sprites, use this tool to automate some of the steps: [Sprite rips to MM sprite resources](https://github.com/Marci599/sprite-rips-to-mm-sprite-resources)
 - Regularly check for updates by pressing the `Check update` button on the `Options etc.` tab.
 - Don’t forget to save regularly!
+- If you wan't to extended animations by using named animations for specific enemies or items (like `Bowser` or `Coin`) from the combined big spritesheet resources that have all the enemies or items, which use predefined sprite frame indexes (like `Enemy` or `Item`)
+  - you can create individual spritesheets resources for each of them, by creating an `I_{ItemName}` or `E_{EnemyName}` override.
+	  - e.g. `I_Coin` or `E_Bowser`.
+  - You can still keep the full spritesheet with the predefined sprite frame indexes, because if there isn't an `{X}_{Name}` override for an item or enemy, it will defualt back to the full spritesheet.
+  - You can read the list of named animations on this page: [[sfmb_sprite_named_animation]]{Named animation definition}
+- If you wan't to use HD (2x) sprites
+  - Choose a render eninge in Mario Config that supports HD render.
+  - Set the sprite load mode in Mario Config to `HD first` (recommended) or `both`.
+  - Name your HD image files as {ImageFile}@2x.png.
+  - Create a half resolution duplicate without the `@2x` part.
+    - This will be used for calculations, and if HD sprites cannot be loaded.
+	- Check the `Load HD Texture` checkbox in SpriteEditor on the `Options etc.` tab.
+	- If you are ripping sprites, use this tool to automate some of the steps: [Sprite rips to MM sprite resources](https://github.com/Marci599/sprite-rips-to-mm-sprite-resources)
 
-## Player sprites
+
+## Players
 
 - For all possible animations, you can check existing player `.sprite` files.
 - When working with player sprites, you not only need to create and configure each `Sprite frame` and `Animation`, but also the helmet and propeller offsets. But before you do that, make sure that the `Helmet` resource (`.png` & `.sprite` files) is already created and configured.
@@ -193,12 +210,7 @@ You only need to set this when configuring players with the propeller power-up.
 - You can change its Z-order (to be behind or in front of the player sprite) or hide it completely for specific situations.
   - ![img](https://github.com/user-attachments/assets/570e226a-1103-4b83-8f39-40264c6c8a07)
 
-## Enemies
-- By default enemies have one full enemy spritesheet, that contains all the enemy sprites.
-- If you don't want to use the full enemy spritesheet, you can create individual spritesheets for each enemy, by naming the sprite `E_{EnemyName}`.
-	- e.g. `E_FireBro` or `E_Bowser`.
-	- You can still keep the full enemy sprite sheet, because if there isn't an `E_{EnemyName}` override for an enemy, it will defualt back to the full enemy spritesheet.
-   
+## Enemies   
 - When working with enemies (either with the full enemies spritesheet or the individual enemy spritesheets), you need to configure their wing position(s) for each `Sprite frame`.
 - Click the desired `Wing` item to work with it.
   - ![img](https://github.com/user-attachments/assets/c9855c3c-fad6-4e19-a101-e6ba478118d8)
@@ -210,21 +222,14 @@ You only need to set this when configuring players with the propeller power-up.
   - `Default` -> decided by the game.
   - `None   ` -> doesn’t display wings even if set.
   - `Single ` -> only displays `Wing1`.
-  - `Double ` -> displays one left and one right wing.
-  - `Double2` -> displays two left wings.
+  - `Double ` -> displays one `Wing1` and one `Wing2`.
+  - `Double2` -> displays two `Wing1`.
  
-## Items
-- By default items have one full item spritesheet, that contains all the item sprites.
-- If you don't want to use the full item spritesheet, you can create individual spritesheets for each item, by naming the sprite `I_{ItemName}`.
-	- e.g. `I_Coin` or `E_FireFlower`.
-	- You can still keep the full item sprite sheet, because if there isn't an `I_{ItemName}` override for an item, it will defualt back to the full item spritesheet.
-
-
 ## Background layers
 
 - Background layers must be named as the following: `Layer{DescriptiveName}`
 	- e.g. `LayerOverworldHills`
-- **Avoid using `FarBackground{something}.png` resources, it's obsolete!**
+- **Avoid using `FarBackground{ThemeName}.png` resources, it's obsolete!**
 - You can set at what height the `Sprite frames` should display in-game by changing their `OffsetY` values
 	- e.g. for clouds that appear and start repeating higher.
     - `OffsetY`: `0` means fixed to ground.
