@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Wiki 
 summary : 
 date    : 2021-02-21 03:09:59 +0900
-updated : 2025-08-11 00:00:10 +0900
+updated : 2025-10-22 14:18:30 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -32,8 +32,11 @@ latex   : false
 
 * [[sfmb_roadmap]]{Roadmap}
 * [[sfmb_version_history]]{Version history}
+* [[sfmb_technologies]]{Technologies}
+* [[sfmb_tools]]{Tools}
+* [[sfmb_tests]]{Tests}
 
-# Play as user
+# Play
 
 * [[sfmb_mapeditor_guide]]{Map Editor guide}
 * [[sfmb_trouble_shooting]]{Trouble shooting}

@@ -33,6 +33,9 @@ sfmb:
     - {fileName: sfmb_sprite_index}
     - {fileName: sfmb_sprite_named_animation}
     - {fileName: sfmb_stage_rating}
+    - {fileName: sfmb_technologies}
+    - {fileName: sfmb_tests}
+    - {fileName: sfmb_tools}
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}
     - {fileName: sfmb_tutorial_sprites}
