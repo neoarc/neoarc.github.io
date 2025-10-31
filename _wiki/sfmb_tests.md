@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Tests 
 summary : 
 date    : 2025-10-22 14:19:37 +0900
-updated : 2025-10-22 17:00:42 +0900
+updated : 2025-11-01 00:53:25 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -13,10 +13,12 @@ latex   : false
 * TOC
 {:toc}
 
-# 서론
+# Introduction
 
-- 나는 복잡한 라이브 테스트보다 유닛 테스트를 선호하는 편이다.
-- 게임에서는 특정 상황에서 발생하는 문제를 정확히 재현하기가 너무 어렵기 때문이다.
-	- 각 객체들의 위치, 상태 등이 다양하기 때문
-- 또한, 게임의 부팅에도 많은 시간이 소요되기 때문에 특정 메뉴 진입까지의 반복이 귀찮아서 파트별로 다양한 단위 테스트를 구현하였다.
-- 이 문서에서는 내가 만든 각종 단위테스트를 소개하고 (가능하면) 실행해볼 수 있는 프로그램을 제공하고자 한다.
+- I prefer unit testing over complex live testing.
+- This is because it's extremely difficult to precisely reproduce issues that occur under specific conditions in games.
+	- This is due to the diverse positions and states of each object.
+- Furthermore, since booting the game itself takes considerable time, repeatedly navigating to specific menus became tedious. Therefore, I implemented various unit tests for each part.
+- This document aims to introduce the various unit tests I created and provide programs that allow you to run them (where possible).
+
+

@@ -300,7 +300,7 @@ sfmb_sprite_named_animation:
     summary: ""
     parent: sfmb_contribute_sprite
     url: /wiki/sfmb_sprite_named_animation
-    updated: '2025-10-20 18:19:53 +0900'
+    updated: '2025-10-21 22:30:00 +0100'
     children: []
 sfmb_stage_rating:
     type: wiki
@@ -316,7 +316,7 @@ sfmb_technologies:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_technologies
-    updated: '2025-10-22 18:51:22 +0900'
+    updated: '2025-11-01 00:54:50 +0900'
     children: []
 sfmb_tests:
     type: wiki
@@ -324,7 +324,7 @@ sfmb_tests:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_tests
-    updated: '2025-10-22 17:00:42 +0900'
+    updated: '2025-11-01 00:53:25 +0900'
     children: []
 sfmb_tools:
     type: wiki
@@ -332,7 +332,7 @@ sfmb_tools:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_tools
-    updated: '2025-10-22 17:01:38 +0900'
+    updated: '2025-11-01 00:50:14 +0900'
     children: []
 sfmb_trouble_shooting:
     type: wiki
@@ -356,7 +356,7 @@ sfmb_tutorial_sprites:
     summary: ""
     parent: sfmb_tutorial
     url: /wiki/sfmb_tutorial_sprites
-    updated: '2025-09-15 20:00:00 +0100'
+    updated: '2025-10-21 22:30:00 +0100'
     children: []
 sfmb_tutorial_theme_settings:
     type: wiki

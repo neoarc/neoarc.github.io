@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Technologies 
 summary : 
 date    : 2025-10-22 14:18:48 +0900
-updated : 2025-10-22 18:51:22 +0900
+updated : 2025-11-01 00:54:50 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -19,11 +19,13 @@ latex   : false
 
 # 개발 툴
 
-- Visual Studio 2015
-- Visual Studio 2017
-- Visual Studio 2019
-- Visual Studio 2022
+- 오랜 기간 개발한 만큼 꾸준히 최신버전의 개발툴로 교체해왔다.
+	- Visual Studio 2015
+	- Visual Studio 2017
+	- Visual Studio 2019
+	- Visual Studio 2022
 - Visual Studio Code
+	- vscode의 경우, 서버나 bot 개발시에만 사용하고 있다.
 
 # 프로그래밍 언어
 
