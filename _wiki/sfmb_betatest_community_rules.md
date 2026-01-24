@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Community Rules
 summary : 
 date    : 2021-02-21 03:10:46 +0900
-updated : 2024-03-21 00:03:35 +0900
+updated : 2026-01-25 06:04:28 +0900
 tags    : sfmb
 toc     : true
 public  : true
@@ -88,7 +88,8 @@ Please respect people in server for effective development & conversation.
 10. Game will download more files and be updated automatically.
 
 ## Unban guide
-- If you have run a leaked version in the past, you will not be able to log into the game until you are unbanned, as the game server will not allow you to log in.
+- __If you have run a leaked version in the past__, you will not be able to log into the game until you are unbanned, as the game server will not allow you to log in.
+	- You will see a message like this: `You don't have permission to login.'`
 - You must send a report to developer(Neo) that includes the following information
 	- The source of the leak you ran (e.g. a specific youtube link)
 	- The version of the leak you ran (e.g. 7.25.12345)
