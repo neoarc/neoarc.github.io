@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Roadmap
 summary : 
 date    : 2021-02-22 00:23:38 +0900
-updated : 2025-08-11 00:29:46 +0900
+updated : 2025-11-10 00:13:17 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -25,12 +25,18 @@ Those in **bold** have a higher priority.
 
 ## Quality of life
 
-- [ ] **Joypad plug & play**
+- [ ] Joypad plug & play
 - [X] Clone entire theme & settings
+
+## Technical challenge
+
+- [ ] Implement OpenGL wrapper render engine (DirectX)
 
 ## Improvement
 
-- [ ] Improve Background objects (movable, custom, ..)
+- [ ] Improve Background objects
+	- [ ] Movable
+	- [ ] Custom
 - [X] Improve transaction for enjoy speedrun more
 - [ ] **StagePack improvement**
 	- [ ] Exclusive title image
