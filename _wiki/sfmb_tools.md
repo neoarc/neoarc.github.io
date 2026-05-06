@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Tools
 summary : 
 date    : 2025-10-22 14:19:22 +0900
-updated : 2025-11-01 00:50:14 +0900
+updated : 2026-05-06 12:06:15 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -15,7 +15,9 @@ latex   : false
 
 # Introduction
 
-- This document introduces numerous auxiliary programs created for the operation of this game.
+- This document introduces the numerous utility programs created to support the operation of this game.
+- Although the final products are the game and the map editor, so many tools were developed for both development and operation that this game project could almost be called a “tool festival.”
+- Since I’ve always been interested in developing tools, I consider this a great opportunity to create a variety of them.
 
 # Programs I Created
 
