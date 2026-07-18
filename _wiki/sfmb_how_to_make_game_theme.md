@@ -9,27 +9,44 @@ comment : true
 parent  : [[sfmb_tutorial]]
 latex   : false
 date    : 2025-09-01 01:44:00 +0900
-updated : 2025-09-15 20:00:00 +0100
+updated : 2026-07-18 14:40:00 +0200
 ---
 * TOC
 {:toc}
 
 # How to make a Game Theme
 
-## Cloning the Default Theme (SMB)
+## Cloning the Default Game Theme (SMB)
 - In the map editor, click the `Manage GameThemes` button on the `home` tab.
 - In the left list, select SMB, then click Clone selected theme at the bottom.
-- Enter the name of your theme (e.g., SMBPlus).
-
-## Editing Your Cloned Theme
-- A theme consists of the following components:
-  - Theme settings
-  - Sprite files
-  - Music files
-  - Sound effect files
+- Enter the name of your theme (e.g., SMBPlus) and clcik `Do it`.
+  - A folder containing your copied assets will open.
+ 
+## The structure of a Game Theme
+- A game theme consists of the following components:
+  - Theme settings (`/ThemeSettings.json`)
+  - Sprite files (`/Sprite/`)
+  - Music files (`/BGM/`)
+  - Sound effect files (`/Soud/`)
     
 This document briefly explains how to edit each component.
-
+    
+## Preparing Your Cloned Theme
+- Remove every duplicate / recolor assets to start with a less cluttery easier to manage game theme.
+  - Including:
+    - `E_Bobomb` / `E_Bobomb{ThemeName}`
+    - `E_Boo`
+    - `E_BoomBoom`
+    - Every `Effect{ThemeName}` other than the default / `Overworld`
+    - Every `Enemy{ThemeName}` other than the default / `Overworld`
+    - Every `MapObject{ThemeName}` other than the default / `Overworld`
+    - Every `Npc{ThemeName}` other than the default / `Overworld`
+  - These are all optional resources. If you wan't, you can readd them later.
+- You can remove `AbilityFlag`, `AppUpdate`, `ChallengeMode`, `Design`, `Etc`, `BigCircle`, every `Font`, `MiniGame1`, `StageTag`, `StageWorld`, `Transition`, `UIElement`, `Costumes`.
+- You can also remove every `Tile{ThemeName}`, `Layer{Name}` and music files other than the basic ones, like `Overworld`, `Undergorund`, `Underwater`, `Castle`, etc...
+- You also don't need to support every player and powerup, you can remove all of them, except `MarioSmall` and `MarioBig`.
+- In fact, in the ThemeSettings you can disable every object (powerups, items, vehicles, enemies, etc...), every player and its power ups, and remove every theme you don't want to support. This way it's much easier to reach a release ready state for your game theme, as you don't need to replace every asset in the game.
+    
 ## Editing Theme Settings
 - Theme settings can be edited in the Manage ThemeSettings menu.
 - Each item shows a short description at the bottom when clicked.
