@@ -31,7 +31,7 @@ updated : 2026-07-18 14:40:00 +0200
     
 This document briefly explains how to edit each component.
     
-## Preparing Your Cloned Theme
+## Preparing Your Cloned Game Theme
 - Remove every duplicate / recolor assets to start with a less cluttery easier to manage game theme.
   - Including:
     - `E_Bobomb` / `E_Bobomb{ThemeName}`
@@ -41,7 +41,7 @@ This document briefly explains how to edit each component.
     - Every `Enemy{ThemeName}` other than the default / `Overworld`
     - Every `MapObject{ThemeName}` other than the default / `Overworld`
     - Every `Npc{ThemeName}` other than the default / `Overworld`
-  - These are all optional resources. If you wan't, you can readd them later.
+  - These are all optional resources. If you want, you can readd them later.
 - You can remove `AbilityFlag`, `AppUpdate`, `ChallengeMode`, `Design`, `Etc`, `BigCircle`, every `Font`, `MiniGame1`, `StageTag`, `StageWorld`, `Transition`, `UIElement`, `Costumes`.
 - You can also remove every `Tile{ThemeName}`, `Layer{Name}` and music files other than the basic ones, like `Overworld`, `Undergorund`, `Underwater`, `Castle`, etc...
 - You also don't need to support every player and powerup, you can remove all of them, except `MarioSmall` and `MarioBig`.
