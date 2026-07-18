@@ -437,3 +437,36 @@ latex   : false
 # Cloud
 
 * Cloud
+
+# PlayerSmall
+
+* AirSpin
+* CarryCrouch
+* CarryIdle
+* CarryJump
+* CarryLookUp
+* CarryRun
+* CarrySwim
+* Climb
+* ClimbBack
+* ClimbIdle
+* Crouch
+* Die
+* DieFreeze
+* GroundPound
+* Head
+* Idle
+* Jump
+* JumpDown
+* Kick
+* LookUp
+* Ride
+* RideCommand
+* Run
+* RunMax
+* Skid
+* SpinJump
+* Swim
+* SwimIdle
+* Walk
+* WallSlide
