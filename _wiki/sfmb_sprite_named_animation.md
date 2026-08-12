@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Named animation definition
 summary : 
 date    : 2025-10-20 15:24:24 +0900
-updated : 2025-10-21 22:30:00 +0100
+updated : 2026-08-13 02:13:39 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -13,23 +13,36 @@ latex   : false
 * TOC
 {:toc}
 
-# BallNChain
+These are the animation names SFMB looks up by name when it draws an object.
+Adding an animation with one of these names to the matching `.sprite` file overrides the default sprite index based animation.
+The Sprite Editor offers the same list in the `New Animation` dialog.
+
+`TurnAround` style names are optional. When an object has no `TurnAround` animation it keeps playing its walking animation while it turns.
+
+# Enemies
+
+## AngrySun
+
+* Dive
+* Idle
+
+## BallNChain
 
 * Ball
 * Chain
 
-# BanzaiBill
+## BanzaiBill
 
 * Idle
 
-# Blooper
+## Blooper
 
 * Die
 * Idle
 * Stacked
 * Swim
 
-# Bobomb
+## Bobomb
 
 * Damaged
 * DamagedIgnite1
@@ -37,28 +50,39 @@ latex   : false
 * Jump
 * JumpIgnite1
 * JumpIgnite2
+* TurnAround
+* TurnAroundIgnite1
+* TurnAroundIgnite2
 * Walk
 * WalkIgnite1
 * WalkIgnite2
 
-# Boo
+## Boo
 
+* Buddy1
+* Buddy2
+* Buddy3
 * Idle
 * Shy
+* TurnAround
+* TurnAroundBuddy1
+* TurnAroundBuddy2
+* TurnAroundBuddy3
+* TurnAroundShy
 
-# BoomBoom
+## BoomBoom
 
 * Crouch
 * Stomped
 * Walk
 
-# BoomerangBro
+## BoomerangBro
 
 * AimWeapon
 * Die
 * Idle
 
-# Bowser
+## Bowser
 
 * AimFire
 * DieBlooper
@@ -69,43 +93,46 @@ latex   : false
 * DieLakitu
 * DieSpiny
 * Idle
+* TurnAround
 
-# BowserJunior
+## BowserJunior
 
 * AimFire
 * Idle
 * ShellSpin
+* TurnAround
 
-# BulletBill
+## BulletBill
 
 * Idle
 * IdleRed
 
-# BuzzyBeetle
+## BuzzyBeetle
 
 * Die
 * EmptyShellSpin
 * ShellIdle
 * ShellSpin
+* TurnAround
 * Walk
 
-# CannonBall
+## CannonBall
 
 * CannonBall
 * CannonBallRed
 
-# ChainChomp
+## ChainChomp
 
 * Chain
 * Die
 * Idle
 * Stake
 
-# ChainChompStake
+## ChainChompStake
 
 * Stake
 
-# CharginChuck
+## CharginChuck
 
 * BouncinIdle
 * BouncinJump
@@ -134,85 +161,104 @@ latex   : false
 * SwimDash
 * SwimIdle
 
-# CheepCheep
+## CheepCheep
 
 * Die
 * Idle
+* TurnAround
 
-# DryBone
+## DryBone
 
 * Falter
 * Stomped
+* TurnAround
 * Walk
 
-# Eerie
+## DryBowser
+
+* AimFire
+* Idle
+* TurnAround
+
+## Eerie
 
 * Idle
 
-# FireBro
+## FireBro
 
 * Die
 * Idle
 * ThrowFire
 
-# FishBone
+## FishBone
 
 * Idle
 * SwimDash
+* TurnAround
 
-# Galoomba
+## Galoomba
 
 * Die
 * SwimDash
 * SwimIdle
+* TurnAround
 * Walk
 
-# Goomba
+## Goomba
 
 * Die
 * Stomped
 * SwimDash
 * SwimIdle
+* TurnAround
 * Walk
 
-# Grinder
+## Goombrat
+
+* Die
+* Stomped
+* SwimDash
+* SwimIdle
+* TurnAround
+* Walk
+
+## Grinder
 
 * Idle
 
-# HammerBro
+## HammerBro
+
+* AimWeapon
+* Die
+* Idle
+
+## HeavyBoomerangBro
 
 * AimWeapon
 * Die
 * Idle
 * ThrowWeapon
 
-# HeavyBoomerangBro
-
-* AimWeapon
-* Die
-* Idle
-* ThrowWeapon
-
-# HeavyFireBro
+## HeavyFireBro
 
 * Die
 * Idle
 * ThrowFire
 
-# HeavyIceBro
+## HeavyIceBro
 
 * AimWeapon
 * Die
 * Idle
 * ThrowWeapon
 
-# IceBro
+## IceBro
 
 * AimWeapon
 * Die
 * Idle
 
-# JumpingPiranhaPlant
+## JumpingPiranhaPlant
 
 * Chomp
 * Die
@@ -220,22 +266,23 @@ latex   : false
 * MouthOpen
 * MouthOpenFall
 
-# Koopa
+## Koopa
 
 * Die
 * EmptyShellSpin
 * ShellAwake
 * ShellSpin
+* TurnAround
 * Walk
 
-# Lakitu
+## Lakitu
 
 * Cloud
 * Die
 * Hide
 * Idle
 
-# MagiKoopa
+## MagiKoopa
 
 * Aim
 * Fall
@@ -245,73 +292,83 @@ latex   : false
 * Teleport
 * ThrowMagicBlast
 
-# MontyMole
+## MontyMole
 
 * Die
 * Idle
 
-# PiranhaPlant
+## PiranhaPlant
 
 * Die
 * Idle
 * LookDown
 * LookUp
 
-# Podoboo
+## Podoboo
 
 * Fly1
 * Fly2
 * Idle
 
-# Pokey
+## Pokey
 
 * Body
 * BodyBottom
 * Head
 
-# RedCheepCheep
+## RedCheepCheep
+
+* Die
+* Idle
+* TurnAround
+
+## RedCheepCheepFly
 
 * Die
 * Idle
 
-# RedCheepCheepFly
-
-* Die
-* Idle
-
-# RedKoopa
+## RedKoopa
 
 * Die
 * EmptyShellSpin
 * ShellAwake
 * ShellSpin
+* TurnAround
 * Walk
 
-# Rex
+## Rex
 
 * SquishedWalk
 * Stomped
+* TurnAround
+* TurnAroundSquished
 * Walk
 
-# RockyWrench
+## RockyWrench
 
 * AimWeapon
 * Die
 * Fall
 * Idle
 
-# RotoDisc
+## RotoDisc
 
 * Idle
 
-# SledgeBro
+## Sidestepper
+
+* TurnAround
+* Walk
+* WalkAngry
+
+## SledgeBro
 
 * AimWeapon
 * Die
 * Idle
 * ThrowWeapon
 
-# SpikeTop
+## SpikeTop
 
 * Die
 * Stomped
@@ -319,19 +376,24 @@ latex   : false
 * SwimIdle
 * Walk
 
-# Spiny
+## Spiny
 
-* Die
 * Egg
 * EmptyShellSpin
 * Fly
-* Hiding
 * ShellAwake
 * ShellSpin
-* Stretch
+* TurnAround
 * Walk
 
-# Thwomp
+## Stretch
+
+* Die
+* Hiding
+* TurnAround
+* Walk
+
+## Thwomp
 
 * Anger
 * HorzAnger
@@ -341,107 +403,185 @@ latex   : false
 * UpAnger
 * UpNear
 
-# Wiggler
+## Wiggler
 
 * AngerBody
 * AngerHead
 * Body
 * Head
 
-# Cannon
+# Event objects
+
+## Cannon
 
 * Body
 * BodyRed
 * Head
 * HeadRed
 
-# BigCoin
+## CheckPointFlag
+
+* Costume
+* Hit
+* Idle
+* Luigi
+* Mario
+* Peach
+* Toad
+
+## FlagPole
+
+* Body
+* Costume
+* Flag
+* Head
+* Luigi
+* Mario
+* Peach
+* Toad
+
+## OneWayWall
 
 * Idle
 
-# Clock
+# Items
+
+## BigCoin
 
 * Idle
 
-# DoorKey
+## BoomerangFlower
 
 * Idle
 
-# DoorKeyCoin
+## Clock
 
 * Idle
 
-# Flowers
+## CloudFlower
 
 * Idle
 
-# GiantMushroom
+## DoorKey
+
+* Idle
+
+## DoorKeyCoin
+
+* Idle
+
+## Flowers
+
+A shared base class for Fire Flower, Ice Flower, Bubble Flower and Superball Flower.
+`Idle` works for each of their own sprite files (`I_FireFlower.sprite`, `I_IceFlower.sprite`, ...).
+Boomerang Flower, Cloud Flower and Following Cloud have their own entries above.
+
+Because the base class itself is not registered as an object type, the Sprite Editor does not offer this name in its `New Animation` dialog. Type it by hand.
+
+* Idle
+
+## FollowingCloud
+
+* Idle
+
+## GiantMushroom
 
 * Idle
 * ItemPop
 
-# Heart
+## Heart
 
 * Idle
 
-# HeartContainer
+## HeartContainer
 
 * Idle
 
-# MagicOrb
+## MagicOrb
 
 * Idle
 
-# Moon3UP
+## Moon3UP
 
 * Idle
 
-# Mushroom
+## Mushroom
 
 * Idle
 
-# PoisonMushroom
+## PoisonMushroom
 
 * Idle
 
-# PropellerMushroom
+## PropellerMushroom
 
 * Idle
 * Propeller
 
-# RottenMushroom
+## RottenMushroom
 
 * Idle
 
-# StaticCoin
+## StaticCoin
 
 * Idle
 
-# Suits
+## Suits
+
+A shared base class for Frog Suit, Hammer Suit, Tanooki Suit and Penguin Suit.
+`Idle` works for each of their own sprite files.
+
+Because the base class itself is not registered as an object type, the Sprite Editor does not offer this name in its `New Animation` dialog. Type it by hand.
 
 * Idle
 
-# SuperLeaf
+## SuperLeaf
 
 * Idle
 * InItemBox
 
-# SuperStar
+## SuperStar
 
 * Idle
 
-# TurtleShell
+## TurtleShell
 
 * Idle
 
-# Cloud
+# Vehicles
+
+## Cloud
 
 * Cloud
 
-# PlayerSmall
+## Yoshi
+
+* Attack
+* BabyCarried
+* BabyIdle
+* BabySwallow
+* Crouch
+* Egg
+* Fall
+* FallPanic
+* Hatch
+* Idle
+* IdleWait
+* Jump
+* JumpPanic
+* Walk
+* WalkPanic
+
+# Player
+
+Mario, Luigi, Toad and Peach share one animation list.
+The names below are offered for every player sprite regardless of its power-up shape.
+
+## PlayerSmall
 
 * AirSpin
 * CarryCrouch
+* CarryFlutterJump
 * CarryIdle
 * CarryJump
 * CarryLookUp
@@ -449,10 +589,20 @@ latex   : false
 * CarrySwim
 * Climb
 * ClimbBack
+* ClimbBackIdle
 * ClimbIdle
 * Crouch
+* CrouchFloat
 * Die
 * DieFreeze
+* DropDash
+* Float
+* FlutterJump
+* Glide
+* GlideClimb
+* GlideClimbTop
+* GlideFall
+* GlideSlide
 * GroundPound
 * Head
 * Idle
@@ -462,11 +612,30 @@ latex   : false
 * LookUp
 * Ride
 * RideCommand
+* Roll
 * Run
 * RunMax
+* Sit
 * Skid
+* Slide
+* SpinDash
 * SpinJump
 * Swim
 * SwimIdle
 * Walk
 * WallSlide
+
+## Shape specific animations
+
+These are offered only when the sprite file name ends with the matching power-up name,
+for example `MarioRaccoon.sprite` or `LuigiPenguin.sprite`.
+
+* **Big** : ToGiant
+* **Fire** : ThrowFire
+* **Frog** : FrogSwimDown, FrogSwimIdle, FrogSwimSide, FrogSwimUp
+* **Penguin** : PenguinSlide, PenguinSwimDown, PenguinSwimIdle, PenguinSwimSide, PenguinSwimUp
+* **Propeller** : PropellerFall, PropellerJump, PropellerSpin
+* **Raccoon** : Statue
+* **Raccoon / Tanooki** : RaccoonAttack, RaccoonCarryCrouchFloat, RaccoonCarryFloat, RaccoonCrouchFloat, RaccoonFloat, RaccoonFly
+* **Shell** : ShellRun, ShellSlide
+* **Boomerang / Penguin / Ice / Bubble** : ThrowWeapon
