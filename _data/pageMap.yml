@@ -252,7 +252,7 @@ sfmb_level_difficulty:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_level_difficulty
-    updated: '2026-08-13 00:00:00 +0900'
+    updated: '2026-08-13 02:13:39 +0900'
     children: []
 sfmb_mapeditor_guide:
     type: wiki
@@ -292,7 +292,7 @@ sfmb_sprite_index:
     summary: ""
     parent: ""
     url: /wiki/sfmb_sprite_index
-    updated: '2023-05-24 10:49:12 +0900'
+    updated: '2026-08-13 02:13:39 +0900'
     children: []
 sfmb_sprite_named_animation:
     type: wiki
@@ -300,7 +300,7 @@ sfmb_sprite_named_animation:
     summary: ""
     parent: sfmb_contribute_sprite
     url: /wiki/sfmb_sprite_named_animation
-    updated: '2025-10-21 22:30:00 +0100'
+    updated: '2026-08-13 02:13:39 +0900'
     children: []
 sfmb_stage_rating:
     type: wiki
