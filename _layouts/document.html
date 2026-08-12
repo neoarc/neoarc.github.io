@@ -2,9 +2,17 @@
 <html>
     {% include header.html %}
     <body>
+        {% if page.tags contains "sfmb" %}
+        <div class="sfmb page-content"></div>
+        {% else %}
         <div class="page-content">
+        {% endif %}
             {% include searchbox.html %}
+            {% if page.tags contains "sfmb" %}
+            <div class="sfmb post">
+            {% else %}
             <div class="post">
+            {% endif %}
                 {{ content }}
             </div>
         </div>

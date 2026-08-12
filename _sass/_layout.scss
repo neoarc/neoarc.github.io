@@ -41,7 +41,6 @@ table.gsc-search-box {
         color: #FFFFFF;
         line-height: 2.0;
         padding-left: 10px;
-        font-style: italic;
     }
     .site-title-right {
         float: right;
@@ -49,7 +48,10 @@ table.gsc-search-box {
         color: #FFFFFF;
         line-height: 2.0;
         padding-right: 10px;
-        font-style: italic;
+    }
+
+    .sfmb {
+        font-family: 'SFMB'
     }
 }
 
@@ -88,6 +90,15 @@ table.gsc-search-box {
         tr:hover {
             background: #BEE7F6;
         }
+    }
+
+    .sfmb {
+        font-family: 'SFMB';
+        font-size: 10px;
+    }
+    .sfmbsmall {
+        font-family: 'SFMBSmall';
+        font-size: 10px;
     }
 }
 .toc {

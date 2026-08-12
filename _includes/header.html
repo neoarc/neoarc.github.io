@@ -68,11 +68,24 @@
 <header class="header">
 {% if page.tags contains "sfmb" %}
     <div>
-        <a class="site-title" href="/wiki/sfmb_betatest/">SFMB wiki</a>
+        <a class="sfmb site-title" href="/wiki/sfmb_betatest/">SFMB wiki</a>
     </div>
     <div>
         <a class="site-title-right" href="/about/">me</a>
     </div>
+    <style>
+        @font-face {
+        font-family: 'SFMB';
+        src: url('../SFMBFontPP.woff2') format('woff2'),
+            url('../SFMBFontPP.woff') format('woff');
+        }
+        @font-face {
+        font-family: 'SFMBSmall';
+        src: url('../SFMBFontSmallPP.woff2') format('woff2'),
+            url('../SFMBFontSmallPP.woff') format('woff');
+        }
+    }
+    </style>
 {% else %}
     <div>
         <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>

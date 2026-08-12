@@ -4,6 +4,20 @@ title: blog
 public: true
 ---
 
+{% if page.tags contains "sfmb" %}
+    <style>
+        @font-face {
+        font-family: 'SFMB';
+        src: url('../SFMBFontPP.woff2') format('woff2'),
+            url('../SFMBFontPP.woff') format('woff');
+        }
+        @font-face {
+        font-family: 'SFMBSmall';
+        src: url('../SFMBFontSmallPP.woff2') format('woff2'),
+            url('../SFMBFontSmallPP.woff') format('woff');
+        }
+    </style>
+{% endif %}
 <div>
     <h3>Blog</h3>
 

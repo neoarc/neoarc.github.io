@@ -173,7 +173,7 @@ sfmb_betatest:
     parent: ""
     url: /wiki/sfmb_betatest
     updated: '2025-10-22 14:18:30 +0900'
-    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_rating, sfmb_technologies, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
+    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
     title: 'SFMB - About Community'
@@ -236,15 +236,15 @@ sfmb_how_to_make_game_theme:
     summary: ""
     parent: sfmb_tutorial
     url: /wiki/sfmb_how_to_make_game_theme
-    updated: '2025-09-15 20:00:00 +0100'
+    updated: '2026-07-18 14:40:00 +0200'
     children: []
 sfmb_how_to_setup_pro_controller:
     type: wiki
-    title: 'SFMB - Nintendo Switch Pro 컨트롤러 설정 가이드'
+    title: 'SFMB - How to set up a Nintendo Switch Pro Controller'
     summary: null
     parent: sfmb_tutorial
     url: /wiki/sfmb_how_to_setup_pro_controller
-    updated: '2022-01-14 00:00:00 +0900'
+    updated: '2026-06-10 00:00:00 +0900'
     children: []
 sfmb_level_difficulty:
     type: wiki
@@ -316,7 +316,15 @@ sfmb_technologies:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_technologies
-    updated: '2025-11-01 00:54:50 +0900'
+    updated: '2026-06-10 00:00:00 +0900'
+    children: []
+sfmb_technologies_en:
+    type: wiki
+    title: 'SFMB - Technologies (EN)'
+    summary: ""
+    parent: sfmb_betatest
+    url: /wiki/sfmb_technologies_en
+    updated: '2026-06-10 00:00:00 +0900'
     children: []
 sfmb_tests:
     type: wiki
