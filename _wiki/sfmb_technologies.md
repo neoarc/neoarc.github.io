@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Technologies 
 summary : 
 date    : 2025-10-22 14:18:48 +0900
-updated : 2025-11-01 00:54:50 +0900
+updated : 2026-06-10 00:00:00 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -60,6 +60,7 @@ latex   : false
 	- 문자열 포맷 라이므러리
 - JsonLib
 - libpng
+- magic_enum
 - MemoryModule
 - miniz
 - miniz-cpp
@@ -139,6 +140,7 @@ latex   : false
 	- 특정 시간이 흐르면 자동으로
 	- UI를 통해
 - 일부 장면 전환은 플레이어 객체가 요청하여 처리하기도 한다.
+- 장면 전환시에는 별도의 전환 효과(페이드, 원형, 커튼 등)를 함께 출력한다.
 
 ## 네트워킹
 
@@ -152,9 +154,15 @@ latex   : false
 	- Idle
 	- Walk
 	- Jump
+	- Swim
+	- SpinJump
+	- GroundPound
+	- WallSlide
+	- PropellerJump
 	- Die
 	- ...
-- 초기에는 Raw pointer를 직접 사용하는 형태로 구현했었으나, 알 수 없는 크래시의 추적에 한계를 느끼고 
+	- 위와 같은 상태가 150가지 이상 정의되어 있다.
+- 초기에는 Raw pointer를 직접 사용하는 형태로 구현했었으나, 알 수 없는 크래시의 추적에 한계를 느끼고 이후 구조를 개선하였다.
 
 ## 스테이지
 
@@ -196,16 +204,31 @@ latex   : false
 ## UI 엔진
 
 - 직접 구현한 것으로 꼭 필요한 최소한의 컴포넌트와 최소한의 기능만 갖고 있다.
-- 컴포넌트
+- 기본 컴포넌트
 	- Panel
+	- Container
 	- Text
+	- AreaText
 	- Button
+	- ImageButton
 	- CheckBox
 	- Edit
 	- Spin
 	- Rectangle (Image)
+	- AnimationRectangle
+	- Tooltip
+	- Popup
+	- List
 	- VirtualList
-	- ...
+	- ScrollForm
+- 게임 전용 컴포넌트
+	- AbilityFlagImage (능력 표시)
+	- CountryFlagTextButton (나라 깃발 버튼)
+	- UserAvatarButton / UserNameButton (유저 아바타/이름 버튼)
+	- SingleStageButton / WorldStageButton (스테이지 버튼)
+	- CustomGameButton
+	- CommentDollEdit
+- UI 화면을 손쉽게 배치하기 위한 별도의 편집 도구도 만들어 두었다.
 
 # 게임
 
@@ -230,11 +253,69 @@ latex   : false
 
 ## 장면 (Scene)
 
-### 로고
+- 게임은 다수의 장면으로 구성되며, 성격별로 묶으면 다음과 같다.
 
-### 타이틀
+### 시작 / 시스템
 
-### ...
+- Logo
+- Title
+- RegisterUser
+- Profile
+- Credits
+- AppUpdate
+- GameThemeUpdate
+- SystemAlert
+- ErrorMessage
+
+### 월드 / 스테이지 선택
+
+- WorldStage
+- WorldStageDirectPlay
+- LocalStagePack
+- EnterStage
+- StageIntro / SkyIntro
+
+### 플레이 중 이동 / 이벤트
+
+- Enter/Exit Door, Pipe, Warp, Sky
+- PageScroll
+- Play
+- NpcTalk / Speech
+- MessageBlock
+- ShapeChange
+- LoseHP
+- Die
+
+### 클리어 / 종료
+
+- Goal
+- HitGoalBox / HitGoalOrb / HitGoalPost
+- FlagDown
+- CutBridge
+- RescuePrincess
+- SingleStageClear / SingleStageGameOver
+- GameOver
+- TimeUp
+
+### 그 외 모드 / 기능
+
+- ChallengeMode / ChallengeSummary
+- MiniGame
+- Gallery / Showcase
+- ReportStage
+- ShowUserList
+- ManageDevice
+- Pause
+- AvatarPaint
+	- 자신만의 아바타를 그릴 수 있는 그림판 기능이 직접 구현되어 있다. (캔버스 144 x 144)
+	- Pencil, Eraser, Bucket 도구
+	- 색상 팔레트
+	- Undo / Redo (최대 10단계)
+	- 그리드 표시 토글
+	- 여러 슬롯 + 슬롯 간 복사
+	- 애니메이션 지원
+	- 프리셋 제공
+	- 내보내기
 
 # 맵 에디터
 
@@ -268,30 +349,88 @@ latex   : false
 
 ## 상태바
 
-- 
+- 현재 커서 위치(타일 좌표), 활성화된 스테이지 정보, 선택된 객체 등 편집 중 필요한 정보를 표시한다.
 
 ## 문서창
 
 - MDI Document 내부를 게임 엔진이 직접 그리는 형태
 - 높은 성능을 내기 위해 WM_PAINT 메세지가 발생할 때, 1프레임만 랜더링한다.
-- 
 
 ## 각종 다이얼로그
 
-### 테마 관리 창
+- 맵 에디터에는 테마와 각종 리소스를 관리하기 위한 다수의 전용 창이 있다.
 
-### 테마 정의 창
+### 테마 / 배경 관련
+
+- 테마 관리 창 (게임테마 복제, 테마 설정 관리)
+- 테마 정의 창 (하늘색, 패럴랙스 배경, 배경 오브젝트 등 / [[sfmb_tutorial_theme_settings]] 참고)
+- 테마 선택 창
+- 커스텀 테마 선택 창
 
 ### 픽셀아트 관리 창
 
-### 커스텀 적 템플릿 관리 창
+- 파일에서 불러오기
+- 즐겨찾기
+- 애니메이션 프레임 선택
+- 그림판과 같은 그리기 기능이 직접 구현되어 있다.
+	- Pencil, Eraser, MagicEraser, Bucket, ColorPicker 도구
+	- 색상 팔레트 / 색 스펙트럼
+	- Undo / Redo
+	- 그리드 표시 토글
+	- 캔버스 크기 변경
 
-### 코스튬 선택 창
+### 픽셀아트 생성 창
+
+- 새 픽셀아트의 캔버스 크기를 선택해 생성한다.
+
+### 커스텀 적 / 블록 관리 창
+
+- 커스텀 적 관리 / 갤러리 / 즐겨찾기
+- 캐릭터 정의 편집
+- 커스텀 블록 관리
+
+### 코스튬 / 캐릭터 / 능력 선택 창
+
+- 코스튬 선택
+- 캐릭터 선택
+- 무기 위치 선택
+- 목소리 종류 선택
 
 ### AbilityFlag 선택 창
 
+- 객체가 가질 능력 플래그(AbilityFlag) 선택
+- 능력 프리셋 관리
+
+### 음악 / 사운드 창
+
+- 배경 음악 선택
+- 효과음 선택
+- 음악 블록 도우미 / 음정 조절
+
+### 그 외
+
+- 스테이지 미리보기
+- 하위 스테이지 설정
+- 오브젝트 목록
+- 태그 선택
+- 타일셋 불러오기
+- 실시간 텍스트 편집
+- 제작자 코멘트
 
 # 게임 서버
 
-- 최초에 온라인 모드가 도입되었을 때는 서버리스(serverless)로 구현되어 서버 앱이 존재하지 않았었다.
+- 최초 도입시에는 서버리스(serverless)로 구현되어 서버 앱이 존재하지 않았었다.
 - 해킹으로 서버 데이터베이스를 모두 날려먹은 후에 재발방지를 위해 서버 앱을 개발하게 되었다.
+- Node.js로 구현
+	- Express : 게임과의 통신, 스테이지 업로드 처리
+	- Firebase : 유저, 스테이지, 순위표, 차단 목록 등 저장
+	- 구글 스프레드시트, 디스코드 연동
+	- 운영 환경은 alpha / beta로 분리
+- 클라우드 구축 과정은 [[make_nodejs_server_on_oracle_cloud]] 참고
+
+# 디스코드 봇
+
+- 베타테스트 커뮤니티(디스코드 서버) 운영을 위한 별도의 봇. Node.js로 구현
+	- discord.js : 슬래시 명령어, 모달 입력 처리
+	- canvas, gifencoder : 프로필 카드, GIF 이미지 생성
+	- 명령어를 권한 등급(일반 / 모더레이터 / 관리자 등)별로 분리 처리
