@@ -252,7 +252,7 @@ sfmb_level_difficulty:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_level_difficulty
-    updated: '2022-04-13 09:55:10 +0900'
+    updated: '2026-08-13 00:00:00 +0900'
     children: []
 sfmb_mapeditor_guide:
     type: wiki
