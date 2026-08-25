@@ -1,10 +1,14 @@
 <head>
+{% assign meta_description = page.summary | default: "" | strip %}
+{% if is_sfmb and meta_description == "" %}
+    {% assign meta_description = "SFMB game wiki — guides, development notes, sprite references, and community information." %}
+{% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <meta name="description" content="{{ page.summary }}">
+    <meta name="description" content="{{ meta_description }}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -12,17 +16,14 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.summary }}">
-    <!--
-	<meta property="og:image" content="{{ site.url }}/resource/johngrib.png">
-	-->
+    <meta property="og:description" content="{{ meta_description }}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@{{ site.twitter_username }}" />
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
     <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="{{ page.summary }}" />
+    <meta name="twitter:description" content="{{ meta_description }}" />
 	<!--
     <link rel="apple-touch-icon" sizes="57x57"        href="/resource/icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60"        href="/resource/icon/apple-icon-60x60.png">
@@ -42,7 +43,11 @@
 	-->
 	<link rel="icon" href="/resource/icon/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="{% if is_sfmb %}#2878d0{% else %}#ffffff{% endif %}">
+
+{% if is_sfmb %}
+    <link rel="preload" href="/wiki/SFMBFontPP.woff2" as="font" type="font/woff2" crossorigin>
+{% endif %}
 
 {% if site.google_analytics.ua %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -65,27 +70,14 @@
     </script>
 {% endif %}
 </head>
-<header class="header">
-{% if page.tags contains "sfmb" %}
-    <div>
-        <a class="sfmb site-title" href="/wiki/sfmb_betatest/">SFMB wiki</a>
-    </div>
-    <div>
-        <a class="site-title-right" href="/about/">me</a>
-    </div>
-    <style>
-        @font-face {
-        font-family: 'SFMB';
-        src: url('../SFMBFontPP.woff2') format('woff2'),
-            url('../SFMBFontPP.woff') format('woff');
-        }
-        @font-face {
-        font-family: 'SFMBSmall';
-        src: url('../SFMBFontSmallPP.woff2') format('woff2'),
-            url('../SFMBFontSmallPP.woff') format('woff');
-        }
-    }
-    </style>
+<header class="header{% if is_sfmb %} sfmb-header{% endif %}">
+{% if is_sfmb %}
+    <a class="sfmb-discord-link" href="https://discord.com/channels/302386564548263957" target="_blank" rel="noopener" aria-label="Open the SFMB Discord server">
+        <img src="/resource/sfmb/discord.svg" alt="">
+    </a>
+    <a class="sfmb-site-title" href="/wiki/sfmb_betatest/" aria-label="SFMB Wiki home">
+        <span>SFMB WIKI</span>
+    </a>
 {% else %}
     <div>
         <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
@@ -103,7 +95,7 @@
     <!-- 구글 번역기 가젯 -->
     <div>
         <div class="site-title-right google_translate" id="google_translate_element"></div>
-{% if page.tags contains "sfmb" %}
+{% if is_sfmb %}
         <script type="text/javascript">  
             function googleTranslateElementInit() { new google.translate.TranslateElement({
                 pageLanguage: 'en',

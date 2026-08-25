@@ -1,18 +1,14 @@
+{% assign is_sfmb = false %}
+{% if page.tags contains "sfmb" or page.id contains "/wiki/sfmb_" or page.id contains "/wiki/about_super_fanmade_mario_bros" %}
+    {% assign is_sfmb = true %}
+{% endif %}
 <!DOCTYPE html>
-<html>
+<html{% if is_sfmb %} class="sfmb-wiki-root"{% endif %}>
     {% include header.html %}
-    <body>
-        {% if page.tags contains "sfmb" %}
-        <div class="sfmb page-content"></div>
-        {% else %}
-        <div class="page-content">
-        {% endif %}
+    <body{% if is_sfmb %} class="sfmb-wiki"{% endif %}>
+        <div class="page-content{% if is_sfmb %} sfmb-page-content{% endif %}">
             {% include searchbox.html %}
-            {% if page.tags contains "sfmb" %}
-            <div class="sfmb post">
-            {% else %}
-            <div class="post">
-            {% endif %}
+            <div class="post{% if is_sfmb %} sfmb-post{% endif %}">
                 {{ content }}
             </div>
         </div>

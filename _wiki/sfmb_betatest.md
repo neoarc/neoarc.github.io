@@ -14,6 +14,8 @@ latex   : false
 * TOC
 {:toc}
 
+<div class="sfmb-game-title" role="img" aria-label="Super Fanmade Mario Bros. title"></div>
+
 # SFMB?
 
 * Shorten name of `Super Fanmade Mario Bros`

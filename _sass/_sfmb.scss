@@ -1,0 +1,349 @@
+@font-face {
+    font-family: "SFMB";
+    src: url("/wiki/SFMBFontPP.woff2") format("woff2"),
+         url("/wiki/SFMBFontPP.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SFMBSmall";
+    src: url("/wiki/SFMBFontSmallPP.woff2") format("woff2"),
+         url("/wiki/SFMBFontSmallPP.woff") format("woff");
+    font-display: swap;
+}
+
+.sfmb-wiki-root {
+    min-height: 100%;
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.16) 1px, transparent 1px),
+        #7ec8ff;
+    background-size: 32px 32px;
+}
+
+body.sfmb-wiki {
+    width: auto;
+    max-width: 800px;
+    border: 0;
+    background: #f7fbff;
+    box-shadow: 0 0 0 3px #163868, 0 12px 32px rgba(15, 42, 78, 0.28);
+}
+
+.sfmb-header {
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 0 12px;
+    border-bottom: 3px solid #163868;
+    background: linear-gradient(#3c94e8 0 50%, #2878d0 50% 100%);
+    box-shadow: inset 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.sfmb-site-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-family: "SFMB", Consolas, monospace;
+    font-size: 11px;
+    line-height: 1;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #163868;
+    white-space: nowrap;
+}
+
+.sfmb-site-title:visited {
+    color: #fff;
+}
+
+.sfmb-discord-link {
+    display: grid;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    place-items: center;
+    border: 2px solid #fff;
+    background: #5865f2;
+    box-shadow: 2px 2px 0 #163868, inset 1px 1px rgba(255, 255, 255, 0.35);
+}
+
+.sfmb-discord-link:hover,
+.sfmb-discord-link:focus-visible {
+    background: #4752c4;
+    outline: 2px solid #f6c744;
+    outline-offset: 1px;
+}
+
+.sfmb-discord-link img {
+    width: 16px;
+    height: 16px;
+}
+
+.sfmb-header .google_translate {
+    background: transparent;
+}
+
+.sfmb-header > div:last-child {
+    margin-left: auto;
+}
+
+.sfmb-header .goog-te-gadget-simple {
+    padding: 2px 4px;
+    border: 1px solid #163868;
+    font-size: 10px;
+}
+
+.sfmb-game-title {
+    width: 202px;
+    height: 87px;
+    margin: 18px auto 28px;
+    background-image: url("/resource/sfmb/etc.png");
+    background-position: -12px -308px;
+    background-repeat: no-repeat;
+    background-size: 512px 512px;
+    image-rendering: pixelated;
+}
+
+.sfmb-page-content {
+    min-height: calc(100vh - 43px);
+    background:
+        linear-gradient(180deg, rgba(126, 200, 255, 0.16), transparent 150px),
+        #f7fbff;
+}
+
+.sfmb-page-content .search {
+    border-bottom: 2px solid #163868;
+    background: #d9efff;
+}
+
+.sfmb-page-content .searchInput {
+    box-sizing: border-box;
+    padding: 6px 9px;
+    color: #163868;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.sfmb-post {
+    padding: 12px 14px 34px;
+    color: #263b55;
+}
+
+.sfmb-post p,
+.sfmb-post li {
+    color: #263b55;
+}
+
+.sfmb-post .page-title {
+    font-family: "SFMB", Consolas, monospace;
+    font-size: 12px;
+    line-height: 1.8;
+    text-shadow: 1px 1px 0 #d7eaff;
+}
+
+.sfmb-post .page-title a,
+.sfmb-post a {
+    color: #155eaa;
+}
+
+.sfmb-post .post-content > h1,
+.sfmb-post .post-content > h2 {
+    margin-top: 1.7em;
+    border-bottom: 3px solid #2878d0;
+    color: #163868;
+    font-family: "Roboto Slab", AppleSDGothicNeo, sans-serif;
+    font-style: normal;
+    line-height: 1.55;
+}
+
+.sfmb-post .post-content > h1::before,
+.sfmb-post .post-content > h2::before {
+    display: inline-block;
+    width: 0.55em;
+    height: 0.55em;
+    margin-right: 0.4em;
+    border: 2px solid #163868;
+    background: #f6c744;
+    box-shadow: 1px 1px 0 #163868;
+    content: "";
+    vertical-align: 0.08em;
+}
+
+.sfmb-post .toc,
+.sfmb-post .section-nav,
+.sfmb-post #markdown-toc {
+    border: 2px solid #163868;
+    border-radius: 0;
+    background: #e9f5ff;
+    box-shadow: 3px 3px 0 #9bccec;
+}
+
+.sfmb-post #markdown-toc {
+    font-size: 0.72rem;
+}
+
+.sfmb-post pre,
+.sfmb-post pre code {
+    background: #10243d;
+}
+
+.sfmb-post pre {
+    border: 2px solid #2878d0;
+    box-shadow: 3px 3px 0 #b8d8ed;
+}
+
+.sfmb-post table {
+    box-shadow: 3px 3px 0 #b8d8ed;
+}
+
+.sfmb-post table th {
+    background: #2878d0;
+}
+
+.sfmb-post .history-button {
+    margin: 8px 0 14px;
+    padding: 6px 8px;
+    border-left: 3px solid #f6c744;
+    background: #edf6fc;
+}
+
+.sprite-frame-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin: 14px 0 28px;
+    padding: 0;
+    list-style: none;
+}
+
+.sprite-frame-entry {
+    display: grid;
+    grid-template-columns: 54px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+    padding: 6px 8px;
+    border: 2px solid #b8d8ed;
+    background: #fff;
+}
+
+.sprite-frame-entry code {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    font-size: 0.72rem;
+}
+
+.sprite-frame-index {
+    color: #66788c;
+    font-family: "SFMBSmall", Consolas, monospace;
+    font-size: 7px;
+    text-transform: uppercase;
+}
+
+.sfmb-frame {
+    position: relative;
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid #9fb4c8;
+    background:
+        linear-gradient(45deg, #e3ebf0 25%, transparent 25%),
+        linear-gradient(-45deg, #e3ebf0 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #e3ebf0 75%),
+        linear-gradient(-45deg, transparent 75%, #e3ebf0 75%),
+        #fff;
+    background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+    background-size: 10px 10px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.sfmb-frame:hover,
+.sfmb-frame:focus-visible {
+    border-color: #155eaa;
+    outline: 2px solid #f6c744;
+    outline-offset: 1px;
+}
+
+.sfmb-frame.is-dark {
+    border-color: #52606d;
+    background:
+        linear-gradient(45deg, #202a34 25%, transparent 25%),
+        linear-gradient(-45deg, #202a34 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #202a34 75%),
+        linear-gradient(-45deg, transparent 75%, #202a34 75%),
+        #0b1118;
+    background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+    background-size: 10px 10px;
+}
+
+.sfmb-frame-pixels {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    transform: translate(-50%, -50%) scale(var(--frame-scale));
+    transform-origin: center;
+}
+
+.named-animation-frames {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.named-animation-frames .sfmb-frame {
+    width: 38px;
+    height: 38px;
+}
+
+.named-animation-previews {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 8px 18px;
+    margin: 6px 0 10px;
+}
+
+.named-animation-preview-group {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.named-animation-preview-label,
+.named-animation-theme {
+    color: #66788c;
+    font-family: "SFMBSmall", Consolas, monospace;
+    font-size: 7px;
+    text-transform: uppercase;
+}
+
+.named-animation-theme {
+    margin: 10px 0 18px;
+}
+
+@media (max-width: 640px) {
+    .sfmb-post {
+        padding: 10px 8px 28px;
+    }
+
+    .sprite-frame-list {
+        grid-template-columns: 1fr;
+    }
+
+    .sprite-frame-entry {
+        grid-template-columns: 48px minmax(0, 1fr) auto;
+        padding: 5px;
+    }
+
+    .sfmb-frame {
+        width: 44px;
+        height: 44px;
+    }
+}

@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Sprite index definition
 summary : 
 date    : 2023-05-22 03:24:15 +0900
-updated : 2026-08-13 02:13:39 +0900
+updated : 2026-08-26 00:14:18 +0900
 tag     : sfmb sfmb-sprite
 toc     : true
 public  : true
@@ -13,6 +13,11 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+Each index is shown with the corresponding frame cropped from SFMB's default sprite sheet.
+The preview size is fixed while the original pixel proportions are preserved.
+
+<!-- AUTOGEN:START sprite_index -->
 
 # Bullet.sprite
 
@@ -101,6 +106,7 @@ HUD_LUIGI = 40
 HUD_TOAD = 41
 HUD_COSTUME = 42
 HUD_PEACH = 43
+HUD_SCORE = 44
 ```
 
 # Item.sprite
@@ -198,7 +204,6 @@ SUPERBALLFLOWER4 = 88
 ```
 
 # Enemy.sprite
-
 
 ```
 GOOMBA1 = 0
@@ -652,4 +657,4 @@ MAPOBJ_FLAGPOLE_PEACH_FLAG3 = 194
 MAPOBJ_FLAGPOLE_PEACH_FLAG4 = 195
 ```
 
-
+<!-- AUTOGEN:END sprite_index -->
