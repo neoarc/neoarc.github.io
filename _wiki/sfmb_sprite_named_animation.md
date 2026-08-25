@@ -24,6 +24,8 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 
 `TurnAround` style names are optional. When an object has no `TurnAround` animation it keeps playing its walking animation while it turns.
 
+<!-- AUTOGEN:START named_animation -->
+
 # Enemies
 
 ## AngrySun
