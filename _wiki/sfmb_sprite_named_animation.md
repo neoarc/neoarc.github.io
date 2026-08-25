@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Named animation definition
 summary : 
 date    : 2025-10-20 15:24:24 +0900
-updated : 2026-08-13 02:13:39 +0900
+updated : 2026-08-25 09:49:56 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -18,6 +18,8 @@ Adding an animation with one of these names to the matching `.sprite` file overr
 The Sprite Editor offers the same list in the `New Animation` dialog.
 
 `TurnAround` style names are optional. When an object has no `TurnAround` animation it keeps playing its walking animation while it turns.
+
+<!-- AUTOGEN:START named_animation -->
 
 # Enemies
 
@@ -409,6 +411,13 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 * AngerHead
 * Body
 * Head
+* TurnAround
+* TurnAroundAnger
+
+## WigglerBody
+
+* AngerBody
+* Body
 
 # Event objects
 
@@ -487,7 +496,6 @@ Because the base class itself is not registered as an object type, the Sprite Ed
 ## GiantMushroom
 
 * Idle
-* ItemPop
 
 ## Heart
 
@@ -580,6 +588,7 @@ The names below are offered for every player sprite regardless of its power-up s
 ## PlayerSmall
 
 * AirSpin
+* Break
 * CarryCrouch
 * CarryFlutterJump
 * CarryIdle
@@ -603,13 +612,21 @@ The names below are offered for every player sprite regardless of its power-up s
 * GlideClimbTop
 * GlideFall
 * GlideSlide
+* GlideTurn
 * GroundPound
 * Head
 * Idle
 * Jump
+* Jump2
+* Jump3
+* Jump4
 * JumpDown
+* JumpDown2
+* JumpDown3
 * Kick
 * LookUp
+* PipeDown
+* PipeUp
 * Ride
 * RideCommand
 * Roll
@@ -639,3 +656,5 @@ for example `MarioRaccoon.sprite` or `LuigiPenguin.sprite`.
 * **Raccoon / Tanooki** : RaccoonAttack, RaccoonCarryCrouchFloat, RaccoonCarryFloat, RaccoonCrouchFloat, RaccoonFloat, RaccoonFly
 * **Shell** : ShellRun, ShellSlide
 * **Boomerang / Penguin / Ice / Bubble** : ThrowWeapon
+
+<!-- AUTOGEN:END named_animation -->
