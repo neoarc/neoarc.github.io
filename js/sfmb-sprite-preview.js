@@ -4,13 +4,13 @@
     const DATA_URL = '/resource/sfmb/sprite-preview-data.json';
     const animationPreviews = [];
 
-    function setFrame(pixels, image, frame, size) {
+    function setFrame(pixels, frame, size) {
         const width = frame.rect[2] - frame.rect[0];
         const height = frame.rect[3] - frame.rect[1];
         const scale = Math.min(4, (size - 8) / Math.max(width, height));
         pixels.style.width = `${width}px`;
         pixels.style.height = `${height}px`;
-        pixels.style.backgroundImage = `url("${image}")`;
+        pixels.style.backgroundImage = `url("${frame.image}")`;
         pixels.style.backgroundPosition = `-${frame.rect[0]}px -${frame.rect[1]}px`;
         pixels.style.setProperty('--frame-scale', String(scale));
     }
@@ -20,7 +20,7 @@
         button.setAttribute('aria-pressed', String(isDark));
     }
 
-    function makeFrame(image, frame, size) {
+    function makeFrame(frame, size) {
         const width = frame.rect[2] - frame.rect[0];
         const height = frame.rect[3] - frame.rect[1];
         const box = document.createElement('button');
@@ -32,14 +32,14 @@
         box.setAttribute('aria-label', `Frame ${frame.index}, ${width} by ${height}. Toggle dark background`);
         box.setAttribute('aria-pressed', 'false');
         pixels.className = 'sfmb-frame-pixels';
-        setFrame(pixels, image, frame, size);
+        setFrame(pixels, frame, size);
         box.appendChild(pixels);
         box.addEventListener('click', () => toggleBackground(box));
         return box;
     }
 
     function makeAnimationPreview(animation) {
-        const button = makeFrame(animation.image, animation.frames[0], 50);
+        const button = makeFrame(animation.frames[0], 50);
         button.classList.add('sfmb-animation-preview');
         button.setAttribute('aria-label', 'Slow animation preview. Toggle dark background');
         animationPreviews.push({
@@ -62,7 +62,7 @@
             if (now < preview.nextFrameAt || preview.animation.frames.length < 2) return;
             preview.frameIndex = (preview.frameIndex + 1) % preview.animation.frames.length;
             const frame = preview.animation.frames[preview.frameIndex];
-            setFrame(preview.pixels, preview.animation.image, frame, 50);
+            setFrame(preview.pixels, frame, 50);
             preview.nextFrameAt = now + animationDelay(preview.animation.delay);
         });
         requestAnimationFrame(animate);
@@ -103,7 +103,7 @@
                 number.textContent = `INDEX ${index}`;
 
                 if (section.frames[index])
-                    entry.appendChild(makeFrame(section.image, section.frames[index], 50));
+                    entry.appendChild(makeFrame(section.frames[index], 50));
                 else
                     entry.appendChild(document.createElement('span'));
                 entry.appendChild(label);
@@ -144,7 +144,7 @@
                 animatedLabel.textContent = 'ANIMATION';
                 strip.className = 'named-animation-frames';
                 animation.frames.forEach((frame) =>
-                    strip.appendChild(makeFrame(animation.image, frame, 38)));
+                    strip.appendChild(makeFrame(frame, 38)));
                 staticGroup.append(staticLabel, strip);
                 animatedGroup.append(animatedLabel, makeAnimationPreview(animation));
                 previews.append(staticGroup, animatedGroup);
@@ -162,6 +162,16 @@
         }
     }
 
+    function enhanceTitle(data) {
+        const title = document.querySelector('.sfmb-game-title');
+        const section = data.index['Etc.sprite'];
+        const frame = section && section.frames[0];
+        if (!title || !frame) return;
+
+        title.style.backgroundImage = `url("${frame.image}")`;
+        title.style.backgroundPosition = `-${frame.rect[0]}px -${frame.rect[1]}px`;
+    }
+
     function init() {
         fetch(DATA_URL)
             .then((response) => {
@@ -171,6 +181,7 @@
             .then((data) => {
                 enhanceIndex(data);
                 enhanceNamedAnimations(data);
+                enhanceTitle(data);
                 if (animationPreviews.length > 0) requestAnimationFrame(animate);
             })
             .catch((error) => console.warn('SFMB sprite preview data could not be loaded.', error));
