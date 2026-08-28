@@ -169,11 +169,11 @@ power_automate_desktop:
 sfmb_betatest:
     type: wiki
     title: 'SFMB - Wiki'
-    summary: ""
+    summary: 'The official community wiki for SFMB, also known as Mario Multiverse.'
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2025-10-22 14:18:30 +0900'
-    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
+    updated: '2026-08-28 00:00:00 +0900'
+    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_main_menus, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_contests, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
     title: 'SFMB - About Community'
@@ -254,6 +254,14 @@ sfmb_level_difficulty:
     url: /wiki/sfmb_level_difficulty
     updated: '2026-08-13 02:13:39 +0900'
     children: []
+sfmb_main_menus:
+    type: wiki
+    title: 'SFMB - Main Menus'
+    summary: 'An overview of the main menus available from the SFMB title screen.'
+    parent: sfmb_betatest
+    url: /wiki/sfmb_main_menus
+    updated: '2026-08-28 00:00:00 +0900'
+    children: []
 sfmb_mapeditor_guide:
     type: wiki
     title: 'SFMB - Map Editor guide'
@@ -301,6 +309,14 @@ sfmb_sprite_named_animation:
     parent: sfmb_contribute_sprite
     url: /wiki/sfmb_sprite_named_animation
     updated: '2026-08-26 00:14:18 +0900'
+    children: []
+sfmb_stage_contests:
+    type: wiki
+    title: 'SFMB - Stage Contests'
+    summary: 'Ongoing and past stage contests organized by the SFMB community.'
+    parent: sfmb_betatest
+    url: /wiki/sfmb_stage_contests
+    updated: '2026-08-28 00:00:00 +0900'
     children: []
 sfmb_stage_rating:
     type: wiki

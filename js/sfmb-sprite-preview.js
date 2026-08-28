@@ -168,8 +168,27 @@
         const frame = section && section.frames[0];
         if (!title || !frame) return;
 
-        title.style.backgroundImage = `url("${frame.image}")`;
-        title.style.backgroundPosition = `-${frame.rect[0]}px -${frame.rect[1]}px`;
+        const width = frame.rect[2] - frame.rect[0];
+        const height = frame.rect[3] - frame.rect[1];
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        const image = new Image();
+        if (!context || width <= 0 || height <= 0) return;
+
+        canvas.width = width;
+        canvas.height = height;
+        canvas.setAttribute('aria-hidden', 'true');
+        context.imageSmoothingEnabled = false;
+        image.addEventListener('load', () => {
+            context.drawImage(
+                image,
+                frame.rect[0], frame.rect[1], width, height,
+                0, 0, width, height);
+            title.replaceChildren(canvas);
+        });
+        image.addEventListener('error', () =>
+            console.warn('SFMB title atlas could not be loaded.'));
+        image.src = frame.image;
     }
 
     function init() {

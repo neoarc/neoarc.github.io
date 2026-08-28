@@ -94,10 +94,16 @@ body.sfmb-wiki {
 }
 
 .sfmb-game-title {
-    width: 202px;
-    height: 87px;
+    width: 100%;
     margin: 18px auto 28px;
-    background-repeat: no-repeat;
+    aspect-ratio: 202 / 87;
+    image-rendering: pixelated;
+}
+
+.sfmb-game-title canvas {
+    display: block;
+    width: 100%;
+    height: auto;
     image-rendering: pixelated;
 }
 

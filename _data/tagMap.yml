@@ -26,12 +26,14 @@ sfmb:
     - {fileName: sfmb_how_to_make_game_theme}
     - {fileName: sfmb_how_to_setup_pro_controller}
     - {fileName: sfmb_level_difficulty}
+    - {fileName: sfmb_main_menus}
     - {fileName: sfmb_mapeditor_guide}
     - {fileName: sfmb_privacy_and_security}
     - {fileName: sfmb_privacy_policy}
     - {fileName: sfmb_roadmap}
     - {fileName: sfmb_sprite_index}
     - {fileName: sfmb_sprite_named_animation}
+    - {fileName: sfmb_stage_contests}
     - {fileName: sfmb_stage_rating}
     - {fileName: sfmb_technologies}
     - {fileName: sfmb_technologies_en}

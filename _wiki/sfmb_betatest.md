@@ -1,55 +1,81 @@
 ---
 layout  : wiki
-title   : SFMB - Wiki 
-summary : 
+title   : SFMB - Wiki
+summary : The official community wiki for SFMB, also known as Mario Multiverse.
 date    : 2021-02-21 03:09:59 +0900
-updated : 2025-10-22 14:18:30 +0900
+updated : 2026-08-28 00:00:00 +0900
 tag     : sfmb 
-toc     : true
+toc     : false
 public  : true
 comment : false
 parent  : 
 latex   : false
 ---
-* TOC
-{:toc}
 
-<div class="sfmb-game-title" role="img" aria-label="Super Fanmade Mario Bros. title"></div>
+<div class="sfmb-game-title" role="img" aria-label="Mario Multiverse logo"></div>
 
-# SFMB?
+# About SFMB
 
-* Shorten name of `Super Fanmade Mario Bros`
-* Currently it's known as `Mario Multiverse`
-* [[sfmb_why_do_you_like_this_game]]{Why do you like this game?}
+_Mario Multiverse_ is a Super Mario fan game project that began in 2016 as `MarioV3`, initially aiming to recreate the original _Super Mario Bros._
 
-# Beta test community
+It later became known as _Super Fanmade Mario Bros._ (**SFMB**) and was renamed _Mario Multiverse_ in May 2018. The community still commonly uses SFMB because “MM” can refer to many different things.
 
-* [[sfmb_betatest_community]]{About community}
-* [[sfmb_betatest_community_rules]]{Rules}
+# Getting Started
+
+* [[sfmb_main_menus]]{Main Menus}
+* [[sfmb_frequently_asked_question]]{Frequently Asked Questions}
+* [[sfmb_trouble_shooting]]{Troubleshooting}
+
+> **TODO**
+<!-- Create a Getting Started guide covering installation, login, updates, basic controls, and configuration. -->
+
+# Playing Stages
+
+* [[sfmb_level_difficulty]]{Level Difficulty}
+* [[sfmb_stage_rating]]{Stage Rating}
+* [[sfmb_stage_contests]]{Stage Contests}
+* [[sfmb_exp_and_coin_table]]{EXP & Coin Table}
+
+# Creating Stages & Resources
+
+* [[sfmb_mapeditor_guide]]{Map Editor Guide}
+* [[sfmb_tutorial]]{Tutorials}
+
+> **TODO**
+<!-- Create guides for testing, uploading, editing, and deleting stages, plus a detailed Stage World guide. -->
+
+# Community
+
+* [[sfmb_betatest_community]]{About the Community}
+* [[sfmb_betatest_community_rules]]{Community Rules}
 * [[sfmb_betatest_community_moderator]]{Moderator}
 * [[sfmb_privacy_policy]]{Privacy Policy}
-* [[sfmb_privacy_and_security]]{Privacy & Security}
 
-# Development
+> **TODO**
+<!-- Create a Community Roles page covering the requirements for each Special Role. -->
 
+# Contributing
+
+Read the [[sfmb_contribution_agreement]]{Contribution Agreement} before contributing.
+
+* [[sfmb_contribute_sprite]]{Sprite Contribution}
+* Music Contribution
+<!-- TODO: Add a link after the Music Contribution guide has been written. -->
+* Sound Contribution
+<!-- TODO: Add a link after the Sound Contribution guide has been written. -->
+* Text Contribution
+<!-- TODO: Add a link after the Text Contribution guide has been written. -->
+* Bug Reports & Crash Reports
+<!-- TODO: Add a link after the dedicated bug-reporting guide has been written. -->
+* Requests & Ideas
+<!-- TODO: Add a link after the dedicated requests guide has been written. -->
+
+# Project Reference
+
+* [[sfmb_version_history]]{Version History}
 * [[sfmb_roadmap]]{Roadmap}
-* [[sfmb_version_history]]{Version history}
 * [[sfmb_technologies]]{Technologies}
 * [[sfmb_tools]]{Tools}
 * [[sfmb_tests]]{Tests}
-
-# Play
-
-* [[sfmb_mapeditor_guide]]{Map Editor guide}
-* [[sfmb_trouble_shooting]]{Trouble shooting}
-* [[sfmb_frequently_asked_question]]{Frequently asked questions}
-* [[sfmb_tutorial]]{Tutorials}
-* [[sfmb_level_difficulty]]{Level difficulty calculation}
-* [[sfmb_stage_rating]]{Stage rating}
-
-# Contribution
-
-* [[sfmb_contribution_agreement]]{Contribution Agreement} !! **READ BEFORE CONTRIBUTING** !!
-* [[sfmb_contribute_sprite]]{Sprite}
 
 
