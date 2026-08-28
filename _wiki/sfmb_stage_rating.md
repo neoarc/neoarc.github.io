@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Stage rating
 summary : 
 date    : 2022-05-25 13:46:27 +0900
-updated : 2023-08-29 10:13:46 +0900
+updated : 2026-08-28 00:00:00 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -32,12 +32,7 @@ In this document, we will talk about Moderator's rating.
 
 # Who can be 'Stage Moderator'?
 
-- If you'd like to help ensure that levels in Stage World have a fair rating, you can apply for the role of 'Stage Moderator'.
-- However, there is a condition.
-	- You are spending a lot of time playing this game.
-	- You are playing most of the levels being uploaded.
-		- You have played more than 500 levels.
-	- You don't have the 'Shitposter' role.
+- See [[sfmb_community_roles/#stage-moderator]]{Community Roles — Stage Moderator} for the current eligibility and application process.
 
 # What is range of ratings?
 

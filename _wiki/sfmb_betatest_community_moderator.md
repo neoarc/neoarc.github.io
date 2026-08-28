@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Moderator
 summary : 
 date    : 2023-08-21 11:10:05 +0900
-updated : 2023-08-21 11:11:17 +0900
+updated : 2026-08-28 00:00:00 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -15,7 +15,7 @@ latex   : false
 
 # Definition
 
-A Moderator is an administrator, ranked after Admin, who manages the community.
+A Moderator is a staff member who manages the community.
 
 # Role
 
@@ -23,7 +23,7 @@ A Moderator is an administrator, ranked after Admin, who manages the community.
 
 - It is most fundamental mission.
 - Monitor all channels
-	- Since Admin can't monitor all the channels, you'll need to assist in monitoring all the channels.
+	- Help keep community channels safe and organized.
 - Warn rule violators
 	- Verbal warnings
 		- Warning in chat when the offense is minor.
@@ -40,17 +40,9 @@ A Moderator is an administrator, ranked after Admin, who manages the community.
 ## Promote users
 
 - Promote a Beta Tester as needed.
-- Bug Finder
-	- Reported 5 or more bugs
-- Sound Producer
-	- At least 5 resources committed to #resource-sound
-- Spriter
-	- More than 5 resources committed to #resource-sprite
-- Stage Creator
-	- At least 10 uploaded stages with a rating of 4 or higher
-- Translator
-	- At least 1 resource uploaded to #resource-text
+- Verify role requirements before promoting a member.
+- See [[sfmb_community_roles]]{Community Roles} for the current requirements.
 	
 ## Reporting major issues
 
-- Report to Admin if your game server is down or exhibiting anomalies.
+- Report to the Developer if the game server is down or exhibiting anomalies.

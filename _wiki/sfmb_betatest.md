@@ -48,11 +48,9 @@ It later became known as _Super Fanmade Mario Bros._ (**SFMB**) and was renamed 
 
 * [[sfmb_betatest_community]]{About the Community}
 * [[sfmb_betatest_community_rules]]{Community Rules}
+* [[sfmb_community_roles]]{Community Roles}
 * [[sfmb_betatest_community_moderator]]{Moderator}
 * [[sfmb_privacy_policy]]{Privacy Policy}
-
-> **TODO**
-<!-- Create a Community Roles page covering the requirements for each Special Role. -->
 
 # Contributing
 

@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Frequently Asked Questions 
 summary : 
 date    : 2021-02-22 00:24:37 +0900
-updated : 2021-03-31 00:54:51 +0900
+updated : 2026-08-28 00:00:00 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -58,8 +58,7 @@ latex   : false
 
 #### Q. How do I become Bug Finder?
 
-- Report 5+ bugs
-- And ask to admin (neoarc)
+- See [[sfmb_community_roles/#bug-finder]]{Community Roles — Bug Finder} for the current requirement and request process.
 
 #### Q. Why doesn't my collected coins match my coin counter?
 

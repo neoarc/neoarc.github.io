@@ -173,7 +173,7 @@ sfmb_betatest:
     parent: ""
     url: /wiki/sfmb_betatest
     updated: '2026-08-28 00:00:00 +0900'
-    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_main_menus, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_contests, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
+    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_community_roles, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_main_menus, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_contests, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
     title: 'SFMB - About Community'
@@ -188,7 +188,7 @@ sfmb_betatest_community_moderator:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_betatest_community_moderator
-    updated: '2023-08-21 11:11:17 +0900'
+    updated: '2026-08-28 00:00:00 +0900'
     children: []
 sfmb_betatest_community_rules:
     type: wiki
@@ -197,6 +197,14 @@ sfmb_betatest_community_rules:
     parent: sfmb_betatest
     url: /wiki/sfmb_betatest_community_rules
     updated: '2026-01-25 06:04:28 +0900'
+    children: []
+sfmb_community_roles:
+    type: wiki
+    title: 'SFMB - Community Roles'
+    summary: 'Requirements and responsibilities for roles in the SFMB community.'
+    parent: sfmb_betatest
+    url: /wiki/sfmb_community_roles
+    updated: '2026-08-29 00:00:00 +0900'
     children: []
 sfmb_contribute_sprite:
     type: wiki
@@ -228,7 +236,7 @@ sfmb_frequently_asked_question:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_frequently_asked_question
-    updated: '2021-03-31 00:54:51 +0900'
+    updated: '2026-08-28 00:00:00 +0900'
     children: [sfmb_exp_and_coin_table]
 sfmb_how_to_make_game_theme:
     type: wiki
@@ -324,7 +332,7 @@ sfmb_stage_rating:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_stage_rating
-    updated: '2023-08-29 10:13:46 +0900'
+    updated: '2026-08-28 00:00:00 +0900'
     children: []
 sfmb_technologies:
     type: wiki
