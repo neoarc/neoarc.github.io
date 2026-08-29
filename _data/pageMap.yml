@@ -276,7 +276,7 @@ sfmb_main_menus:
     summary: 'An overview of the main menus available from the SFMB title screen.'
     parent: sfmb_betatest
     url: /wiki/sfmb_main_menus
-    updated: '2026-08-28 00:00:00 +0900'
+    updated: '2026-08-29 00:00:00 +0900'
     children: []
 sfmb_mapeditor_guide:
     type: wiki
