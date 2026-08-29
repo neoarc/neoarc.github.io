@@ -285,7 +285,7 @@ sfmb_main_menus:
     parent: sfmb_betatest
     url: /wiki/sfmb_main_menus
     updated: '2026-08-29 00:00:00 +0900'
-    children: [sfmb_challenge, sfmb_stage_world]
+    children: [sfmb_challenge, sfmb_stage_packs, sfmb_stage_world]
 sfmb_mapeditor_guide:
     type: wiki
     title: 'SFMB - Map Editor guide'
@@ -341,6 +341,14 @@ sfmb_stage_contests:
     parent: sfmb_betatest
     url: /wiki/sfmb_stage_contests
     updated: '2026-08-28 00:00:00 +0900'
+    children: []
+sfmb_stage_packs:
+    type: wiki
+    title: 'SFMB - Stage Packs'
+    summary: 'How Stage Packs work and which packs are included in the current SFMB beta.'
+    parent: sfmb_main_menus
+    url: /wiki/sfmb_stage_packs
+    updated: '2026-08-29 00:00:00 +0900'
     children: []
 sfmb_stage_rating:
     type: wiki

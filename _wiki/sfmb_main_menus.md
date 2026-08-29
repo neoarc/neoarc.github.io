@@ -32,8 +32,7 @@ Stage Pack plays a collection of local stages as a connected game. Each pack def
 
 ![Stage Pack selected on the SFMB main menu](/post-img/wiki/sfmb_main_menus/stage-pack.png)
 
-> **TODO**
-<!-- Document how to install and select a stage pack, how progress is saved, and how its rules differ from the other play menus. -->
+See [[sfmb_stage_packs]]{Stage Pack Guide} for starting and continuing packs, saved progress, required Game Themes, and the packs included in the current beta.
 
 ## Single Stage
 
@@ -162,6 +161,7 @@ Exit closes the game.
 # Related Guides
 
 * [[sfmb_getting_started]]{Getting Started} — How to install, launch, update, and configure SFMB.
+* [[sfmb_stage_packs]]{Stage Pack Guide} — How Stage Packs work and which packs are included in the beta.
 * [[sfmb_stage_world]]{Stage World Guide} — How to find, inspect, and play community stages.
 * [[sfmb_challenge]]{Challenge Guide} — How Challenge runs, lives, skips, rewards, and leaderboards work.
 * [[sfmb_mapeditor_guide]]{Map Editor Guide} — How to create stages.
