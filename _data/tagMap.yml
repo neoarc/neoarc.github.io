@@ -24,6 +24,7 @@ sfmb:
     - {fileName: sfmb_contribution_agreement}
     - {fileName: sfmb_exp_and_coin_table}
     - {fileName: sfmb_frequently_asked_question}
+    - {fileName: sfmb_getting_started}
     - {fileName: sfmb_how_to_make_game_theme}
     - {fileName: sfmb_how_to_setup_pro_controller}
     - {fileName: sfmb_level_difficulty}

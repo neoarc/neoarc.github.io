@@ -172,8 +172,8 @@ sfmb_betatest:
     summary: 'The official community wiki for SFMB, also known as Mario Multiverse.'
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2026-08-28 00:00:00 +0900'
-    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_community_roles, sfmb_frequently_asked_question, sfmb_level_difficulty, sfmb_main_menus, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_contests, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
+    updated: '2026-08-29 00:00:00 +0900'
+    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_community_roles, sfmb_frequently_asked_question, sfmb_getting_started, sfmb_level_difficulty, sfmb_main_menus, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_contests, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
     title: 'SFMB - About Community'
@@ -238,6 +238,14 @@ sfmb_frequently_asked_question:
     url: /wiki/sfmb_frequently_asked_question
     updated: '2026-08-28 00:00:00 +0900'
     children: [sfmb_exp_and_coin_table]
+sfmb_getting_started:
+    type: wiki
+    title: 'SFMB - Getting Started'
+    summary: 'How beta testers install, launch, update, and configure SFMB.'
+    parent: sfmb_betatest
+    url: /wiki/sfmb_getting_started
+    updated: '2026-08-29 00:00:00 +0900'
+    children: []
 sfmb_how_to_make_game_theme:
     type: wiki
     title: 'SFMB - How to make a game theme'

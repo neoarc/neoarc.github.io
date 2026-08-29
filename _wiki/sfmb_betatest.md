@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Wiki
 summary : The official community wiki for SFMB, also known as Mario Multiverse.
 date    : 2021-02-21 03:09:59 +0900
-updated : 2026-08-28 00:00:00 +0900
+updated : 2026-08-29 00:00:00 +0900
 tag     : sfmb 
 toc     : false
 public  : true
@@ -22,12 +22,10 @@ It later became known as _Super Fanmade Mario Bros._ (**SFMB**) and was renamed 
 
 # Getting Started
 
+* [[sfmb_getting_started]]{Getting Started}
 * [[sfmb_main_menus]]{Main Menus}
 * [[sfmb_frequently_asked_question]]{Frequently Asked Questions}
 * [[sfmb_trouble_shooting]]{Troubleshooting}
-
-> **TODO**
-<!-- Create a Getting Started guide covering installation, login, updates, basic controls, and configuration. -->
 
 # Playing Stages
 
