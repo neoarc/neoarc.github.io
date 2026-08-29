@@ -52,8 +52,7 @@ Stage World is SFMB's online stage-sharing area. Beta testers can browse, search
 
 ![Stage World selected on the SFMB main menu](/post-img/wiki/sfmb_main_menus/stage-world.png)
 
-> **TODO**
-<!-- Document searching, filters, sorting, likes, comments, creator pages, contest levels, and other current Stage World features. -->
+See [[sfmb_stage_world]]{Stage World Guide} for searching, sorting, filtering, stage details, and download and play behavior.
 
 ## Challenge
 
@@ -164,6 +163,7 @@ Exit closes the game.
 # Related Guides
 
 * [[sfmb_getting_started]]{Getting Started} — How to install, launch, update, and configure SFMB.
+* [[sfmb_stage_world]]{Stage World Guide} — How to find, inspect, and play community stages.
 * [[sfmb_mapeditor_guide]]{Map Editor Guide} — How to create stages.
 * [[sfmb_level_difficulty]]{Level Difficulty} — How uploaded stages receive a difficulty level.
 * [[sfmb_stage_rating]]{Stage Rating} — How Stage Moderators evaluate stages.

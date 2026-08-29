@@ -37,6 +37,7 @@ sfmb:
     - {fileName: sfmb_sprite_named_animation}
     - {fileName: sfmb_stage_contests}
     - {fileName: sfmb_stage_rating}
+    - {fileName: sfmb_stage_world}
     - {fileName: sfmb_technologies}
     - {fileName: sfmb_technologies_en}
     - {fileName: sfmb_tests}

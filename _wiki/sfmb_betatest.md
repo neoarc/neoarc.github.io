@@ -29,6 +29,7 @@ It later became known as _Super Fanmade Mario Bros._ (**SFMB**) and was renamed 
 
 # Playing Stages
 
+* [[sfmb_stage_world]]{Stage World Guide}
 * [[sfmb_level_difficulty]]{Level Difficulty}
 * [[sfmb_stage_rating]]{Stage Rating}
 * [[sfmb_stage_contests]]{Stage Contests}
@@ -40,7 +41,7 @@ It later became known as _Super Fanmade Mario Bros._ (**SFMB**) and was renamed 
 * [[sfmb_tutorial]]{Tutorials}
 
 > **TODO**
-<!-- Create guides for testing, uploading, editing, and deleting stages, plus a detailed Stage World guide. -->
+<!-- Create guides for testing, uploading, editing, and deleting stages. -->
 
 # Community
 

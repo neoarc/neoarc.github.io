@@ -277,7 +277,7 @@ sfmb_main_menus:
     parent: sfmb_betatest
     url: /wiki/sfmb_main_menus
     updated: '2026-08-29 00:00:00 +0900'
-    children: []
+    children: [sfmb_stage_world]
 sfmb_mapeditor_guide:
     type: wiki
     title: 'SFMB - Map Editor guide'
@@ -341,6 +341,14 @@ sfmb_stage_rating:
     parent: sfmb_betatest
     url: /wiki/sfmb_stage_rating
     updated: '2026-08-28 00:00:00 +0900'
+    children: []
+sfmb_stage_world:
+    type: wiki
+    title: 'SFMB - Stage World'
+    summary: 'How to find, inspect, and play community stages through Stage World.'
+    parent: sfmb_main_menus
+    url: /wiki/sfmb_stage_world
+    updated: '2026-08-29 00:00:00 +0900'
     children: []
 sfmb_technologies:
     type: wiki
