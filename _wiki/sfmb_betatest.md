@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Wiki
 summary : The official community wiki for SFMB, also known as Mario Multiverse.
 date    : 2021-02-21 03:09:59 +0900
-updated : 2026-08-29 00:00:00 +0900
+updated : 2026-08-29 16:39:02 +0900
 tag     : sfmb 
 toc     : false
 public  : true

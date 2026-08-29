@@ -172,7 +172,7 @@ sfmb_betatest:
     summary: 'The official community wiki for SFMB, also known as Mario Multiverse.'
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2026-08-29 00:00:00 +0900'
+    updated: '2026-08-29 16:39:02 +0900'
     children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_community_roles, sfmb_frequently_asked_question, sfmb_getting_started, sfmb_level_difficulty, sfmb_main_menus, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_contests, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
@@ -204,7 +204,7 @@ sfmb_challenge:
     summary: 'How Challenge selects stages and handles lives, skips, rewards, and leaderboards.'
     parent: sfmb_main_menus
     url: /wiki/sfmb_challenge
-    updated: '2026-08-29 00:00:00 +0900'
+    updated: '2026-08-29 16:46:02 +0900'
     children: []
 sfmb_community_roles:
     type: wiki
@@ -212,7 +212,7 @@ sfmb_community_roles:
     summary: 'Requirements and responsibilities for roles in the SFMB community.'
     parent: sfmb_betatest
     url: /wiki/sfmb_community_roles
-    updated: '2026-08-29 00:00:00 +0900'
+    updated: '2026-08-29 16:39:02 +0900'
     children: []
 sfmb_contribute_sprite:
     type: wiki
@@ -244,7 +244,7 @@ sfmb_frequently_asked_question:
     summary: 'Answers to common questions about SFMB access, setup, and gameplay.'
     parent: sfmb_betatest
     url: /wiki/sfmb_frequently_asked_question
-    updated: '2026-08-29 00:00:00 +0900'
+    updated: '2026-08-29 16:39:02 +0900'
     children: [sfmb_exp_and_coin_table]
 sfmb_getting_started:
     type: wiki
@@ -252,7 +252,7 @@ sfmb_getting_started:
     summary: 'How beta testers install, launch, update, and configure SFMB.'
     parent: sfmb_betatest
     url: /wiki/sfmb_getting_started
-    updated: '2026-08-29 00:00:00 +0900'
+    updated: '2026-08-29 16:39:02 +0900'
     children: []
 sfmb_how_to_make_game_theme:
     type: wiki
@@ -284,7 +284,7 @@ sfmb_main_menus:
     summary: 'An overview of the main menus available from the SFMB title screen.'
     parent: sfmb_betatest
     url: /wiki/sfmb_main_menus
-    updated: '2026-08-29 00:00:00 +0900'
+    updated: '2026-08-29 16:39:02 +0900'
     children: [sfmb_challenge, sfmb_single_stage, sfmb_stage_packs, sfmb_stage_world]
 sfmb_mapeditor_guide:
     type: wiki
@@ -324,7 +324,7 @@ sfmb_single_stage:
     summary: 'How to find and play local stage files through the SFMB Single Stage menu.'
     parent: sfmb_main_menus
     url: /wiki/sfmb_single_stage
-    updated: '2026-08-29 00:00:00 +0900'
+    updated: '2026-08-29 16:39:02 +0900'
     children: []
 sfmb_sprite_index:
     type: wiki
@@ -356,7 +356,7 @@ sfmb_stage_packs:
     summary: 'How Stage Packs work and which packs are included in the current SFMB beta.'
     parent: sfmb_main_menus
     url: /wiki/sfmb_stage_packs
-    updated: '2026-08-29 00:00:00 +0900'
+    updated: '2026-08-29 22:57:28 +0900'
     children: []
 sfmb_stage_rating:
     type: wiki
@@ -372,7 +372,7 @@ sfmb_stage_world:
     summary: 'How to find, inspect, and play community stages through Stage World.'
     parent: sfmb_main_menus
     url: /wiki/sfmb_stage_world
-    updated: '2026-08-29 00:00:00 +0900'
+    updated: '2026-08-29 16:39:02 +0900'
     children: []
 sfmb_technologies:
     type: wiki

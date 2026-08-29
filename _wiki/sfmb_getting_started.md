@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Getting Started
 summary : How beta testers install, launch, update, and configure SFMB.
 date    : 2026-08-29 00:00:00 +0900
-updated : 2026-08-29 00:00:00 +0900
+updated : 2026-08-29 16:39:02 +0900
 tag     : sfmb
 toc     : true
 public  : true

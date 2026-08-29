@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Stage World
 summary : How to find, inspect, and play community stages through Stage World.
 date    : 2026-08-29 00:00:00 +0900
-updated : 2026-08-29 00:00:00 +0900
+updated : 2026-08-29 16:39:02 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -14,30 +14,29 @@ latex   : false
 * TOC
 {:toc}
 
-> **TODO: REVIEW NEEDED**
-<!-- Review this draft with the developer before treating its descriptions as final. -->
-
 # About Stage World
 
-Stage World is SFMB's online stage-sharing area. It is used to find and play stages uploaded by other beta testers, revisit your own uploads, and browse stages submitted to contests.
+Stage World is SFMB's online stage-sharing area. It is used to find and play stages uploaded by other beta testers, revisit your own uploads, and browse stages marked as contest entries.
 
 ![Stage World selected on the SFMB main menu](/post-img/wiki/sfmb_main_menus/stage-world.png)
 
 The first screen is a stage list. Selecting an entry opens its details before the stage is downloaded or played.
 
+![Stage World stage list showing stage information, filters, and navigation controls](/post-img/wiki/sfmb_stage_world/stage-list.png)
+
 > **TODO**
-<!-- Add current screenshots of the Stage World list and stage-detail screens. -->
+<!-- Add a current screenshot of the Stage World stage-detail screen. -->
 
 # Finding Stages
 
-The stage list shows each stage's title and Game Theme. It also marks stages that have already been played on the current local profile.
+Each entry in the stage list shows its title, creator, upload date, tags, download count, clear rate, likes, Moderator rating, difficulty, Game Theme, and playable characters. A check mark identifies a stage with a clear record on the current local profile.
 
 The controls at the bottom of the list provide quick access to:
 
 * Reloading the stage list
 * Showing your own uploaded stages
 * Showing contest stages
-* Opening an ongoing contest, when one is active
+* Opening the announcement for an ongoing contest, when one is active
 * Searching and configuring filters
 * Resetting the current search options
 
@@ -93,7 +92,16 @@ Downloading and updating are therefore handled automatically when the stage is p
 
 > **Important:** Stages downloaded through Stage World do not appear in **Single Stage**. Return to Stage World when you want to play them again.
 
-If required Game Themes are missing, the play button is locked and identifies the themes that must be installed. The game may also show a warning before playing a stage that uses special or potentially incompatible content.
+If required Game Themes are missing, the play button is locked and identifies the themes that must be installed.
+
+Before a stage is played, Stage World may show one of the following warnings:
+
+* **Custom enemy** — the stage uses modified enemies whose appearance or behavior may be unexpected or deliberately misleading.
+* **PixelArtX** — the stage uses extended pixel-art objects that may be elaborate decorations or part of troll mechanics.
+* **Incomplete Game Theme** — some enemies or items may look unusual, and parts of the game may appear to malfunction.
+* **Eye-straining Game Theme** — the theme's visuals may cause discomfort or eye strain.
+
+Each warning provides **Play** and **Cancel** choices and a **Don't show this warning again** option for that warning category.
 
 # Likes, Comments, and Ratings
 
@@ -106,7 +114,7 @@ Moderator ratings are separate from likes. Only users with the **Stage Moderator
 
 # Contest Stages
 
-The stage list has a shortcut for showing contest stages. When a contest is in progress, an additional notice provides access to its stages.
+The `#` button filters the list to stages marked as contest entries. When a contest is in progress, a separate notification button opens its announcement, including the contest title, message, and author.
 
 Contest rules, schedules, and results are recorded in [[sfmb_stage_contests]]{Stage Contests}.
 

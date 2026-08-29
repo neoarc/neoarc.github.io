@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Challenge
 summary : How Challenge selects stages and handles lives, skips, rewards, and leaderboards.
 date    : 2026-08-29 00:00:00 +0900
-updated : 2026-08-29 00:00:00 +0900
+updated : 2026-08-29 16:46:02 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -14,9 +14,6 @@ latex   : false
 * TOC
 {:toc}
 
-> **TODO: REVIEW NEEDED**
-<!-- Review this draft with the developer before treating its descriptions as final. -->
-
 # About Challenge
 
 Challenge is a continuous run through a shuffled selection of eligible Stage World stages. The player chooses a difficulty and life setting, then tries to clear as many stages as possible before the run ends.
@@ -26,7 +23,7 @@ Challenge is a continuous run through a shuffled selection of eligible Stage Wor
 The Challenge screen shows the route ahead, the next stage, remaining lives, stages cleared, stages skipped, and NeoCoin collected during the run.
 
 > **TODO**
-<!-- Add current screenshots of difficulty selection, an active run, a bonus stage, the leaderboard, and the Challenge Summary. -->
+<!-- Add current screenshots of a bonus stage, the leaderboard, and the Challenge Summary. -->
 
 # Starting a Challenge
 
@@ -35,6 +32,8 @@ After the Stage World data has loaded:
 1. Select a difficulty.
 2. Select a life setting.
 3. Press **Play** to generate and begin the run.
+
+![Challenge difficulty and life-mode selection screen](/post-img/wiki/sfmb_challenge/difficulty-and-options.png)
 
 The available difficulties are **Easy**, **Normal**, **Hard**, **Expert**, **Hell**, and **Hell+**. Challenge uses the calculated difficulty assigned to each Stage World stage; it does not make the stage itself easier or harder.
 
@@ -80,6 +79,8 @@ The remaining stages are shuffled before the run begins. Challenge may insert sp
 # During a Run
 
 Each selected stage is downloaded or updated automatically before it starts. After clearing it, return to the Challenge route and select **Continue** to proceed to the next stage.
+
+![Challenge route showing the next selected stage](/post-img/wiki/sfmb_challenge/route.png)
 
 The run keeps track of:
 

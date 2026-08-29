@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Frequently Asked Questions
 summary : Answers to common questions about SFMB access, setup, and gameplay.
 date    : 2021-02-22 00:24:37 +0900
-updated : 2026-08-29 00:00:00 +0900
+updated : 2026-08-29 16:39:02 +0900
 tag     : sfmb
 toc     : true
 public  : true

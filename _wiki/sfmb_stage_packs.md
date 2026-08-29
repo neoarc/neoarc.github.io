@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Stage Packs
 summary : How Stage Packs work and which packs are included in the current SFMB beta.
 date    : 2026-08-29 00:00:00 +0900
-updated : 2026-08-29 00:00:00 +0900
+updated : 2026-08-29 22:57:28 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -13,9 +13,6 @@ latex   : false
 ---
 * TOC
 {:toc}
-
-> **TODO: REVIEW NEEDED**
-<!-- Confirm the pack descriptions and the current beta list with the developer. The release configuration still names the removed MarioArcade pack and the nonexistent SuperMarioRetryReturn folder; neither produces a usable Stage Pack in a fresh beta build. -->
 
 # About Stage Packs
 
@@ -41,106 +38,201 @@ A Stage Pack may depend on one or more Game Themes. SFMB checks those requiremen
 
 # Stage Packs Included in the Beta
 
-The following 18 usable Stage Packs are included by the beta release configuration as of **August 29, 2026**. The map count includes title screens, hubs, cutscenes, endings, and other support maps as well as playable stages.
+The current beta release configuration includes 19 Stage Packs as of **August 29, 2026**. **Candy Nights** remains included but cannot currently be played because its required Game Theme has been removed.
 
-| Stage Pack | Creator | Start | Map files |
-| --- | --- | --- | ---: |
-| Classic SuperMarioBros. StagePack | Nintendo | 1-1 | 45 |
-| Super Mario Bros MULTI | Hamster Man | 1-1 | 5 |
-| Super Mario Bros Plus. DEMO 2 | Bob Ross | 1-1 | 28 |
-| Beamy's One Screen Puzzles DEMO | Beamy68 | Level 1 (Very Easy) | 4 |
-| Adventurer's Path | PavleStanulov | 1-1 | 5 |
-| Candy Nights | Abacta (JeromeBotang) | HubWorld | 28 |
-| NSMBWii Super World! | MisterBeanJeans | 1-1 | 75 |
-| SMB4 - Demo 1 | Several People | 1-1 | 8 |
-| Super Mario: Snow Drift | Pixelcraftian | 1 | 29 |
-| No Theme Left Behind! - (DS) | MisterB | 1 | 35 |
-| FastRun | Dolaniski | StartRun | 71 |
-| Super Side Project Bros. | Johanna_SFMB | Super Side Project Bros. | 34 |
-| Super Mario Bros. Expanded | ProneSlone | TitleScreen | 34 |
-| Super Mario Bros. Another Adventure | AwesomeMario33 | TitleScreen | 34 |
-| Sonic: Fate of the Multiverse | Sonic Multiverse Team | Title | 192 |
-| Alphabet Quest | Cloudz | Autumnal Adventure | 26 |
-| Super Mario Land: Lost Levels | Cloudz, Several People | 1-1 | 50 |
-| Luigi is Missing! | DragonDMV | W1-1 Goomba Rock | 34 |
+The **Added** date is when a valid version of the pack first appeared in the game repository. **Map files** includes title screens, hubs, cutscenes, endings, and other support maps as well as playable stages.
 
 ## Classic SuperMarioBros. StagePack
 
-The built-in **Classic** pack recreates the eight-world, 32-stage structure of _Super Mario Bros._ Its 45 map files also include bonus and support maps. It requires the **SMB** Game Theme and is the only pack that currently provides a working Stage Select menu.
+* **Creator:** Nintendo
+* **Added:** September 5, 2016
+* **Start:** 1-1
+* **Required Game Themes:** SMB
+* **Map files:** 45
+* **Note:** This is the only pack that currently provides a working Stage Select menu.
+
+## Super Mario: Retro Return
+
+* **Creator:** Pixelcraftian
+* **Added:** December 11, 2017
+* **Start:** 1-1
+* **Required Game Themes:** SMB, SMBLL, SMO
+* **Map files:** 45
 
 ## Super Mario Bros MULTI
 
-**Super Mario Bros MULTI** is a short demonstration pack by **Hamster Man**. Its five map files cover stages 1-1 through 1-4 and an additional support map. It requires the **SMB** and **SMW** Game Themes.
+* **Creator:** Hamster Man
+* **Added:** June 15, 2020
+* **Start:** 1-1
+* **Required Game Themes:** SMB, SMW
+* **Map files:** 5
 
 ## Super Mario Bros Plus. DEMO 2
 
-**Super Mario Bros Plus. DEMO 2** is a 28-map demo by **Bob Ross**, with stages spanning Worlds 1 through 4. It requires the **SMB** and **SMW** Game Themes.
+* **Creator:** Bob Ross
+* **Added:** November 25, 2018
+* **Start:** 1-1
+* **Required Game Themes:** SMB, SMW
+* **Map files:** 28
 
 ## Beamy's One Screen Puzzles DEMO
 
-This puzzle demo by **Beamy68** contains three one-screen puzzle stages—two marked Very Easy and one marked Easy—followed by an end-of-demo map. It requires the **NSMB**, **SMA4**, **SMB**, and **SMB3** Game Themes.
+* **Creator:** Beamy68
+* **Added:** December 10, 2018
+* **Start:** Level 1 (Very Easy)
+* **Required Game Themes:** NSMB, SMA4, SMB, SMB3
+* **Map files:** 4
 
 ## Adventurer's Path
 
-**Adventurer's Path** by **PavleStanulov** is a short adventure containing Fire Flower Fields, Pipe Tunnel, Bullet Bill Heights, and Fortress of Traps. Its folder contains five map files and requires the **NSMB** Game Theme.
+* **Creator:** PavleStanulov
+* **Added:** January 29, 2019
+* **Start:** 1-1
+* **Required Game Themes:** NSMB
+* **Map files:** 5
 
 ## Candy Nights
 
-**Candy Nights** by **Abacta (JeromeBotang)** begins in a hub and includes 12 numbered stages, alternate Classic versions, and ending or support maps. Its 28 maps require the **CandyArcade** Game Theme.
+> **Unavailable:** The CandyArcade Game Theme was removed at its creator's request, so this pack cannot currently be played.
+
+* **Creator:** Abacta (JeromeBotang)
+* **Added:** April 19, 2020
+* **Start:** HubWorld
+* **Required Game Themes:** CandyArcade (removed)
+* **Map files:** 28
 
 ## NSMBWii Super World!
 
-**NSMBWii Super World!** by **MisterBeanJeans** is a large pack covering Worlds 1 through 8. It contains 75 map files, including its credits, and requires the **NSMBWii** and **SMW** Game Themes.
+* **Creator:** MisterBeanJeans
+* **Added:** October 12, 2020
+* **Start:** 1-1
+* **Required Game Themes:** NSMBWii, SMW
+* **Map files:** 75
 
 ## SMB4 - Demo 1
 
-**SMB4 - Demo 1** was created by several contributors. Its eight maps comprise stages 1-1 through 1-6, 1-A, and 1-F. It requires the **SMA4** Game Theme.
+* **Creator:** Several People
+* **Added:** April 4, 2021
+* **Start:** 1-1
+* **Required Game Themes:** SMA4
+* **Map files:** 8
 
 ## Super Mario: Snow Drift
 
-**Super Mario: Snow Drift** by **Pixelcraftian** is a winter-themed pack with a branching structure, replay variants, and multiple ending maps among its 29 files. It requires the **NSMB**, **SMA4**, **SMAS**, **SMB**, **SMB2**, **SMB3**, **SML2**, and **SMW** Game Themes.
+* **Creator:** Pixelcraftian
+* **Added:** December 20, 2021
+* **Start:** 1
+* **Required Game Themes:** NSMB, SMA4, SMAS, SMB, SMB2, SMB3, SML2, SMW
+* **Map files:** 29
 
 ## No Theme Left Behind! - (DS)
 
-**No Theme Left Behind! - (DS)** by **MisterB** is a sequence of 35 numbered maps built around varied stage concepts. It requires the **NSMB** and **SMB** Game Themes.
+* **Creator:** MisterB
+* **Added:** December 29, 2021
+* **Start:** 1
+* **Required Game Themes:** NSMB, SMB
+* **Map files:** 35
 
 ## FastRun
 
-**FastRun** by **Dolaniski** is a 71-map action and speedrun collection. It includes multiple FastRun routes, an OriginalRun, Icon World stages, bosses, and special maps. It requires the **NSMB**, **SMAS**, **SMB**, **SMBS**, **SMO**, and **YoshiIsland** Game Themes.
+* **Creator:** Dolaniski
+* **Added:** December 30, 2021
+* **Start:** StartRun
+* **Required Game Themes:** NSMB, SMAS, SMB, SMBS, SMO, YoshiIsland
+* **Map files:** 71
 
 ## Super Side Project Bros.
 
-**Super Side Project Bros.** by **Johanna_SFMB** contains a title and introduction, 32 numbered stages across eight worlds, and an ending map. Its 34 maps require the **SMAS** Game Theme.
+* **Creator:** Johanna_SFMB
+* **Added:** May 23, 2022
+* **Start:** Super Side Project Bros.
+* **Required Game Themes:** SMAS
+* **Map files:** 34
 
 ## Super Mario Bros. Expanded
 
-**Super Mario Bros. Expanded** by **ProneSlone** follows an eight-world, 32-stage layout with a title screen and credits, for 34 map files in total. It requires the **SMB** Game Theme.
+* **Creator:** ProneSlone
+* **Added:** July 29, 2022
+* **Start:** TitleScreen
+* **Required Game Themes:** SMB
+* **Map files:** 34
 
 ## Super Mario Bros. Another Adventure
 
-**Super Mario Bros. Another Adventure** by **AwesomeMario33** contains a title screen, 32 numbered stages across eight worlds, and an ending map. Its 34 maps require the **SMB** Game Theme.
+* **Creator:** AwesomeMario33
+* **Added:** September 2, 2023
+* **Start:** TitleScreen
+* **Required Game Themes:** SMB
+* **Map files:** 34
 
 ## Sonic: Fate of the Multiverse
 
-**Sonic: Fate of the Multiverse** by the **Sonic Multiverse Team** is distributed as a protected pack. Its 192 maps include numbered zone acts, cutscenes, bonus routes, warp stages, and multiple endings. It requires the **Sonic** Game Theme.
+* **Creator:** Sonic Multiverse Team
+* **Added:** December 18, 2023
+* **Start:** Title
+* **Required Game Themes:** Sonic
+* **Map files:** 192
 
 ## Alphabet Quest
 
-**Alphabet Quest** by **Cloudz** contains 26 stages, one for every letter from Autumnal Adventure to Zenith Zone. It requires the **MarioBros**, **NSMB**, **SMA4**, **SMAS**, **SMB**, **SMB2**, **SMB3**, **SMBLL**, **SML**, **SML2**, and **SMW** Game Themes.
+* **Creator:** Cloudz
+* **Added:** July 3, 2024
+* **Start:** Autumnal Adventure
+* **Required Game Themes:** MarioBros, NSMB, SMA4, SMAS, SMB, SMB2, SMB3, SMBLL, SML, SML2, SMW
+* **Map files:** 26
 
 ## Super Mario Land: Lost Levels
 
-**Super Mario Land: Lost Levels** by **Cloudz** and several contributors contains 50 maps across Worlds 1 through 9, including castles, airships, Toad Houses, and credits. It requires the **SML** Game Theme.
+* **Creator:** Cloudz, Several People
+* **Added:** September 26, 2025
+* **Start:** 1-1
+* **Required Game Themes:** SML
+* **Map files:** 50
 
 ## Luigi is Missing!
 
-**Luigi is Missing!** by **DragonDMV** contains 34 stages: four stages in each of Worlds 1 through 7 and six stages in World 8. It requires the **SMBLL** Game Theme.
+* **Creator:** DragonDMV
+* **Added:** May 17, 2026
+* **Start:** W1-1 Goomba Rock
+* **Required Game Themes:** SMBLL
+* **Map files:** 34
 
-# Installing Additional Stage Packs
+# Creating a Stage Pack
 
-SFMB discovers Stage Packs placed in subfolders of `Resources\Map`. A pack uses either a `StagePack.json` file and its map files or a protected `.pack` file matching its folder name. Restart the game after adding a pack so that the Stage Pack menu can scan it.
+To create a Stage Pack, make a new folder under `Resources\Map` and place the pack's map files and a `StagePack.json` file together in that folder.
 
-Additional packs are local content and are separate from stages downloaded through Stage World. Only install packs obtained from a source you trust.
+```text
+Resources\Map\MyStagePack\
+├── StagePack.json
+├── 1-1.map
+├── 1-2.map
+└── ...
+```
+
+A basic `StagePack.json` uses the following structure:
+
+```json
+{
+  "CreatedAt": "",
+  "Creator": "Your name",
+  "CreatorUniqueId": "",
+  "InitialStage": "1-1",
+  "Name": "My Stage Pack",
+  "RequiredGameThemes": "SMB,SMB3",
+  "Revision": 1,
+  "Version": 2
+}
+```
+
+* **Name** — the name displayed in the Stage Pack menu.
+* **Creator** — the creator or team shown for the pack.
+* **InitialStage** — the filename of the first map without the `.map` extension. This value must not be empty, and the corresponding map must exist in the folder.
+* **RequiredGameThemes** — a comma-separated list of the Game Themes used by the pack.
+* **CreatedAt** and **CreatorUniqueId** — optional creator metadata and may be left empty.
+* **Revision** — the revision number of the pack.
+* **Version** — the Stage Pack metadata format version.
+
+Restart SFMB after creating or changing the folder so that the Stage Pack menu scans it again.
 
 > **TODO**
 <!-- Add screenshots of the Stage Pack list, pack details, and the New Game, Continue, and Stage Select commands. -->
