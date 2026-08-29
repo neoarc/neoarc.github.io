@@ -19,6 +19,7 @@ sfmb:
     - {fileName: about_super_fanmade_mario_bros}
     - {fileName: sfmb_betatest}
     - {fileName: sfmb_betatest_community_moderator}
+    - {fileName: sfmb_challenge}
     - {fileName: sfmb_community_roles}
     - {fileName: sfmb_contribute_sprite}
     - {fileName: sfmb_contribution_agreement}

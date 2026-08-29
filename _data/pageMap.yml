@@ -198,6 +198,14 @@ sfmb_betatest_community_rules:
     url: /wiki/sfmb_betatest_community_rules
     updated: '2026-01-25 06:04:28 +0900'
     children: []
+sfmb_challenge:
+    type: wiki
+    title: 'SFMB - Challenge'
+    summary: 'How Challenge selects stages and handles lives, skips, rewards, and leaderboards.'
+    parent: sfmb_main_menus
+    url: /wiki/sfmb_challenge
+    updated: '2026-08-29 00:00:00 +0900'
+    children: []
 sfmb_community_roles:
     type: wiki
     title: 'SFMB - Community Roles'
@@ -277,7 +285,7 @@ sfmb_main_menus:
     parent: sfmb_betatest
     url: /wiki/sfmb_main_menus
     updated: '2026-08-29 00:00:00 +0900'
-    children: [sfmb_stage_world]
+    children: [sfmb_challenge, sfmb_stage_world]
 sfmb_mapeditor_guide:
     type: wiki
     title: 'SFMB - Map Editor guide'

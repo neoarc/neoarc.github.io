@@ -30,6 +30,7 @@ It later became known as _Super Fanmade Mario Bros._ (**SFMB**) and was renamed 
 # Playing Stages
 
 * [[sfmb_stage_world]]{Stage World Guide}
+* [[sfmb_challenge]]{Challenge Guide}
 * [[sfmb_level_difficulty]]{Level Difficulty}
 * [[sfmb_stage_rating]]{Stage Rating}
 * [[sfmb_stage_contests]]{Stage Contests}

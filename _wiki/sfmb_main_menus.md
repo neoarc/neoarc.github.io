@@ -62,8 +62,7 @@ During a run, the menu tracks clears, remaining lives, and skips. Challenge also
 
 ![Challenge selected on the SFMB main menu](/post-img/wiki/sfmb_main_menus/challenge.png)
 
-> **TODO**
-<!-- Document stage eligibility, skip rules, rewards, bonus-stage selection, and completion conditions. -->
+See [[sfmb_challenge]]{Challenge Guide} for stage selection, life settings, skips, rewards, bonus stages, and leaderboards.
 
 # Account & Community Menus
 
@@ -164,6 +163,7 @@ Exit closes the game.
 
 * [[sfmb_getting_started]]{Getting Started} — How to install, launch, update, and configure SFMB.
 * [[sfmb_stage_world]]{Stage World Guide} — How to find, inspect, and play community stages.
+* [[sfmb_challenge]]{Challenge Guide} — How Challenge runs, lives, skips, rewards, and leaderboards work.
 * [[sfmb_mapeditor_guide]]{Map Editor Guide} — How to create stages.
 * [[sfmb_level_difficulty]]{Level Difficulty} — How uploaded stages receive a difficulty level.
 * [[sfmb_stage_rating]]{Stage Rating} — How Stage Moderators evaluate stages.
