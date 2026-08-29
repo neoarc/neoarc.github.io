@@ -233,10 +233,10 @@ sfmb_exp_and_coin_table:
 sfmb_frequently_asked_question:
     type: wiki
     title: 'SFMB - Frequently Asked Questions'
-    summary: ""
+    summary: 'Answers to common questions about SFMB access, setup, and gameplay.'
     parent: sfmb_betatest
     url: /wiki/sfmb_frequently_asked_question
-    updated: '2026-08-28 00:00:00 +0900'
+    updated: '2026-08-29 00:00:00 +0900'
     children: [sfmb_exp_and_coin_table]
 sfmb_getting_started:
     type: wiki

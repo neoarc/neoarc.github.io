@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : SFMB - Frequently Asked Questions 
-summary : 
+title   : SFMB - Frequently Asked Questions
+summary : Answers to common questions about SFMB access, setup, and gameplay.
 date    : 2021-02-22 00:24:37 +0900
-updated : 2026-08-28 00:00:00 +0900
-tag     : sfmb 
+updated : 2026-08-29 00:00:00 +0900
+tag     : sfmb
 toc     : true
 public  : true
 comment : true
@@ -14,58 +14,61 @@ latex   : false
 * TOC
 {:toc}
 
-# Under construction
+# Access & Installation
 
-#### Q. Why won’t SFMB start up after a computer reboot?
+## How do I become a Beta Tester and download SFMB?
 
-- Make sure Discord app is open.
-- Since the game uses it to verify your account on startup.
+> **Note:** If you are not already in the beta server, new Beta Testers are admitted through public recruitment or direct scouting. The steps below apply after you have been invited to the server.
 
-#### Q. Can you download SFMB on multiple computers?
-(For example your pc and your laptop?)
+Read the [[sfmb_betatest_community_rules/#for-newbies]]{Community Rules — For newbies}. It explains the quiz, Beta Tester promotion, account approval, and how SFMB-Bot privately sends `MarioDownloader` to you.
 
-- Yes, there is no limit.
+## Why does Discord need to be open?
 
-#### Q: Can you play SFMB on Linux System?
+SFMB uses the Discord desktop app to identify your Discord account and verify its beta access when you log in. Discord must be running and signed in with the account linked to SFMB.
 
-- Basically, no.
-- But I think you can run with WINE.
+## Does SFMB use a separate password?
 
-#### Q: What do I do if I delete a SFMB file by accident?
+No. SFMB authenticates the Discord account linked to your game account. If you lose access to that Discord account, contact the developer to have another Discord account linked.
 
-1. [Click this](sfmb://forceupdate), this will let you download missing file.
-1. If you deleted core file such as `Mario.exe`, then force-update won't work.
-	- Then run `MarioDownloader` the bot sent you. 
-	- It will re-download missing files that you (or windows defender) deleted.
+## Can I install SFMB on multiple computers?
 
-#### Q. What should I do if I lose my login credentials? ( Password )
+Yes. However, the same account cannot run SFMB on multiple computers at the same time. Starting another session invalidates the session already running on the other computer.
 
-- Game does not use password for login process.
-- If you lose your Discord account, you must contact me to link your new Discord account with your game account.
+## Can I play SFMB on Linux?
 
-#### Q. How do I change the keys to move / other?
+Windows is the officially supported and tested platform. SFMB may run under Wine, but this is an unofficial, unsupported, and untested setup. The developer cannot take responsibility for problems specific to Wine.
 
-- Run `MarioConfig.exe`
+# Configuration & Recovery
 
-#### Q. Why is the game still in closed beta?
+## Why won't SFMB start or log in after restarting my computer?
 
-- Complex issue (WIP)
+Make sure the Discord desktop app is open and signed in with the correct beta tester account before starting SFMB. See [[sfmb_getting_started/#launch-and-sign-in]]{Getting Started — Launch and Sign In} for the full checklist.
 
-#### Q. Why do I need to have Discord open to log in?
+## Why doesn't the game update?
 
-- Because game uses Discord Rich Presence to check your Discord ID.
-- It's best way to check user is REAL beta tester in server or not.
+SFMB checks for updates only after login succeeds. If the account is correct but the game cannot connect, check whether a firewall, your current network, or your Internet service provider is blocking access to the SFMB server.
 
-#### Q. How do I become Bug Finder?
+See [[sfmb_getting_started/#launch-and-sign-in]]{Getting Started — Launch and Sign In} for connection checks.
 
-- See [[sfmb_community_roles/#bug-finder]]{Community Roles — Bug Finder} for the current requirement and request process.
+## What should I do if an SFMB file is deleted or damaged?
 
-#### Q. Why doesn't my collected coins match my coin counter?
+Use the force-update methods described in [[sfmb_getting_started/#updates-and-file-recovery]]{Getting Started — Updates and File Recovery}. If `Mario.exe` itself is missing, run the `MarioDownloader` that SFMB-Bot sent you.
 
-- You don't earn game currency (coins you can buy stuff with) from collecting ingame coins.
-- You can get them by playing and making levels.
-- You can see details in here: [[sfmb_exp_and_coin_table]]{EXP & Coin table}
+## How do I change the controls or other settings?
 
-# Please write comment to add contents!
+Run `MarioConfig.exe`. It includes keyboard, controller, volume, window size, and display settings. See [[sfmb_getting_started/#configure-the-game]]{Getting Started — Configure the Game}.
 
-- Because I need your help ;)
+# Game & Community
+
+## Why doesn't collecting coins in a stage increase my NeoCoin balance?
+
+Coins collected inside a stage are separate from NeoCoin. NeoCoin is earned by playing and creating stages. See the [[sfmb_exp_and_coin_table]]{EXP & Coin Table} for details.
+
+## How do I become a Bug Finder?
+
+See [[sfmb_community_roles/#bug-finder]]{Community Roles — Bug Finder} for the current requirement and manual request process.
+
+## Why is SFMB still in closed beta?
+
+> **TODO**
+<!-- Explain the current reasons for keeping SFMB in closed beta. -->
