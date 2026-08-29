@@ -324,7 +324,7 @@ sfmb_single_stage:
     summary: 'How to find and play local stage files through the SFMB Single Stage menu.'
     parent: sfmb_main_menus
     url: /wiki/sfmb_single_stage
-    updated: '2026-08-29 16:39:02 +0900'
+    updated: '2026-08-30 00:21:05 +0900'
     children: []
 sfmb_sprite_index:
     type: wiki

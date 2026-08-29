@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Single Stage
 summary : How to find and play local stage files through the SFMB Single Stage menu.
 date    : 2026-08-29 00:00:00 +0900
-updated : 2026-08-29 16:39:02 +0900
+updated : 2026-08-30 00:21:05 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -13,9 +13,6 @@ latex   : false
 ---
 * TOC
 {:toc}
-
-> **TODO: REVIEW NEEDED**
-<!-- Review the folder rules, local-record behavior, and current clear and game-over options with the developer before treating this draft as final. -->
 
 # About Single Stage
 
@@ -49,13 +46,9 @@ The following content is intentionally excluded:
 * A folder recognized as a valid Stage Pack
 * A root-level map whose file name begins with `_`
 
-After adding, removing, or renaming a map while the list is already open, return to the title screen and reopen Single Stage to refresh it.
+Maps downloaded through Stage World are encrypted and cannot be opened directly by the user. The `Download` folder containing them is deliberately excluded from Single Stage, so these stages must be played through [[sfmb_stage_world]]{Stage World}.
 
-# Stage World Downloads
-
-Stages downloaded through Stage World are stored in `Resources\Map\Download`, which the Single Stage menu deliberately skips. They must be opened from [[sfmb_stage_world]]{Stage World}, even when their files already exist on the PC.
-
-Playing a stage through Stage World also preserves its online context, including its stage information and applicable community interactions. Single Stage treats a map only as a local file.
+After adding, removing, or renaming a local map while the list is already open, return to the title screen and reopen Single Stage to refresh it.
 
 # Required Game Themes
 
@@ -77,9 +70,6 @@ The same two actions are available after losing all lives. To choose a different
 When a local stage is cleared, SFMB saves its best completion time and best score to the active local profile. These records are kept separately from Stage World records and are identified by the local stage path.
 
 Renaming or moving a map changes that path, so the renamed or moved copy is treated as a different stage for record purposes.
-
-> **TODO**
-<!-- Add screenshots of the Select Stage list, a missing-Game-Theme warning, and the local clear and game-over screens. -->
 
 # Related Guides
 
