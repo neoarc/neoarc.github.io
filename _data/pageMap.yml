@@ -285,7 +285,7 @@ sfmb_main_menus:
     parent: sfmb_betatest
     url: /wiki/sfmb_main_menus
     updated: '2026-08-29 00:00:00 +0900'
-    children: [sfmb_challenge, sfmb_stage_packs, sfmb_stage_world]
+    children: [sfmb_challenge, sfmb_single_stage, sfmb_stage_packs, sfmb_stage_world]
 sfmb_mapeditor_guide:
     type: wiki
     title: 'SFMB - Map Editor guide'
@@ -317,6 +317,14 @@ sfmb_roadmap:
     parent: sfmb_betatest
     url: /wiki/sfmb_roadmap
     updated: '2025-11-10 00:13:17 +0900'
+    children: []
+sfmb_single_stage:
+    type: wiki
+    title: 'SFMB - Single Stage'
+    summary: 'How to find and play local stage files through the SFMB Single Stage menu.'
+    parent: sfmb_main_menus
+    url: /wiki/sfmb_single_stage
+    updated: '2026-08-29 00:00:00 +0900'
     children: []
 sfmb_sprite_index:
     type: wiki

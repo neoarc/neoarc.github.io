@@ -42,8 +42,7 @@ Stages downloaded through **Stage World** cannot be played from the Single Stage
 
 ![Single Stage selected on the SFMB main menu](/post-img/wiki/sfmb_main_menus/single-stage.png)
 
-> **TODO**
-<!-- Document the supported local stage locations, how to add and open a stage, and what happens after it is cleared or exited. -->
+See [[sfmb_single_stage]]{Single Stage Guide} for supported local map locations, excluded folders, required Game Themes, and local clear records.
 
 ## Stage World
 
@@ -162,6 +161,7 @@ Exit closes the game.
 
 * [[sfmb_getting_started]]{Getting Started} — How to install, launch, update, and configure SFMB.
 * [[sfmb_stage_packs]]{Stage Pack Guide} — How Stage Packs work and which packs are included in the beta.
+* [[sfmb_single_stage]]{Single Stage Guide} — How to find and play local map files.
 * [[sfmb_stage_world]]{Stage World Guide} — How to find, inspect, and play community stages.
 * [[sfmb_challenge]]{Challenge Guide} — How Challenge runs, lives, skips, rewards, and leaderboards work.
 * [[sfmb_mapeditor_guide]]{Map Editor Guide} — How to create stages.
