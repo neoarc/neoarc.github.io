@@ -75,7 +75,8 @@ Read the [[sfmb_contribution_agreement]]{Contribution Agreement} before contribu
 
 * [[sfmb_version_history]]{Version History}
 * [[sfmb_roadmap]]{Roadmap}
-* [[sfmb_technologies]]{Technologies}
+* [[sfmb_technologies_en]]{Technologies}
+  * [[sfmb_technologies]]{한국어}
 * [[sfmb_tools]]{Tools}
 * [[sfmb_tests]]{Tests}
 

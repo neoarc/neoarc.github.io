@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : SFMB - Technologies (EN)
+title   : SFMB - Technologies
 summary : 
 date    : 2025-10-22 14:18:48 +0900
 updated : 2026-06-10 00:00:00 +0900

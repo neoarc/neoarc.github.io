@@ -384,7 +384,7 @@ sfmb_stage_world:
     children: []
 sfmb_technologies:
     type: wiki
-    title: 'SFMB - Technologies'
+    title: 'SFMB - Technologies (한국어)'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_technologies
@@ -392,7 +392,7 @@ sfmb_technologies:
     children: []
 sfmb_technologies_en:
     type: wiki
-    title: 'SFMB - Technologies (EN)'
+    title: 'SFMB - Technologies'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_technologies_en
@@ -452,7 +452,7 @@ sfmb_version_history:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_version_history
-    updated: '2025-08-11 00:19:10 +0900'
+    updated: '2026-08-30 00:00:00 +0900'
     children: []
 sfmb_why_do_you_like_this_game:
     type: wiki

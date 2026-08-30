@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Version History 
 summary : 
 date    : 2021-02-22 00:24:06 +0900
-updated : 2025-08-11 00:19:10 +0900
+updated : 2026-08-30 00:00:00 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -91,7 +91,9 @@ latex   : false
 
 ## Version 4
 
-### 4.0 - ???
+### 4.0 - Enemies can carry items
+- Some enemies can hold items, which appear when the enemy is defeated.
+- Crash reports were changed from full dumps to smaller minidumps.
 
 {% raw %}<iframe width="560" height="315" src="https://www.youtube.com/embed/A5opka1SaOQ?si=QjeNM375tvdnD9li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>{% endraw %}
 
@@ -375,3 +377,41 @@ latex   : false
 [4] Previously removed themes such as NSMBWii, NSMBU, SMEW, and NSMBR can be downloaded again if desired. MegaSMM is also available for re-download.
 - If you attempt to play a level that uses a removed theme, an error message will notify you that the level cannot be played.
 - `CandyArcade`, `YoshiIsland` have been deleted from game.
+
+### 9.1 - Tile customization (PixelArtBlock + CustomBlock)
+- Terrain tiles can be given a PixelArt appearance.
+- Creators can make custom blocks.
+
+### 9.2 - Movable background objects
+- Background objects can be moved, added, and removed.
+- Background objects can spawn randomly on top of placed terrain tiles.
+
+### 9.3 - CustomEnemy SFX
+- CustomEnemy gained multiple SFX properties for choosing which sound effects it plays.
+
+### 9.4 - SuperBall
+- Added the SuperBall power-up. SuperBalls activate blocks that they hit.
+- Added the `TurnAround` enemy-character animation.
+- BG Layers gained an `IsFront` property.
+
+### 9.5 - New PixelArt Editor
+- Improved PixelArt Editor performance.
+- Added zooming, panning, selection and movement of image regions, clipboard paste, and aspect-ratio display.
+- The ImportPixelArtFromFile window gained the same editing features.
+
+### 9.6 - Slope
+- Added slopes.
+- Redeveloped Wiggler behavior for slopes and other unusual situations.
+- Improved physics-engine performance on slower CPUs.
+
+### 9.7 - Sidestepper & Community Requests
+- Added Sidestepper.
+- Added an optional front-facing sprite when characters enter pipes.
+- Added optional sound effects for Game Themes.
+- The run button now acts as back/cancel in menus.
+- Blue lifts are no longer triggered by projectiles.
+- Playtest characters now cycle in order instead of being selected randomly.
+- CustomEnemy gained an `OnSlide` interaction option.
+- SpriteEditor can generate an SD image from an HD (`@2x`) file and supports a ping-pong loop type.
+- MapEditor gained a BPM-to-scroll-speed calculator and a reorganized GameTheme selection order.
+- Improved the weapon-position and avatar-preset windows.
