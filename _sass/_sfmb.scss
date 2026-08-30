@@ -218,6 +218,18 @@ body.sfmb-wiki {
     font-size: 0.72rem;
 }
 
+@media (min-width: 1700px) {
+    .sfmb-wide .sfmb-post #markdown-toc {
+        position: static;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        z-index: auto;
+        width: auto;
+        overflow: visible;
+    }
+}
+
 .sfmb-post pre,
 .sfmb-post pre code {
     background: #10243d;
