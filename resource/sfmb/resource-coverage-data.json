@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "kind": "resource-coverage",
   "themes": [
     {
@@ -11833,7 +11833,8 @@
               114,
               1191,
               124
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -17213,7 +17214,8 @@
               82,
               931,
               105
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -17470,7 +17472,8 @@
               82,
               1165,
               99
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -28693,7 +28696,8 @@
               114,
               404,
               128
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -29181,7 +29185,8 @@
               114,
               1282,
               122
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -33683,7 +33688,8 @@
               82,
               395,
               110
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -35433,7 +35439,8 @@
               82,
               1326,
               98
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -35683,7 +35690,8 @@
               82,
               1919,
               98
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -37045,8 +37053,14 @@
               "totalFrames": 1
             },
             {
-              "available": false,
-              "status": "missing"
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "MapObject",
+              "frameIndex": 182,
+              "visibleFrames": 1,
+              "totalFrames": 1
             },
             {
               "available": true,
@@ -37363,7 +37377,8 @@
               82,
               1392,
               98
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -39325,7 +39340,8 @@
               114,
               1335,
               122
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -39552,7 +39568,8 @@
               114,
               1393,
               121
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -40006,7 +40023,8 @@
               114,
               1477,
               118
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -40233,7 +40251,8 @@
               114,
               1326,
               122
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -40687,7 +40706,8 @@
               114,
               1426,
               121
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -40914,7 +40934,8 @@
               114,
               1466,
               119
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -41141,7 +41162,8 @@
               82,
               1409,
               98
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -41368,7 +41390,8 @@
               114,
               1410,
               121
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -41595,7 +41618,8 @@
               114,
               103,
               130
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -42276,7 +42300,8 @@
               114,
               454,
               127
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -42503,7 +42528,8 @@
               114,
               1450,
               120
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -42730,7 +42756,8 @@
               114,
               438,
               127
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -42957,7 +42984,8 @@
               114,
               1265,
               122
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -43184,7 +43212,8 @@
               114,
               1149,
               124
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -43865,7 +43894,8 @@
               114,
               1497,
               117
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -44092,7 +44122,8 @@
               82,
               1075,
               103
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -44319,7 +44350,8 @@
               114,
               1441,
               120
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -44546,7 +44578,8 @@
               82,
               1198,
               99
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -45227,7 +45260,8 @@
               114,
               1359,
               121
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -45454,7 +45488,8 @@
               114,
               1462,
               119
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -46135,7 +46170,8 @@
               114,
               1501,
               116
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -46362,7 +46398,8 @@
               114,
               1418,
               121
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -47724,7 +47761,8 @@
               82,
               1277,
               98
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -47951,7 +47989,8 @@
               114,
               1376,
               121
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -48859,7 +48898,8 @@
               82,
               608,
               107
-            ]
+            ],
+            "outline": "dark"
           },
           "coverage": [
             {
@@ -49117,12 +49157,12 @@
               "totalFrames": 8
             },
             {
-              "available": false,
-              "status": "missing",
+              "available": true,
+              "status": "complete",
               "source": "SMW",
               "method": "sheet",
               "sprite": "EffectOverworld",
-              "visibleFrames": 0,
+              "visibleFrames": 8,
               "totalFrames": 8
             },
             {

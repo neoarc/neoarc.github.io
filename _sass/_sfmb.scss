@@ -597,6 +597,14 @@ body.sfmb-wiki {
     margin-right: 4px;
 }
 
+.sfmb-coverage-resource-icon.needs-dark-outline {
+    filter:
+        drop-shadow(-1px 0 0 #163868)
+        drop-shadow(1px 0 0 #163868)
+        drop-shadow(0 -1px 0 #163868)
+        drop-shadow(0 1px 0 #163868);
+}
+
 .sfmb-coverage-theme-icon.is-missing::after {
     color: #fff;
     content: "?";

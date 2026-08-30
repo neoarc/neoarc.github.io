@@ -15,7 +15,7 @@
         const height = frame.rect[3] - frame.rect[1];
         const pixels = document.createElement('span');
         const scale = Math.min(1, 24 / Math.max(width, height));
-        box.className = className;
+        box.className = frame.outline === 'dark' ? `${className} needs-dark-outline` : className;
         box.setAttribute('aria-hidden', 'true');
         pixels.className = 'sfmb-coverage-icon-pixels';
         pixels.style.width = `${width}px`;
