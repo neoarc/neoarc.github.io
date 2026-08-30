@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Wiki
 summary : The official community wiki for SFMB, also known as Mario Multiverse.
 date    : 2021-02-21 03:09:59 +0900
-updated : 2026-08-29 16:39:02 +0900
+updated : 2026-08-30 01:40:38 +0900
 tag     : sfmb 
 toc     : false
 public  : true
@@ -58,6 +58,7 @@ It later became known as _Super Fanmade Mario Bros._ (**SFMB**) and was renamed 
 
 Read the [[sfmb_contribution_agreement]]{Contribution Agreement} before contributing.
 
+* [[sfmb_resource_coverage]]{Resource Coverage}
 * [[sfmb_contribute_sprite]]{Sprite Contribution}
 * Music Contribution
 <!-- TODO: Add a link after the Music Contribution guide has been written. -->

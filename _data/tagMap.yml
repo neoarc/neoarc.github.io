@@ -33,6 +33,7 @@ sfmb:
     - {fileName: sfmb_mapeditor_guide}
     - {fileName: sfmb_privacy_and_security}
     - {fileName: sfmb_privacy_policy}
+    - {fileName: sfmb_resource_coverage}
     - {fileName: sfmb_roadmap}
     - {fileName: sfmb_single_stage}
     - {fileName: sfmb_sprite_index}

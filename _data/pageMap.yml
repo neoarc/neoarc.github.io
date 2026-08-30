@@ -172,8 +172,8 @@ sfmb_betatest:
     summary: 'The official community wiki for SFMB, also known as Mario Multiverse.'
     parent: ""
     url: /wiki/sfmb_betatest
-    updated: '2026-08-29 16:39:02 +0900'
-    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_community_roles, sfmb_frequently_asked_question, sfmb_getting_started, sfmb_level_difficulty, sfmb_main_menus, sfmb_mapeditor_guide, sfmb_roadmap, sfmb_stage_contests, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
+    updated: '2026-08-30 01:40:38 +0900'
+    children: [sfmb_betatest_community, sfmb_betatest_community_moderator, sfmb_betatest_community_rules, sfmb_community_roles, sfmb_frequently_asked_question, sfmb_getting_started, sfmb_level_difficulty, sfmb_main_menus, sfmb_mapeditor_guide, sfmb_resource_coverage, sfmb_roadmap, sfmb_stage_contests, sfmb_stage_rating, sfmb_technologies, sfmb_technologies_en, sfmb_tests, sfmb_tools, sfmb_trouble_shooting, sfmb_tutorial, sfmb_version_history]
 sfmb_betatest_community:
     type: wiki
     title: 'SFMB - About Community'
@@ -309,6 +309,14 @@ sfmb_privacy_policy:
     parent: ""
     url: /wiki/sfmb_privacy_policy
     updated: '2025-10-14 01:50:47 +0900'
+    children: []
+sfmb_resource_coverage:
+    type: wiki
+    title: 'SFMB - Resource Coverage'
+    summary: 'See which gameplay sprites are available for each Game Theme.'
+    parent: sfmb_betatest
+    url: /wiki/sfmb_resource_coverage
+    updated: '2026-08-30 09:45:13 +0900'
     children: []
 sfmb_roadmap:
     type: wiki

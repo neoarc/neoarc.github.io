@@ -47,6 +47,13 @@
 
 {% if is_sfmb %}
     <link rel="preload" href="/wiki/SFMBFontPP.woff2" as="font" type="font/woff2" crossorigin>
+    <script>
+        try {
+            if (localStorage.getItem('sfmb-wiki-wide') === 'true')
+                document.documentElement.classList.add('sfmb-wide');
+        } catch (error) {}
+    </script>
+    <script defer src="/js/sfmb-wide-mode.js"></script>
 {% endif %}
 
 {% if site.google_analytics.ua %}
@@ -93,7 +100,10 @@
     </div>
 {% endif %}
     <!-- 구글 번역기 가젯 -->
-    <div>
+    <div{% if is_sfmb %} class="sfmb-header-tools"{% endif %}>
+{% if is_sfmb %}
+        <button type="button" id="sfmb-wide-toggle" class="sfmb-wide-toggle" aria-pressed="false" title="Use a wider SFMB Wiki layout">WIDE</button>
+{% endif %}
         <div class="site-title-right google_translate" id="google_translate_element"></div>
 {% if is_sfmb %}
         <script type="text/javascript">  
