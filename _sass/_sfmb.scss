@@ -372,10 +372,6 @@ body.sfmb-wiki {
     margin: 24px 0 34px;
 }
 
-.sfmb-coverage-section > h2 {
-    margin-bottom: 4px;
-}
-
 .sfmb-coverage-status,
 .sfmb-coverage-summary {
     color: #66788c;
@@ -385,21 +381,6 @@ body.sfmb-wiki {
 
 .sfmb-coverage-overview {
     margin-bottom: 20px;
-}
-
-.sfmb-coverage-toc {
-    margin: 22px 0 30px;
-    padding: 10px 14px;
-}
-
-.sfmb-coverage-toc > strong {
-    color: #163868;
-    font-family: "SFMBSmall", Consolas, monospace;
-    font-size: 8px;
-}
-
-.sfmb-coverage-toc ul {
-    margin: 6px 0 0;
 }
 
 .sfmb-coverage-status.is-error {
@@ -453,6 +434,11 @@ body.sfmb-wiki {
     background: #2878d0;
     color: #fff;
     text-shadow: 1px 1px #163868;
+}
+
+.sfmb-post .sfmb-coverage-overview-table thead th:first-child {
+    left: 0;
+    z-index: 2;
 }
 
 .sfmb-post .sfmb-coverage-overview-table tbody th {

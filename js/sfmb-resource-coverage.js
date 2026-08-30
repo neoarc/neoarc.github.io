@@ -96,9 +96,7 @@
         return td;
     }
 
-    function renderSection(data, section) {
-        const container = document.createElement('section');
-        const title = document.createElement('h2');
+    function renderSection(root, data, section) {
         const summary = document.createElement('p');
         const scroller = document.createElement('div');
         const table = document.createElement('table');
@@ -118,9 +116,6 @@
         const covered = themeStats.reduce((sum, stats) => sum + stats.covered, 0);
         const partial = themeStats.reduce((sum, stats) => sum + stats.partial, 0);
 
-        container.id = `sprite-coverage-${section.id}`;
-        title.textContent = section.title;
-        container.className = 'sfmb-coverage-section';
         summary.className = 'sfmb-coverage-summary';
         summary.textContent = `${section.rows.length} resources · ${covered}/${section.rows.length * data.themes.length} complete` +
             (partial ? ` · ${partial} partial` : '');
@@ -156,8 +151,7 @@
         scroller.tabIndex = 0;
         scroller.setAttribute('aria-label', `Scrollable ${section.title.toLowerCase()} coverage table`);
         scroller.appendChild(table);
-        container.append(title, summary, scroller);
-        return container;
+        root.replaceChildren(summary, scroller);
     }
 
     function getThemeStats(section, themeIndex) {
@@ -205,6 +199,10 @@
         themeHeader.scope = 'col';
         themeHeader.textContent = 'Game Theme';
         headerRow.appendChild(themeHeader);
+        const totalHeader = document.createElement('th');
+        totalHeader.scope = 'col';
+        totalHeader.textContent = 'All sprites';
+        headerRow.appendChild(totalHeader);
         sections.forEach((section) => {
             const th = document.createElement('th');
             th.scope = 'col';
@@ -212,10 +210,6 @@
             th.title = section.title;
             headerRow.appendChild(th);
         });
-        const totalHeader = document.createElement('th');
-        totalHeader.scope = 'col';
-        totalHeader.textContent = 'All sprites';
-        headerRow.appendChild(totalHeader);
         thead.appendChild(headerRow);
 
         data.themes.forEach((theme, themeIndex) => {
@@ -239,8 +233,8 @@
             name.textContent = theme.id;
             heading.appendChild(name);
             row.appendChild(heading);
-            stats.forEach((sectionStats) => row.appendChild(makeOverviewValue(sectionStats)));
             row.appendChild(makeOverviewValue(combined));
+            stats.forEach((sectionStats) => row.appendChild(makeOverviewValue(sectionStats)));
             body.appendChild(row);
         });
 
@@ -253,14 +247,13 @@
         root.replaceChildren(summary, scroller);
     }
 
-    function renderSpriteCoverage(root, data) {
-        const overview = document.createElement('p');
+    function renderSpriteCoverage(data) {
         const sections = data.sections.filter((section) =>
             !section.resourceType || section.resourceType === 'sprite');
-        const totalResources = sections.reduce((sum, section) => sum + section.rows.length, 0);
-        overview.className = 'sfmb-coverage-summary sfmb-coverage-overview';
-        overview.textContent = `${data.themes.length} Game Themes · ${totalResources} tracked resources`;
-        root.replaceChildren(overview, ...sections.map((section) => renderSection(data, section)));
+        sections.forEach((section) => {
+            const root = document.getElementById(`sfmb-sprite-coverage-${section.id}`);
+            if (root) renderSection(root, data, section);
+        });
     }
 
     function showError(root, error) {
@@ -273,8 +266,8 @@
 
     function init() {
         const overviewRoot = document.getElementById('sfmb-resource-coverage-overview');
-        const spriteRoot = document.getElementById('sfmb-sprite-coverage');
-        if (!overviewRoot && !spriteRoot) return;
+        const spriteRoots = [...document.querySelectorAll('[id^="sfmb-sprite-coverage-"]')];
+        if (!overviewRoot && !spriteRoots.length) return;
         fetch(DATA_URL)
             .then((response) => {
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -282,11 +275,11 @@
             })
             .then((data) => {
                 if (overviewRoot) renderOverview(overviewRoot, data);
-                if (spriteRoot) renderSpriteCoverage(spriteRoot, data);
+                renderSpriteCoverage(data);
             })
             .catch((error) => {
                 if (overviewRoot) showError(overviewRoot, error);
-                if (spriteRoot) showError(spriteRoot, error);
+                spriteRoots.forEach((root) => showError(root, error));
             });
     }
 

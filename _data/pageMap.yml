@@ -316,7 +316,7 @@ sfmb_resource_coverage:
     summary: 'See which gameplay sprites are available for each Game Theme.'
     parent: sfmb_betatest
     url: /wiki/sfmb_resource_coverage
-    updated: '2026-08-30 09:45:13 +0900'
+    updated: '2026-08-30 11:17:57 +0900'
     children: []
 sfmb_roadmap:
     type: wiki
