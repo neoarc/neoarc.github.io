@@ -44,7 +44,9 @@
         coverage.textContent = stats.partial
             ? `${stats.covered}/${stats.total}\n△${stats.partial}`
             : `${stats.covered}/${stats.total}`;
-        coverage.setAttribute('aria-label', `${stats.percent}% complete, ${stats.partial} partial`);
+        coverage.textContent += `\n${stats.frames.toLocaleString()}f`;
+        if (stats.unknownFrames) coverage.textContent += ` +${stats.unknownFrames}?`;
+        coverage.setAttribute('aria-label', `${stats.percent}% complete, ${stats.partial} partial, ${stats.frames} known actual frames, ${stats.unknownFrames} frame counts unavailable`);
         heading.appendChild(coverage);
         return heading;
     }
@@ -65,8 +67,7 @@
     function makeCoverageCell(cell, theme, row) {
         const td = document.createElement('td');
         const mark = document.createElement('span');
-        const hasFrameCount = Number.isInteger(cell.visibleFrames) &&
-            Number.isInteger(cell.totalFrames);
+        const hasFrameCount = Number.isInteger(cell.actualFrames);
         const resourceName = row.name;
         const status = cell.status || (cell.available ? 'complete' : 'missing');
         td.className = status === 'complete' ? 'is-covered' :
@@ -82,9 +83,9 @@
                     : '';
             td.title = `${resourceName} is ${source}${implementation}.`;
             if (hasFrameCount)
-                td.title += ` ${cell.visibleFrames}/${cell.totalFrames} frames contain visible pixels.`;
+                td.title += ` ${cell.actualFrames} actual sprite frames.`;
             td.setAttribute('aria-label', `${theme.id}: ${resourceName} available` +
-                (hasFrameCount ? `, ${cell.visibleFrames} of ${cell.totalFrames} frames` : ''));
+                (hasFrameCount ? `, ${cell.actualFrames} actual sprite frames` : ''));
         }
         else if (status === 'partial') {
             mark.textContent = '△';
@@ -94,9 +95,9 @@
         else {
             mark.textContent = '×';
             td.title = `${resourceName} is missing for ${theme.id}.` +
-                (hasFrameCount ? ` ${cell.visibleFrames}/${cell.totalFrames} frames contain visible pixels.` : '');
+                (hasFrameCount ? ` ${cell.actualFrames} actual sprite frames.` : '');
             td.setAttribute('aria-label', `${theme.id}: ${resourceName} missing` +
-                (hasFrameCount ? `, ${cell.visibleFrames} of ${cell.totalFrames} frames` : ''));
+                (hasFrameCount ? `, ${cell.actualFrames} actual sprite frames` : ''));
         }
         mark.setAttribute('aria-hidden', 'true');
         mark.className = 'sfmb-coverage-mark';
@@ -104,11 +105,17 @@
         if (hasFrameCount) {
             const frames = document.createElement('small');
             frames.className = 'sfmb-coverage-frame-count';
-            frames.textContent = cell.visibleFrames === cell.totalFrames
-                ? `${cell.visibleFrames}f`
-                : `${cell.visibleFrames}/${cell.totalFrames}f`;
+            frames.textContent = `${cell.actualFrames}f`;
             frames.setAttribute('aria-hidden', 'true');
             td.appendChild(frames);
+        }
+        else if (cell.available) {
+            const frames = document.createElement('small');
+            frames.className = 'sfmb-coverage-frame-count is-unknown';
+            frames.textContent = '?f';
+            frames.setAttribute('aria-hidden', 'true');
+            td.appendChild(frames);
+            td.title += ' Actual frame count is unavailable.';
         }
         return td;
     }
@@ -123,19 +130,33 @@
         const themeStats = data.themes.map((theme, themeIndex) => {
             const covered = section.rows.filter((row) => row.coverage[themeIndex].available).length;
             const partial = section.rows.filter((row) => row.coverage[themeIndex].status === 'partial').length;
+            const frames = section.rows.reduce((sum, row) =>
+                sum + (Number.isInteger(row.coverage[themeIndex].actualFrames)
+                    ? row.coverage[themeIndex].actualFrames
+                    : 0), 0);
+            const unknownFrames = section.rows.filter((row) =>
+                row.coverage[themeIndex].available &&
+                !Number.isInteger(row.coverage[themeIndex].actualFrames)).length;
             return {
                 covered,
                 partial,
+                frames,
+                unknownFrames,
                 total: section.rows.length,
                 percent: section.rows.length ? Math.round(covered * 100 / section.rows.length) : 0,
             };
         });
         const covered = themeStats.reduce((sum, stats) => sum + stats.covered, 0);
         const partial = themeStats.reduce((sum, stats) => sum + stats.partial, 0);
+        const frames = themeStats.reduce((sum, stats) => sum + stats.frames, 0);
+        const unknownFrames = themeStats.reduce((sum, stats) => sum + stats.unknownFrames, 0);
 
         summary.className = 'sfmb-coverage-summary';
         summary.textContent = `${section.rows.length} resources · ${covered}/${section.rows.length * data.themes.length} complete` +
             (partial ? ` · ${partial} partial` : '');
+
+        summary.textContent += ` · ${frames.toLocaleString()} known actual frames` +
+            (unknownFrames ? ` · ${unknownFrames} frame counts unavailable` : '');
 
         corner.scope = 'col';
         corner.className = 'sfmb-coverage-corner';
@@ -174,9 +195,18 @@
     function getThemeStats(section, themeIndex) {
         const covered = section.rows.filter((row) => row.coverage[themeIndex].available).length;
         const partial = section.rows.filter((row) => row.coverage[themeIndex].status === 'partial').length;
+        const frames = section.rows.reduce((sum, row) =>
+            sum + (Number.isInteger(row.coverage[themeIndex].actualFrames)
+                ? row.coverage[themeIndex].actualFrames
+                : 0), 0);
+        const unknownFrames = section.rows.filter((row) =>
+            row.coverage[themeIndex].available &&
+            !Number.isInteger(row.coverage[themeIndex].actualFrames)).length;
         return {
             covered,
             partial,
+            frames,
+            unknownFrames,
             total: section.rows.length,
             percent: section.rows.length ? Math.round(covered * 100 / section.rows.length) : 0,
         };
@@ -191,6 +221,11 @@
         td.className = stats.percent === 100 ? 'is-complete' :
             stats.covered || stats.partial ? 'is-incomplete' : 'is-empty';
         td.appendChild(value);
+        const frames = document.createElement('small');
+        frames.className = 'sfmb-coverage-overview-frames';
+        frames.textContent = `${stats.frames.toLocaleString()} known frames` +
+            (stats.unknownFrames ? ` · ${stats.unknownFrames} unknown` : '');
+        td.appendChild(frames);
         if (stats.partial) {
             const partial = document.createElement('small');
             partial.textContent = `△${stats.partial}`;
@@ -210,9 +245,19 @@
         const body = document.createElement('tbody');
         const themeHeader = document.createElement('th');
         const totalResources = sections.reduce((sum, section) => sum + section.rows.length, 0);
+        const totalFrames = sections.reduce((sectionSum, section) =>
+            sectionSum + section.rows.reduce((rowSum, row) =>
+                rowSum + row.coverage.reduce((cellSum, cell) =>
+                    cellSum + (Number.isInteger(cell.actualFrames) ? cell.actualFrames : 0), 0), 0), 0);
+        const unknownFrames = sections.reduce((sectionSum, section) =>
+            sectionSum + section.rows.reduce((rowSum, row) =>
+                rowSum + row.coverage.filter((cell) =>
+                    cell.available && !Number.isInteger(cell.actualFrames)).length, 0), 0);
 
         summary.className = 'sfmb-coverage-summary sfmb-coverage-overview';
         summary.textContent = `${data.themes.length} Game Themes · ${totalResources} tracked resources`;
+        summary.textContent += ` · ${totalFrames.toLocaleString()} known actual frames` +
+            (unknownFrames ? ` · ${unknownFrames} frame counts unavailable` : '');
         themeHeader.scope = 'col';
         themeHeader.textContent = 'Game Theme';
         headerRow.appendChild(themeHeader);
@@ -237,9 +282,11 @@
             const combined = stats.reduce((result, current) => ({
                 covered: result.covered + current.covered,
                 partial: result.partial + current.partial,
+                frames: result.frames + current.frames,
+                unknownFrames: result.unknownFrames + current.unknownFrames,
                 total: result.total + current.total,
                 percent: 0,
-            }), { covered: 0, partial: 0, total: 0, percent: 0 });
+            }), { covered: 0, partial: 0, frames: 0, unknownFrames: 0, total: 0, percent: 0 });
             combined.percent = combined.total ? Math.round(combined.covered * 100 / combined.total) : 0;
 
             heading.scope = 'row';
@@ -255,8 +302,43 @@
             body.appendChild(row);
         });
 
+        const footer = document.createElement('tfoot');
+        const footerRow = document.createElement('tr');
+        const footerHeading = document.createElement('th');
+        const sectionTotals = sections.map((section) => {
+            const stats = data.themes.map((theme, themeIndex) => getThemeStats(section, themeIndex));
+            const total = stats.reduce((result, current) => ({
+                covered: result.covered + current.covered,
+                partial: result.partial + current.partial,
+                frames: result.frames + current.frames,
+                unknownFrames: result.unknownFrames + current.unknownFrames,
+                total: result.total + current.total,
+                percent: 0,
+            }), { covered: 0, partial: 0, frames: 0, unknownFrames: 0, total: 0, percent: 0 });
+            total.percent = total.total ? Math.round(total.covered * 100 / total.total) : 0;
+            return total;
+        });
+        const grandTotal = sectionTotals.reduce((result, current) => ({
+            covered: result.covered + current.covered,
+            partial: result.partial + current.partial,
+            frames: result.frames + current.frames,
+            unknownFrames: result.unknownFrames + current.unknownFrames,
+            total: result.total + current.total,
+            percent: 0,
+        }), { covered: 0, partial: 0, frames: 0, unknownFrames: 0, total: 0, percent: 0 });
+        grandTotal.percent = grandTotal.total
+            ? Math.round(grandTotal.covered * 100 / grandTotal.total)
+            : 0;
+
+        footerHeading.scope = 'row';
+        footerHeading.textContent = 'All themes';
+        footerRow.appendChild(footerHeading);
+        footerRow.appendChild(makeOverviewValue(grandTotal));
+        sectionTotals.forEach((stats) => footerRow.appendChild(makeOverviewValue(stats)));
+        footer.appendChild(footerRow);
+
         table.className = 'sfmb-coverage-overview-table';
-        table.append(thead, body);
+        table.append(thead, body, footer);
         scroller.className = 'sfmb-coverage-scroll is-overview';
         scroller.tabIndex = 0;
         scroller.setAttribute('aria-label', 'Scrollable Game Theme resource coverage overview');

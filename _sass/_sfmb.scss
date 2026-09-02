@@ -454,7 +454,8 @@ body.sfmb-wiki {
     z-index: 2;
 }
 
-.sfmb-post .sfmb-coverage-overview-table tbody th {
+.sfmb-post .sfmb-coverage-overview-table tbody th,
+.sfmb-post .sfmb-coverage-overview-table tfoot th {
     position: sticky;
     left: 0;
     z-index: 1;
@@ -462,6 +463,12 @@ body.sfmb-wiki {
     background: #edf6fc;
     color: #263b55;
     text-align: left;
+}
+
+.sfmb-post .sfmb-coverage-overview-table tfoot th,
+.sfmb-post .sfmb-coverage-overview-table tfoot td {
+    border-top: 2px solid #2878d0;
+    font-weight: 700;
 }
 
 .sfmb-coverage-overview-table tbody th > span:last-child {
@@ -518,7 +525,7 @@ body.sfmb-wiki {
     position: sticky;
     top: 0;
     z-index: 3;
-    height: 58px;
+    height: 66px;
     background: #2878d0;
     color: #fff;
     text-shadow: 1px 1px #163868;
@@ -656,6 +663,10 @@ body.sfmb-wiki {
     line-height: 7px;
     text-overflow: clip;
     white-space: nowrap;
+}
+
+.sfmb-coverage-frame-count.is-unknown {
+    opacity: .55;
 }
 
 .sfmb-coverage-table td.is-covered {
