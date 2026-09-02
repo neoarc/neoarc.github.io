@@ -65,6 +65,8 @@
     function makeCoverageCell(cell, theme, row) {
         const td = document.createElement('td');
         const mark = document.createElement('span');
+        const hasFrameCount = Number.isInteger(cell.visibleFrames) &&
+            Number.isInteger(cell.totalFrames);
         const resourceName = row.name;
         const status = cell.status || (cell.available ? 'complete' : 'missing');
         td.className = status === 'complete' ? 'is-covered' :
@@ -79,7 +81,10 @@
                     ? ` using ${cell.sprite}[${cell.frameIndex}]`
                     : '';
             td.title = `${resourceName} is ${source}${implementation}.`;
-            td.setAttribute('aria-label', `${theme.id}: ${resourceName} available`);
+            if (hasFrameCount)
+                td.title += ` ${cell.visibleFrames}/${cell.totalFrames} frames contain visible pixels.`;
+            td.setAttribute('aria-label', `${theme.id}: ${resourceName} available` +
+                (hasFrameCount ? `, ${cell.visibleFrames} of ${cell.totalFrames} frames` : ''));
         }
         else if (status === 'partial') {
             mark.textContent = '△';
@@ -88,11 +93,23 @@
         }
         else {
             mark.textContent = '×';
-            td.title = `${resourceName} is missing for ${theme.id}.`;
-            td.setAttribute('aria-label', `${theme.id}: ${resourceName} missing`);
+            td.title = `${resourceName} is missing for ${theme.id}.` +
+                (hasFrameCount ? ` ${cell.visibleFrames}/${cell.totalFrames} frames contain visible pixels.` : '');
+            td.setAttribute('aria-label', `${theme.id}: ${resourceName} missing` +
+                (hasFrameCount ? `, ${cell.visibleFrames} of ${cell.totalFrames} frames` : ''));
         }
         mark.setAttribute('aria-hidden', 'true');
+        mark.className = 'sfmb-coverage-mark';
         td.appendChild(mark);
+        if (hasFrameCount) {
+            const frames = document.createElement('small');
+            frames.className = 'sfmb-coverage-frame-count';
+            frames.textContent = cell.visibleFrames === cell.totalFrames
+                ? `${cell.visibleFrames}f`
+                : `${cell.visibleFrames}/${cell.totalFrames}f`;
+            frames.setAttribute('aria-hidden', 'true');
+            td.appendChild(frames);
+        }
         return td;
     }
 

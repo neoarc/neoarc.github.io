@@ -24,7 +24,7 @@ The overview summarizes all resource coverage currently tracked for each Game Th
 
 # Sprite Coverage
 
-These tables are generated from the sprite resources currently present in the game repository. A check means that the Game Theme provides the sprite directly or inherits it from its declared Base Theme. An X identifies a sprite that is still needed. A triangle marks a partially populated multi-frame resource that may be intentional but should be reviewed. Each Game Theme heading shows its complete and partial sprite counts for that table.
+These tables are generated from the sprite resources currently present in the game repository. A check means that the Game Theme provides the sprite directly or inherits it from its declared Base Theme. An X identifies a sprite that is still needed. A triangle marks a partially populated multi-frame resource that may be intentional but should be reviewed. When frame data is available, the small number below the status shows the actual visible frame count; partial and missing resources show it against the expected total (for example, `2/4f`). Each Game Theme heading shows its complete and partial sprite counts for that table.
 
 Costume characters and Nyle Luigi are not included. They do not belong to the standard Game Theme character sprite sets tracked here.
 

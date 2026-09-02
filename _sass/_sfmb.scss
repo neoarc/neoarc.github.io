@@ -643,6 +643,21 @@ body.sfmb-wiki {
     line-height: 1;
 }
 
+.sfmb-coverage-mark {
+    display: block;
+    line-height: 15px;
+}
+
+.sfmb-coverage-frame-count {
+    display: block;
+    overflow: hidden;
+    font-size: 6px;
+    font-weight: 700;
+    line-height: 7px;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
 .sfmb-coverage-table td.is-covered {
     background: #e5f7e5;
     color: #16833b;
