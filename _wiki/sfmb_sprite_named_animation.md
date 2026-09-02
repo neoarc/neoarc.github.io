@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Named animation definition
 summary : 
 date    : 2025-10-20 15:24:24 +0900
-updated : 2026-08-26 00:14:18 +0900
+updated : 2026-09-02 11:49:36 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -124,6 +124,9 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 * Walk
 
 ## CannonBall
+
+`CannonBall` and the [`Cannon`](#cannon) event object share the same `E_Cannon.sprite` file.
+Keep the named animations for both objects in that file.
 
 * CannonBall
 * CannonBallRed
@@ -427,6 +430,8 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 # Event objects
 
 ## Cannon
+
+`Cannon` shares `E_Cannon.sprite` with the [`CannonBall`](#cannonball) enemy.
 
 * Body
 * BodyRed
