@@ -10,6 +10,10 @@ if not "%setup_exit%"=="0" (
     echo.
     echo Setup did not finish successfully. Review the message above.
     pause
+    exit /b %setup_exit%
 )
 
-exit /b %setup_exit%
+echo.
+echo Setup completed successfully. Run __JEKYLL_LOCAL.bat to start the wiki.
+pause
+exit /b 0

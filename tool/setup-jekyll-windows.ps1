@@ -83,6 +83,12 @@ if ($LASTEXITCODE -ne 0) {
     throw "Jekyll build failed (exit code $LASTEXITCODE)."
 }
 
+Write-Step 'Verifying the local server runtime'
+& bundle exec ruby -e "require 'webrick'; puts 'WEBrick: ' + WEBrick::VERSION"
+if ($LASTEXITCODE -ne 0) {
+    throw "Jekyll server dependency verification failed (exit code $LASTEXITCODE)."
+}
+
 Write-Host "`nSetup complete." -ForegroundColor Green
 Write-Host 'Run __JEKYLL_LOCAL.bat to open the local wiki at http://127.0.0.1:4000/'
 
