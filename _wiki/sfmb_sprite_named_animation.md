@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Named animation definition
 summary : 
 date    : 2025-10-20 15:24:24 +0900
-updated : 2026-09-02 11:49:36 +0900
+updated : 2026-09-06 13:29:32 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -27,6 +27,11 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 <!-- AUTOGEN:START named_animation -->
 
 # Enemies
+
+## AggressivePiranhaPlant
+
+* Die
+* Idle
 
 ## AngrySun
 
@@ -200,6 +205,13 @@ Keep the named animations for both objects in that file.
 * Idle
 * ThrowFire
 
+## FirePiranhaPlant
+
+* Die
+* Idle
+* LookDown
+* LookUp
+
 ## FishBone
 
 * Idle
@@ -303,6 +315,11 @@ Keep the named animations for both objects in that file.
 * ThrowMagicBlast
 
 ## MontyMole
+
+* Die
+* Idle
+
+## Muncher
 
 * Die
 * Idle

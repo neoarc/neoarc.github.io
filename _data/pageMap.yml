@@ -348,7 +348,7 @@ sfmb_sprite_named_animation:
     summary: ""
     parent: sfmb_contribute_sprite
     url: /wiki/sfmb_sprite_named_animation
-    updated: '2026-08-26 00:14:18 +0900'
+    updated: '2026-09-06 13:29:32 +0900'
     children: []
 sfmb_stage_contests:
     type: wiki
