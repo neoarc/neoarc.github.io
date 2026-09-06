@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Named animation definition
 summary : 
 date    : 2025-10-20 15:24:24 +0900
-updated : 2026-09-06 13:29:32 +0900
+updated : 2026-09-07 02:25:30 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -13,8 +13,9 @@ latex   : false
 * TOC
 {:toc}
 
-The preview generator uses the default `SMB` theme unless another theme is specified.
-Named animations are theme-specific, so an animation without a preview is not defined by the generated theme.
+The preview generator uses only the configured themes, in the order shown on this page,
+plus each theme's `BaseTheme` inheritance chain. Each preview shows the theme used for that sample.
+If no preview appears, none of the configured themes defines that named animation.
 
 <!-- AUTOGEN:START named_animation -->
 

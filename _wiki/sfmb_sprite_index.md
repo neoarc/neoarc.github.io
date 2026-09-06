@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Sprite index definition
 summary : 
 date    : 2023-05-22 03:24:15 +0900
-updated : 2026-08-26 22:48:26 +0900
+updated : 2026-09-07 07:33:43 +0900
 tag     : sfmb sfmb-sprite
 toc     : true
 public  : true
@@ -15,7 +15,7 @@ latex   : false
 {:toc}
 
 Each index is shown with the corresponding frame cropped from SFMB's default sprite sheet.
-The preview size is fixed while the original pixel proportions are preserved.
+Frames are enlarged only by an integer scale; large frames stay at their original size.
 
 <!-- AUTOGEN:START sprite_index -->
 
@@ -858,6 +858,48 @@ HELMET_SANTA1 = 12
 HELMET_SANTA2 = 13
 HELMET_SANTA3 = 14
 HELMET_SANTA4 = 15
+```
+
+# HUD.sprite
+
+```
+HUD_NUM0 = 0
+HUD_NUM9 = 9
+HUD_MINUS = 10
+HUD_CLOCK = 11
+HUD_COIN1 = 12
+HUD_COIN2 = 13
+HUD_COIN3 = 14
+HUD_PINKCOINBRACE_L = 15
+HUD_PINKCOIN = 16
+HUD_PINKCOIN_EMPTY = 17
+HUD_PINKCOINBRACE_R = 18
+HUD_LIFEBRACE_L = 19
+HUD_LIFE = 20
+HUD_LIFE_EMPTY = 21
+HUD_LIFEBRACE_R = 22
+HUD_SPEEDMETER = 23
+HUD_SPEEDMETER_MAXED = 24
+HUD_MARIO = 25
+HUD_X = 26
+HUD_ITEMSTACK_BOX = 27
+HUD_SLASH = 28
+HUD_GAMEOVER = 29
+HUD_TIMEUP = 30
+HUD_STAGECLEAR = 31
+HUD_HURRYUP = 32
+HUD_HP = 33
+HUD_HP_HEART_FILLED = 34
+HUD_HP_HEART_EMPTY = 35
+HUD_HP_HEART_RESERVED = 36
+HUD_COLON = 37
+HUD_DOT = 38
+HUD_SPEEDRUNCLOCK = 39
+HUD_LUIGI = 40
+HUD_TOAD = 41
+HUD_COSTUME = 42
+HUD_PEACH = 43
+HUD_SCORE = 44
 ```
 
 # NPC.sprite

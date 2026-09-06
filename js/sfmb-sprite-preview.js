@@ -4,15 +4,31 @@
     const DATA_URL = '/resource/sfmb/sprite-preview-data.json';
     const animationPreviews = [];
 
-    function setFrame(pixels, frame, size) {
+    function frameSize(frame) {
+        return {
+            width: frame.rect[2] - frame.rect[0],
+            height: frame.rect[3] - frame.rect[1],
+        };
+    }
+
+    function makeFrameLayout(frames, targetSize, scale) {
+        const sizes = frames.map(frameSize);
+        const maxDimension = Math.max(...sizes.map((size) => Math.max(size.width, size.height)));
+        const integerScale = scale || Math.max(1, Math.min(4, Math.floor((targetSize - 8) / maxDimension)));
+        return {
+            scale: integerScale,
+            boxSize: Math.max(targetSize, maxDimension * integerScale + 8),
+        };
+    }
+
+    function setFrame(pixels, frame, layout) {
         const width = frame.rect[2] - frame.rect[0];
         const height = frame.rect[3] - frame.rect[1];
-        const scale = Math.min(4, (size - 8) / Math.max(width, height));
         pixels.style.width = `${width}px`;
         pixels.style.height = `${height}px`;
         pixels.style.backgroundImage = `url("${frame.image}")`;
         pixels.style.backgroundPosition = `-${frame.rect[0]}px -${frame.rect[1]}px`;
-        pixels.style.setProperty('--frame-scale', String(scale));
+        pixels.style.setProperty('--frame-scale', String(layout.scale));
     }
 
     function toggleBackground(button) {
@@ -20,30 +36,33 @@
         button.setAttribute('aria-pressed', String(isDark));
     }
 
-    function makeFrame(frame, size) {
+    function makeFrame(frame, size, sharedLayout) {
         const width = frame.rect[2] - frame.rect[0];
         const height = frame.rect[3] - frame.rect[1];
+        const layout = sharedLayout || makeFrameLayout([frame], size);
         const box = document.createElement('button');
         const pixels = document.createElement('span');
 
         box.type = 'button';
         box.className = 'sfmb-frame';
-        box.title = `Frame ${frame.index} · ${width}×${height} · Click to toggle background`;
+        box.title = `Frame ${frame.index} · ${width}×${height} · ${layout.scale}× preview · Click to toggle background`;
         box.setAttribute('aria-label', `Frame ${frame.index}, ${width} by ${height}. Toggle dark background`);
         box.setAttribute('aria-pressed', 'false');
+        box.style.setProperty('--frame-box-size', `${layout.boxSize}px`);
         pixels.className = 'sfmb-frame-pixels';
-        setFrame(pixels, frame, size);
+        setFrame(pixels, frame, layout);
         box.appendChild(pixels);
         box.addEventListener('click', () => toggleBackground(box));
         return box;
     }
 
-    function makeAnimationPreview(animation) {
-        const button = makeFrame(animation.frames[0], 50);
+    function makeAnimationPreview(animation, layout) {
+        const button = makeFrame(animation.frames[0], 50, layout);
         button.classList.add('sfmb-animation-preview');
         button.setAttribute('aria-label', 'Slow animation preview. Toggle dark background');
         animationPreviews.push({
             animation,
+            layout,
             button,
             pixels: button.querySelector('.sfmb-frame-pixels'),
             frameIndex: 0,
@@ -62,7 +81,7 @@
             if (now < preview.nextFrameAt || preview.animation.frames.length < 2) return;
             preview.frameIndex = (preview.frameIndex + 1) % preview.animation.frames.length;
             const frame = preview.animation.frames[preview.frameIndex];
-            setFrame(preview.pixels, frame, 50);
+            setFrame(preview.pixels, frame, preview.layout);
             preview.nextFrameAt = now + animationDelay(preview.animation.delay);
         });
         requestAnimationFrame(animate);
@@ -115,8 +134,55 @@
         });
     }
 
+    function appendAnimationPreviews(item, animation, name) {
+        const animationLayout = makeFrameLayout(animation.frames, 50);
+        const stripLayout = makeFrameLayout(animation.frames, 38, animationLayout.scale);
+        const previews = document.createElement('span');
+        const strip = document.createElement('span');
+        const staticGroup = document.createElement('span');
+        const animatedGroup = document.createElement('span');
+        const staticLabel = document.createElement('span');
+        const animatedLabel = document.createElement('span');
+        previews.className = 'named-animation-previews';
+        staticGroup.className = 'named-animation-preview-group';
+        animatedGroup.className = 'named-animation-preview-group';
+        staticLabel.className = 'named-animation-preview-label';
+        animatedLabel.className = 'named-animation-preview-label';
+        staticLabel.textContent = `${name ? `${name} · ` : ''}FRAMES${animation.theme ? ` · ${animation.theme}` : ''}`;
+        animatedLabel.textContent = 'ANIMATION';
+        strip.className = 'named-animation-frames';
+        animation.frames.forEach((frame) =>
+            strip.appendChild(makeFrame(frame, 38, stripLayout)));
+        staticGroup.append(staticLabel, strip);
+        animatedGroup.append(animatedLabel, makeAnimationPreview(animation, animationLayout));
+        previews.append(staticGroup, animatedGroup);
+        item.appendChild(previews);
+    }
+
+    function enhanceShapeSpecificAnimations(heading, animations) {
+        let list = heading.nextElementSibling;
+        while (list && list.tagName !== 'UL' && !/^H[1-6]$/.test(list.tagName))
+            list = list.nextElementSibling;
+        if (!list || list.tagName !== 'UL') return;
+
+        list.querySelectorAll(':scope > li').forEach((item) => {
+            const separator = item.textContent.indexOf(':');
+            if (separator < 0) return;
+            const names = item.textContent.slice(separator + 1).split(',').map((name) => name.trim());
+            names.forEach((name) => {
+                const animation = animations[name];
+                if (animation && animation.frames.length > 0)
+                    appendAnimationPreviews(item, animation, name);
+            });
+        });
+    }
+
     function enhanceNamedAnimations(data) {
         document.querySelectorAll('.post-content h2').forEach((heading) => {
+            if (heading.textContent.trim() === 'Shape specific animations') {
+                enhanceShapeSpecificAnimations(heading, data.named.PlayerSmall || {});
+                return;
+            }
             const animations = data.named[heading.textContent.trim()];
             if (!animations) return;
 
@@ -128,27 +194,7 @@
             list.querySelectorAll(':scope > li').forEach((item) => {
                 const animation = animations[item.textContent.trim()];
                 if (!animation || animation.frames.length === 0) return;
-
-                const previews = document.createElement('span');
-                const strip = document.createElement('span');
-                const staticGroup = document.createElement('span');
-                const animatedGroup = document.createElement('span');
-                const staticLabel = document.createElement('span');
-                const animatedLabel = document.createElement('span');
-                previews.className = 'named-animation-previews';
-                staticGroup.className = 'named-animation-preview-group';
-                animatedGroup.className = 'named-animation-preview-group';
-                staticLabel.className = 'named-animation-preview-label';
-                animatedLabel.className = 'named-animation-preview-label';
-                staticLabel.textContent = 'FRAMES';
-                animatedLabel.textContent = 'ANIMATION';
-                strip.className = 'named-animation-frames';
-                animation.frames.forEach((frame) =>
-                    strip.appendChild(makeFrame(frame, 38)));
-                staticGroup.append(staticLabel, strip);
-                animatedGroup.append(animatedLabel, makeAnimationPreview(animation));
-                previews.append(staticGroup, animatedGroup);
-                item.appendChild(previews);
+                appendAnimationPreviews(item, animation);
             });
         });
 
@@ -156,7 +202,7 @@
         if (content && Object.keys(data.named).length > 0) {
             const label = document.createElement('p');
             label.className = 'named-animation-theme';
-            label.textContent = `PREVIEW THEME: ${data.theme}`;
+            label.textContent = `PREVIEW THEMES: ${(data.themes || [data.theme]).join(' → ')}`;
             const firstHeading = content.querySelector('h1');
             if (firstHeading) content.insertBefore(label, firstHeading);
         }
