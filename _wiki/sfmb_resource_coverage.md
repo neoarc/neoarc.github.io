@@ -30,7 +30,7 @@ Costume characters and Nyle Luigi are not included. They do not belong to the st
 
 Items, enemies, map objects, and vehicles can be supplied either through an extended sprite such as `I_...`, `E_...`, `O_...`, or `V_...`, or through their representative frame in a shared sprite sheet. Effects use representative frames from the shared `Effect` sprite. Shared-sheet frames are checked against the Game Theme's default stage theme, and a frame only counts when its image area contains visible pixels.
 
-Tile families are checked separately against the default stage theme's tile sheet. This keeps a populated base tileset from hiding a completely absent specialized family. Marimba blocks and the different slope families therefore have their own rows. A triangle means that only some of the tile slots in that family contain visible pixels.
+Tile families are checked separately against the default stage theme's tile sheet. This keeps a populated base tileset from hiding a completely absent specialized family. Hazards and liquids have individual rows, while all slope sprites are summarized in one row. Semisolid left/center/right strips count as one logical part because valid themes may intentionally leave side tiles transparent. A triangle means that only part of the required tile structure contains visible pixels. Boss Bridge is covered under Map Objects because the game renders it from MapObject sprites rather than the legacy boss-bridge tile slot.
 
 ## Character & Power-up Sprites
 
