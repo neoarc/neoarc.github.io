@@ -2,6 +2,72 @@
     'use strict';
 
     const DATA_URL = '/resource/sfmb/resource-coverage-data.json';
+    let detailDialogSequence = 0;
+
+    function makeCoverageDetailDialog() {
+        const backdrop = document.createElement('div');
+        const panel = document.createElement('section');
+        const heading = document.createElement('h3');
+        const content = document.createElement('div');
+        const close = document.createElement('button');
+        const headingId = `sfmb-coverage-detail-${++detailDialogSequence}`;
+        let returnFocus = null;
+
+        function hide() {
+            backdrop.hidden = true;
+            if (returnFocus && document.contains(returnFocus)) returnFocus.focus();
+            returnFocus = null;
+        }
+
+        function appendGroup(label, names, className) {
+            if (!names.length) return;
+            const group = document.createElement('div');
+            const title = document.createElement('strong');
+            const list = document.createElement('p');
+            group.className = `sfmb-coverage-detail-group ${className}`;
+            title.textContent = `${label} (${names.length})`;
+            list.textContent = names.join(', ');
+            group.append(title, list);
+            content.appendChild(group);
+        }
+
+        function show(theme, row, cell, trigger) {
+            const stageThemes = cell.stageThemes;
+            const summary = document.createElement('p');
+            returnFocus = trigger;
+            heading.textContent = `${theme.id} · ${row.name}`;
+            summary.className = 'sfmb-coverage-detail-summary';
+            summary.textContent = `${stageThemes.complete.length}/${stageThemes.total} Stage Themes complete`;
+            content.replaceChildren(summary);
+            appendGroup('Partial', stageThemes.partial, 'is-partial');
+            appendGroup('Missing', stageThemes.missing, 'is-missing');
+            appendGroup('Complete', stageThemes.complete, 'is-complete');
+            backdrop.hidden = false;
+            close.focus();
+        }
+
+        backdrop.className = 'sfmb-coverage-detail-backdrop';
+        backdrop.hidden = true;
+        backdrop.setAttribute('role', 'dialog');
+        backdrop.setAttribute('aria-modal', 'true');
+        backdrop.setAttribute('aria-labelledby', headingId);
+        panel.className = 'sfmb-coverage-detail-panel';
+        heading.id = headingId;
+        close.type = 'button';
+        close.className = 'sfmb-coverage-detail-close';
+        close.textContent = '×';
+        close.setAttribute('aria-label', 'Close coverage details');
+        close.addEventListener('click', hide);
+        backdrop.addEventListener('click', (event) => {
+            if (event.target === backdrop) hide();
+        });
+        backdrop.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') hide();
+        });
+        panel.append(close, heading, content);
+        backdrop.appendChild(panel);
+        return { element: backdrop, show };
+    }
 
     function makeIcon(frame, className) {
         const box = document.createElement('span');
@@ -64,7 +130,7 @@
         return heading;
     }
 
-    function makeCoverageCell(cell, theme, row) {
+    function makeCoverageCell(cell, theme, row, showDetails) {
         const td = document.createElement('td');
         const mark = document.createElement('span');
         const hasFrameCount = Number.isInteger(cell.actualFrames);
@@ -128,6 +194,19 @@
             td.appendChild(frames);
             td.title += ' Actual frame count is unavailable.';
         }
+        if (status === 'partial' && cell.stageThemes) {
+            td.classList.add('is-detail-trigger');
+            td.tabIndex = 0;
+            td.setAttribute('role', 'button');
+            td.setAttribute('aria-haspopup', 'dialog');
+            td.title += ' Tap or press Enter for Stage Theme details.';
+            td.addEventListener('click', () => showDetails(theme, row, cell, td));
+            td.addEventListener('keydown', (event) => {
+                if (event.key !== 'Enter' && event.key !== ' ') return;
+                event.preventDefault();
+                showDetails(theme, row, cell, td);
+            });
+        }
         return td;
     }
 
@@ -138,6 +217,7 @@
         const thead = document.createElement('thead');
         const headerRow = document.createElement('tr');
         const corner = document.createElement('th');
+        const detailDialog = makeCoverageDetailDialog();
         const themeStats = data.themes.map((theme, themeIndex) => {
             const covered = section.rows.filter((row) => row.coverage[themeIndex].available).length;
             const partial = section.rows.filter((row) => row.coverage[themeIndex].status === 'partial').length;
@@ -191,7 +271,7 @@
             const tr = document.createElement('tr');
             tr.appendChild(makeRowHeader(row));
             row.coverage.forEach((cell, index) =>
-                tr.appendChild(makeCoverageCell(cell, data.themes[index], row)));
+                tr.appendChild(makeCoverageCell(cell, data.themes[index], row, detailDialog.show)));
             body.appendChild(tr);
         });
 
@@ -200,7 +280,15 @@
         scroller.tabIndex = 0;
         scroller.setAttribute('aria-label', `Scrollable ${section.title.toLowerCase()} coverage table`);
         scroller.appendChild(table);
-        root.replaceChildren(summary, scroller);
+        const hasStageThemeDetails = section.rows.some((row) =>
+            row.coverage.some((cell) => cell.status === 'partial' && cell.stageThemes));
+        if (hasStageThemeDetails) {
+            const hint = document.createElement('p');
+            hint.className = 'sfmb-coverage-detail-hint';
+            hint.textContent = 'Tap a △ cell to see partial and missing Stage Themes.';
+            root.replaceChildren(summary, hint, scroller, detailDialog.element);
+        }
+        else root.replaceChildren(summary, scroller, detailDialog.element);
     }
 
     function getThemeStats(section, themeIndex) {

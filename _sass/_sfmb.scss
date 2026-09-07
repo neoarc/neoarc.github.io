@@ -683,6 +683,107 @@ body.sfmb-wiki {
     box-shadow: inset 0 0 0 2px #f6c744;
 }
 
+.sfmb-coverage-detail-hint {
+    margin: -4px 0 10px;
+    color: #52677f;
+    font-family: "SFMBSmall", Consolas, monospace;
+    font-size: 7px;
+}
+
+.sfmb-coverage-table td.is-detail-trigger {
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+.sfmb-coverage-table td.is-detail-trigger:focus-visible {
+    outline: 2px solid #163868;
+    outline-offset: -3px;
+}
+
+.sfmb-coverage-detail-backdrop {
+    position: fixed;
+    z-index: 1000;
+    display: grid;
+    inset: 0;
+    align-items: center;
+    padding: 18px;
+    background: rgba(10, 27, 48, .58);
+}
+
+.sfmb-coverage-detail-backdrop[hidden] {
+    display: none;
+}
+
+.sfmb-coverage-detail-panel {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 620px;
+    max-height: 76vh;
+    margin: auto;
+    padding: 16px;
+    overflow: auto;
+    border: 3px solid #163868;
+    background: #fff;
+    box-shadow: 5px 5px 0 #2878d0;
+    color: #263b55;
+    font-family: "SFMBSmall", Consolas, monospace;
+    font-size: 8px;
+    line-height: 1.55;
+}
+
+.sfmb-coverage-detail-panel h3 {
+    margin: 0 34px 12px 0;
+    color: #163868;
+    font-size: 10px;
+}
+
+.sfmb-coverage-detail-close {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 2px solid #163868;
+    background: #edf6fc;
+    color: #163868;
+    font: 700 22px/24px Consolas, monospace;
+    cursor: pointer;
+}
+
+.sfmb-coverage-detail-summary {
+    margin: 0 0 12px;
+    font-weight: 700;
+}
+
+.sfmb-coverage-detail-group {
+    margin-top: 10px;
+    padding-top: 9px;
+    border-top: 1px solid #b8d8ed;
+}
+
+.sfmb-coverage-detail-group strong {
+    color: #2878d0;
+}
+
+.sfmb-coverage-detail-group.is-partial strong {
+    color: #9a6800;
+}
+
+.sfmb-coverage-detail-group.is-missing strong {
+    color: #a32222;
+}
+
+.sfmb-coverage-detail-group.is-complete strong {
+    color: #16833b;
+}
+
+.sfmb-coverage-detail-group p {
+    margin: 4px 0 0;
+    overflow-wrap: anywhere;
+}
+
 @media (max-width: 640px) {
     .sfmb-post {
         padding: 10px 8px 28px;
@@ -707,5 +808,17 @@ body.sfmb-wiki {
     .sfmb-coverage-resource-name {
         max-width: 90px;
         font-size: 6px;
+    }
+
+    .sfmb-coverage-detail-backdrop {
+        align-items: end;
+        padding: 10px;
+    }
+
+    .sfmb-coverage-detail-panel {
+        width: 100%;
+        max-height: 72vh;
+        padding: 14px;
+        box-shadow: 3px 3px 0 #2878d0;
     }
 }
