@@ -10,9 +10,9 @@
         "id": "SMB",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          1150,
+          1468,
           114,
-          1176,
+          1494,
           124
         ]
       }
@@ -25,9 +25,9 @@
         "id": "SMB2",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          799,
+          1117,
           114,
-          825,
+          1143,
           124
         ]
       }
@@ -40,9 +40,9 @@
         "id": "SMB3",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          826,
+          1144,
           114,
-          852,
+          1170,
           124
         ]
       }
@@ -55,9 +55,9 @@
         "id": "SMW",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          1015,
+          1333,
           114,
-          1041,
+          1359,
           124
         ]
       }
@@ -70,9 +70,9 @@
         "id": "SMBS",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          880,
+          1198,
           114,
-          906,
+          1224,
           124
         ]
       }
@@ -85,9 +85,9 @@
         "id": "SMBLL",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          853,
+          1171,
           114,
-          879,
+          1197,
           124
         ]
       }
@@ -100,9 +100,9 @@
         "id": "SMAS",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          772,
+          1090,
           114,
-          798,
+          1116,
           124
         ]
       }
@@ -115,9 +115,9 @@
         "id": "SML",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          934,
+          1252,
           114,
-          960,
+          1278,
           124
         ]
       }
@@ -130,9 +130,9 @@
         "id": "SML2",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          961,
+          1279,
           114,
-          987,
+          1305,
           124
         ]
       }
@@ -145,9 +145,9 @@
         "id": "MarioBros",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          583,
+          901,
           114,
-          609,
+          927,
           124
         ]
       }
@@ -160,9 +160,9 @@
         "id": "Sonic",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          1042,
+          1360,
           114,
-          1068,
+          1386,
           124
         ]
       }
@@ -175,9 +175,9 @@
         "id": "GOOBERTOWN",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          529,
+          847,
           114,
-          555,
+          873,
           124
         ]
       }
@@ -190,9 +190,9 @@
         "id": "City",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          502,
+          820,
           114,
-          528,
+          846,
           124
         ]
       }
@@ -205,9 +205,9 @@
         "id": "NSMB",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          637,
+          955,
           114,
-          663,
+          981,
           124
         ]
       }
@@ -220,9 +220,9 @@
         "id": "SMO",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          988,
+          1306,
           114,
-          1014,
+          1332,
           124
         ]
       }
@@ -235,9 +235,9 @@
         "id": "SMA4",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          745,
+          1063,
           114,
-          771,
+          1089,
           124
         ]
       }
@@ -250,9 +250,9 @@
         "id": "MarioAltern",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          556,
+          874,
           114,
-          582,
+          900,
           124
         ]
       }
@@ -265,9 +265,9 @@
         "id": "MegaSMM",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          610,
+          928,
           114,
-          636,
+          954,
           124
         ]
       }
@@ -280,9 +280,9 @@
         "id": "NSMBR",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          664,
+          982,
           114,
-          690,
+          1008,
           124
         ]
       }
@@ -295,9 +295,9 @@
         "id": "SMEW",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          907,
+          1225,
           114,
-          933,
+          1251,
           124
         ]
       }
@@ -310,9 +310,9 @@
         "id": "NSMBWii",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          718,
+          1036,
           114,
-          744,
+          1062,
           124
         ]
       }
@@ -325,9 +325,9 @@
         "id": "NSMBU",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          691,
+          1009,
           114,
-          717,
+          1035,
           124
         ]
       }
@@ -340,9 +340,9 @@
         "id": "WarioLand",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          1069,
+          1387,
           114,
-          1095,
+          1413,
           124
         ]
       }
@@ -355,9 +355,9 @@
         "id": "YoshiIsland",
         "image": "/resource/sfmb/resource-coverage/atlas-1.png",
         "rect": [
-          1096,
+          1414,
           114,
-          1122,
+          1440,
           124
         ]
       }
@@ -3869,9 +3869,9 @@
             "id": "Toad:Small",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              72,
+              390,
               114,
-              84,
+              402,
               130
             ]
           },
@@ -5522,9 +5522,9 @@
             "id": "Peach:Small",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              85,
+              403,
               114,
-              95,
+              413,
               130
             ]
           },
@@ -7060,9 +7060,9 @@
             "id": "Item:ITEM_COIN",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              416,
+              734,
               114,
-              426,
+              744,
               128
             ]
           },
@@ -8064,9 +8064,9 @@
             "id": "Item:ITEM_SUPERSTAR",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1,
+              319,
               114,
-              15,
+              333,
               130
             ]
           },
@@ -8566,9 +8566,9 @@
             "id": "Item:ITEM_TURTLESHELL",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              343,
+              661,
               114,
-              359,
+              677,
               128
             ]
           },
@@ -8817,10 +8817,10 @@
             "id": "Item:ITEM_SUPERLEAF",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              2003,
-              82,
-              2018,
-              98
+              288,
+              114,
+              303,
+              130
             ]
           },
           "coverage": [
@@ -9068,9 +9068,9 @@
             "id": "Item:ITEM_DOORKEYCOIN",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              360,
+              678,
               114,
-              375,
+              693,
               128
             ]
           },
@@ -9319,9 +9319,9 @@
             "id": "Item:ITEM_DOORKEY",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              31,
+              349,
               114,
-              45,
+              363,
               130
             ]
           },
@@ -9570,9 +9570,9 @@
             "id": "Item:ITEM_WEIRDMUSHROOM",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              59,
+              377,
               114,
-              71,
+              389,
               130
             ]
           },
@@ -10072,9 +10072,9 @@
             "id": "Item:ITEM_CLOCK",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              278,
+              596,
               114,
-              292,
+              610,
               129
             ]
           },
@@ -10574,9 +10574,9 @@
             "id": "Item:ITEM_HAMMERSUIT",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              46,
+              364,
               114,
-              58,
+              376,
               130
             ]
           },
@@ -10825,9 +10825,9 @@
             "id": "Item:ITEM_TANOOKISUIT",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              16,
+              334,
               114,
-              30,
+              348,
               130
             ]
           },
@@ -11076,9 +11076,9 @@
             "id": "Item:ITEM_PENGUINSUIT",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              293,
+              611,
               114,
-              307,
+              625,
               129
             ]
           },
@@ -11829,9 +11829,9 @@
             "id": "Item:ITEM_FOLLOWINGCLOUD",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1177,
+              1495,
               114,
-              1191,
+              1509,
               124
             ],
             "outline": "dark"
@@ -12834,9 +12834,9 @@
             "id": "Item:ITEM_HEART",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              227,
+              545,
               114,
-              243,
+              561,
               129
             ]
           },
@@ -14543,9 +14543,9 @@
             "id": "Item:ITEM_3UP",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              244,
+              562,
               114,
-              260,
+              578,
               129
             ]
           },
@@ -15925,9 +15925,9 @@
             "id": "Enemy:ENEMY_SPINY",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              210,
+              528,
               114,
-              226,
+              544,
               129
             ]
           },
@@ -16182,9 +16182,9 @@
             "id": "Enemy:ENEMY_BUZZYBEETLE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              193,
+              511,
               114,
-              209,
+              527,
               129
             ]
           },
@@ -16953,9 +16953,9 @@
             "id": "Enemy:ENEMY_MUNCHER",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              159,
+              477,
               114,
-              175,
+              493,
               129
             ]
           },
@@ -18240,10 +18240,10 @@
             "id": "Enemy:ENEMY_CHAINCHOMP",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1971,
-              82,
-              1986,
-              98
+              256,
+              114,
+              271,
+              130
             ]
           },
           "coverage": [
@@ -18754,10 +18754,10 @@
             "id": "Enemy:ENEMY_PODOBOO",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              2019,
-              82,
-              2033,
-              98
+              304,
+              114,
+              318,
+              130
             ]
           },
           "coverage": [
@@ -19011,9 +19011,9 @@
             "id": "Enemy:ENEMY_BULLETBILL",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              326,
+              644,
               114,
-              342,
+              660,
               128
             ]
           },
@@ -19268,9 +19268,9 @@
             "id": "Enemy:ENEMY_BOBOMB",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              125,
+              443,
               114,
-              141,
+              459,
               129
             ]
           },
@@ -21581,9 +21581,9 @@
             "id": "Enemy:ENEMY_BOO",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              142,
+              460,
               114,
-              158,
+              476,
               129
             ]
           },
@@ -21784,9 +21784,9 @@
             "id": "Enemy:ENEMY_FISHBONE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              455,
+              773,
               114,
-              478,
+              796,
               126
             ]
           },
@@ -22555,9 +22555,9 @@
             "id": "Enemy:ENEMY_CANNONBALL",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              479,
+              797,
               114,
-              491,
+              809,
               126
             ]
           },
@@ -23840,9 +23840,9 @@
             "id": "Enemy:ENEMY_STRETCH",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              308,
+              626,
               114,
-              325,
+              643,
               128
             ]
           },
@@ -24856,9 +24856,9 @@
             "id": "Enemy:ENEMY_SPIKETOP",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              176,
+              494,
               114,
-              192,
+              510,
               129
             ]
           },
@@ -28261,10 +28261,10 @@
             "id": "Enemy:ENEMY_SIDESTEPPER",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1987,
-              82,
-              2002,
-              98
+              272,
+              114,
+              287,
+              130
             ]
           },
           "coverage": [
@@ -28442,9 +28442,9 @@
             "id": "MapObject:MAPOBJ_FLAGPOLE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              104,
+              422,
               114,
-              106,
+              424,
               130
             ]
           },
@@ -28692,9 +28692,9 @@
             "id": "MapObject:MAPOBJ_CASTLE_FLAG",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              391,
+              709,
               114,
-              404,
+              722,
               128
             ],
             "outline": "dark"
@@ -28931,9 +28931,9 @@
             "id": "MapObject:MAPOBJ_BRIDGE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1202,
+              1520,
               114,
-              1210,
+              1528,
               124
             ]
           },
@@ -29181,9 +29181,9 @@
             "id": "MapObject:MAPOBJ_SKYBRIDGE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1266,
+              1584,
               114,
-              1282,
+              1600,
               122
             ],
             "outline": "dark"
@@ -31183,9 +31183,9 @@
             "id": "MapObject:MAPOBJ_VINE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              439,
+              757,
               114,
-              449,
+              767,
               127
             ]
           },
@@ -33935,9 +33935,9 @@
             "id": "MapObject:MAPOBJ_GOALPOST",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1211,
+              1529,
               114,
-              1227,
+              1545,
               123
             ]
           },
@@ -34435,9 +34435,9 @@
             "id": "MapObject:MAPOBJ_CONVEYOR",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              261,
+              579,
               114,
-              277,
+              595,
               129
             ]
           },
@@ -36181,9 +36181,9 @@
             "id": "MapObject:MAPOBJ_BLUELIFT",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1394,
+              1712,
               114,
-              1402,
+              1720,
               121
             ]
           },
@@ -37874,10 +37874,10 @@
             "id": "Vehicle:VEHICLE_GOOMBASHOE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1954,
-              82,
-              1970,
-              98
+              239,
+              114,
+              255,
+              130
             ]
           },
           "coverage": [
@@ -38882,9 +38882,9 @@
             "id": "Effect:EFFECT_COIN",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              405,
+              723,
               114,
-              415,
+              733,
               128
             ]
           },
@@ -39109,9 +39109,9 @@
             "id": "Effect:EFFECT_BRICKDEBRIS",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1293,
+              1611,
               114,
-              1301,
+              1619,
               122
             ]
           },
@@ -39336,9 +39336,9 @@
             "id": "Effect:EFFECT_SCORE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1332,
+              1650,
               114,
-              1335,
+              1653,
               122
             ],
             "outline": "dark"
@@ -39564,9 +39564,9 @@
             "id": "Effect:EFFECT_1UP",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1377,
+              1695,
               114,
-              1393,
+              1711,
               121
             ],
             "outline": "dark"
@@ -39792,9 +39792,9 @@
             "id": "Effect:EFFECT_EXPLOSION",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1311,
+              1629,
               114,
-              1319,
+              1637,
               122
             ]
           },
@@ -40019,9 +40019,9 @@
             "id": "Effect:EFFECT_AIRBUBBLE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1473,
+              1791,
               114,
-              1477,
+              1795,
               118
             ],
             "outline": "dark"
@@ -40247,9 +40247,9 @@
             "id": "Effect:EFFECT_YOSHI_EGGDEBRIS",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1320,
+              1638,
               114,
-              1326,
+              1644,
               122
             ],
             "outline": "dark"
@@ -40475,9 +40475,9 @@
             "id": "Effect:EFFECT_POP",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              492,
+              810,
               114,
-              501,
+              819,
               125
             ]
           },
@@ -40702,9 +40702,9 @@
             "id": "Effect:EFFECT_DUST",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1419,
+              1737,
               114,
-              1426,
+              1744,
               121
             ],
             "outline": "dark"
@@ -40930,9 +40930,9 @@
             "id": "Effect:EFFECT_SMALLDUST",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1463,
+              1781,
               114,
-              1466,
+              1784,
               119
             ],
             "outline": "dark"
@@ -41386,9 +41386,9 @@
             "id": "Effect:EFFECT_STARDUST",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1403,
+              1721,
               114,
-              1410,
+              1728,
               121
             ],
             "outline": "dark"
@@ -41614,9 +41614,9 @@
             "id": "Effect:EFFECT_DRYBONE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              96,
+              414,
               114,
-              103,
+              421,
               130
             ],
             "outline": "dark"
@@ -41842,9 +41842,9 @@
             "id": "Effect:EFFECT_TWINKLE_PINK",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1486,
+              1804,
               114,
-              1489,
+              1807,
               117
             ]
           },
@@ -42069,9 +42069,9 @@
             "id": "Effect:EFFECT_TWINKLE_GOLD",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1490,
+              1808,
               114,
-              1493,
+              1811,
               117
             ]
           },
@@ -42296,9 +42296,9 @@
             "id": "Effect:EFFECT_PARALYZE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              450,
+              768,
               114,
-              454,
+              772,
               127
             ],
             "outline": "dark"
@@ -42524,9 +42524,9 @@
             "id": "Effect:EFFECT_SPIN",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1442,
+              1760,
               114,
-              1450,
+              1768,
               120
             ],
             "outline": "dark"
@@ -42752,9 +42752,9 @@
             "id": "Effect:EFFECT_BONEFISH",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              427,
+              745,
               114,
-              438,
+              756,
               127
             ],
             "outline": "dark"
@@ -42980,9 +42980,9 @@
             "id": "Effect:EFFECT_SPLASH",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1247,
+              1565,
               114,
-              1265,
+              1583,
               122
             ],
             "outline": "dark"
@@ -43208,9 +43208,9 @@
             "id": "Effect:EFFECT_SHOESMOKE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1123,
+              1441,
               114,
-              1149,
+              1467,
               124
             ],
             "outline": "dark"
@@ -43436,9 +43436,9 @@
             "id": "Effect:EFFECT_WIGGLERFLOWER",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1192,
+              1510,
               114,
-              1201,
+              1519,
               124
             ]
           },
@@ -43663,9 +43663,9 @@
             "id": "Effect:EFFECT_MAGIC_BUBBLE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1478,
+              1796,
               114,
-              1481,
+              1799,
               117
             ]
           },
@@ -43890,9 +43890,9 @@
             "id": "Effect:EFFECT_MAGIC_TWINKLE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1494,
+              1812,
               114,
-              1497,
+              1815,
               117
             ],
             "outline": "dark"
@@ -44346,9 +44346,9 @@
             "id": "Effect:EFFECT_MAGIC_TELEPORT_CIRCLE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1427,
+              1745,
               114,
-              1441,
+              1759,
               120
             ],
             "outline": "dark"
@@ -44802,9 +44802,9 @@
             "id": "Effect:EFFECT_FIRE_DUST",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1482,
+              1800,
               114,
-              1485,
+              1803,
               117
             ]
           },
@@ -45029,9 +45029,9 @@
             "id": "Effect:EFFECT_FIRE_SPLASH",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1228,
+              1546,
               114,
-              1246,
+              1564,
               122
             ]
           },
@@ -45256,9 +45256,9 @@
             "id": "Effect:EFFECT_ADDTIONAL_TIME",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1336,
+              1654,
               114,
-              1359,
+              1677,
               121
             ],
             "outline": "dark"
@@ -45484,9 +45484,9 @@
             "id": "Effect:EFFECT_AIRSPIN_SPLASH",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1451,
+              1769,
               114,
-              1462,
+              1780,
               119
             ],
             "outline": "dark"
@@ -45712,9 +45712,9 @@
             "id": "Effect:EFFECT_LEAF",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1467,
+              1785,
               114,
-              1472,
+              1790,
               118
             ]
           },
@@ -45939,9 +45939,9 @@
             "id": "Effect:EFFECT_RAINDROP",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1327,
+              1645,
               114,
-              1331,
+              1649,
               122
             ]
           },
@@ -46166,9 +46166,9 @@
             "id": "Effect:EFFECT_RAINDROP_SPLASH",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1498,
+              1816,
               114,
-              1501,
+              1819,
               116
             ],
             "outline": "dark"
@@ -46394,9 +46394,9 @@
             "id": "Effect:EFFECT_ICE_TWINKLE",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1411,
+              1729,
               114,
-              1418,
+              1736,
               121
             ],
             "outline": "dark"
@@ -47076,9 +47076,9 @@
             "id": "Effect:EFFECT_POISON_SKULL",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1283,
+              1601,
               114,
-              1292,
+              1610,
               122
             ]
           },
@@ -47303,9 +47303,9 @@
             "id": "Effect:EFFECT_SPINDASH_DUST",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              107,
+              425,
               114,
-              124,
+              442,
               129
             ]
           },
@@ -47985,9 +47985,9 @@
             "id": "Effect:EFFECT_3UP",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1360,
+              1678,
               114,
-              1376,
+              1694,
               121
             ],
             "outline": "dark"
@@ -48440,9 +48440,9 @@
             "id": "Effect:EFFECT_BUBBLE_GROW",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              376,
+              694,
               114,
-              390,
+              708,
               128
             ]
           },
@@ -49122,9 +49122,9 @@
             "id": "Effect:EFFECT_BLOCKDEBRIS",
             "image": "/resource/sfmb/resource-coverage/atlas-1.png",
             "rect": [
-              1302,
+              1620,
               114,
-              1310,
+              1628,
               122
             ]
           },
@@ -49354,11 +49354,21 @@
           "id": "brick-block",
           "name": "Brick Block",
           "sprite": "1 tile slot",
+          "icon": {
+            "id": "Tile:brick-block",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              86,
+              114,
+              102,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 1,
@@ -49526,14 +49536,9 @@
               "totalFrames": 1
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 1,
-              "visibleFrames": 1,
-              "totalFrames": 1
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -49601,11 +49606,21 @@
           "id": "item-block",
           "name": "Item Block",
           "sprite": "7 tile slots",
+          "icon": {
+            "id": "Tile:item-block",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              137,
+              114,
+              153,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 7,
@@ -49773,14 +49788,9 @@
               "totalFrames": 7
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 7,
-              "visibleFrames": 7,
-              "totalFrames": 7
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -49848,11 +49858,21 @@
           "id": "jump-block",
           "name": "Jump Block",
           "sprite": "5 tile slots",
+          "icon": {
+            "id": "Tile:jump-block",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              188,
+              114,
+              204,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 5,
@@ -50020,14 +50040,9 @@
               "totalFrames": 5
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 5,
-              "visibleFrames": 5,
-              "totalFrames": 5
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -50095,11 +50110,21 @@
           "id": "hard-brick",
           "name": "Hard Brick",
           "sprite": "1 tile slot",
+          "icon": {
+            "id": "Tile:hard-brick",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              222,
+              114,
+              238,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 1,
@@ -50267,14 +50292,9 @@
               "totalFrames": 1
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 1,
-              "visibleFrames": 1,
-              "totalFrames": 1
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -50342,11 +50362,21 @@
           "id": "message-block",
           "name": "Message Block",
           "sprite": "1 tile slot",
+          "icon": {
+            "id": "Tile:message-block",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              205,
+              114,
+              221,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 1,
@@ -50514,14 +50544,9 @@
               "totalFrames": 1
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 1,
-              "visibleFrames": 1,
-              "totalFrames": 1
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -50589,11 +50614,21 @@
           "id": "pipes",
           "name": "Pipes",
           "sprite": "16 tile slots",
+          "icon": {
+            "id": "Tile:pipes",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              103,
+              114,
+              119,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": false,
               "status": "partial",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 15,
@@ -50762,13 +50797,8 @@
             },
             {
               "available": false,
-              "status": "partial",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 15,
-              "visibleFrames": 15,
-              "totalFrames": 16
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": false,
@@ -50836,11 +50866,21 @@
           "id": "bridges",
           "name": "Bridges",
           "sprite": "7 tile slots",
+          "icon": {
+            "id": "Tile:bridges",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              2022,
+              82,
+              2038,
+              98
+            ]
+          },
           "coverage": [
             {
               "available": false,
               "status": "partial",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 6,
@@ -51009,13 +51049,8 @@
             },
             {
               "available": false,
-              "status": "partial",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 6,
-              "visibleFrames": 6,
-              "totalFrames": 7
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": false,
@@ -51083,11 +51118,21 @@
           "id": "semisolids",
           "name": "Semisolid Platforms",
           "sprite": "45 tile slots",
+          "icon": {
+            "id": "Tile:semisolids",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              171,
+              114,
+              187,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": false,
               "status": "partial",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 42,
@@ -51256,13 +51301,8 @@
             },
             {
               "available": false,
-              "status": "partial",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 42,
-              "visibleFrames": 42,
-              "totalFrames": 45
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": false,
@@ -51330,11 +51370,21 @@
           "id": "hazards-liquids",
           "name": "Hazards & Liquids",
           "sprite": "16 tile slots",
+          "icon": {
+            "id": "Tile:hazards-liquids",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              154,
+              114,
+              170,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": false,
               "status": "partial",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 15,
@@ -51503,13 +51553,8 @@
             },
             {
               "available": false,
-              "status": "partial",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 15,
-              "visibleFrames": 15,
-              "totalFrames": 16
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": false,
@@ -51577,11 +51622,21 @@
           "id": "cannons",
           "name": "Cannons & Blasters",
           "sprite": "6 tile slots",
+          "icon": {
+            "id": "Tile:cannons",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              1954,
+              82,
+              1970,
+              98
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 6,
@@ -51749,14 +51804,9 @@
               "totalFrames": 6
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 6,
-              "visibleFrames": 6,
-              "totalFrames": 6
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -51824,11 +51874,21 @@
           "id": "flip-block",
           "name": "Flip Block",
           "sprite": "4 tile slots",
+          "icon": {
+            "id": "Tile:flip-block",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              35,
+              114,
+              51,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 4,
@@ -51996,14 +52056,9 @@
               "totalFrames": 4
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 4,
-              "visibleFrames": 4,
-              "totalFrames": 4
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -52071,11 +52126,21 @@
           "id": "music-block",
           "name": "Music Block",
           "sprite": "4 tile slots",
+          "icon": {
+            "id": "Tile:music-block",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              52,
+              114,
+              68,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 4,
@@ -52243,14 +52308,9 @@
               "totalFrames": 4
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 4,
-              "visibleFrames": 4,
-              "totalFrames": 4
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -52318,11 +52378,21 @@
           "id": "animated-brick",
           "name": "Animated Brick",
           "sprite": "4 tile slots",
+          "icon": {
+            "id": "Tile:animated-brick",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              120,
+              114,
+              136,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 4,
@@ -52490,14 +52560,9 @@
               "totalFrames": 4
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 4,
-              "visibleFrames": 4,
-              "totalFrames": 4
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -52565,11 +52630,21 @@
           "id": "on-off-blocks",
           "name": "ON/OFF Blocks",
           "sprite": "8 tile slots",
+          "icon": {
+            "id": "Tile:on-off-blocks",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              1971,
+              82,
+              1987,
+              98
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 8,
@@ -52737,14 +52812,9 @@
               "totalFrames": 8
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 8,
-              "visibleFrames": 8,
-              "totalFrames": 8
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -52812,11 +52882,21 @@
           "id": "autotile-terrain",
           "name": "Autotile Terrain",
           "sprite": "71 tile slots",
+          "icon": {
+            "id": "Tile:autotile-terrain",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              69,
+              114,
+              85,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 71,
@@ -52984,14 +53064,9 @@
               "totalFrames": 71
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 71,
-              "visibleFrames": 71,
-              "totalFrames": 71
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": true,
@@ -53059,11 +53134,21 @@
           "id": "marimba-blocks",
           "name": "Marimba Blocks",
           "sprite": "16 tile slots",
+          "icon": {
+            "id": "Tile:marimba-blocks",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              1988,
+              82,
+              2004,
+              98
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 16,
@@ -53231,14 +53316,9 @@
               "totalFrames": 16
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 16,
-              "visibleFrames": 16,
-              "totalFrames": 16
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": false,
@@ -53306,11 +53386,21 @@
           "id": "slopes-45",
           "name": "Slopes · 45°",
           "sprite": "16 tile slots",
+          "icon": {
+            "id": "Tile:slopes-45",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              2005,
+              82,
+              2021,
+              98
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 16,
@@ -53478,14 +53568,9 @@
               "totalFrames": 16
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 16,
-              "visibleFrames": 16,
-              "totalFrames": 16
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": false,
@@ -53553,11 +53638,21 @@
           "id": "slopes-22",
           "name": "Slopes · 22.5°",
           "sprite": "68 tile slots",
+          "icon": {
+            "id": "Tile:slopes-22",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              1,
+              114,
+              17,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 68,
@@ -53725,14 +53820,9 @@
               "totalFrames": 68
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 68,
-              "visibleFrames": 68,
-              "totalFrames": 68
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": false,
@@ -53800,11 +53890,21 @@
           "id": "slopes-reverse",
           "name": "Slopes · Reverse corners",
           "sprite": "4 tile slots",
+          "icon": {
+            "id": "Tile:slopes-reverse",
+            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "rect": [
+              18,
+              114,
+              34,
+              130
+            ]
+          },
           "coverage": [
             {
               "available": true,
               "status": "complete",
-              "source": "Base",
+              "source": "SMB",
               "method": "sheet",
               "sprite": "TileOverworld",
               "actualFrames": 4,
@@ -53972,14 +54072,9 @@
               "totalFrames": 4
             },
             {
-              "available": true,
-              "status": "complete",
-              "source": "Base",
-              "method": "sheet",
-              "sprite": "TileOverworld",
-              "actualFrames": 4,
-              "visibleFrames": 4,
-              "totalFrames": 4
+              "available": false,
+              "status": "missing",
+              "actualFrames": 0
             },
             {
               "available": false,
