@@ -367,7 +367,7 @@
         const overviewRoot = document.getElementById('sfmb-resource-coverage-overview');
         const spriteRoots = [...document.querySelectorAll('[id^="sfmb-sprite-coverage-"]')];
         if (!overviewRoot && !spriteRoots.length) return;
-        fetch(DATA_URL)
+        fetch(DATA_URL, { cache: 'no-cache' })
             .then((response) => {
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 return response.json();

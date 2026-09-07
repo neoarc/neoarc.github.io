@@ -8,7 +8,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SMB",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1842,
           115,
@@ -23,7 +23,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SMB2",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1491,
           115,
@@ -38,7 +38,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SMB3",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1518,
           115,
@@ -53,7 +53,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SMW",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1707,
           115,
@@ -68,7 +68,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SMBS",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1572,
           115,
@@ -83,7 +83,7 @@
       "baseTheme": "SMB",
       "icon": {
         "id": "SMBLL",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1545,
           115,
@@ -98,7 +98,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SMAS",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1464,
           115,
@@ -113,7 +113,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SML",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1626,
           115,
@@ -128,7 +128,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SML2",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1653,
           115,
@@ -143,7 +143,7 @@
       "baseTheme": null,
       "icon": {
         "id": "MarioBros",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1275,
           115,
@@ -158,7 +158,7 @@
       "baseTheme": null,
       "icon": {
         "id": "Sonic",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1734,
           115,
@@ -173,7 +173,7 @@
       "baseTheme": null,
       "icon": {
         "id": "GOOBERTOWN",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1221,
           115,
@@ -188,7 +188,7 @@
       "baseTheme": null,
       "icon": {
         "id": "City",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1194,
           115,
@@ -203,7 +203,7 @@
       "baseTheme": null,
       "icon": {
         "id": "NSMB",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1329,
           115,
@@ -218,7 +218,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SMO",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1680,
           115,
@@ -233,7 +233,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SMA4",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1437,
           115,
@@ -248,7 +248,7 @@
       "baseTheme": null,
       "icon": {
         "id": "MarioAltern",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1248,
           115,
@@ -263,7 +263,7 @@
       "baseTheme": null,
       "icon": {
         "id": "MegaSMM",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1302,
           115,
@@ -278,7 +278,7 @@
       "baseTheme": null,
       "icon": {
         "id": "NSMBR",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1356,
           115,
@@ -293,7 +293,7 @@
       "baseTheme": null,
       "icon": {
         "id": "SMEW",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1599,
           115,
@@ -308,7 +308,7 @@
       "baseTheme": null,
       "icon": {
         "id": "NSMBWii",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1410,
           115,
@@ -323,7 +323,7 @@
       "baseTheme": null,
       "icon": {
         "id": "NSMBU",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1383,
           115,
@@ -338,7 +338,7 @@
       "baseTheme": null,
       "icon": {
         "id": "WarioLand",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1761,
           115,
@@ -353,7 +353,7 @@
       "baseTheme": null,
       "icon": {
         "id": "YoshiIsland",
-        "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+        "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
         "rect": [
           1788,
           115,
@@ -379,7 +379,7 @@
           "sprite": "MarioSmall",
           "icon": {
             "id": "Mario:Small",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               792,
               82,
@@ -493,7 +493,7 @@
           "sprite": "MarioBig",
           "icon": {
             "id": "Mario:Big",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               308,
               1,
@@ -607,7 +607,7 @@
           "sprite": "MarioFire",
           "icon": {
             "id": "Mario:Fire",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               402,
               1,
@@ -721,7 +721,7 @@
           "sprite": "MarioShell",
           "icon": {
             "id": "Mario:Shell",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1990,
               1,
@@ -833,7 +833,7 @@
           "sprite": "MarioRaccoon",
           "icon": {
             "id": "Mario:Raccoon",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1230,
               1,
@@ -945,7 +945,7 @@
           "sprite": "MarioWeird",
           "icon": {
             "id": "Mario:Weird",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               52,
               82,
@@ -1055,7 +1055,7 @@
           "sprite": "MarioPropeller",
           "icon": {
             "id": "Mario:Propeller",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1455,
               1,
@@ -1169,7 +1169,7 @@
           "sprite": "MarioFrog",
           "icon": {
             "id": "Mario:Frog",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1002,
               82,
@@ -1278,7 +1278,7 @@
           "sprite": "MarioHammer",
           "icon": {
             "id": "Mario:Hammer",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1316,
               1,
@@ -1390,7 +1390,7 @@
           "sprite": "MarioTanooki",
           "icon": {
             "id": "Mario:Tanooki",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1254,
               1,
@@ -1499,7 +1499,7 @@
           "sprite": "MarioPenguin",
           "icon": {
             "id": "Mario:Penguin",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               201,
               82,
@@ -1611,7 +1611,7 @@
           "sprite": "MarioIce",
           "icon": {
             "id": "Mario:Ice",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               449,
               1,
@@ -1725,7 +1725,7 @@
           "sprite": "MarioCloud",
           "icon": {
             "id": "Mario:Cloud",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1092,
               1,
@@ -1835,7 +1835,7 @@
           "sprite": "MarioBoomerang",
           "icon": {
             "id": "Mario:Boomerang",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1297,
               1,
@@ -1944,7 +1944,7 @@
           "sprite": "MarioBubble",
           "icon": {
             "id": "Mario:Bubble",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               355,
               1,
@@ -2048,7 +2048,7 @@
           "sprite": "MarioSuperBall",
           "icon": {
             "id": "Mario:SuperBall",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               496,
               1,
@@ -2150,7 +2150,7 @@
           "sprite": "LuigiSmall",
           "icon": {
             "id": "Luigi:Small",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1279,
               82,
@@ -2264,7 +2264,7 @@
           "sprite": "LuigiBig",
           "icon": {
             "id": "Luigi:Big",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1335,
               1,
@@ -2377,7 +2377,7 @@
           "sprite": "LuigiFire",
           "icon": {
             "id": "Luigi:Fire",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1369,
               1,
@@ -2490,7 +2490,7 @@
           "sprite": "LuigiShell",
           "icon": {
             "id": "Luigi:Shell",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1278,
               1,
@@ -2596,7 +2596,7 @@
           "sprite": "LuigiRaccoon",
           "icon": {
             "id": "Luigi:Raccoon",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1127,
               1,
@@ -2706,7 +2706,7 @@
           "sprite": "LuigiWeird",
           "icon": {
             "id": "Luigi:Weird",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1403,
               1,
@@ -2813,7 +2813,7 @@
           "sprite": "LuigiPropeller",
           "icon": {
             "id": "Luigi:Propeller",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1213,
               1,
@@ -2921,7 +2921,7 @@
           "sprite": "LuigiFrog",
           "icon": {
             "id": "Luigi:Frog",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               773,
               82,
@@ -3026,7 +3026,7 @@
           "sprite": "LuigiHammer",
           "icon": {
             "id": "Luigi:Hammer",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1194,
               1,
@@ -3133,7 +3133,7 @@
           "sprite": "LuigiTanooki",
           "icon": {
             "id": "Luigi:Tanooki",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1151,
               1,
@@ -3239,7 +3239,7 @@
           "sprite": "LuigiPenguin",
           "icon": {
             "id": "Luigi:Penguin",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               2009,
               1,
@@ -3344,7 +3344,7 @@
           "sprite": "LuigiIce",
           "icon": {
             "id": "Luigi:Ice",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1386,
               1,
@@ -3457,7 +3457,7 @@
           "sprite": "LuigiCloud",
           "icon": {
             "id": "Luigi:Cloud",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1074,
               1,
@@ -3563,7 +3563,7 @@
           "sprite": "LuigiBoomerang",
           "icon": {
             "id": "Luigi:Boomerang",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1175,
               1,
@@ -3664,7 +3664,7 @@
           "sprite": "LuigiBubble",
           "icon": {
             "id": "Luigi:Bubble",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1352,
               1,
@@ -3767,7 +3767,7 @@
           "sprite": "LuigiSuperBall",
           "icon": {
             "id": "Luigi:SuperBall",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1110,
               1,
@@ -3867,7 +3867,7 @@
           "sprite": "ToadSmall",
           "icon": {
             "id": "Toad:Small",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               764,
               115,
@@ -3976,7 +3976,7 @@
           "sprite": "ToadBig",
           "icon": {
             "id": "Toad:Big",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               392,
               82,
@@ -4084,7 +4084,7 @@
           "sprite": "ToadFire",
           "icon": {
             "id": "Toad:Fire",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               426,
               82,
@@ -4192,7 +4192,7 @@
           "sprite": "ToadShell",
           "icon": {
             "id": "Toad:Shell",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               373,
               82,
@@ -4294,7 +4294,7 @@
           "sprite": "ToadRaccoon",
           "icon": {
             "id": "Toad:Raccoon",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               121,
               82,
@@ -4398,7 +4398,7 @@
           "sprite": "ToadWeird",
           "icon": {
             "id": "Toad:Weird",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               218,
               82,
@@ -4499,7 +4499,7 @@
           "sprite": "ToadPropeller",
           "icon": {
             "id": "Toad:Propeller",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               460,
               82,
@@ -4603,7 +4603,7 @@
           "sprite": "ToadFrog",
           "icon": {
             "id": "Toad:Frog",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               817,
               82,
@@ -4706,7 +4706,7 @@
           "sprite": "ToadHammer",
           "icon": {
             "id": "Toad:Hammer",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               354,
               82,
@@ -4807,7 +4807,7 @@
           "sprite": "ToadTanooki",
           "icon": {
             "id": "Toad:Tanooki",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               144,
               82,
@@ -4910,7 +4910,7 @@
           "sprite": "ToadPenguin",
           "icon": {
             "id": "Toad:Penguin",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               567,
               82,
@@ -5011,7 +5011,7 @@
           "sprite": "ToadIce",
           "icon": {
             "id": "Toad:Ice",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               443,
               82,
@@ -5117,7 +5117,7 @@
           "sprite": "ToadCloud",
           "icon": {
             "id": "Toad:Cloud",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1437,
               1,
@@ -5219,7 +5219,7 @@
           "sprite": "ToadBoomerang",
           "icon": {
             "id": "Toad:Boomerang",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               335,
               82,
@@ -5320,7 +5320,7 @@
           "sprite": "ToadBubble",
           "icon": {
             "id": "Toad:Bubble",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               409,
               82,
@@ -5421,7 +5421,7 @@
           "sprite": "ToadSuperBall",
           "icon": {
             "id": "Toad:SuperBall",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1420,
               1,
@@ -5520,7 +5520,7 @@
           "sprite": "PeachSmall",
           "icon": {
             "id": "Peach:Small",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               777,
               115,
@@ -5618,7 +5618,7 @@
           "sprite": "PeachBig",
           "icon": {
             "id": "Peach:Big",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               744,
               1,
@@ -5716,7 +5716,7 @@
           "sprite": "PeachFire",
           "icon": {
             "id": "Peach:Fire",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               843,
               1,
@@ -5814,7 +5814,7 @@
           "sprite": "PeachShell",
           "icon": {
             "id": "Peach:Shell",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1008,
               1,
@@ -5910,7 +5910,7 @@
           "sprite": "PeachRaccoon",
           "icon": {
             "id": "Peach:Raccoon",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               975,
               1,
@@ -6007,7 +6007,7 @@
           "sprite": "PeachWeird",
           "icon": {
             "id": "Peach:Weird",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1607,
               1,
@@ -6100,7 +6100,7 @@
           "sprite": "PeachPropeller",
           "icon": {
             "id": "Peach:Propeller",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               678,
               1,
@@ -6193,7 +6193,7 @@
           "sprite": "PeachFrog",
           "icon": {
             "id": "Peach:Frog",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               876,
               1,
@@ -6289,7 +6289,7 @@
           "sprite": "PeachHammer",
           "icon": {
             "id": "Peach:Hammer",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               909,
               1,
@@ -6386,7 +6386,7 @@
           "sprite": "PeachTanooki",
           "icon": {
             "id": "Peach:Tanooki",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1041,
               1,
@@ -6482,7 +6482,7 @@
           "sprite": "PeachPenguin",
           "icon": {
             "id": "Peach:Penguin",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               645,
               1,
@@ -6575,7 +6575,7 @@
           "sprite": "PeachIce",
           "icon": {
             "id": "Peach:Ice",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               942,
               1,
@@ -6673,7 +6673,7 @@
           "sprite": "PeachCloud",
           "icon": {
             "id": "Peach:Cloud",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               612,
               1,
@@ -6766,7 +6766,7 @@
           "sprite": "PeachBoomerang",
           "icon": {
             "id": "Peach:Boomerang",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               777,
               1,
@@ -6862,7 +6862,7 @@
           "sprite": "PeachBubble",
           "icon": {
             "id": "Peach:Bubble",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               810,
               1,
@@ -6959,7 +6959,7 @@
           "sprite": "PeachSuperBall",
           "icon": {
             "id": "Peach:SuperBall",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               711,
               1,
@@ -7058,7 +7058,7 @@
           "sprite": "I_Coin",
           "icon": {
             "id": "Item:ITEM_COIN",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1108,
               115,
@@ -7309,7 +7309,7 @@
           "sprite": "I_Mushroom",
           "icon": {
             "id": "Item:ITEM_MUSHROOM",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               137,
               115,
@@ -7560,7 +7560,7 @@
           "sprite": "I_1UP",
           "icon": {
             "id": "Item:ITEM_1UP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               171,
               115,
@@ -7811,7 +7811,7 @@
           "sprite": "I_FireFlower",
           "icon": {
             "id": "Item:ITEM_FIREFLOWER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               188,
               115,
@@ -8062,7 +8062,7 @@
           "sprite": "I_SuperStar",
           "icon": {
             "id": "Item:ITEM_SUPERSTAR",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               693,
               115,
@@ -8313,7 +8313,7 @@
           "sprite": "I_MegaMushroom",
           "icon": {
             "id": "Item:ITEM_GIANTMUSHROOM",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               86,
               82,
@@ -8564,7 +8564,7 @@
           "sprite": "I_BlueShell",
           "icon": {
             "id": "Item:ITEM_TURTLESHELL",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1035,
               115,
@@ -8815,7 +8815,7 @@
           "sprite": "I_SuperLeaf",
           "icon": {
             "id": "Item:ITEM_SUPERLEAF",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               662,
               115,
@@ -9066,7 +9066,7 @@
           "sprite": "I_KeyCoin",
           "icon": {
             "id": "Item:ITEM_DOORKEYCOIN",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1052,
               115,
@@ -9317,7 +9317,7 @@
           "sprite": "I_Key",
           "icon": {
             "id": "Item:ITEM_DOORKEY",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               723,
               115,
@@ -9568,7 +9568,7 @@
           "sprite": "I_WeirdMushroom",
           "icon": {
             "id": "Item:ITEM_WEIRDMUSHROOM",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               751,
               115,
@@ -9819,7 +9819,7 @@
           "sprite": "I_PropellerMushroom",
           "icon": {
             "id": "Item:ITEM_PROPELLERMUSHROOM",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               120,
               115,
@@ -10070,7 +10070,7 @@
           "sprite": "I_Clock",
           "icon": {
             "id": "Item:ITEM_CLOCK",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               970,
               115,
@@ -10321,7 +10321,7 @@
           "sprite": "I_FrogSuit",
           "icon": {
             "id": "Item:ITEM_FROGSUIT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               18,
               115,
@@ -10572,7 +10572,7 @@
           "sprite": "I_HammerSuit",
           "icon": {
             "id": "Item:ITEM_HAMMERSUIT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               738,
               115,
@@ -10823,7 +10823,7 @@
           "sprite": "I_TanookiSuit",
           "icon": {
             "id": "Item:ITEM_TANOOKISUIT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               708,
               115,
@@ -11074,7 +11074,7 @@
           "sprite": "I_PenguinSuit",
           "icon": {
             "id": "Item:ITEM_PENGUINSUIT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               985,
               115,
@@ -11325,7 +11325,7 @@
           "sprite": "I_IceFlower",
           "icon": {
             "id": "Item:ITEM_ICEFLOWER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1,
               115,
@@ -11576,7 +11576,7 @@
           "sprite": "I_CloudFlower",
           "icon": {
             "id": "Item:ITEM_CLOUDFLOWER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               205,
               115,
@@ -11827,7 +11827,7 @@
           "sprite": "I_FollowingCloud",
           "icon": {
             "id": "Item:ITEM_FOLLOWINGCLOUD",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1869,
               115,
@@ -12079,7 +12079,7 @@
           "sprite": "I_10Coin",
           "icon": {
             "id": "Item:ITEM_BIGCOIN10",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               615,
               82,
@@ -12330,7 +12330,7 @@
           "sprite": "I_30Coin",
           "icon": {
             "id": "Item:ITEM_BIGCOIN30",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               673,
               82,
@@ -12581,7 +12581,7 @@
           "sprite": "I_50Coin",
           "icon": {
             "id": "Item:ITEM_BIGCOIN50",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               644,
               82,
@@ -12832,7 +12832,7 @@
           "sprite": "I_Heart",
           "icon": {
             "id": "Item:ITEM_HEART",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               919,
               115,
@@ -13083,7 +13083,7 @@
           "sprite": "I_HeartContainer",
           "icon": {
             "id": "Item:ITEM_HEARTCONTAINER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               752,
               82,
@@ -13334,7 +13334,7 @@
           "sprite": "I_BoomerangFlower",
           "icon": {
             "id": "Item:ITEM_BOOMERANGFLOWER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               69,
               115,
@@ -13573,7 +13573,7 @@
           "sprite": "I_PoisonMushroom",
           "icon": {
             "id": "Item:ITEM_POISONMUSHROOM",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               2031,
               82,
@@ -13818,7 +13818,7 @@
           "sprite": "I_RottenMushroom",
           "icon": {
             "id": "Item:ITEM_ROTTENMUSHROOM",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               86,
               115,
@@ -14063,7 +14063,7 @@
           "sprite": "I_MysteryMushroom",
           "icon": {
             "id": "Item:ITEM_MYSTERYMUSHROOM",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               52,
               115,
@@ -14314,7 +14314,7 @@
           "sprite": "I_MagicOrb",
           "icon": {
             "id": "Item:ITEM_MAGICORB",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               154,
               115,
@@ -14541,7 +14541,7 @@
           "sprite": "I_3UP",
           "icon": {
             "id": "Item:ITEM_3UP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               936,
               115,
@@ -14768,7 +14768,7 @@
           "sprite": "I_BubbleFlower",
           "icon": {
             "id": "Item:ITEM_BUBBLEFLOWER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               35,
               115,
@@ -14965,7 +14965,7 @@
           "sprite": "I_SuperBallFlower",
           "icon": {
             "id": "Item:ITEM_SUPERBALLFLOWER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               103,
               115,
@@ -15152,7 +15152,7 @@
           "sprite": "E_Goomba",
           "icon": {
             "id": "Enemy:ENEMY_GOOMBA",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               2014,
               82,
@@ -15409,7 +15409,7 @@
           "sprite": "E_Koopa",
           "icon": {
             "id": "Enemy:ENEMY_TURTLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1041,
               82,
@@ -15666,7 +15666,7 @@
           "sprite": "E_RedKoopa",
           "icon": {
             "id": "Enemy:ENEMY_REDTURTLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1075,
               82,
@@ -15923,7 +15923,7 @@
           "sprite": "E_Spiny",
           "icon": {
             "id": "Enemy:ENEMY_SPINY",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               902,
               115,
@@ -16180,7 +16180,7 @@
           "sprite": "E_BuzzyBeetle",
           "icon": {
             "id": "Enemy:ENEMY_BUZZYBEETLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               885,
               115,
@@ -16437,7 +16437,7 @@
           "sprite": "E_PiranhaPlant",
           "icon": {
             "id": "Enemy:ENEMY_PIRANHA_PLANT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1126,
               82,
@@ -16694,7 +16694,7 @@
           "sprite": "E_FirePiranhaPlant",
           "icon": {
             "id": "Enemy:ENEMY_FIREPIRANHAPLANT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1022,
               82,
@@ -16951,7 +16951,7 @@
           "sprite": "E_Muncher",
           "icon": {
             "id": "Enemy:ENEMY_MUNCHER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               851,
               115,
@@ -17208,7 +17208,7 @@
           "sprite": "E_DryBone",
           "icon": {
             "id": "Enemy:ENEMY_DRYBONE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1058,
               82,
@@ -17466,7 +17466,7 @@
           "sprite": "E_Blooper",
           "icon": {
             "id": "Enemy:ENEMY_BLOOBER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1292,
               82,
@@ -17724,7 +17724,7 @@
           "sprite": "E_CheepCheep",
           "icon": {
             "id": "Enemy:ENEMY_CHEEPCHEEP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1980,
               82,
@@ -17981,7 +17981,7 @@
           "sprite": "E_RedCheepCheep",
           "icon": {
             "id": "Enemy:ENEMY_REDCHEEPCHEEP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1878,
               82,
@@ -18238,7 +18238,7 @@
           "sprite": "E_ChainChomp",
           "icon": {
             "id": "Enemy:ENEMY_CHAINCHOMP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               630,
               115,
@@ -18495,7 +18495,7 @@
           "sprite": "E_Lakitu",
           "icon": {
             "id": "Enemy:ENEMY_LAKITU",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               889,
               82,
@@ -18752,7 +18752,7 @@
           "sprite": "E_Podoboo",
           "icon": {
             "id": "Enemy:ENEMY_PODOBOO",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               678,
               115,
@@ -19009,7 +19009,7 @@
           "sprite": "E_BulletBill",
           "icon": {
             "id": "Enemy:ENEMY_BULLETBILL",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1018,
               115,
@@ -19266,7 +19266,7 @@
           "sprite": "E_Bobomb",
           "icon": {
             "id": "Enemy:ENEMY_BOBOMB",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               817,
               115,
@@ -19523,7 +19523,7 @@
           "sprite": "E_Grinder",
           "icon": {
             "id": "Enemy:ENEMY_GRINDER_DEPRECATED",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               212,
               1,
@@ -19780,7 +19780,7 @@
           "sprite": "E_Thwomp",
           "icon": {
             "id": "Enemy:ENEMY_THWOMP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1965,
               1,
@@ -20037,7 +20037,7 @@
           "sprite": "E_HammerBros",
           "icon": {
             "id": "Enemy:ENEMY_HAMMERBROTHERS",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               872,
               82,
@@ -20294,7 +20294,7 @@
           "sprite": "E_SledgeBros",
           "icon": {
             "id": "Enemy:ENEMY_SLEDGEBROTHERS",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1915,
               1,
@@ -20551,7 +20551,7 @@
           "sprite": "E_Bowser",
           "icon": {
             "id": "Enemy:ENEMY_BOWSER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1739,
               1,
@@ -20808,7 +20808,7 @@
           "sprite": "E_BoomerangBros",
           "icon": {
             "id": "Enemy:ENEMY_BOOMERANGBROTHERS",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               906,
               82,
@@ -21065,7 +21065,7 @@
           "sprite": "E_FireBros",
           "icon": {
             "id": "Enemy:ENEMY_FIREBROTHERS",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               838,
               82,
@@ -21322,7 +21322,7 @@
           "sprite": "E_BowserJunior",
           "icon": {
             "id": "Enemy:ENEMY_BOWSERJUNIOR",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1143,
               82,
@@ -21579,7 +21579,7 @@
           "sprite": "E_BOO",
           "icon": {
             "id": "Enemy:ENEMY_BOO",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               834,
               115,
@@ -21782,7 +21782,7 @@
           "sprite": "E_FishBone",
           "icon": {
             "id": "Enemy:ENEMY_FISHBONE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1147,
               115,
@@ -22039,7 +22039,7 @@
           "sprite": "E_MontyMole",
           "icon": {
             "id": "Enemy:ENEMY_MONTYMOLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1929,
               82,
@@ -22296,7 +22296,7 @@
           "sprite": "E_RockyWrench",
           "icon": {
             "id": "Enemy:ENEMY_ROCKYWRENCH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1219,
               82,
@@ -22553,7 +22553,7 @@
           "sprite": "E_Cannon",
           "icon": {
             "id": "Enemy:ENEMY_CANNONBALL",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1171,
               115,
@@ -22810,7 +22810,7 @@
           "sprite": "E_Wiggler",
           "icon": {
             "id": "Enemy:ENEMY_WIGGLER_V1",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1109,
               82,
@@ -23067,7 +23067,7 @@
           "sprite": "E_Magikoopa",
           "icon": {
             "id": "Enemy:ENEMY_MAGIKOOPA",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               702,
               82,
@@ -23324,7 +23324,7 @@
           "sprite": "E_BoomBoom",
           "icon": {
             "id": "Enemy:ENEMY_BOOMBOOM",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               586,
               82,
@@ -23581,7 +23581,7 @@
           "sprite": "E_Galoomba",
           "icon": {
             "id": "Enemy:ENEMY_GALOOMBA",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1912,
               82,
@@ -23838,7 +23838,7 @@
           "sprite": "E_Stretch",
           "icon": {
             "id": "Enemy:ENEMY_STRETCH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1000,
               115,
@@ -24095,7 +24095,7 @@
           "sprite": "E_RotoDisc",
           "icon": {
             "id": "Enemy:ENEMY_ROTODISC",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1997,
               82,
@@ -24346,7 +24346,7 @@
           "sprite": "E_BallNChain",
           "icon": {
             "id": "Enemy:ENEMY_BALLANDCHAIN",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1673,
               1,
@@ -24597,7 +24597,7 @@
           "sprite": "E_IceBros",
           "icon": {
             "id": "Enemy:ENEMY_ICEBROS",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               855,
               82,
@@ -24854,7 +24854,7 @@
           "sprite": "E_SpikeTop",
           "icon": {
             "id": "Enemy:ENEMY_SPIKETOP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               868,
               115,
@@ -25063,7 +25063,7 @@
           "sprite": "E_BanzaiBill",
           "icon": {
             "id": "Enemy:ENEMY_BANZAIBILL",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               82,
               1,
@@ -25314,7 +25314,7 @@
           "sprite": "E_Goombrat",
           "icon": {
             "id": "Enemy:ENEMY_GOOMBRAT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1895,
               82,
@@ -25559,7 +25559,7 @@
           "sprite": "E_Goombud",
           "icon": {
             "id": "Enemy:ENEMY_GOOMBUD",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1963,
               82,
@@ -25798,7 +25798,7 @@
           "sprite": "E_AggressivePiranhaPlant",
           "icon": {
             "id": "Enemy:ENEMY_AGGRESSIVEPIRANHAPLANT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1092,
               82,
@@ -26043,7 +26043,7 @@
           "sprite": "E_CharginChuck",
           "icon": {
             "id": "Enemy:ENEMY_CHARGINCHUCK",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               957,
               82,
@@ -26258,7 +26258,7 @@
           "sprite": "E_HeavyBoomerangBros",
           "icon": {
             "id": "Enemy:ENEMY_HEAVYBOOMERANGBRO",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1865,
               1,
@@ -26497,7 +26497,7 @@
           "sprite": "E_HeavyFireBros",
           "icon": {
             "id": "Enemy:ENEMY_HEAVYFIREBRO",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1890,
               1,
@@ -26736,7 +26736,7 @@
           "sprite": "E_HeavyIceBros",
           "icon": {
             "id": "Enemy:ENEMY_HEAVYICEBRO",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1940,
               1,
@@ -26975,7 +26975,7 @@
           "sprite": "E_Pokey",
           "icon": {
             "id": "Enemy:ENEMY_POKEY",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1309,
               82,
@@ -27202,7 +27202,7 @@
           "sprite": "E_DryBowser",
           "icon": {
             "id": "Enemy:ENEMY_DRYBOWSER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1706,
               1,
@@ -27405,7 +27405,7 @@
           "sprite": "E_Rex",
           "icon": {
             "id": "Enemy:ENEMY_REX",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               167,
               82,
@@ -27620,7 +27620,7 @@
           "sprite": "E_Eerie",
           "icon": {
             "id": "Enemy:ENEMY_EERIE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1946,
               82,
@@ -27823,7 +27823,7 @@
           "sprite": "E_JumpingPiranhaPlant",
           "icon": {
             "id": "Enemy:ENEMY_JUMPING_PIRANHA_PLANT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1187,
               82,
@@ -28032,7 +28032,7 @@
           "sprite": "E_AngrySun",
           "icon": {
             "id": "Enemy:ENEMY_ANGRYSUN",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               539,
               82,
@@ -28259,7 +28259,7 @@
           "sprite": "E_Sidestepper",
           "icon": {
             "id": "Enemy:ENEMY_SIDESTEPPER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               646,
               115,
@@ -28440,7 +28440,7 @@
           "sprite": "O_FlagPole",
           "icon": {
             "id": "MapObject:MAPOBJ_FLAGPOLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               796,
               115,
@@ -28690,7 +28690,7 @@
           "name": "Castle Flag",
           "icon": {
             "id": "MapObject:MAPOBJ_CASTLE_FLAG",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1083,
               115,
@@ -28929,7 +28929,7 @@
           "name": "Bridge",
           "icon": {
             "id": "MapObject:MAPOBJ_BRIDGE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1894,
               115,
@@ -29179,7 +29179,7 @@
           "name": "Sky Bridge",
           "icon": {
             "id": "MapObject:MAPOBJ_SKYBRIDGE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1958,
               115,
@@ -29430,7 +29430,7 @@
           "name": "Trampoline",
           "icon": {
             "id": "MapObject:MAPOBJ_TRAMPOLINE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               184,
               82,
@@ -29680,7 +29680,7 @@
           "name": "Mini Trampoline",
           "icon": {
             "id": "MapObject:MAPOBJ_MINI_TRAMPOLINE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               341,
               115,
@@ -29930,7 +29930,7 @@
           "name": "Boss Bridge",
           "icon": {
             "id": "MapObject:MAPOBJ_BOSSBRIDGE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               239,
               115,
@@ -30180,7 +30180,7 @@
           "name": "Boss Bridge Axe",
           "icon": {
             "id": "MapObject:MAPOBJ_BOSSBRIDGE_AXE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               543,
               1,
@@ -30430,7 +30430,7 @@
           "name": "Toad",
           "icon": {
             "id": "MapObject:MAPOBJ_TOAD",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               923,
               82,
@@ -30680,7 +30680,7 @@
           "name": "Peach",
           "icon": {
             "id": "MapObject:MAPOBJ_PEACH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               940,
               82,
@@ -30931,7 +30931,7 @@
           "sprite": "O_CheckpointFlag",
           "icon": {
             "id": "MapObject:MAPOBJ_CHECKPOINT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1570,
               1,
@@ -31181,7 +31181,7 @@
           "name": "Vine",
           "icon": {
             "id": "MapObject:MAPOBJ_VINE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1131,
               115,
@@ -31431,7 +31431,7 @@
           "name": "P Switch",
           "icon": {
             "id": "MapObject:MAPOBJ_P_SWITCH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               273,
               115,
@@ -31681,7 +31681,7 @@
           "name": "Door",
           "icon": {
             "id": "MapObject:MAPOBJ_DOOR",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1,
               82,
@@ -31931,7 +31931,7 @@
           "name": "Key Door",
           "icon": {
             "id": "MapObject:MAPOBJ_KEY_DOOR",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               18,
               82,
@@ -32181,7 +32181,7 @@
           "name": "P Door",
           "icon": {
             "id": "MapObject:MAPOBJ_P_DOOR",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               2026,
               1,
@@ -32431,7 +32431,7 @@
           "name": "Key P Door",
           "icon": {
             "id": "MapObject:MAPOBJ_KEY_P_DOOR",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               35,
               82,
@@ -32681,7 +32681,7 @@
           "name": "Start Point Sign",
           "icon": {
             "id": "MapObject:MAPOBJ_START_SIGN",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               574,
               1,
@@ -32931,7 +32931,7 @@
           "name": "Sign Arrow",
           "icon": {
             "id": "MapObject:MAPOBJ_SIGN",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1250,
               82,
@@ -33182,7 +33182,7 @@
           "sprite": "O_OneWayWall",
           "icon": {
             "id": "MapObject:MAPOBJ_ONEWAYWALL",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1805,
               1,
@@ -33432,7 +33432,7 @@
           "name": "POW Block",
           "icon": {
             "id": "MapObject:MAPOBJ_POWBLOCK",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               358,
               115,
@@ -33682,7 +33682,7 @@
           "name": "Goal Box",
           "icon": {
             "id": "MapObject:MAPOBJ_GOALBOX",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               510,
               82,
@@ -33933,7 +33933,7 @@
           "name": "Goal Post",
           "icon": {
             "id": "MapObject:MAPOBJ_GOALPOST",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1903,
               115,
@@ -34183,7 +34183,7 @@
           "name": "Castle",
           "icon": {
             "id": "MapObject:MAPOBJ_CASTLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1,
               1,
@@ -34433,7 +34433,7 @@
           "name": "Conveyor Belt",
           "icon": {
             "id": "MapObject:MAPOBJ_CONVEYOR",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               953,
               115,
@@ -34683,7 +34683,7 @@
           "name": "Burner",
           "icon": {
             "id": "MapObject:MAPOBJ_BURNER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               222,
               115,
@@ -34933,7 +34933,7 @@
           "name": "Bumper",
           "icon": {
             "id": "MapObject:MAPOBJ_BUMPER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               261,
               1,
@@ -35183,7 +35183,7 @@
           "name": "Skewer",
           "icon": {
             "id": "MapObject:MAPOBJ_SKEWER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1795,
               82,
@@ -35433,7 +35433,7 @@
           "name": "Crafted Cloud",
           "icon": {
             "id": "MapObject:MAPOBJ_CRAFTEDCLOUD",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1746,
               82,
@@ -35684,7 +35684,7 @@
           "name": "Light Block",
           "icon": {
             "id": "MapObject:MAPOBJ_LIGHT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               324,
               115,
@@ -35935,7 +35935,7 @@
           "name": "Banzai Bill Blaster",
           "icon": {
             "id": "MapObject:MAPOBJ_BANZAIBILLBLASTER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               147,
               1,
@@ -36179,7 +36179,7 @@
           "name": "Blue Lift",
           "icon": {
             "id": "MapObject:MAPOBJ_BLUELIFT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               59,
               132,
@@ -36423,7 +36423,7 @@
           "name": "Yellow POW Block",
           "icon": {
             "id": "MapObject:MAPOBJ_YELLOWPOW",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               290,
               115,
@@ -36661,7 +36661,7 @@
           "name": "Red POW Block",
           "icon": {
             "id": "MapObject:MAPOBJ_REDPOW",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               256,
               115,
@@ -36899,7 +36899,7 @@
           "name": "ON/OFF Switch",
           "icon": {
             "id": "MapObject:MAPOBJ_ONOFFSWITCH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               307,
               115,
@@ -37121,7 +37121,7 @@
           "name": "Yoshi",
           "icon": {
             "id": "Vehicle:VEHICLE_YOSHI",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               235,
               82,
@@ -37371,7 +37371,7 @@
           "name": "Cloud",
           "icon": {
             "id": "Vehicle:VEHICLE_CLOUD",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1840,
               82,
@@ -37622,7 +37622,7 @@
           "name": "Clown Car",
           "icon": {
             "id": "Vehicle:VEHICLE_CLOWNCAR",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               477,
               82,
@@ -37872,7 +37872,7 @@
           "name": "Goomba's Shoe",
           "icon": {
             "id": "Vehicle:VEHICLE_GOOMBASHOE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               613,
               115,
@@ -38122,7 +38122,7 @@
           "name": "Yoshi (Red)",
           "icon": {
             "id": "Vehicle:VEHICLE_YOSHIRED",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               285,
               82,
@@ -38372,7 +38372,7 @@
           "name": "Yoshi (Yellow)",
           "icon": {
             "id": "Vehicle:VEHICLE_YOSHIYELLOW",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               310,
               82,
@@ -38622,7 +38622,7 @@
           "name": "Yoshi (Blue)",
           "icon": {
             "id": "Vehicle:VEHICLE_YOSHIBLUE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               260,
               82,
@@ -38880,7 +38880,7 @@
           "name": "Coin",
           "icon": {
             "id": "Effect:EFFECT_COIN",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1097,
               115,
@@ -39107,7 +39107,7 @@
           "name": "Brick Debris",
           "icon": {
             "id": "Effect:EFFECT_BRICKDEBRIS",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1985,
               115,
@@ -39334,7 +39334,7 @@
           "name": "Score",
           "icon": {
             "id": "Effect:EFFECT_SCORE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               2024,
               115,
@@ -39562,7 +39562,7 @@
           "name": "1-Up",
           "icon": {
             "id": "Effect:EFFECT_1UP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               42,
               132,
@@ -39790,7 +39790,7 @@
           "name": "Explosion",
           "icon": {
             "id": "Effect:EFFECT_EXPLOSION",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               2003,
               115,
@@ -40017,7 +40017,7 @@
           "name": "Air Bubble",
           "icon": {
             "id": "Effect:EFFECT_AIRBUBBLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               138,
               132,
@@ -40245,7 +40245,7 @@
           "name": "Yoshi Egg Debris",
           "icon": {
             "id": "Effect:EFFECT_YOSHI_EGGDEBRIS",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               2012,
               115,
@@ -40473,7 +40473,7 @@
           "name": "Pop",
           "icon": {
             "id": "Effect:EFFECT_POP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1184,
               115,
@@ -40700,7 +40700,7 @@
           "name": "Dust",
           "icon": {
             "id": "Effect:EFFECT_DUST",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               84,
               132,
@@ -40928,7 +40928,7 @@
           "name": "Small Dust",
           "icon": {
             "id": "Effect:EFFECT_SMALLDUST",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               128,
               132,
@@ -41156,7 +41156,7 @@
           "name": "Hit",
           "icon": {
             "id": "Effect:EFFECT_HIT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1861,
               82,
@@ -41384,7 +41384,7 @@
           "name": "Star Dust",
           "icon": {
             "id": "Effect:EFFECT_STARDUST",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               68,
               132,
@@ -41612,7 +41612,7 @@
           "name": "Dry Bone",
           "icon": {
             "id": "Effect:EFFECT_DRYBONE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               788,
               115,
@@ -41840,7 +41840,7 @@
           "name": "Twinkle Pink",
           "icon": {
             "id": "Effect:EFFECT_TWINKLE_PINK",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               151,
               132,
@@ -42067,7 +42067,7 @@
           "name": "Twinkle Gold",
           "icon": {
             "id": "Effect:EFFECT_TWINKLE_GOLD",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               155,
               132,
@@ -42294,7 +42294,7 @@
           "name": "Paralyze",
           "icon": {
             "id": "Effect:EFFECT_PARALYZE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1142,
               115,
@@ -42522,7 +42522,7 @@
           "name": "Spin",
           "icon": {
             "id": "Effect:EFFECT_SPIN",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               107,
               132,
@@ -42750,7 +42750,7 @@
           "name": "Bone Fish",
           "icon": {
             "id": "Effect:EFFECT_BONEFISH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1119,
               115,
@@ -42978,7 +42978,7 @@
           "name": "Splash",
           "icon": {
             "id": "Effect:EFFECT_SPLASH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1939,
               115,
@@ -43206,7 +43206,7 @@
           "name": "Shoe Smoke",
           "icon": {
             "id": "Effect:EFFECT_SHOESMOKE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1815,
               115,
@@ -43434,7 +43434,7 @@
           "name": "Wiggler Flower",
           "icon": {
             "id": "Effect:EFFECT_WIGGLERFLOWER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1884,
               115,
@@ -43661,7 +43661,7 @@
           "name": "Magic Bubble",
           "icon": {
             "id": "Effect:EFFECT_MAGIC_BUBBLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               143,
               132,
@@ -43888,7 +43888,7 @@
           "name": "Magic Twinkle",
           "icon": {
             "id": "Effect:EFFECT_MAGIC_TWINKLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               159,
               132,
@@ -44116,7 +44116,7 @@
           "name": "Magic Teleport",
           "icon": {
             "id": "Effect:EFFECT_MAGIC_TELEPORT",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1204,
               82,
@@ -44344,7 +44344,7 @@
           "name": "Magic Teleport Circle",
           "icon": {
             "id": "Effect:EFFECT_MAGIC_TELEPORT_CIRCLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               92,
               132,
@@ -44572,7 +44572,7 @@
           "name": "Magic Dust",
           "icon": {
             "id": "Effect:EFFECT_MAGIC_DUST",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1326,
               82,
@@ -44800,7 +44800,7 @@
           "name": "Fire Dust",
           "icon": {
             "id": "Effect:EFFECT_FIRE_DUST",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               147,
               132,
@@ -45027,7 +45027,7 @@
           "name": "Fire Splash",
           "icon": {
             "id": "Effect:EFFECT_FIRE_SPLASH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1920,
               115,
@@ -45254,7 +45254,7 @@
           "name": "Additional Time",
           "icon": {
             "id": "Effect:EFFECT_ADDTIONAL_TIME",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1,
               132,
@@ -45482,7 +45482,7 @@
           "name": "Air Spin Splash",
           "icon": {
             "id": "Effect:EFFECT_AIRSPIN_SPLASH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               116,
               132,
@@ -45710,7 +45710,7 @@
           "name": "Leaf",
           "icon": {
             "id": "Effect:EFFECT_LEAF",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               132,
               132,
@@ -45937,7 +45937,7 @@
           "name": "Rain Drop",
           "icon": {
             "id": "Effect:EFFECT_RAINDROP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               2019,
               115,
@@ -46164,7 +46164,7 @@
           "name": "Rain Drop Splash",
           "icon": {
             "id": "Effect:EFFECT_RAINDROP_SPLASH",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               163,
               132,
@@ -46392,7 +46392,7 @@
           "name": "Ice Twinkle",
           "icon": {
             "id": "Effect:EFFECT_ICE_TWINKLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               76,
               132,
@@ -46620,7 +46620,7 @@
           "name": "Ice Block",
           "icon": {
             "id": "Effect:EFFECT_ICE_BLOCK",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1640,
               1,
@@ -46847,7 +46847,7 @@
           "name": "Ice Debris",
           "icon": {
             "id": "Effect:EFFECT_ICE_DEBRIS",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1236,
               82,
@@ -47074,7 +47074,7 @@
           "name": "Poison Skull",
           "icon": {
             "id": "Effect:EFFECT_POISON_SKULL",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1975,
               115,
@@ -47301,7 +47301,7 @@
           "name": "Spin Dash Dust",
           "icon": {
             "id": "Effect:EFFECT_SPINDASH_DUST",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               799,
               115,
@@ -47528,7 +47528,7 @@
           "name": "Mega Transform Star",
           "icon": {
             "id": "Effect:EFFECT_MEGATRANS_STAR",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               980,
               82,
@@ -47755,7 +47755,7 @@
           "name": "Mega Transform Ring",
           "icon": {
             "id": "Effect:EFFECT_MEGATRANS_RING",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1342,
               82,
@@ -47983,7 +47983,7 @@
           "name": "3-Up",
           "icon": {
             "id": "Effect:EFFECT_3UP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               25,
               132,
@@ -48211,7 +48211,7 @@
           "name": "Dry Bowser",
           "icon": {
             "id": "Effect:EFFECT_DRYBOWSER",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1166,
               82,
@@ -48438,7 +48438,7 @@
           "name": "Bubble Grow",
           "icon": {
             "id": "Effect:EFFECT_BUBBLE_GROW",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1068,
               115,
@@ -48665,7 +48665,7 @@
           "name": "Bubble",
           "icon": {
             "id": "Effect:EFFECT_BUBBLE",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1836,
               1,
@@ -48892,7 +48892,7 @@
           "name": "Bubble Pop",
           "icon": {
             "id": "Effect:EFFECT_BUBBLE_POP",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               727,
               82,
@@ -49120,7 +49120,7 @@
           "name": "Block Debris",
           "icon": {
             "id": "Effect:EFFECT_BLOCKDEBRIS",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1994,
               115,
@@ -49356,7 +49356,7 @@
           "sprite": "1 tile slot",
           "icon": {
             "id": "Tile:brick-block",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               460,
               115,
@@ -49608,7 +49608,7 @@
           "sprite": "7 tile slots",
           "icon": {
             "id": "Tile:item-block",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               511,
               115,
@@ -49860,7 +49860,7 @@
           "sprite": "5 tile slots",
           "icon": {
             "id": "Tile:jump-block",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               545,
               115,
@@ -50112,7 +50112,7 @@
           "sprite": "1 tile slot",
           "icon": {
             "id": "Tile:hard-brick",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               596,
               115,
@@ -50364,7 +50364,7 @@
           "sprite": "1 tile slot",
           "icon": {
             "id": "Tile:message-block",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               562,
               115,
@@ -50616,7 +50616,7 @@
           "sprite": "16 tile slots",
           "icon": {
             "id": "Tile:pipes",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1772,
               1,
@@ -50868,7 +50868,7 @@
           "sprite": "6 tile slots",
           "icon": {
             "id": "Tile:bridges",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1472,
               1,
@@ -51120,7 +51120,7 @@
           "sprite": "36 tile slots",
           "icon": {
             "id": "Tile:semisolids",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1521,
               1,
@@ -51372,7 +51372,7 @@
           "sprite": "2 tile slots",
           "icon": {
             "id": "Tile:donut-blocks",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               392,
               115,
@@ -51624,7 +51624,7 @@
           "sprite": "2 tile slots",
           "icon": {
             "id": "Tile:spikes",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               528,
               115,
@@ -51876,7 +51876,7 @@
           "sprite": "6 tile slots",
           "icon": {
             "id": "Tile:poison-water",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1616,
               82,
@@ -52128,7 +52128,7 @@
           "sprite": "6 tile slots",
           "icon": {
             "id": "Tile:lava",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1681,
               82,
@@ -52380,7 +52380,7 @@
           "sprite": "6 tile slots",
           "icon": {
             "id": "Tile:river",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1551,
               82,
@@ -52632,7 +52632,7 @@
           "sprite": "2 tile slots",
           "icon": {
             "id": "Tile:instant-death",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               409,
               115,
@@ -52884,7 +52884,7 @@
           "sprite": "2 tile slots",
           "icon": {
             "id": "Tile:star-block",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               477,
               115,
@@ -53136,7 +53136,7 @@
           "sprite": "6 tile slots",
           "icon": {
             "id": "Tile:cannons",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               69,
               82,
@@ -53388,7 +53388,7 @@
           "sprite": "4 tile slots",
           "icon": {
             "id": "Tile:flip-block",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               426,
               115,
@@ -53640,7 +53640,7 @@
           "sprite": "4 tile slots",
           "icon": {
             "id": "Tile:music-block",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               443,
               115,
@@ -53892,7 +53892,7 @@
           "sprite": "4 tile slots",
           "icon": {
             "id": "Tile:animated-brick",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               494,
               115,
@@ -54144,7 +54144,7 @@
           "sprite": "8 tile slots",
           "icon": {
             "id": "Tile:on-off-blocks",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               375,
               115,
@@ -54396,7 +54396,7 @@
           "sprite": "71 tile slots",
           "icon": {
             "id": "Tile:autotile-terrain",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               579,
               115,
@@ -54648,7 +54648,7 @@
           "sprite": "16 tile slots",
           "icon": {
             "id": "Tile:marimba-blocks",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1421,
               82,
@@ -54900,7 +54900,7 @@
           "sprite": "88 tile slots",
           "icon": {
             "id": "Tile:slopes",
-            "image": "/resource/sfmb/resource-coverage/atlas-1.png",
+            "image": "/resource/sfmb/resource-coverage/atlas-51a180fc78b5.png",
             "rect": [
               1486,
               82,
