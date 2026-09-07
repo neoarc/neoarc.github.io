@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 6,
   "kind": "resource-coverage",
   "themes": [
     {
@@ -49339,6 +49339,4707 @@
               "sprite": "EffectOverworld",
               "visibleFrames": 0,
               "totalFrames": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tiles",
+      "resourceType": "sprite",
+      "title": "Tile Sprites",
+      "rowLabel": "Tile family",
+      "rows": [
+        {
+          "id": "brick-block",
+          "name": "Brick Block",
+          "sprite": "1 tile slot",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            }
+          ]
+        },
+        {
+          "id": "item-block",
+          "name": "Item Block",
+          "sprite": "7 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            }
+          ]
+        },
+        {
+          "id": "jump-block",
+          "name": "Jump Block",
+          "sprite": "5 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 5
+            }
+          ]
+        },
+        {
+          "id": "hard-brick",
+          "name": "Hard Brick",
+          "sprite": "1 tile slot",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            }
+          ]
+        },
+        {
+          "id": "message-block",
+          "name": "Message Block",
+          "sprite": "1 tile slot",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 1,
+              "visibleFrames": 1,
+              "totalFrames": 1
+            }
+          ]
+        },
+        {
+          "id": "pipes",
+          "name": "Pipes",
+          "sprite": "16 tile slots",
+          "coverage": [
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            }
+          ]
+        },
+        {
+          "id": "bridges",
+          "name": "Bridges",
+          "sprite": "7 tile slots",
+          "coverage": [
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 3,
+              "visibleFrames": 3,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 3,
+              "visibleFrames": 3,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 5,
+              "visibleFrames": 5,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 3,
+              "visibleFrames": 3,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 7
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 7,
+              "visibleFrames": 7,
+              "totalFrames": 7
+            }
+          ]
+        },
+        {
+          "id": "semisolids",
+          "name": "Semisolid Platforms",
+          "sprite": "45 tile slots",
+          "coverage": [
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 40,
+              "visibleFrames": 40,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 39,
+              "visibleFrames": 39,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 42,
+              "visibleFrames": 42,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 39,
+              "visibleFrames": 39,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 39,
+              "visibleFrames": 39,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 39,
+              "visibleFrames": 39,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 39,
+              "visibleFrames": 39,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 39,
+              "visibleFrames": 39,
+              "totalFrames": 45
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 37,
+              "visibleFrames": 37,
+              "totalFrames": 45
+            }
+          ]
+        },
+        {
+          "id": "hazards-liquids",
+          "name": "Hazards & Liquids",
+          "sprite": "16 tile slots",
+          "coverage": [
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 15,
+              "visibleFrames": 15,
+              "totalFrames": 16
+            }
+          ]
+        },
+        {
+          "id": "cannons",
+          "name": "Cannons & Blasters",
+          "sprite": "6 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": false,
+              "status": "partial",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 3,
+              "visibleFrames": 3,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 6,
+              "visibleFrames": 6,
+              "totalFrames": 6
+            }
+          ]
+        },
+        {
+          "id": "flip-block",
+          "name": "Flip Block",
+          "sprite": "4 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            }
+          ]
+        },
+        {
+          "id": "music-block",
+          "name": "Music Block",
+          "sprite": "4 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            }
+          ]
+        },
+        {
+          "id": "animated-brick",
+          "name": "Animated Brick",
+          "sprite": "4 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            }
+          ]
+        },
+        {
+          "id": "on-off-blocks",
+          "name": "ON/OFF Blocks",
+          "sprite": "8 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 8,
+              "visibleFrames": 8,
+              "totalFrames": 8
+            }
+          ]
+        },
+        {
+          "id": "autotile-terrain",
+          "name": "Autotile Terrain",
+          "sprite": "71 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 71,
+              "visibleFrames": 71,
+              "totalFrames": 71
+            }
+          ]
+        },
+        {
+          "id": "marimba-blocks",
+          "name": "Marimba Blocks",
+          "sprite": "16 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            }
+          ]
+        },
+        {
+          "id": "slopes-45",
+          "name": "Slopes · 45°",
+          "sprite": "16 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 16,
+              "visibleFrames": 16,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 16
+            }
+          ]
+        },
+        {
+          "id": "slopes-22",
+          "name": "Slopes · 22.5°",
+          "sprite": "68 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 68,
+              "visibleFrames": 68,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 68
+            }
+          ]
+        },
+        {
+          "id": "slopes-reverse",
+          "name": "Slopes · Reverse corners",
+          "sprite": "4 tile slots",
+          "coverage": [
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMB3",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMBLL",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMAS",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SML",
+              "method": "sheet",
+              "sprite": "TileDesert",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SML2",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "MarioBros",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Sonic",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "GOOBERTOWN",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "City",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMB",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SMO",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "SMA4",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "MarioAltern",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": true,
+              "status": "complete",
+              "source": "Base",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 4,
+              "visibleFrames": 4,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBR",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "SMEW",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBWii",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "NSMBU",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "WarioLand",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
+            },
+            {
+              "available": false,
+              "status": "missing",
+              "source": "YoshiIsland",
+              "method": "sheet",
+              "sprite": "TileOverworld",
+              "actualFrames": 0,
+              "visibleFrames": 0,
+              "totalFrames": 4
             }
           ]
         }

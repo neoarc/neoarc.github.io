@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Resource Coverage
 summary : See which gameplay sprites are available for each Game Theme.
 date    : 2026-08-30 01:34:07 +0900
-updated : 2026-08-30 11:17:57 +0900
+updated : 2026-09-07 00:00:00 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -29,6 +29,8 @@ These tables are generated from the sprite resources currently present in the ga
 Costume characters and Nyle Luigi are not included. They do not belong to the standard Game Theme character sprite sets tracked here.
 
 Items, enemies, map objects, and vehicles can be supplied either through an extended sprite such as `I_...`, `E_...`, `O_...`, or `V_...`, or through their representative frame in a shared sprite sheet. Effects use representative frames from the shared `Effect` sprite. Shared-sheet frames are checked against the Game Theme's default stage theme, and a frame only counts when its image area contains visible pixels.
+
+Tile families are checked separately against the default stage theme's tile sheet. This keeps a populated base tileset from hiding a completely absent specialized family. Marimba blocks and the different slope families therefore have their own rows. A triangle means that only some of the tile slots in that family contain visible pixels.
 
 ## Character & Power-up Sprites
 
@@ -64,6 +66,12 @@ Items, enemies, map objects, and vehicles can be supplied either through an exte
 
 <div id="sfmb-sprite-coverage-effects" class="sfmb-coverage sfmb-coverage-section" aria-live="polite">
   <p class="sfmb-coverage-status">Loading effect coverage…</p>
+</div>
+
+## Tile Sprites
+
+<div id="sfmb-sprite-coverage-tiles" class="sfmb-coverage sfmb-coverage-section" aria-live="polite">
+  <p class="sfmb-coverage-status">Loading tile coverage…</p>
 </div>
 
 # Music Coverage
