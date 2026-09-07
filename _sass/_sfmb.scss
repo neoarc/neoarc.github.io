@@ -422,7 +422,7 @@ body.sfmb-wiki {
     border-spacing: 0;
     box-shadow: none;
     font-family: "SFMBSmall", Consolas, monospace;
-    font-size: 7px;
+    font-size: 8px;
 }
 
 .sfmb-post .sfmb-coverage-overview-table th,
@@ -502,13 +502,13 @@ body.sfmb-wiki {
     border-spacing: 0;
     box-shadow: none;
     font-family: "SFMBSmall", Consolas, monospace;
-    font-size: 7px;
+    font-size: 8px;
 }
 
 .sfmb-post .sfmb-coverage-table th,
 .sfmb-post .sfmb-coverage-table td {
     box-sizing: border-box;
-    height: 27px;
+    height: 29px;
     padding: 1px;
     border: 0;
     border-right: 1px solid #b8d8ed;
@@ -554,17 +554,17 @@ body.sfmb-wiki {
 }
 
 .sfmb-coverage-theme {
-    width: 30px;
-    min-width: 30px;
-    max-width: 30px;
+    width: 36px;
+    min-width: 36px;
+    max-width: 36px;
 }
 
 .sfmb-coverage-theme-name {
     display: block;
-    max-width: 28px;
+    max-width: 34px;
     overflow: hidden;
-    font-size: 5px;
-    line-height: 7px;
+    font-size: 8px;
+    line-height: 9px;
     text-overflow: clip;
     white-space: nowrap;
 }
@@ -574,8 +574,8 @@ body.sfmb-wiki {
     margin-top: 2px;
     color: #d9efff;
     font-family: Consolas, monospace;
-    font-size: 6px;
-    line-height: 7px;
+    font-size: 8px;
+    line-height: 9px;
     text-shadow: 1px 1px #163868;
     white-space: pre-line;
 }
@@ -590,8 +590,8 @@ body.sfmb-wiki {
 }
 
 .sfmb-coverage-theme-icon {
-    width: 26px;
-    height: 16px;
+    width: 30px;
+    height: 24px;
 }
 
 .sfmb-coverage-resource-icon {
@@ -636,9 +636,9 @@ body.sfmb-wiki {
 }
 
 .sfmb-coverage-table td {
-    width: 30px;
-    min-width: 30px;
-    max-width: 30px;
+    width: 36px;
+    min-width: 36px;
+    max-width: 36px;
     font-family: Consolas, monospace;
     font-size: 17px;
     font-weight: 700;
@@ -650,23 +650,12 @@ body.sfmb-wiki {
     line-height: 15px;
 }
 
-.sfmb-coverage-font-mark {
-    position: relative;
-    display: block;
-    width: 8px;
-    height: 8px;
-    margin: 3px auto 4px;
-    overflow: hidden;
-    filter: brightness(0) opacity(.68);
-    image-rendering: pixelated;
-}
-
 .sfmb-coverage-frame-count {
     display: block;
     overflow: hidden;
-    font-size: 6px;
+    font-size: 8px;
     font-weight: 700;
-    line-height: 7px;
+    line-height: 9px;
     text-overflow: clip;
     white-space: nowrap;
 }
@@ -818,7 +807,7 @@ body.sfmb-wiki {
 
     .sfmb-coverage-resource-name {
         max-width: 90px;
-        font-size: 6px;
+        font-size: 8px;
     }
 
     .sfmb-coverage-detail-backdrop {

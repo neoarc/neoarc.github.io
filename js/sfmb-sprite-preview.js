@@ -45,7 +45,7 @@
 
         box.type = 'button';
         box.className = 'sfmb-frame';
-        box.title = `Frame ${frame.index} · ${width}×${height} · ${layout.scale}× preview · Click to toggle background`;
+        box.title = `Frame ${frame.index} - ${width}×${height} - ${layout.scale}× preview - Click to toggle background`;
         box.setAttribute('aria-label', `Frame ${frame.index}, ${width} by ${height}. Toggle dark background`);
         box.setAttribute('aria-pressed', 'false');
         box.style.setProperty('--frame-box-size', `${layout.boxSize}px`);
@@ -148,7 +148,7 @@
         animatedGroup.className = 'named-animation-preview-group';
         staticLabel.className = 'named-animation-preview-label';
         animatedLabel.className = 'named-animation-preview-label';
-        staticLabel.textContent = `${name ? `${name} · ` : ''}FRAMES${animation.theme ? ` · ${animation.theme}` : ''}`;
+        staticLabel.textContent = `${name ? `${name} - ` : ''}FRAMES${animation.theme ? ` - ${animation.theme}` : ''}`;
         animatedLabel.textContent = 'ANIMATION';
         strip.className = 'named-animation-frames';
         animation.frames.forEach((frame) =>

@@ -35,7 +35,7 @@
             const stageThemes = cell.stageThemes;
             const summary = document.createElement('p');
             returnFocus = trigger;
-            heading.textContent = `${theme.id} · ${row.name}`;
+            heading.textContent = `${theme.id} - ${row.name}`;
             summary.className = 'sfmb-coverage-detail-summary';
             summary.textContent = `${stageThemes.complete.length}/${stageThemes.total} Stage Themes complete`;
             content.replaceChildren(summary);
@@ -106,11 +106,6 @@
         element.style.backgroundColor = `hsl(${hue}, 68%, 91%)`;
     }
 
-    function setCoverageMark(mark, frame, fallback) {
-        mark.textContent = fallback;
-        if (frame) mark.replaceChildren(makeIcon(frame, 'sfmb-coverage-font-mark'));
-    }
-
     function makeThemeHeader(theme, stats) {
         const heading = document.createElement('th');
         const name = document.createElement('span');
@@ -118,8 +113,8 @@
         heading.scope = 'col';
         heading.className = 'sfmb-coverage-theme';
         heading.title = theme.baseTheme
-            ? `${theme.name} (${theme.id}) · ${stats.covered}/${stats.total} complete, ${stats.partial} partial (${stats.percent}% coverage) · Base Theme: ${theme.baseTheme}`
-            : `${theme.name} (${theme.id}) · ${stats.covered}/${stats.total} complete, ${stats.partial} partial (${stats.percent}% coverage)`;
+            ? `${theme.name} (${theme.id}) - ${stats.covered}/${stats.total} complete, ${stats.partial} partial (${stats.percent}% coverage) - Base Theme: ${theme.baseTheme}`
+            : `${theme.name} (${theme.id}) - ${stats.covered}/${stats.total} complete, ${stats.partial} partial (${stats.percent}% coverage)`;
         heading.appendChild(makeIcon(theme.icon, 'sfmb-coverage-theme-icon'));
         name.className = 'sfmb-coverage-theme-name';
         name.textContent = theme.id;
@@ -140,7 +135,7 @@
         const label = document.createElement('span');
         heading.scope = 'row';
         heading.className = 'sfmb-coverage-resource';
-        heading.title = row.sprite ? `${row.name} · ${row.sprite}` : row.name;
+        heading.title = row.sprite ? `${row.name} - ${row.sprite}` : row.name;
         heading.appendChild(makeIcon(row.icon, 'sfmb-coverage-resource-icon'));
         label.className = 'sfmb-coverage-resource-name';
         label.textContent = row.name;
@@ -148,7 +143,7 @@
         return heading;
     }
 
-    function makeCoverageCell(cell, theme, row, marks, showDetails) {
+    function makeCoverageCell(cell, theme, row, showDetails) {
         const td = document.createElement('td');
         const mark = document.createElement('span');
         const hasFrameCount = Number.isInteger(cell.actualFrames);
@@ -159,7 +154,7 @@
         applyCoverageBackground(td, coverageRatio(cell));
         if (status === 'complete') {
             const inherited = cell.source && cell.source.toLowerCase() !== theme.id.toLowerCase();
-            setCoverageMark(mark, marks && marks.complete, 'V');
+            mark.textContent = '✓';
             const source = inherited ? `inherited from ${cell.source}` : `provided by ${theme.id}`;
             const implementation = cell.method === 'extended'
                 ? ` using ${cell.sprite}.sprite`
@@ -189,7 +184,7 @@
             }
         }
         else {
-            setCoverageMark(mark, marks && marks.missing, 'X');
+            mark.textContent = '×';
             td.title = `${resourceName} is missing for ${theme.id}.` +
                 (hasFrameCount ? ` ${cell.actualFrames} actual sprite frames.` : '');
             td.setAttribute('aria-label', `${theme.id}: ${resourceName} missing` +
@@ -265,11 +260,11 @@
         const unknownFrames = themeStats.reduce((sum, stats) => sum + stats.unknownFrames, 0);
 
         summary.className = 'sfmb-coverage-summary';
-        summary.textContent = `${section.rows.length} resources · ${covered}/${section.rows.length * data.themes.length} complete` +
-            (partial ? ` · ${partial} partial` : '');
+        summary.textContent = `${section.rows.length} resources - ${covered}/${section.rows.length * data.themes.length} complete` +
+            (partial ? ` - ${partial} partial` : '');
 
-        summary.textContent += ` · ${frames.toLocaleString()} known actual frames` +
-            (unknownFrames ? ` · ${unknownFrames} frame counts unavailable` : '');
+        summary.textContent += ` - ${frames.toLocaleString()} known actual frames` +
+            (unknownFrames ? ` - ${unknownFrames} frame counts unavailable` : '');
 
         corner.scope = 'col';
         corner.className = 'sfmb-coverage-corner';
@@ -293,7 +288,7 @@
             const tr = document.createElement('tr');
             tr.appendChild(makeRowHeader(row));
             row.coverage.forEach((cell, index) =>
-                tr.appendChild(makeCoverageCell(cell, data.themes[index], row, data.marks, detailDialog.show)));
+                tr.appendChild(makeCoverageCell(cell, data.themes[index], row, detailDialog.show)));
             body.appendChild(tr);
         });
 
@@ -307,7 +302,7 @@
         if (hasStageThemeDetails) {
             const hint = document.createElement('p');
             hint.className = 'sfmb-coverage-detail-hint';
-            hint.textContent = 'Tap a △ cell to see partial and missing Stage Themes.';
+            hint.textContent = 'Tap a partial cell to see partial and missing Stage Themes.';
             root.replaceChildren(summary, hint, scroller, detailDialog.element);
         }
         else root.replaceChildren(summary, scroller, detailDialog.element);
@@ -349,7 +344,7 @@
         const frames = document.createElement('small');
         frames.className = 'sfmb-coverage-overview-frames';
         frames.textContent = `${stats.frames.toLocaleString()} known frames` +
-            (stats.unknownFrames ? ` · ${stats.unknownFrames} unknown` : '');
+            (stats.unknownFrames ? ` - ${stats.unknownFrames} unknown` : '');
         td.appendChild(frames);
         if (stats.partial) {
             const partial = document.createElement('small');
@@ -380,9 +375,9 @@
                     cell.available && !Number.isInteger(cell.actualFrames)).length, 0), 0);
 
         summary.className = 'sfmb-coverage-summary sfmb-coverage-overview';
-        summary.textContent = `${data.themes.length} Game Themes · ${totalResources} tracked resources`;
-        summary.textContent += ` · ${totalFrames.toLocaleString()} known actual frames` +
-            (unknownFrames ? ` · ${unknownFrames} frame counts unavailable` : '');
+        summary.textContent = `${data.themes.length} Game Themes - ${totalResources} tracked resources`;
+        summary.textContent += ` - ${totalFrames.toLocaleString()} known actual frames` +
+            (unknownFrames ? ` - ${unknownFrames} frame counts unavailable` : '');
         themeHeader.scope = 'col';
         themeHeader.textContent = 'Game Theme';
         headerRow.appendChild(themeHeader);
@@ -417,7 +412,7 @@
 
             heading.scope = 'row';
             heading.title = theme.baseTheme
-                ? `${theme.name} (${theme.id}) · Base Theme: ${theme.baseTheme}`
+                ? `${theme.name} (${theme.id}) - Base Theme: ${theme.baseTheme}`
                 : `${theme.name} (${theme.id})`;
             heading.appendChild(makeIcon(theme.icon, 'sfmb-coverage-theme-icon'));
             name.textContent = theme.id;

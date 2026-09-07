@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Resource Coverage
 summary : See which gameplay sprites are available for each Game Theme.
 date    : 2026-08-30 01:34:07 +0900
-updated : 2026-09-07 00:00:00 +0900
+updated : 2026-09-08 00:00:00 +0900
 tag     : sfmb
 toc     : true
 public  : true
@@ -24,13 +24,16 @@ The overview summarizes all resource coverage currently tracked for each Game Th
 
 # Sprite Coverage
 
-These tables are generated from the sprite resources currently present in the game repository. A check means that the Game Theme provides the sprite directly or inherits it from its declared Base Theme. An X identifies a sprite that is still needed. A triangle marks a partially populated multi-frame resource that may be intentional but should be reviewed. When frame data is available, the small number below the status shows the actual frame count in the standalone sprite, or the visible frame count assigned to that resource in a shared sheet. Base resources are read from `Resources/Sprite`, while theme-specific overrides are read from `Resources/GameThemes/<theme>/Sprite`. `?f` means that a sprite definition could not be resolved and was not estimated. Each Game Theme heading shows its complete and partial sprite counts plus its known actual frame total. The overview and section summaries include per-theme and combined known frame totals and explicitly report unavailable counts.
-
-Costume characters and Nyle Luigi are not included. They do not belong to the standard Game Theme character sprite sets tracked here.
-
-Items, enemies, map objects, and vehicles can be supplied either through an extended sprite such as `I_...`, `E_...`, `O_...`, or `V_...`, or through their representative frame in a shared sprite sheet. Effects use representative frames from the shared `Effect` sprite. Shared-sheet frames are checked against the Game Theme's default stage theme, and a frame only counts when its image area contains visible pixels.
-
-Tile families are checked across every Stage Theme defined inside each Game Theme, including TileSprite aliases and the engine's Overworld fallback. A check means every Stage Theme provides the family, a triangle means only some Stage Themes or tile parts provide it, and a cross means none do. Hovering or tapping a triangle lists the partial or missing Stage Themes. Hazards and liquids have individual rows, while all slope sprites are summarized in one row. Semisolid left/center/right strips count as one logical part because valid themes may intentionally leave side tiles transparent. Boss Bridge is covered under Map Objects because the game renders it from MapObject sprites rather than the legacy boss-bridge tile slot.
+- **Check:** complete resource, including Base Theme inheritance
+- **Triangle:** partially populated resource or partial Stage Theme coverage; hover or tap for details
+- **X:** missing resource
+- **Frame count:** actual standalone frames or visible shared-sheet frames; `?f` when unresolved
+- **Sources:** `Resources/Sprite` and `Resources/GameThemes/<theme>/Sprite`
+- **Shared sheets:** visible representative frames for items, enemies, map objects, vehicles, and effects
+- **Tiles:** all declared Stage Themes, `TileSprite` aliases, and Overworld fallback
+- **Tile grouping:** separate hazards and liquids, combined slopes, logical left/center/right Semisolid parts
+- **Exclusions:** costume characters and Nyle Luigi
+- **Boss Bridge:** Map Objects coverage rather than the legacy tile slot
 
 ## Character & Power-up Sprites
 
