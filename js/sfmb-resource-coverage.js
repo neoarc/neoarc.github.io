@@ -93,6 +93,24 @@
         return box;
     }
 
+    function coverageRatio(cell) {
+        if (Number.isFinite(cell.coverageRatio))
+            return Math.max(0, Math.min(1, cell.coverageRatio));
+        if (Number.isInteger(cell.visibleFrames) && Number.isInteger(cell.totalFrames) && cell.totalFrames)
+            return Math.max(0, Math.min(1, cell.visibleFrames / cell.totalFrames));
+        return cell.available ? 1 : 0;
+    }
+
+    function applyCoverageBackground(element, ratio) {
+        const hue = Math.round(8 + 112 * Math.max(0, Math.min(1, ratio)));
+        element.style.backgroundColor = `hsl(${hue}, 68%, 91%)`;
+    }
+
+    function setCoverageMark(mark, frame, fallback) {
+        mark.textContent = fallback;
+        if (frame) mark.replaceChildren(makeIcon(frame, 'sfmb-coverage-font-mark'));
+    }
+
     function makeThemeHeader(theme, stats) {
         const heading = document.createElement('th');
         const name = document.createElement('span');
@@ -100,8 +118,8 @@
         heading.scope = 'col';
         heading.className = 'sfmb-coverage-theme';
         heading.title = theme.baseTheme
-            ? `${theme.name} (${theme.id}) · ${stats.covered}/${stats.total} complete, ${stats.partial} partial (${stats.percent}%) · Base Theme: ${theme.baseTheme}`
-            : `${theme.name} (${theme.id}) · ${stats.covered}/${stats.total} complete, ${stats.partial} partial (${stats.percent}%)`;
+            ? `${theme.name} (${theme.id}) · ${stats.covered}/${stats.total} complete, ${stats.partial} partial (${stats.percent}% coverage) · Base Theme: ${theme.baseTheme}`
+            : `${theme.name} (${theme.id}) · ${stats.covered}/${stats.total} complete, ${stats.partial} partial (${stats.percent}% coverage)`;
         heading.appendChild(makeIcon(theme.icon, 'sfmb-coverage-theme-icon'));
         name.className = 'sfmb-coverage-theme-name';
         name.textContent = theme.id;
@@ -112,7 +130,7 @@
             : `${stats.covered}/${stats.total}`;
         coverage.textContent += `\n${stats.frames.toLocaleString()}f`;
         if (stats.unknownFrames) coverage.textContent += ` +${stats.unknownFrames}?`;
-        coverage.setAttribute('aria-label', `${stats.percent}% complete, ${stats.partial} partial, ${stats.frames} known actual frames, ${stats.unknownFrames} frame counts unavailable`);
+        coverage.setAttribute('aria-label', `${stats.percent}% coverage, ${stats.covered} complete, ${stats.partial} partial, ${stats.frames} known actual frames, ${stats.unknownFrames} frame counts unavailable`);
         heading.appendChild(coverage);
         return heading;
     }
@@ -130,7 +148,7 @@
         return heading;
     }
 
-    function makeCoverageCell(cell, theme, row, showDetails) {
+    function makeCoverageCell(cell, theme, row, marks, showDetails) {
         const td = document.createElement('td');
         const mark = document.createElement('span');
         const hasFrameCount = Number.isInteger(cell.actualFrames);
@@ -138,9 +156,10 @@
         const status = cell.status || (cell.available ? 'complete' : 'missing');
         td.className = status === 'complete' ? 'is-covered' :
             status === 'partial' ? 'is-partial' : 'is-missing';
+        applyCoverageBackground(td, coverageRatio(cell));
         if (status === 'complete') {
             const inherited = cell.source && cell.source.toLowerCase() !== theme.id.toLowerCase();
-            mark.textContent = '✓';
+            setCoverageMark(mark, marks && marks.complete, 'V');
             const source = inherited ? `inherited from ${cell.source}` : `provided by ${theme.id}`;
             const implementation = cell.method === 'extended'
                 ? ` using ${cell.sprite}.sprite`
@@ -170,7 +189,7 @@
             }
         }
         else {
-            mark.textContent = '×';
+            setCoverageMark(mark, marks && marks.missing, 'X');
             td.title = `${resourceName} is missing for ${theme.id}.` +
                 (hasFrameCount ? ` ${cell.actualFrames} actual sprite frames.` : '');
             td.setAttribute('aria-label', `${theme.id}: ${resourceName} missing` +
@@ -221,6 +240,8 @@
         const themeStats = data.themes.map((theme, themeIndex) => {
             const covered = section.rows.filter((row) => row.coverage[themeIndex].available).length;
             const partial = section.rows.filter((row) => row.coverage[themeIndex].status === 'partial').length;
+            const ratioSum = section.rows.reduce((sum, row) =>
+                sum + coverageRatio(row.coverage[themeIndex]), 0);
             const frames = section.rows.reduce((sum, row) =>
                 sum + (Number.isInteger(row.coverage[themeIndex].actualFrames)
                     ? row.coverage[themeIndex].actualFrames
@@ -234,7 +255,8 @@
                 frames,
                 unknownFrames,
                 total: section.rows.length,
-                percent: section.rows.length ? Math.round(covered * 100 / section.rows.length) : 0,
+                ratioSum,
+                percent: section.rows.length ? Math.round(ratioSum * 100 / section.rows.length) : 0,
             };
         });
         const covered = themeStats.reduce((sum, stats) => sum + stats.covered, 0);
@@ -271,7 +293,7 @@
             const tr = document.createElement('tr');
             tr.appendChild(makeRowHeader(row));
             row.coverage.forEach((cell, index) =>
-                tr.appendChild(makeCoverageCell(cell, data.themes[index], row, detailDialog.show)));
+                tr.appendChild(makeCoverageCell(cell, data.themes[index], row, data.marks, detailDialog.show)));
             body.appendChild(tr);
         });
 
@@ -294,6 +316,8 @@
     function getThemeStats(section, themeIndex) {
         const covered = section.rows.filter((row) => row.coverage[themeIndex].available).length;
         const partial = section.rows.filter((row) => row.coverage[themeIndex].status === 'partial').length;
+        const ratioSum = section.rows.reduce((sum, row) =>
+            sum + coverageRatio(row.coverage[themeIndex]), 0);
         const frames = section.rows.reduce((sum, row) =>
             sum + (Number.isInteger(row.coverage[themeIndex].actualFrames)
                 ? row.coverage[themeIndex].actualFrames
@@ -307,7 +331,8 @@
             frames,
             unknownFrames,
             total: section.rows.length,
-            percent: section.rows.length ? Math.round(covered * 100 / section.rows.length) : 0,
+            ratioSum,
+            percent: section.rows.length ? Math.round(ratioSum * 100 / section.rows.length) : 0,
         };
     }
 
@@ -315,10 +340,11 @@
         const td = document.createElement('td');
         const value = document.createElement('span');
         value.textContent = `${stats.percent}% (${stats.covered}/${stats.total})`;
-        td.title = `${stats.covered}/${stats.total} complete (${stats.percent}%)` +
+        td.title = `${stats.covered}/${stats.total} complete (${stats.percent}% coverage)` +
             (stats.partial ? `, ${stats.partial} partial` : '');
         td.className = stats.percent === 100 ? 'is-complete' :
             stats.covered || stats.partial ? 'is-incomplete' : 'is-empty';
+        applyCoverageBackground(td, stats.percent / 100);
         td.appendChild(value);
         const frames = document.createElement('small');
         frames.className = 'sfmb-coverage-overview-frames';
@@ -383,10 +409,11 @@
                 partial: result.partial + current.partial,
                 frames: result.frames + current.frames,
                 unknownFrames: result.unknownFrames + current.unknownFrames,
+                ratioSum: result.ratioSum + current.ratioSum,
                 total: result.total + current.total,
                 percent: 0,
-            }), { covered: 0, partial: 0, frames: 0, unknownFrames: 0, total: 0, percent: 0 });
-            combined.percent = combined.total ? Math.round(combined.covered * 100 / combined.total) : 0;
+            }), { covered: 0, partial: 0, frames: 0, unknownFrames: 0, ratioSum: 0, total: 0, percent: 0 });
+            combined.percent = combined.total ? Math.round(combined.ratioSum * 100 / combined.total) : 0;
 
             heading.scope = 'row';
             heading.title = theme.baseTheme
@@ -411,10 +438,11 @@
                 partial: result.partial + current.partial,
                 frames: result.frames + current.frames,
                 unknownFrames: result.unknownFrames + current.unknownFrames,
+                ratioSum: result.ratioSum + current.ratioSum,
                 total: result.total + current.total,
                 percent: 0,
-            }), { covered: 0, partial: 0, frames: 0, unknownFrames: 0, total: 0, percent: 0 });
-            total.percent = total.total ? Math.round(total.covered * 100 / total.total) : 0;
+            }), { covered: 0, partial: 0, frames: 0, unknownFrames: 0, ratioSum: 0, total: 0, percent: 0 });
+            total.percent = total.total ? Math.round(total.ratioSum * 100 / total.total) : 0;
             return total;
         });
         const grandTotal = sectionTotals.reduce((result, current) => ({
@@ -422,11 +450,12 @@
             partial: result.partial + current.partial,
             frames: result.frames + current.frames,
             unknownFrames: result.unknownFrames + current.unknownFrames,
+            ratioSum: result.ratioSum + current.ratioSum,
             total: result.total + current.total,
             percent: 0,
-        }), { covered: 0, partial: 0, frames: 0, unknownFrames: 0, total: 0, percent: 0 });
+        }), { covered: 0, partial: 0, frames: 0, unknownFrames: 0, ratioSum: 0, total: 0, percent: 0 });
         grandTotal.percent = grandTotal.total
-            ? Math.round(grandTotal.covered * 100 / grandTotal.total)
+            ? Math.round(grandTotal.ratioSum * 100 / grandTotal.total)
             : 0;
 
         footerHeading.scope = 'row';

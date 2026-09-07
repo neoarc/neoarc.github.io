@@ -650,6 +650,17 @@ body.sfmb-wiki {
     line-height: 15px;
 }
 
+.sfmb-coverage-font-mark {
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin: 3px auto 4px;
+    overflow: hidden;
+    filter: brightness(0) opacity(.68);
+    image-rendering: pixelated;
+}
+
 .sfmb-coverage-frame-count {
     display: block;
     overflow: hidden;
