@@ -89,8 +89,19 @@
         }
         else if (status === 'partial') {
             mark.textContent = '△';
-            td.title = `${resourceName} is partially implemented for ${theme.id}: ${cell.visibleFrames}/${cell.totalFrames} representative frames contain visible pixels. Review may be required.`;
-            td.setAttribute('aria-label', `${theme.id}: ${resourceName} partially implemented, ${cell.visibleFrames} of ${cell.totalFrames} frames`);
+            if (cell.stageThemes) {
+                const details = [];
+                if (cell.stageThemes.partial.length)
+                    details.push(`partial: ${cell.stageThemes.partial.join(', ')}`);
+                if (cell.stageThemes.missing.length)
+                    details.push(`missing: ${cell.stageThemes.missing.join(', ')}`);
+                td.title = `${resourceName} is complete in ${cell.stageThemes.complete.length}/${cell.stageThemes.total} Stage Themes for ${theme.id}. ${details.join('. ')}.`;
+                td.setAttribute('aria-label', `${theme.id}: ${resourceName} available in ${cell.stageThemes.complete.length} of ${cell.stageThemes.total} Stage Themes`);
+            }
+            else {
+                td.title = `${resourceName} is partially implemented for ${theme.id}: ${cell.visibleFrames}/${cell.totalFrames} representative frames contain visible pixels. Review may be required.`;
+                td.setAttribute('aria-label', `${theme.id}: ${resourceName} partially implemented, ${cell.visibleFrames} of ${cell.totalFrames} frames`);
+            }
         }
         else {
             mark.textContent = '×';
