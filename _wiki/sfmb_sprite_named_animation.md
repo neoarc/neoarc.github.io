@@ -3,7 +3,7 @@ layout  : wiki
 title   : SFMB - Named animation definition
 summary : 
 date    : 2025-10-20 15:24:24 +0900
-updated : 2026-09-07 02:25:30 +0900
+updated : 2026-09-07 11:40:40 +0900
 tag     : sfmb 
 toc     : true
 public  : true
@@ -31,24 +31,34 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 
 ## AggressivePiranhaPlant
 
+Sprite file: `E_AggressivePiranhaPlant.sprite`
+
 * Die
 * Idle
 
 ## AngrySun
+
+Sprite file: `E_AngrySun.sprite`
 
 * Dive
 * Idle
 
 ## BallNChain
 
+Sprite file: `E_BallNChain.sprite`
+
 * Ball
 * Chain
 
 ## BanzaiBill
 
+Sprite file: `E_BanzaiBill.sprite`
+
 * Idle
 
 ## Blooper
+
+Sprite file: `E_Blooper.sprite`
 
 * Die
 * Idle
@@ -56,6 +66,8 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 * Swim
 
 ## Bobomb
+
+Sprite file: `E_Bobomb.sprite`
 
 * Damaged
 * DamagedIgnite1
@@ -72,6 +84,8 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 
 ## Boo
 
+Sprite file: `E_Boo.sprite`
+
 * Buddy1
 * Buddy2
 * Buddy3
@@ -85,17 +99,23 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 
 ## BoomBoom
 
+Sprite file: `E_BoomBoom.sprite`
+
 * Crouch
 * Stomped
 * Walk
 
 ## BoomerangBro
 
+Sprite file: `E_BoomerangBros.sprite`
+
 * AimWeapon
 * Die
 * Idle
 
 ## Bowser
+
+Sprite file: `E_Bowser.sprite`
 
 * AimFire
 * DieBlooper
@@ -110,6 +130,8 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 
 ## BowserJunior
 
+Sprite file: `E_BowserJunior.sprite`
+
 * AimFire
 * Idle
 * ShellSpin
@@ -117,10 +139,14 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 
 ## BulletBill
 
+Sprite file: `E_BulletBill.sprite`
+
 * Idle
 * IdleRed
 
 ## BuzzyBeetle
+
+Sprite file: `E_BuzzyBeetle.sprite`
 
 * Die
 * EmptyShellSpin
@@ -131,6 +157,8 @@ The Sprite Editor offers the same list in the `New Animation` dialog.
 
 ## CannonBall
 
+Sprite file: `E_Cannon.sprite`
+
 `CannonBall` and the [`Cannon`](#cannon) event object share the same `E_Cannon.sprite` file.
 Keep the named animations for both objects in that file.
 
@@ -139,6 +167,8 @@ Keep the named animations for both objects in that file.
 
 ## ChainChomp
 
+Sprite file: `E_ChainChomp.sprite`
+
 * Chain
 * Die
 * Idle
@@ -146,9 +176,13 @@ Keep the named animations for both objects in that file.
 
 ## ChainChompStake
 
+Sprite file: `E_ChainChomp.sprite`
+
 * Stake
 
 ## CharginChuck
+
+Sprite file: `E_CharginChuck.sprite`
 
 * BouncinIdle
 * BouncinJump
@@ -179,11 +213,15 @@ Keep the named animations for both objects in that file.
 
 ## CheepCheep
 
+Sprite file: `E_CheepCheep.sprite`
+
 * Die
 * Idle
 * TurnAround
 
 ## DryBone
+
+Sprite file: `E_DryBone.sprite`
 
 * Falter
 * Stomped
@@ -192,21 +230,29 @@ Keep the named animations for both objects in that file.
 
 ## DryBowser
 
+Sprite file: `E_DryBowser.sprite`
+
 * AimFire
 * Idle
 * TurnAround
 
 ## Eerie
 
+Sprite file: `E_Eerie.sprite`
+
 * Idle
 
 ## FireBro
+
+Sprite file: `E_FireBros.sprite`
 
 * Die
 * Idle
 * ThrowFire
 
 ## FirePiranhaPlant
+
+Sprite file: `E_FirePiranhaPlant.sprite`
 
 * Die
 * Idle
@@ -215,11 +261,15 @@ Keep the named animations for both objects in that file.
 
 ## FishBone
 
+Sprite file: `E_FishBone.sprite`
+
 * Idle
 * SwimDash
 * TurnAround
 
 ## Galoomba
+
+Sprite file: `E_Galoomba.sprite`
 
 * Die
 * SwimDash
@@ -228,6 +278,8 @@ Keep the named animations for both objects in that file.
 * Walk
 
 ## Goomba
+
+Sprite file: `E_Goomba.sprite`
 
 * Die
 * Stomped
@@ -238,6 +290,8 @@ Keep the named animations for both objects in that file.
 
 ## Goombrat
 
+Sprite file: `E_Goombrat.sprite`
+
 * Die
 * Stomped
 * SwimDash
@@ -245,17 +299,33 @@ Keep the named animations for both objects in that file.
 * TurnAround
 * Walk
 
+## Goombud
+
+Sprite file: `E_Goombud.sprite`
+
+* Die
+* SwimDash
+* SwimIdle
+* TurnAround
+* Walk
+
 ## Grinder
+
+Sprite file: `E_Grinder.sprite`
 
 * Idle
 
 ## HammerBro
+
+Sprite file: `E_HammerBros.sprite`
 
 * AimWeapon
 * Die
 * Idle
 
 ## HeavyBoomerangBro
+
+Sprite file: `E_HeavyBoomerangBros.sprite`
 
 * AimWeapon
 * Die
@@ -264,11 +334,15 @@ Keep the named animations for both objects in that file.
 
 ## HeavyFireBro
 
+Sprite file: `E_HeavyFireBros.sprite`
+
 * Die
 * Idle
 * ThrowFire
 
 ## HeavyIceBro
+
+Sprite file: `E_HeavyIceBros.sprite`
 
 * AimWeapon
 * Die
@@ -277,11 +351,15 @@ Keep the named animations for both objects in that file.
 
 ## IceBro
 
+Sprite file: `E_IceBros.sprite`
+
 * AimWeapon
 * Die
 * Idle
 
 ## JumpingPiranhaPlant
+
+Sprite file: `E_JumpingPiranhaPlant.sprite`
 
 * Chomp
 * Die
@@ -290,6 +368,8 @@ Keep the named animations for both objects in that file.
 * MouthOpenFall
 
 ## Koopa
+
+Sprite file: `E_Koopa.sprite`
 
 * Die
 * EmptyShellSpin
@@ -300,12 +380,16 @@ Keep the named animations for both objects in that file.
 
 ## Lakitu
 
+Sprite file: `E_lakitu.sprite`
+
 * Cloud
 * Die
 * Hide
 * Idle
 
 ## MagiKoopa
+
+Sprite file: `E_MagiKoopa.sprite`
 
 * Aim
 * Fall
@@ -317,15 +401,21 @@ Keep the named animations for both objects in that file.
 
 ## MontyMole
 
+Sprite file: `E_MontyMole.sprite`
+
 * Die
 * Idle
 
 ## Muncher
 
+Sprite file: `E_Muncher.sprite`
+
 * Die
 * Idle
 
 ## PiranhaPlant
+
+Sprite file: `E_PiranhaPlant.sprite`
 
 * Die
 * Idle
@@ -334,11 +424,15 @@ Keep the named animations for both objects in that file.
 
 ## Podoboo
 
+Sprite file: `E_Podoboo.sprite`
+
 * Fly1
 * Fly2
 * Idle
 
 ## Pokey
+
+Sprite file: `E_Pokey.sprite`
 
 * Body
 * BodyBottom
@@ -346,16 +440,22 @@ Keep the named animations for both objects in that file.
 
 ## RedCheepCheep
 
+Sprite file: `E_RedCheepCheep.sprite`
+
 * Die
 * Idle
 * TurnAround
 
 ## RedCheepCheepFly
 
+Sprite file: `E_RedCheepCheep.sprite`
+
 * Die
 * Idle
 
 ## RedKoopa
+
+Sprite file: `E_RedKoopa.sprite`
 
 * Die
 * EmptyShellSpin
@@ -366,6 +466,8 @@ Keep the named animations for both objects in that file.
 
 ## Rex
 
+Sprite file: `E_Rex.sprite`
+
 * SquishedWalk
 * Stomped
 * TurnAround
@@ -374,6 +476,8 @@ Keep the named animations for both objects in that file.
 
 ## RockyWrench
 
+Sprite file: `E_RockyWrench.sprite`
+
 * AimWeapon
 * Die
 * Fall
@@ -381,15 +485,21 @@ Keep the named animations for both objects in that file.
 
 ## RotoDisc
 
+Sprite file: `E_RotoDisc.sprite`
+
 * Idle
 
 ## Sidestepper
+
+Sprite file: `E_Sidestepper.sprite`
 
 * TurnAround
 * Walk
 * WalkAngry
 
 ## SledgeBro
+
+Sprite file: `E_SledgeBros.sprite`
 
 * AimWeapon
 * Die
@@ -398,6 +508,8 @@ Keep the named animations for both objects in that file.
 
 ## SpikeTop
 
+Sprite file: `E_SpikeTop.sprite`
+
 * Die
 * Stomped
 * SwimDash
@@ -405,6 +517,8 @@ Keep the named animations for both objects in that file.
 * Walk
 
 ## Spiny
+
+Sprite file: `E_Spiny.sprite`
 
 * Egg
 * EmptyShellSpin
@@ -416,12 +530,16 @@ Keep the named animations for both objects in that file.
 
 ## Stretch
 
+Sprite file: `E_Stretch.sprite`
+
 * Die
 * Hiding
 * TurnAround
 * Walk
 
 ## Thwomp
+
+Sprite file: `E_Thwomp.sprite`
 
 * Anger
 * HorzAnger
@@ -433,6 +551,8 @@ Keep the named animations for both objects in that file.
 
 ## Wiggler
 
+Sprite file: `E_Wiggler.sprite`
+
 * AngerBody
 * AngerHead
 * Body
@@ -442,12 +562,16 @@ Keep the named animations for both objects in that file.
 
 ## WigglerBody
 
+Sprite file: `E_Wiggler.sprite`
+
 * AngerBody
 * Body
 
 # Event objects
 
 ## Cannon
+
+Sprite file: `E_Cannon.sprite`
 
 `Cannon` shares `E_Cannon.sprite` with the [`CannonBall`](#cannonball) enemy.
 
@@ -458,6 +582,8 @@ Keep the named animations for both objects in that file.
 
 ## CheckPointFlag
 
+Sprite file: `O_CheckPointFlag.sprite`
+
 * Costume
 * Hit
 * Idle
@@ -467,6 +593,8 @@ Keep the named animations for both objects in that file.
 * Toad
 
 ## FlagPole
+
+Sprite file: `O_FlagPole.sprite`
 
 * Body
 * Costume
@@ -479,38 +607,53 @@ Keep the named animations for both objects in that file.
 
 ## OneWayWall
 
+Sprite file: `O_OneWayWall.sprite`
+
 * Idle
 
 # Items
 
 ## BigCoin
 
+Sprite files: `I_10Coin.sprite`, `I_30Coin.sprite`, `I_50Coin.sprite`
+
 * Idle
 
 ## BoomerangFlower
+
+Sprite file: `I_BoomerangFlower.sprite`
 
 * Idle
 
 ## Clock
 
+Sprite file: `I_Clock.sprite`
+
 * Idle
 
 ## CloudFlower
+
+Sprite file: `I_CloudFlower.sprite`
 
 * Idle
 
 ## DoorKey
 
+Sprite file: `I_Key.sprite`
+
 * Idle
 
 ## DoorKeyCoin
+
+Sprite file: `I_KeyCoin.sprite`
 
 * Idle
 
 ## Flowers
 
 A shared base class for Fire Flower, Ice Flower, Bubble Flower and Superball Flower.
-`Idle` works for each of their own sprite files (`I_FireFlower.sprite`, `I_IceFlower.sprite`, ...).
+Sprite files: `I_FireFlower.sprite`, `I_IceFlower.sprite`, `I_BubbleFlower.sprite`, `I_SuperBallFlower.sprite`
+`Idle` works for each of these files.
 Boomerang Flower, Cloud Flower and Following Cloud have their own entries above.
 
 Because the base class itself is not registered as an object type, the Sprite Editor does not offer this name in its `New Animation` dialog. Type it by hand.
@@ -519,53 +662,76 @@ Because the base class itself is not registered as an object type, the Sprite Ed
 
 ## FollowingCloud
 
+Sprite file: `I_FollowingCloud.sprite`
+
 * Idle
 
 ## GiantMushroom
+
+Sprite file: `I_MegaMushroom.sprite`
 
 * Idle
 
 ## Heart
 
+Sprite file: `I_Heart.sprite`
+
 * Idle
 
 ## HeartContainer
+
+Sprite file: `I_HeartContainer.sprite`
 
 * Idle
 
 ## MagicOrb
 
+Sprite file: `I_MagicOrb.sprite`
+
 * Idle
 
 ## Moon3UP
+
+Sprite file: `I_3UP.sprite`
 
 * Idle
 
 ## Mushroom
 
+Sprite files: `I_Mushroom.sprite`, `I_1UP.sprite`
+
 * Idle
 
 ## PoisonMushroom
 
+Sprite file: `I_PoisonMushroom.sprite`
+
 * Idle
 
 ## PropellerMushroom
+
+Sprite file: `I_PropellerMushroom.sprite`
 
 * Idle
 * Propeller
 
 ## RottenMushroom
 
+Sprite file: `I_RottenMushroom.sprite`
+
 * Idle
 
 ## StaticCoin
+
+Sprite file: `I_Coin.sprite`
 
 * Idle
 
 ## Suits
 
 A shared base class for Frog Suit, Hammer Suit, Tanooki Suit and Penguin Suit.
-`Idle` works for each of their own sprite files.
+Sprite files: `I_FrogSuit.sprite`, `I_HammerSuit.sprite`, `I_TanookiSuit.sprite`, `I_PenguinSuit.sprite`
+`Idle` works for each of these files.
 
 Because the base class itself is not registered as an object type, the Sprite Editor does not offer this name in its `New Animation` dialog. Type it by hand.
 
@@ -573,14 +739,20 @@ Because the base class itself is not registered as an object type, the Sprite Ed
 
 ## SuperLeaf
 
+Sprite file: `I_SuperLeaf.sprite`
+
 * Idle
 * InItemBox
 
 ## SuperStar
 
+Sprite file: `I_SuperStar.sprite`
+
 * Idle
 
 ## TurtleShell
+
+Sprite file: `I_BlueShell.sprite`
 
 * Idle
 
@@ -591,6 +763,8 @@ Because the base class itself is not registered as an object type, the Sprite Ed
 * Cloud
 
 ## Yoshi
+
+Sprite files: `V_Yoshi.sprite`, `V_YoshiRed.sprite`, `V_YoshiYellow.sprite`, `V_YoshiBlue.sprite`
 
 * Attack
 * BabyCarried
