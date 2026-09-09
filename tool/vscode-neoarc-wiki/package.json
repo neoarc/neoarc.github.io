@@ -1,0 +1,47 @@
+{
+  "name": "neoarc-wiki",
+  "displayName": "Neoarc Wiki",
+  "description": "Repository-specific editing support for the Neoarc Jekyll wiki.",
+  "version": "0.2.0",
+  "publisher": "neoarc-local",
+  "license": "MIT",
+  "private": true,
+  "repository": {"type":"git","url":"https://github.com/neoarc/neoarc.github.io.git","directory":"tool/vscode-neoarc-wiki"},
+  "engines": {"vscode":"^1.85.0"},
+  "categories": ["Other"],
+  "keywords": ["wiki","jekyll","frontmatter"],
+  "activationEvents": [
+    "workspaceContains:_wiki/index.md",
+    "onCommand:neoarcWiki.validateFrontMatter",
+    "onCommand:neoarcWiki.openIndex",
+    "onCommand:neoarcWiki.convertSelectionToWikilink",
+    "onCommand:neoarcWiki.initializeCurrentDocument",
+    "onCommand:neoarcWiki.startJekyllServer",
+    "onCommand:neoarcWiki.stopJekyllServer"
+  ],
+  "main": "./dist/src/extension.js",
+  "capabilities": {"untrustedWorkspaces":{"supported":false}},
+  "contributes": {
+    "commands": [
+      {"command":"neoarcWiki.validateFrontMatter","title":"Neoarc Wiki: Validate Front Matter"},
+      {"command":"neoarcWiki.openIndex","title":"Neoarc Wiki: Open Index"},
+      {"command":"neoarcWiki.convertSelectionToWikilink","title":"Neoarc Wiki: Convert Selection to Wikilink"},
+      {"command":"neoarcWiki.initializeCurrentDocument","title":"Neoarc Wiki: Initialize Current Document"},
+      {"command":"neoarcWiki.startJekyllServer","title":"Neoarc Wiki: Start Jekyll Server"},
+      {"command":"neoarcWiki.stopJekyllServer","title":"Neoarc Wiki: Stop Jekyll Server"}
+    ],
+    "configuration": {
+      "title": "Neoarc Wiki",
+      "properties": {
+        "neoarcWiki.updatedTimestamp.enabled": {"type":"boolean","default":false,"scope":"resource","description":"Update the Front Matter 'updated' field immediately before saving Markdown files below _wiki."},
+        "neoarcWiki.updatedTimestamp.timeZone": {"type":"string","default":"Asia/Seoul","scope":"resource","description":"IANA time zone used for the 'updated' timestamp."}
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "test": "npm run compile && node --test dist/test/frontmatter.test.js dist/test/wiki.test.js",
+    "package": "npm test && vsce package"
+  },
+  "devDependencies": {"@types/node":"^20.0.0","@types/vscode":"^1.85.0","@vscode/vsce":"^3.0.0","typescript":"^5.0.0"}
+}

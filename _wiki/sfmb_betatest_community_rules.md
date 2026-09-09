@@ -151,7 +151,7 @@ A moderator may also be able to react with one of these if the bug report is fau
 1. Game(or editor) will display a dialog to select a full dump or mini dump.
 2. Whichever you chose, it will create a dump file in the game folder.
 3. Go to your game folder and upload the dump to a site (Mediafire, Google Drive or Mega for example)
-4. In #bug, follow the [bug report template](#bug-reporting-form), describing everything you did before crash
+4. In #bug, follow the [Bug report template](#bug-reporting-form), describing everything you did before crash
 5. Post the link of dump file there.
 
 - Please include the following in your crash bug report.

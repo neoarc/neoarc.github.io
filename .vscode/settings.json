@@ -1,0 +1,8 @@
+{
+  "files.encoding": "utf8",
+  "foam.edit.linkReferenceDefinitions": "off",
+  "foam.files.newNotePath": "currentDir",
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "neoarcWiki.updatedTimestamp.enabled": true,
+  "neoarcWiki.updatedTimestamp.timeZone": "Asia/Seoul"
+}
